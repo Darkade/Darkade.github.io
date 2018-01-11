@@ -7,6 +7,6 @@ github_username:  darkade
 
 # Build settings
 markdown: kramdown
-remote_theme:: jekyll/minima
+remote_theme: jekyll/minima
 plugins:
   - jekyll-feed
