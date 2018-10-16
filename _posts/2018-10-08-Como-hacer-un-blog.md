@@ -27,7 +27,7 @@ En nuestro caso vamos a utilizar la variedad de [Markdown de Github](https://gui
 
 [Github](https://github.com/) es un sitio dónde puedes compartir fácilmente tu código con otros desarrolladores. Es muy poderoso, pero vamos a utilizar lo mínimo necesario (además de que vamos a tener pronto una guía de Git + GitHub)
 
-## ¿Cómo comenzar?
+## ¿Cómo comenzar?
 
 ### Creando un repositorio en Github
 
@@ -125,8 +125,6 @@ plugins:
   - jekyll-paginate
 ```
 
-![Paginator config](/assets/2018-10-08/_config.png)
-
 
 Y ahora, finalmente vamos a modificar el `index.md`. Lo primero que vamos a hacer es renombrarlo a `index.html` y vamos cambiar todo el contenido por:
 
@@ -182,4 +180,8 @@ También puedes aprender más sobre Jekyll y Markdown para aprender a insertar i
 
 Hay mucho por hacer con este proyecto pero puedes visitar un repositorio de ejemplo [aquí](https://github.com/Darkade/blag-example) y copiar lo que necesites. También puedes verlo funcionando en: https://darkade.github.io/blag-example/
 
-Muchas gracias!
+Y en serio te puede tomar solo cinco minutos!
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=OXLeYPLefoA
+" target="_blank"><img src="http://img.youtube.com/vi/OXLeYPLefoA/0.jpg"
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
