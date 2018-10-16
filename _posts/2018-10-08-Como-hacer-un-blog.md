@@ -180,6 +180,6 @@ Lo siguiente que podrías hacer es utilizar un tema diferente. Solo elige otro d
 
 También puedes aprender más sobre Jekyll y Markdown para aprender a insertar imágenes en Markdown o seguir modificando los temas; para git pronto vamos a tener una guía básica.
 
-Hay mucho por hacer con este proyecto pero puedes visitar un repositorio de ejemplo [aquí]() y copiar lo que necesites.
+Hay mucho por hacer con este proyecto pero puedes visitar un repositorio de ejemplo [aquí](https://github.com/Darkade/blag-example) y copiar lo que necesites. También puedes verlo funcionando en: https://darkade.github.io/blag-example/
 
 Muchas gracias!
