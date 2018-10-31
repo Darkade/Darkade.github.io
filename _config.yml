@@ -10,3 +10,4 @@ markdown: kramdown
 remote_theme: jekyll/minima
 plugins:
   - jekyll-feed
+  - jemoji
