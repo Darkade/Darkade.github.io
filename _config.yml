@@ -1,9 +1,14 @@
 title: General nerdness
+
 description: >- # this means to ignore newlines until "baseurl:"
   Trying to blag is never easy, that's why I have no posts xD
 url: "https://Darkade.github.io"
+
 twitter_username: darkade
 github_username:  darkade
+linkedin_username: ivanreyesce
+
+show_excerpts: true
 
 # Build settings
 markdown: kramdown
