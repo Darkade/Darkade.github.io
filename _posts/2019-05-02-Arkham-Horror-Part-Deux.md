@@ -9,6 +9,8 @@ layout: mathpost
 
 [Arkhan Horror: The Cardgame](https://www.fantasyflightgames.com/en/products/arkham-horror-the-card-game/) es un juego de cartas por Fantasy Flight Games en el universo de Cthulhu Mythos. En este juego los investigadores intentan detener a cultistas de invocar a sus oscuros amos desde otros planos para destruir la tierra; y siendo un juego de cartas, obviamente se ha convertido en mi nueva obsesión.
 
+<!--more-->
+
 En este juego cada jugador es uno de cinco detectives cada uno con una mazo de cartas diferente. Y cada uno con dos cartas que solo ese investigador puede tener, una es "buena" y la otra es "mala". Al ser únicas generalmente quieres tener esta carta tan rápido como sea posible para poderla jugar. Pero **¿Cual es la probabilidad de que pueda tener esta carta en mi primer turno?** ... Vamos a modelarlas – es el título de este blogpost...
 
 ## ¿Cual es la probabilidad de que tenga mi carta core al final de la primera ronda?

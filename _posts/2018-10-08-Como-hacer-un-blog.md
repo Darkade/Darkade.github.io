@@ -7,6 +7,8 @@ Hoy vamos a hacer un blog utilizando Github y Markdown y va a quedar bien bonito
 
 Primero vamos a hablar un poco sobre las herramientas que vamos a utilizar: Jekyll, Markdown, Github.
 
+<!--more-->
+
 ### Jekyll
 
 [Jekyll](https://jekyllrb.com/) es un motor de páginas web y blogs utilizando solo archivos estáticos. Eso quiere decir que Jekyll no necesita configuraciones complicadas ni cosas como bases de datos y se puede levantar en algo como Github (o incluso Dropbox, pero no vamos a hablar de eso hoy)

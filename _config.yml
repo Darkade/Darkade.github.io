@@ -1,18 +1,24 @@
-title: General nerdness
+remote_theme: Darkade/Darkade.github.io-theme
 
-description: >- # this means to ignore newlines until "baseurl:"
-  Trying to blag is never easy, that's why I have no posts xD
-url: "https://Darkade.github.io"
+excerpt_separator: <!--more-->
+
+paginate: 5
+
+title: General nerdness
+author: Ivan Reyes
+tagline: Trying to blag is never easy, that's why I have no posts xD
+
+description: >-
+  :3
+
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jemoji
 
 twitter_username: darkade
 github_username:  darkade
 linkedin_username: ivanreyesce
-
-show_excerpts: true
-
-# Build settings
-markdown: kramdown
-remote_theme: jekyll/minima
-plugins:
-  - jekyll-feed
-  - jemoji
