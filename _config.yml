@@ -12,6 +12,7 @@ plugins:
   - jemoji
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-mentions
 
 markdown: kramdown
 highlighter: rouge
