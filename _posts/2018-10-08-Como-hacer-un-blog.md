@@ -3,6 +3,8 @@ layout: post
 title: Cómo hacer un blog usando Github
 ---
 
+![Blag](/assets/2018-10-08/blag.png)
+
 Hoy vamos a hacer un blog utilizando Github y Markdown y va a quedar bien bonito y rápido.
 
 Primero vamos a hablar un poco sobre las herramientas que vamos a utilizar: Jekyll, Markdown, Github.
