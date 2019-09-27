@@ -7,6 +7,8 @@ _Esta es la segunda parte de nuestra guía de Angular. Puedes leer la primera pa
 
 La ocasión anterior vimos algunas cosas básicas de angular. Hoy para el platillo principal vamos a conectar nuestra task list a Firebase. Esto nos va a servir para hacer persistentes nuestras notas y aprender a utilizar una de las librearías más útiles de angular, `angularfire2`. Aprender a utilizar firebase también tiene la ventaja de que colocar tu app en Firebase va a ser gratuito a menos que tengas mucho tráfico.
 
+<!--more-->
+
 ![Así queda en firestore][firestore]
 
 ## Ingredientes

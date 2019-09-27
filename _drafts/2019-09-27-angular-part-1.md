@@ -5,6 +5,8 @@ title: Angular + Firebase. Parte 1
 
 Has utilizado Javascript, igual y hasta eres fan de JQuery. Pero quieres usar un framework más moderno y poderoso ¿Por qué no Angular? Hoy vamos a hacer un app para hacer un task list que va a utilzar una base de datos en [Firebase](https://firebase.google.com/) y vamos a aprender un poco sobre [Web Components](https://developer.mozilla.org/en-US/docs/Web/Web_Components). ~~Tengo Hambre ¿Alguien más tiene hambre?~~
 
+<!--more-->
+
 ![Aquí hay uno que preparé anteriormente][tasklist]
 
 ## Ingredientes
