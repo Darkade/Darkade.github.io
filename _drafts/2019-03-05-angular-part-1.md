@@ -1,7 +1,11 @@
 ---
 title: Angular + Firebase. Parte 1
 ---
+![Cocinando con Angular + Firebase Parte 1][angular_firebase_1]
+
 Has utilizado Javascript, igual y hasta eres fan de JQuery. Pero quieres usar un framework más moderno y poderoso ¿Por qué no Angular? Hoy vamos a hacer un app para hacer un task list que va a utilzar una base de datos en [Firebase](https://firebase.google.com/) y vamos a aprender un poco sobre [Web Components](https://developer.mozilla.org/en-US/docs/Web/Web_Components). ~~Tengo Hambre ¿Alguien más tiene hambre?~~
+
+![Aquí hay uno que preparé anteriormente][tasklist]
 
 ## Ingredientes
 
@@ -11,7 +15,6 @@ Estas son las librerías y herramientas que vamos a utilizar. La mayoría de est
 - [Angular cli](https://cli.angular.io/) `^8.0.0`
 - [Angular](https://angular.io/) `^8.0.0`
 - [Typescript](https://www.typescriptlang.org/) `^2.7`
-- [Firebase](https://firebase.google.com/) + [Angularfire](https://github.com/angular/angularfire2) `^5.0.0`
 
 ## Preparación
 
@@ -179,6 +182,11 @@ export class AppModule { }
 
 Lo que estamos haciendo es colocar `FormsModule` en nuestros imports, esto nos permite utilizar `[(ngModule)]` en nuestros templates.
 
+> _Una vez que las orillas se desprendan de tu molde sáca el app del horno, deja enfriar y reserva._
+
 --------
 
 ¡Con solo esto ya tienes una lista de tasks! Desde luego no hemos terminado la receta; falta algo de funcionalidad, como borrar tasks, y conectarlo a una base de datos en linea. Lo cual haremos en la siguiente parte.
+
+[tasklist]: /assets/2019-09-27/tasklist.png
+[angular_firebase_1]: /assets/2019-09-27/angular_firebase_1.jpg
