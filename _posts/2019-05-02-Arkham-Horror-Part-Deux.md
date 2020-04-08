@@ -1,9 +1,11 @@
 ---
-title: "Modelando las probabilidades en Arkham Horror: The Card Game"
 layout: mathpost
+title: "Modelando las probabilidades en Arkham Horror: The Card Game"
+featuredimage: /assets/2019-05-02/part1.png
+description: Arkham Horror es un juego de cartas que me ha obsesionado. Hoy hablamos de las matemáticas detrás del juego.
 ---
 
-![Part1](/assets/2019-05-02/part1.png)
+![Part1]({{ page.featuredimage }})
 
 > Esta es una contunación (y mejora) de mi post original de Arkham Horror
 
@@ -184,7 +186,7 @@ Que es bastante cercano al resultado que obtuvimos con el modelo probabilistico
 
 ## En promedio ¿en qué ronda voy a obtener mi carta core?
 
-![Part2](/assets/2019-05-02/part2.png)
+![Part2][part2]
 
 Ahora estamos hablando de [valor esperado](http://mathworld.wolfram.com/ExpectationValue.html). Para una variable aleatoria discreta, este se define como:
 
@@ -357,7 +359,7 @@ Que una vez más es bastante cercano a nuestro modelo
 
 ## ¿Qué valor de skill necesito para pasar un skill check?
 
-![Part3](/assets/2019-05-02/part3.png)
+![Part3][part3]
 
 La otra parte importante de Arkham es que haces _skill checks._ Hacer un _skill check_ implica tomar un token de la _chaos bag_ y sumar o restar su valor del skill value del personaje. Si se iguala o supera el valor objetivo se pasa el check.
 
@@ -485,3 +487,6 @@ Finalmente. Para los 3 escenarios y las 4 dificultades, esto es por cuando deber
 | Standard | 1 | 56.25% |
 | Hard | 2 | 52.94% |
 | Expert | 3 | 50.00% |
+
+[part2]: /assets/2019-05-02/part2.png
+[part3]: /assets/2019-05-02/part3.png

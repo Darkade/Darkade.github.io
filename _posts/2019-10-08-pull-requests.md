@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Cómo hacer un pull request integrable en Github
+featuredimage: /assets/2019-10-08/paper_stack.jpg
+description: Hoy hacemos un pull request de Github y contribuimos a un proyecto Open Source
 ---
 
 ![Paper stacks][papers]
@@ -74,7 +76,7 @@ De igual manera lee por completo los comentarios que el bot haga, ya que este ah
 
 Muchas gracias por leer este artículo, ya que estas aquí quizas te interese aprender más sobre [Angular]({% post_url 2019-09-27-angular-part-1 %}) o [Jupyter (python)]({% post_url 2019-05-03-jupyter %})
 
-[papers]: /assets/2019-10-08/paper_stack.jpg
+[papers]: {{ page.featuredimage }}
 [fork]: /assets/2019-10-08/fork.png
 [request]: /assets/2019-10-08/request.png
 [template]: /assets/2019-10-08/template.png

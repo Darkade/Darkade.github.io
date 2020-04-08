@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Ironsworn. Un review ongoing [1/?]
+featuredimage: /assets/2020-04-01/cover.png
+description: Hoy hablamos de Ironsworn un RPG de papel y lápiz que puedes jugar tu solo.
 ---
 
 ![Ironsworn cover][cover]
@@ -9,7 +11,7 @@ Entonces aparentemente afuera es el Apocalipsis y honestamente no puedo concentr
 
 <!--more-->
 
-Ironsworn es un pen & paper RPG inspirado por Apocalypse World. El _setting_ es parecido a la era de hierro, normalmente no me llamaría la atención pero este juego esta diseñado para jugarse en Solo, Co-op, o Guided ~GM~. **Si, _solo._** De hecho, fue diseñado para ser jugado en Solo o Co-op, sin GM, en grupos muy pequeños. El modo Guided es un _nice to have._
+Ironsworn es un pen & paper RPG inspirado por Apocalypse World. El _setting_ es parecido a la era de hierro, normalmente no me llamaría la atención pero este juego esta diseñado para jugarse en Solo, Co-op, o Guided ~~GM~~. **Si, _solo._** De hecho, fue diseñado para ser jugado en Solo o Co-op, sin GM, en grupos muy pequeños. El modo Guided es un _nice to have._
 
 Hay muchas tablas, que se llaman _Oracles,_ que te ayudan a inspirarte o saber que ocurre en las situaciones que normalmente le preguntarías al GM; para preguntarle al oráculo tiras `d%`, buscas el resultado en las tablas y continúas jugando.
 
@@ -83,7 +85,7 @@ Eso es lo que he hecho con el sistema hasta el momento, y estoy muy feliz con el
 Muchas gracias por leer, esto es muy diferente a lo que normalmente escribo en este blog, pero soy muy fan de los juegos de mesa y los RPGs y necesitaba sacar esto de mi cabeza. Nos leemos en la siguiente sesión de Ironsworn.
 
 
-[cover]: /assets/2020-04-01/cover.png
+[cover]: {{ page.featuredimage }}
 [setup]: /assets/2020-04-01/setup.png
 [map]: /assets/2020-04-01/map.png
 [character]: /assets/2020-04-01/character.png

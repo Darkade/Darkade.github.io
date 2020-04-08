@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Modelando las probabilidades en Arkham Horror: The Card Game"
 published: false
 ---
@@ -29,7 +30,7 @@ Finalmente en la fase de _upkeep_ vas a tomar una última carta con probabilidad
 
 En total la probabilidad de que **termines la primera ronda sin tu carta core es:**
 
-![Probabilidad de no tener tu core: 58.1%](/assets/2019-04-03/latex_probabilidad.png)
+![Probabilidad de no tener tu core: 58.1%][probabilidadfail]
 
 Y la probabilidad máxima de que termines la primera rónda con tu carta core es de 41.9% sin considerar efectos especiales.
 
@@ -104,3 +105,5 @@ Que se aproxima bastante a nuestro resultado teórico!
 ## ¿Qué podemos concluir?
 
 Que si quieres tener lo antes posible tu carta core en _Arkham Horror: The Card Game_ seguramente deberías hacer mulligan de toda tu mano y tomar tres acciones para tomar tres cartas en tu primer turno. Porque no vas a superar el 42% de probabilidad de conseguirla.
+
+[probabilidadfail]: /assets/2019-04-03/latex_probabilidad.png

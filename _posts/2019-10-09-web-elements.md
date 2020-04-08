@@ -1,5 +1,8 @@
 ---
+layout: post
 title: Custom Elements or How I Learned to Stop Worrying and Love the Web Components
+featuredimage: /assets/2019-10-09/custom.jpg
+description: Los web elements son una nueva forma de reutilizar tu código en desarrollo web. ¿Cómo hacerlos?
 ---
 
 ![Custom Car][custom]
@@ -125,6 +128,6 @@ Una vez más, esto te permite utilizar cualquier clase, estilos y nombres que qu
 
 Eso es todo en este post, espero que te ayude a empezar a probar los web elements. Si quieres saber más sobre Angular puedes revisar [este post]({% post_url 2019-09-27-angular-part-1 %}). Y si quieres leer algo más entretenido puedes leer mi post acerca de [dados]({% post_url 2019-02-07-dice %}).
 
-[custom]: /assets/2019-10-09/custom.jpg
+[custom]: {{ page.featuredimage }}
 [noformat]: /assets/2019-10-09/noformat.png
 [format]: /assets/2019-10-09/format.png

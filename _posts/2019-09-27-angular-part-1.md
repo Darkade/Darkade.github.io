@@ -1,5 +1,8 @@
 ---
+layout: post
 title: Angular + Firebase. Parte 1
+featuredimage: /assets/2019-09-27/angular_firebase_1.jpg
+description: Utilizamos Angular y Firebase y creamos una tasklist [Parte 1]
 ---
 ![Cocinando con Angular + Firebase Parte 1][angular_firebase_1]
 
@@ -191,4 +194,4 @@ Lo que estamos haciendo es colocar `FormsModule` en nuestros imports, esto nos p
 ¡Con solo esto ya tienes una lista de tasks! Desde luego no hemos terminado la receta; falta algo de funcionalidad, como borrar tasks, y conectarlo a una base de datos en linea. Lo cual haremos en la [siguiente parte]({% post_url 2019-09-27-angular-part-2 %}).
 
 [tasklist]: /assets/2019-09-27/tasklist.png
-[angular_firebase_1]: /assets/2019-09-27/angular_firebase_1.jpg
+[angular_firebase_1]: {{ page.featuredimage }}

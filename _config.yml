@@ -2,9 +2,12 @@ title: General nerdness
 author: Ivan Reyes
 tagline: Trying to blag is never easy, that's why I have no posts xD
 description: >-
-  :3
+  Hola! Soy Ivan Reyes, este es mi blog personal. Escribo de programación,
+  juegos de mesa y juegos de rol. O sea, mi general nerdness.
 
+url: https://ivan.reyescon.de
 remote_theme: Darkade/Darkade.github.io-theme
+lang: es_MX
 
 plugins:
   - jekyll-paginate
