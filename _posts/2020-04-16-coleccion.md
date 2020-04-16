@@ -5,7 +5,7 @@ featuredimage: /assets/2020-04-16/stack.jpg
 description: He estado jugando y pensando mucho en RPGs últimamente y no me había preguntado ¿Qué RPGs tengo?
 ---
 
-![La peor tirada para comenzar la aventura][dice]
+![Tener estos manuales y no jugarlos][stack]
 
 Entonces estaba hablando y buscando RPGs, _as you do,_ y me di cuenta de que no se que esta en mi colección de RPGs. Si, es una colección virtual de documentos descargados principalmente de [DriveThruRPG](drivethrurpg.com/), pero el que sea un directorio en mi Dropbox no lo hace menos una colección. Entonces organicé, conté y resulta que tengo material de 41 juegos de rol diferentes. Tengo reglas para jugar 41 juegos diferentes, y creo que solo he jugado como el 25% de todos ellos aunque he leído la mayoría.
 
@@ -123,4 +123,4 @@ Si, si me gusta el Cyberpunk, mucho.
 
 Muchas gracias por leer, he estado escribiendo de RPGs porque he tenido oportunidad de jugar frecuentemente, si te gustó puedes leer sobre [cómo jugar D&D online]({% post_url 2020-04-05-dnd-online %}). Normalmente escribo sobre [programación o matemáticas]({% post_url 2019-05-02-Arkham-Horror-Part-Deux %}) y [dados]({% post_url 2019-02-07-dice %})!
 
-[dice]: {{ page.featuredimage }}
+[stack]: {{ page.featuredimage }}
