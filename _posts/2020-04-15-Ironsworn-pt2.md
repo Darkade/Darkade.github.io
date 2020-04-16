@@ -102,13 +102,13 @@ Paso unos minutos debajo de un tronco creo que no me vieron, pero yo si logré v
 
 Si están al sur no creo que Reese se haya encontrado con ellos. Tenego que ir más al norte.
 
-#### `[Undertake a Jorney: Miss & Match]`
+#### `[Undertake a Journey: Miss & Match]`
 
 Un macho... debió estar siguiendo al grupo de Marina y ahora me ve a mi.
 
-#### `[Enter the Fray - dangerous – Miss]`
+#### `[Enter the Fray: Miss]`
 
-**Ciervo Azul:** `[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]`
+**Ciervo Azul (dangerous):** `[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]`
 
 No tengo tiempo de colocarme en posición. solo logro quitarme de su camino y pierdo mi martillo.
 
@@ -132,7 +132,7 @@ Corre hacia mi y logro salir de su camino, al mismo tiempo lo logro golpear en l
 
 A la izquierda... si subo a tiempo a esa roca puedo atacar al ciervo desde arriba...
 
-#### `[Secure and advantage: Miss] => [Endure Stress: Miss]`
+#### `[Secure and Advantage: Miss] => [Endure Stress: Miss]`
 
 Pero me lee perfectamente y da la vuelta para colocarse justo entre mi y la roca, no tendría que estar pasando esto. ¿Reese, esto es lo que pasó contigo?
 
@@ -171,4 +171,4 @@ Muchas gracias por leer, ultimamente he escrito sobre RPGs porque he tenido opor
 
 
 [dice]: {{ page.featuredimage }}
-[map]: /assets/2020-04-01/map.png
+[map]: /assets/2020-04-15/map.jpg
