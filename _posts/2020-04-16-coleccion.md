@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Mi colección de RPGs
-featuredimage: /assets/2020-04-16/stack.jpg
+featuredimage: /assets/2020-04-16/all.jpg
 description: He estado jugando y pensando mucho en RPGs últimamente y no me había preguntado ¿Qué RPGs tengo?
 ---
 
-![Tener estos manuales y no jugarlos][stack]
+![Todos mis manuales][all]
 
-Entonces estaba hablando y buscando RPGs, _as you do,_ y me di cuenta de que no se que esta en mi colección de RPGs. Si, es una colección virtual de documentos descargados principalmente de [DriveThruRPG](drivethrurpg.com/), pero el que sea un directorio en mi Dropbox no lo hace menos una colección. Entonces organicé, conté y resulta que tengo material de 41 juegos de rol diferentes. Tengo reglas para jugar 41 juegos diferentes, y creo que solo he jugado como el 25% de todos ellos aunque he leído la mayoría.
+Entonces estaba hablando y buscando RPGs, _as you do,_ y me di cuenta de que no se que esta en mi colección de RPGs. Si, es una colección virtual de documentos descargados principalmente de [DriveThruRPG](drivethrurpg.com/), pero el que sea un directorio en mi Dropbox no lo hace menos una colección. Entonces organicé, conté y resulta que tengo material de 39 juegos de rol diferentes. Tengo reglas para jugar 39 juegos diferentes, y creo que solo he jugado como el 25% de todos ellos aunque he leído la mayoría.
 
 <!--more-->
 
@@ -20,6 +20,8 @@ Entonces en un orden completamente arbitrario que no es tan arbitrario:
 ### Juegos sin GM
 
 Estos son algunos de mis juegos favoritos, me gusta el ejercicio colaborativo de hacer todo el setting juntos y la libertad que eso ofrece. Además suelen ser ligeros en reglas lo cual los hace fácil de traer a la mesa.
+
+![Algunso juegos GMless][gmless]
 
 - [Fiasco](https://bullypulpitgames.com/games/fiasco/) – Definitivamente es mi sistema favorito. Las reglas son super sencillas y hay playsets para todos los gustos. Incluso si no juegas "bien" Fiasco seguramente te la vas a pasar bien.
 
@@ -36,6 +38,8 @@ Estos son algunos de mis juegos favoritos, me gusta el ejercicio colaborativo de
 ### Powered by the Apocalypse
 
 Ha habido muchos juegos derivados de Apocalypse World muy justificadamente: las mecánicas y el espíritu se prestan a ser remixeadas una y otra vez. Me gusta el ciclo en que los personajes y el mundo se crean juntos, ayuda a que todos en la mesa se sientan parte del setting.
+
+![Powered by the Apocalypse][pbta]
 
 La otra parte es que muchos de estos juegos tienen movimientos que _premian_ la interacción entre los personajes. Apocalypse y Monsterharts, en particular, tienen movimientos específicos cuando los personajes tienen sexo entre ellos, probablemente no es para todos los grupos, pero es un ejercicio creativo buenisimo.
 
@@ -60,6 +64,10 @@ La otra parte es que muchos de estos juegos tienen movimientos que _premian_ la 
 
 ### OSR & Light Rules Games
 
+Estos son juegos en los que hay "pocas" reglas. Si te interesa tener una experiencia muy narrativa estos son juegos que puedes probar.
+
+![OSR & Light Rules Games][light]
+
 - [Lady Blackbird](http://www.onesevendesign.com/ladyblackbird/) – es como victoriano Steam punk. Todos somos parte de la tripulación del Lady Blackbird un airship en un viaje de vuelta al homeland. Mucha gente dice que simplemente tienes que jugarlo, yo creo que es muy bueno tenerlo a la mano.
 
 - [Mothership](http://www.tuesdayknightgames.com/mothership) – Alien pero no es Alien. Super body horror. Un sistema muy claro.
@@ -77,9 +85,11 @@ La otra parte es que muchos de estos juegos tienen movimientos que _premian_ la 
 
 Estos son los juegos en los que podrías pensar cuando escuchas "Juego de Rol" Los que tengo en mi colección abarcan de los 90s a 2020. La diferencia con los anteriores es que tiende a haber más tiradas y muchas veces combate táctico. Todos han pasado la prueba del tiempo y visto al menos dos ediciones, todos están recomendados.
 
+![Juegos tradicionales][trad]
+
 Traté de ordenarlos en el orden que siento que son populares. No se si lo logré.
 
-- [D&D 5e y 3.5e](dnd.wizards.com/) – Solo juega D&D si no te gusta hay otros 39 juegos para probar en esta lista. Juega 5e, si lo que te gusta es el combate táctico juega 3.5e Miles, si no es que millones de jugadores, lo recomiendan
+- [D&D 5e y 3.5e](dnd.wizards.com/) – Solo juega D&D si no te gusta hay otros 37 juegos para probar en esta lista. Juega 5e, si lo que te gusta es el combate táctico juega 3.5e Miles, si no es que millones de jugadores, lo recomiendan
 
 - [Werewolf: The Apocalypse](https://www.drivethrurpg.com/product/3370/Werewolf-the-Apocalypse--Free-Introductory-Kit) – Los juegos de World of Darkness estan hechos para ser muy narrativos e inspirar reacciones emocionales fuertes en los jugadores. Nunca lo he jugado, pero toma eso en cuenta.
 
@@ -107,6 +117,10 @@ Traté de ordenarlos en el orden que siento que son populares. No se si lo logr�
 
 ### Y los demás
 
+Y estos son otros cuatro juegos que tengo por ninguna razón real
+
+![Otros Juegos][other]
+
 - [Dragons Conquer America](https://www.drivethrurpg.com/product/270512/Dragons-Conquer-America-Core-Book) – De este solo tengo un beta y no lo he jugado. El sistema se ve interesante pero esta escrito con cosas que sienten "mal" porque  es básicamente la conquista de América pero con dragones. Eso lo hace difícil de recomendar, al menos en el beta. Si alguien ha jugado la versión completa espero que se hayan arreglado esos problemas, porque eso son, **problemas.**
 
 Y estos tres últimos la verdad si los bajé porque eran gratis
@@ -123,4 +137,9 @@ Si, si me gusta el Cyberpunk, mucho.
 
 Muchas gracias por leer, he estado escribiendo de RPGs porque he tenido oportunidad de jugar frecuentemente, si te gustó puedes leer sobre [cómo jugar D&D online]({% post_url 2020-04-05-dnd-online %}). Normalmente escribo sobre [programación o matemáticas]({% post_url 2019-05-02-Arkham-Horror-Part-Deux %}) y [dados]({% post_url 2019-02-07-dice %})!
 
-[stack]: {{ page.featuredimage }}
+[all]: {{ page.featuredimage }}
+[gmless]: /assets/2020-04-16/gmless.jpg
+[pbta]: /assets/2020-04-16/pbta.jpg
+[light]: /assets/2020-04-16/light.jpg
+[trad]: /assets/2020-04-16/trad.jpg
+[other]: /assets/2020-04-16/otros.jpg
