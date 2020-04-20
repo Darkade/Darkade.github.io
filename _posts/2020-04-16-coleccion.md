@@ -27,7 +27,7 @@ Estos son algunos de mis juegos favoritos, me gusta el ejercicio colaborativo de
 
 - [Follow RPG](http://www.lamemage.com/follow/) – Somos una comunidad tratando de completar un quest. La parte que me gusta es que el quest puede fallar de formas no anticipadas durante uno de los _act breaks_ y se trata más de justificar lo que cambió entre la narrativa y el _act break_ que de narrar todo.
 
-- [Microscope RPG](http://www.lamemage.com/microscope/) – Creamos un **universo** desde cero. Es muy interesante y puedes usarlo para crear el universo de cualquier otro juego.
+- [Microscope](http://www.lamemage.com/microscope/) – Creamos un **universo** desde cero. Es muy interesante y puedes usarlo para crear el universo de cualquier otro juego.
 
 - [Ribbon Drive](https://buriedwithoutceremony.com/ribbon-drive) – Cada jugador hace un playlist. Durante la partida estamos en un road trip, ponemos las canciones y dejamos que la música guíe el tono.
 
