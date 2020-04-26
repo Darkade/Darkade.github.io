@@ -29,15 +29,15 @@ La integral entonces queda definida así:
 
 $$ 64 = \int_{0}^{4} {πR(h)^2}dh $$
 
-Dónde $ R(h) $ expresa el radio de cada rebanada en función de a qué altura del cono. Es una función sencilla, y explico de dónde viene en un momento.
+Dónde $ R(h) $ expresa el radio de cada rebanada en función de a qué altura esta en el cono. Es una función sencilla, y explico de dónde viene en un momento.
 
 - Sabemos que nuestra bolsa tiene 64 pies cúbicos de volumen, de ahí el $ 64 $
 - Sabemos que tiene 4 pies de altura por eso integramos en ese rango $ \int_0^4 $
-- Y sabemos que el área de cada rebanada es $ πr^2 $ entonces tenemos $ rR(h)^2 $
+- Y sabemos que el área de cada rebanada es $ πr^2 $ entonces tenemos $ πR(h)^2 $
 
 ## La función R(h)
 
-Sabemos al menos uno de los dos radios, el de la boca. Cuando la altura de la bolsa es 4 el radio es 1. Y no sabemos el radio del fondo, cuando la altura de la bolsa es cero, a este radio le llamaremos $ r_1 $
+Sabemos al menos uno de los dos radios, el de la boca. Cuando la altura de la bolsa es 4 el radio es 1. Y no sabemos el radio del fondo, cuando la altura de la bolsa es cero; a este radio le llamaremos $ r_1 $
 
 | $ h $ | $ R(h) $ |
 |-------|----------|
@@ -45,7 +45,7 @@ Sabemos al menos uno de los dos radios, el de la boca. Cuando la altura de la bo
 | $ 0 $ |   $ r_1 $ |
 
 
-También sabemos que el radio varía _linealmente,_ porque el cono es un cono. Es recto en sus lados no curvo ni de ningúna otra forma rara. De modo que $ R(h) $ es una función lineal. Solo tenemos que calcular su pendiente $ (1 - r_1) / (4 - 0 ) $ y su punto de intersección el eje de las _abscisas,_ que es  $R(0) = r_1$. De modo que la ecuación es:
+También sabemos que el radio varía _linealmente,_ porque el cono es un cono. Es recto en sus lados no curvo ni de ninguna otra forma rara. De modo que $ R(h) $ es una función lineal. Solo tenemos que calcular su pendiente $ (1 - r_1) / (4 - 0 ) $ y su punto de intersección con el eje de las _abscisas,_ que es  $R(0) = r_1$. De modo que la ecuación es:
 
 {% raw %}
 $$ R(h) = {{1 - r_1}\over{4}}h + r_1 $$
