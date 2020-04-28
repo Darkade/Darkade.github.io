@@ -7,7 +7,7 @@ description: Gastar el dinero de un manual completo puede ser demasiado si aun n
 
 ![El mundo de los juegos de rol][cover]
 
-Entonces te ha gusto el mundo de los juegos de rol y has visto que hay [muchísimos]({% post_url 2020-04-16-coleccion %}) allá afuera por probar. Pero los manuales usualmente no son baratos incluso cuando son digitales, y ¿pagar por un manual completo? ¡ni siquiera se si el juego me gusta todavía! Entonces ¿Cómo puedes encontrar manuales de RPGs gratis y legalmente?
+Entonces te ha gustado el mundo de los juegos de rol y has visto que hay [muchísimos]({% post_url 2020-04-16-coleccion %}) allá afuera por probar. Pero los manuales usualmente no son baratos incluso cuando son digitales, y ¿pagar por un manual completo? ¡ni siquiera se si el juego me gusta todavía! Entonces ¿Cómo puedes encontrar manuales de RPGs gratis y legalmente?
 
 <!--more-->
 
