@@ -89,7 +89,7 @@ Estos son los juegos en los que podrías pensar cuando escuchas "Juego de Rol" L
 
 Traté de ordenarlos en el orden que siento que son populares. No se si lo logré.
 
-- [D&D 5e y 3.5e](dnd.wizards.com/) – Solo juega D&D si no te gusta hay otros 37 juegos para probar en esta lista. Juega 5e, si lo que te gusta es el combate táctico juega 3.5e Miles, si no es que millones de jugadores, lo recomiendan
+- [D&D 5e y 3.5e](https://dnd.wizards.com/) – Solo juega D&D si no te gusta hay otros 37 juegos para probar en esta lista. Juega 5e, si lo que te gusta es el combate táctico juega 3.5e Miles, si no es que millones de jugadores, lo recomiendan
 
 - [Werewolf: The Apocalypse](https://www.drivethrurpg.com/product/3370/Werewolf-the-Apocalypse--Free-Introductory-Kit) – Los juegos de World of Darkness estan hechos para ser muy narrativos e inspirar reacciones emocionales fuertes en los jugadores. Nunca lo he jugado, pero toma eso en cuenta.
 
