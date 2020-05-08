@@ -23,7 +23,7 @@ Pero entonces ¿cómo se ve nuestra bag of holding por dentro? Si tiene 2 pies d
 Hay varios modos fáciles de obtener el diámetro del fondo, pero el más divertido es hacer una integral. Podemos imaginar sumar el volumen de varias "rebanadas" de un cono, cada una de radio menor que la anterior. Si hacemos estas rebanadas tan delgadas que su altura tienda a cero, es decir: $ h \rightarrow 0 $ tendremos el volumen del cono.
 
 !["Rebanadas" de cilindro][slices]
-_Así podemos aproximar el volúmen de un cono_
+_Así podemos aproximar el volumen de un cono_
 
 La integral entonces queda definida así:
 
