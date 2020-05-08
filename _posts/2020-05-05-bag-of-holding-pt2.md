@@ -198,7 +198,7 @@ _El principe de los Saiyajin_
 
 En general, la parte de mayor circunferencia de una coraza sería el pecho. Así que hay que averiguar cual es la circunferencia promedio del pecho de nuestros adventurers.
 
-Gracias a uno de mis [podcasts favoritos,](https://99percentinvisible.org/episode/on-average/) di con _['The "Average Man"?'](https://apps.dtic.mil/dtic/tr/fulltext/u2/010203.pdf)_ La fuerza aérea de los estados unidos comisionó este documento en 1977 para determinar las medidas promedio de sus pilotos. Para estas personas su circunferencia promedio es va de $$ 96.95 cm $$ a $$ 100.95 cm $$. De ahí podemos inferir que el diámetro del pecho de alguien, sería ~ $$ 30.86 cm $$.
+Gracias a uno de mis [podcasts favoritos,](https://99percentinvisible.org/episode/on-average/) di con _['The "Average Man"?'](https://apps.dtic.mil/dtic/tr/fulltext/u2/010203.pdf)_ La fuerza aérea de los estados unidos comisionó este documento en 1977 para determinar las medidas promedio de sus pilotos. Para estas personas su circunferencia promedio va de $$ 96.95 cm $$ a $$ 100.95 cm $$. De ahí podemos inferir que el diámetro del pecho de alguien, sería ~ $$ 30.86 cm $$.
 
 $$ 2 \pi r = 96.95 cm $$
 
