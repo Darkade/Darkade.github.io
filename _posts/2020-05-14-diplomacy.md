@@ -49,7 +49,7 @@ Move también es la acción que utilizamos para atacar: nos movemos a un territo
 
 ### Convoy (C)
 
-Para que nuestro ejercitó en Yorkshire pueda moverse al continente necesitamos la ayuda de nuestra flota en el Mar del Norte, a esta acción se llama Convoy. La flota mantendrá su posición al final de la temporada, pero el ejército se moverá. El Convoy es solo entre territorios adyacentes al cuerpo de agua dónde se encuentra la flota. Para nuestro ejemplo estas podrían ser: Londres, Bélgica, Holanda, Dinamarca, Noruega o Edinburgh.
+Para que nuestro ejercitó en Yorkshire pueda moverse al continente necesitamos la ayuda de nuestra flota en el Mar del Norte, esta acción se llama Convoy. La flota mantendrá su posición al final de la temporada, pero el ejército se moverá. El Convoy es solo entre territorios adyacentes al cuerpo de agua dónde se encuentra la flota. Para nuestro ejemplo estas podrían ser: Londres, Bélgica, Holanda, Dinamarca, Noruega o Edinburgh.
 
 ![Acción de convoy][backstabbr_convoy]
 _Acción de convoy_
@@ -73,7 +73,7 @@ Si quieres defenderte de un ataque esta es la opción más directa. Es ordenar a
 
 ### Support (S)
 
-Muchas veces para defender o atacar una unidad necesitará Apoyo. Ya que defender y entrar a un territorio solo es posible si el ejercito tiene números mayores o iguales a quien ataca o defiende. Naturalmente esto significa que siempre te puedes mover a un territorio vacío, aunque tenga supply centers adversarios, porque la defensa es cero.
+Muchas veces para defender o atacar una unidad necesitará Apoyo. Ya que defender exitosamente un territorio solo es posible si se tienen números mayores o iguales a quien ataca; y atacar exitosamente solo ocurre si se tienen números mayores a quien defiende. Naturalmente esto significa que siempre te puedes mover a un territorio vacío, aunque tenga supply centers adversarios, porque la defensa es cero.
 
 ![Acción de Support][backstabbr_support]
 _Acción de Support_
