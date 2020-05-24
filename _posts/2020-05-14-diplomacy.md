@@ -73,7 +73,7 @@ Si quieres defenderte de un ataque esta es la opción más directa. Es ordenar a
 
 ### Support (S)
 
-Muchas veces para defender o atacar una unidad necesitará Apoyo. Ya que defender exitosamente un territorio solo es posible si se tienen números mayores o iguales a quien ataca; y atacar exitosamente solo ocurre si se tienen números mayores a quien defiende. Naturalmente esto significa que siempre te puedes mover a un territorio vacío, aunque tenga supply centers adversarios, porque la defensa es cero.
+Muchas veces, para defender o atacar una unidad, necesitará Apoyo. Ya que defender exitosamente un territorio solo es posible si se tienen números mayores o iguales a quien ataca; y atacar exitosamente solo ocurre si se tienen números mayores a quien defiende. Naturalmente esto significa que siempre te puedes mover a un territorio vacío, aunque tenga supply centers adversarios, porque la defensa es cero.
 
 ![Acción de Support][backstabbr_support]
 _Acción de Support_
@@ -198,7 +198,7 @@ _Move & Support vs Hold & Support. Caso 3_
 
 Al final de cada año, en el Invierno, los jugadores pueden construir unidades en sus Supply Centers originales. Eso quiere decir que todos pueden construir, a lo más, tres unidades por año. Pero nadie puede tener más unidades que el número de Supply Centers que controla. Si controlas trece Supply Centers, solo puedes tener hasta trece unidades en total.
 
-Eso quiere decir que si te arrebatan un Supply Center al final del año vas a tener que destruir una unidad. Es un buen modo de reducir las fuerzas de los contrincantes sin derrotarlos en combate directo.
+Eso quiere decir que, si te arrebatan un Supply Center, al final del año vas a tener que destruir una unidad. Es un buen modo de reducir las fuerzas de los contrincantes sin derrotarlos en combate directo.
 
 ![Construir y destruir unidades][backstabbr_build_disband]
 _Construir y destruir unidades_
