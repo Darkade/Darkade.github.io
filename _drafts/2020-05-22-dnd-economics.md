@@ -92,14 +92,35 @@ _Dungeon Master's Guide 3.5e p130_
 
 En el DMG los costos se presentan mensualmente. Los convertí en costos diarios para hacerlo más manejable. Para los siguientes cálculos voy a tomar el costo del estilo "Common", precisamente porque es el común.
 
-Considerando que ganaras `15sp` podrías comprar 150 velas al día si dedicaras todo tu salario a hacerlo. 150 velas, cada una emitiendo 13 lúmenes y durando una hora nos da un total de `1950 lumen/hora`. Y para una lámpara podrías comprar 15 pintas de aceite, que le darían a la lámpara 6 hrs de luz cada una, es decir 6 horas de luz;
+Considerando que ganaras `15sp` podrías comprar 150 velas al día si dedicaras todo tu salario a hacerlo. 150 velas, cada una emitiendo 13 lúmenes y durando una hora nos da un total de `1950 lumen/hora`. Y para una lámpara podrías comprar 15 pintas de aceite, que le darían a la lámpara 6 hrs de luz cada una; pensado que ya tuvieras las respectivas 15 lámparas tendrías un total de `1462 lumen/hora` o si quisieras iluminar tantas lámparas como fuera posible al mismo tiempo tendrías `15 * 6 = 90 lámparas` para un total de `8775 lumen/hora`
 
 
 {% raw %}
-\$ {{150 * 13 lumen} \over {1 hr}} = 1950 lumen/hora \$
+$$ 150 * 13 = 1950 {{lumen}\over{hora}} $$
 {% endraw %}
 
 De la tabla "Labor Price of Light", de Nordhaus, vemos que si fuéramos a obtener `1,000 lumen/hora` utilizando velas en los 1800~1830 tomaría `6 hrs ~ 10.6 hrs` de trabajo.
+
+
+Ivan Reyes, [26 May 2020 23:54:30]:
+Las lámparas en D&D son como pendejamente eficientes
+
+1,000 lumen/hora de una velas en D&D te toma 3~5.2 horas de trabajo.
+
+Con un día de ejercer tu profesión puedes comprar hasta 1950 lumen/hora.
+
+En la realidad comprar 1,950 lumen/hora de velas en 1830 te hubiera tomado de 6~10.6 hrs de trabajo
+Los números coinciden con la realidad más o menos
+
+De una lámpara puedes comprar 8,775 lumen hora con u ndía de trabajo en D&D
+
+Para comprar eso en la vida real te hubiera tomado 26.1 horas de trabajo
+
+Pero ahí es dónde entra la mágia, chuchu
+
+Si es tan pendejamente eficiente tiene que ser porque hay un modo técnológico más avanzado de extracció nde aceites dentro de D&D
+
+o un aceite que sea particularmente luminoso al momento de quemarse
 
 
 
