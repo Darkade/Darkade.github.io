@@ -17,7 +17,7 @@ He estado leyendo detenidamente el Player's Handbook (PHB) y Dungeon Master's Gu
 
 1. [El costo de una vela][OtherAdventuringGear]
 2. [El costo de tu estilo de vida][LifestyleExpenses]
-3. [Que puedes practicar una profesión][PracticingaProfession]
+3. [Puedes practicar una profesión][PracticingaProfession]
 
 ¿Qué tienen estas tres cosas de interesante? Que podemos estimar cuanto tiempo le toma a alguien ganar suficiente dinero para pagar por una vela!!!
 
@@ -43,7 +43,7 @@ Según lo que encontró Nordhaus, en la antigua Babilonia el salario de un día 
 
 _A partir de este punto, la información oficial de D&D ha sido tomada de manuales de 3.5e para consistencia._
 
-Una [vela, en D&D, cuesta 1 Copper Piece][OtherAdventuringGear], que básicamente es un un centavo de Gold Piece. Hay muchas otras formas de iluminación en D&D incluidos _spells,_ pero Excepto por Continual Flame todos duran menos que el "fuego natural", y de cualquier forma hacer una Continual Flame toma 50gp de polvo de ruby; nada barato.
+Una vela, en D&D, cuesta 1 Copper Piece, que básicamente es un un centavo de Gold Piece. En el PHB (3.5e p165) Hay muchas otras formas de iluminación en D&D incluidos _spells,_ pero Excepto por Continual Flame todos duran menos que el "fuego natural", y de cualquier forma hacer una Continual Flame toma 50gp de polvo de ruby; nada barato.
 
 Otros métodos de iluminación y el aceite que algunos usan como combustible, en 3.5e son:
 
@@ -76,7 +76,7 @@ _Tomado de "Do real output and real wage measures capture reality?"_
 
 ## El costo de tu estilo de vida en Dungeons & Dragons
 
-El DMG (p130) enlista el costo que le toma a un adventurer mantener su estilo de vida bajo la regla _Upkeep._ Creo que es razonable decir que algunos de estos estilos de vida incluyen, al menos, una hora de iluminación al día.
+El DMG (3.5e p130) enlista el costo que le toma a un adventurer mantener su estilo de vida bajo la regla _Upkeep._ Creo que es razonable decir que algunos de estos estilos de vida incluyen, al menos, una hora de iluminación al día.
 
 > The upkeep can be assumed to take into consideration every expense except the cost of specific adventuring equipment—even taxes. Ultimately, each player should choose the level of upkeep she’s willing to pay.
 
@@ -92,7 +92,13 @@ _Dungeon Master's Guide 3.5e p130_
 
 En el DMG los costos se presentan mensualmente. Los convertí en costos diarios para hacerlo más manejable. Para los siguientes cálculos voy a tomar el costo del estilo "Common", precisamente porque es el común.
 
-Considerando que ganaras `15sp` podrías comprar 150 velas al día si dedicaras todo tu salario a hacerlo. 150 velas, cada una emitiendo 13 lúmenes y durando una hora nos da un total de `1950 lumen/hora`. Y para una lámpara podrías comprar 15 pintas de aceite, que le darían a la lámpara 6 hrs de luz cada una; pensado que ya tuvieras las respectivas 15 lámparas tendrías un total de `1462 lumen/hora` o si quisieras iluminar tantas lámparas como fuera posible al mismo tiempo tendrías `15 * 6 = 90 lámparas` para un total de `8775 lumen/hora`
+Considerando que ganas `15sp` diarios podrías comprar 150 velas cada día si dedicaras todo tu salario a hacerlo. 150 velas, cada una emitiendo 13 lúmenes y durando una hora nos da un total de `1950 lumen/hora`. También podrías comprar 15 pintas de aceite, que le darían 6 horas de luz cada una. O podrías repartirlas en noventa diferentes lámparas, para iluminar exactamente una hora y obtener `8775 lumen/hora` de iluminación.
+
+Entonces, Un día de trabajo que mantiene un estilo de vida "Commonn" te da un total de:
+- `8775 lumen/hora` si iluminaras con lámparas
+- `1950 lumen/hora` si iluminas con con velas.
+
+Pero comprar noventa Hooded Lamps, a 7gp cada una, te tomaría $$ (90 * 70 sp) \div 15 sp/dia = 420 dias $$ de trabajo sin hacer otra cosa que comprar lámparas, no lo más práctico. Quiero poner en perspectiva que 90 lámparas iluminan lo mismo que 7.3 focos incandescentes de 100w.
 
 
 {% raw %}
@@ -100,6 +106,21 @@ $$ 150 * 13 = 1950 {{lumen}\over{hora}} $$
 {% endraw %}
 
 De la tabla "Labor Price of Light", de Nordhaus, vemos que si fuéramos a obtener `1,000 lumen/hora` utilizando velas en los 1800~1830 tomaría `6 hrs ~ 10.6 hrs` de trabajo.
+
+
+## Puedes practicar una profesión
+
+En el PHB (3.5e p80)
+
+Mitad de tu profession check de gp por semana
+
+Check = 1d20 + Wis modifier + skill rank
+      = 1d20 + 1 + 4
+      = [15,16]
+
+gp per week = [7,8]
+
+12 and 13
 
 
 Ivan Reyes, [26 May 2020 23:54:30]:
@@ -167,6 +188,55 @@ o un aceite que sea particularmente luminoso al momento de quemarse
 | Comfortable  |   20 sp | Good           |     33 sp |
 | Wealthy 	   |   40 sp | Extravagant    |     66 sp |
 
+
+Me puse a seguir revisando de la economía en 3.5e y el costo de vida es pinches enormeeeee
+
+En 5e el manual dice que si practicas una profesión te alcanza para mantener un estilo de vida normal.
+
+Me di cuenta de que no había leido eso explicitamente en 3.5e y me puse a buscarlo.
+
+———
+
+En 3.5 hay un skill que se llama profession. Haces un skill check y ganas la mitad de lo que hayas sacado para esa semana.
+
+Entonces, tenemos estos supuestos.
+
+- gp/week = (1d20 + ability modifier + ranks)/2
+
+- avarage ability modifier = 1
+
+- ranks to profession = 4 (porque vamos a asumir que quieres ser bueno en tu profesión y 4 es el máximo)
+
+- “common” lifestyle: 10.5 gp / week.  You live in inns and eat tavern meals every day, a practice that quickly grows to be moderately expen- sive. This level of upkeep assumes the occasional night drinking in the tavern or a nice glass of wine with dinner.
+
+
+——
+
+Luego
+
+gp/week = (1d20 + 1 + 4)/2
+
+gp / week = [7,8]
+
+
+El costo de mantener un estilo de vida “common” es 10.5 gp / week
+
+No te alcanza para eso.
+
+Un estilo de vida “Poor” cuesta 2.8 gp / week
+
+
+Y el manual explicitamente dice que un trabajador promedio gana 3gp / week. O sea solo podrías vivir, no podrías comprarte nada excepto sobrevivir.
+
+———
+
+Incluso si tuvieras 18 de ability score y 4 ranks a tu profesión. Eso solo te daría, en promedio 9gp / week. De todos modos no te alcanza!
+
+El oro de una profesión te deja vivir un estilo de vida entre poor y common.
+
+———
+
+Y así, finalmente, esta explicado por qué chingados la gente sale a la aventura, por qué la gente arriesga su vida, es porque no les queda de otra. No es solo porque hay cosas allá afuera que no hay en las poblaciones. Es porque es la única forma de avanzar tu estilo de vida
 
 > The upkeep can be assumed to take into consideration every expense except the cost of specific adventuring equipment—even taxes. Ultimately, each player should choose the level of upkeep she’s willing to pay.
 

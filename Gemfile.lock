@@ -11,7 +11,7 @@ GEM
       public_suffix (>= 2.0.2, < 5.0)
     colorator (1.1.0)
     concurrent-ruby (1.1.6)
-    darkade.github.io-theme (1.0.2)
+    darkade.github.io-theme (1.1.0)
       jekyll (~> 4.1)
       jekyll-feed (~> 0.13.0)
       jekyll-paginate-v2 (~> 3.0)
@@ -98,14 +98,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  darkade.github.io-theme (~> 1.0, >= 1.0.2)
+  darkade.github.io-theme (~> 1.0, >= 1.1.0)
   jekyll (~> 4.0)
-  jekyll-feed (~> 0.13.0)
-  jekyll-paginate-v2 (~> 3.0)
-  jekyll-seo-tag (~> 2.6, >= 2.6.1)
-  jekyll-sitemap (~> 1.4)
   jemoji (~> 0.12.0)
-  rouge (~> 3.19, >= 3.19)
   tzinfo-data
 
 BUNDLED WITH
