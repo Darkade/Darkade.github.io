@@ -16,8 +16,8 @@ Es hora de lo que todos estaban esperando, de descargar los papers de macroecono
 He estado leyendo detenidamente el Player's Handbook (PHB) y Dungeon Master's Guide (DMG) de D&D Quinta edición y me llamaron la atención tres cosas que ni siquiera sabía que estaban en los manuales:
 
 1. [El costo de una vela][OtherAdventuringGear]
-2. [El costo de tu estilo de vida][LifestyleExpenses]
-3. [Puedes practicar una profesión][PracticingaProfession]
+2. [Puedes practicar una profesión][PracticingaProfession]
+3. [El costo de tu estilo de vida][LifestyleExpenses]
 
 ¿Qué tienen estas tres cosas de interesante? Que podemos estimar cuanto tiempo le toma a alguien ganar suficiente dinero para pagar por una vela!!!
 
@@ -37,7 +37,11 @@ Claro que estoy exagerando. Nordhaus, si pasó meses midiendo la luz de velas, p
 
 Cuando lo piensas en el pasado, iluminar el equivalente a una vela necesitaba... pues una vela. Y hacer una vela necesitaba criar una vaca, conseguir el alimento para hacer que la vaca creciera, matar a la vaca, juntar la grasa de la vaca, cocinar la grasa, y convertir esa grasa en velas. En algunos sentidos ¡tomaba años hacer una vela!
 
-Según lo que encontró Nordhaus, en la antigua Babilonia el salario de un día entero solo hubiera alcanzado para iluminar una habitación unos diez minutos. Para los 90's, cuando escribió su paper, en algunos lugares, un día de trabajo podría haber iluminado una habitación durante **veintemil horas.** Entonces ¿cuanto necesitas trabajar en Dungeons & Dragons para iluminar con una vela?
+Según lo que encontró Nordhaus, en la antigua Babilonia el salario de un día entero solo hubiera alcanzado para iluminar una habitación unos diez minutos. Para los 90's, cuando escribió su paper, en algunos lugares, un día de trabajo podría haber iluminado una habitación durante **veintemil horas.**
+
+Estos datos y comparaciones son importantes porque la iluminación es una necesidad universal. Para poder comparar la productividad de D&D con la productividad en el mundo real necesitamos comparar cosas que necesitemos en la misma medida y el esfuerzo que toma en cada universo obtenerlas.
+
+Entonces ¿cuanto necesitas trabajar en Dungeons & Dragons para iluminar con una vela?
 
 ## El costo de una vela en Dungeons & Dragons
 
@@ -68,11 +72,68 @@ Necesitamos tres definiciones formales para seguir hablando de luz:
 Y del paper de Nordhaus sabemos que:
 - Una vela emite al rededor de `13 lumens`
   * Un cuarto iluminado por dos velas tiene ~`5 lux`
+- Una lámpara de aceite `~97.5 lumens`
 - Un foco de `100w` emite ~`1200 lumens`
 - Un foco flourecente de `18w` emite `1290 lumens`
 - La luz de día da `10,000 lux`
 - El nivel de luminicencia en una casa normal es ~`100 lux`
 _Tomado de "Do real output and real wage measures capture reality?"_
+
+## Puedes practicar una profesión
+
+En el PHB (3.5e p80) se especifica que para practicar una profesión tienes que hacer un _check_ de tu _Profession Skill,_ que siempre esta asociado con Wisdom. En la misma regla vemos que un personaje ganaría la mitad del resultado del check en oro para esa semana.
+
+> You can practice your trade and make a decent living, earning about half your Profession check result in gold pieces per week of dedicated work.
+
+Supongamos un personaje `LVL 1` con `Wisdom 12~13`, los valores promedio para cualquier estadística, esto nos da un `stat modifier +1`. En 3.5e empezamos también agregando _ranks_ a los skills; así que asumiremos que se agregan `4 ranks` a `Wis (Profession)`, porque el rank máximo que puedes tener es `LVL + 3`. Siendo así, ese personaje `LVL 1` ganaría $$ 7gp $$ por semana. Y en el mejor de los casos, un personaje `LVL 1` ganaría $$ 9gp $$ por semana, con `Wisdom 18`.
+
+$$
+ \lfloor E([1d20 + 1 + 4] \div 2) \rfloor =7gp
+$$
+
+$$
+ \lfloor E([1d20 + 4 + 4] \div 2) \rfloor =9gp
+$$
+
+_En D&D las divisiones ~~casi~~ siempre se redondean hacia abajo. PHB (3.5e p304)_
+
+Entonces, en iluminación ¿Cuanta podemos comprar? Ganando 7gp a la semana un adventurer podría comprar `1,300 lumen/hora` si comprara velas, o `5,850 lumen/hora` en aceite para lámparas.
+
+Esto es porque 7gp semanales son 100cp diarios; con ese dinero comprarías 100 velas al día y cada vela ilumina `13 Lumen / hora`. Con el mismo dinero comparías 10 pintas de aicete al día, cada una de las cuales alcanza para iluminar 6 lámparas durante una hora; un total de 60 lámparas cada una de las cuales ilumina `97.5 velas/hora`.
+
+| GP / semana | Velas / día | Lumen / hora (Vela) | Pintas aceite / día | Lumen / Hora (Lámpara) |
+|-----------|--------------|-----------------------|-----------------|---------------------|
+| 7         | 100.0        | 1,300.0               | 10.0            | 5,850.0             |
+| 8         | 114.3        | 1,485.7               | 11.4            | 6,685.7             |
+| 9         | 128.6        | 1,671.4               | 12.9            | 7,521.4             |
+
+La siguiente tabla tiene el tiempo de trabajo que le tomaría a una persona adquirir `1,000 lumen/hora` en los 1800s. Vemos que si fuéramos a obtener `1,000 lumen/hora`, con velas, tomaría `6 hrs ~ 10.6 hrs` de trabajo. Y para una lámpara de aceite tomaría `4.9 hrs ~ 5.9 hrs` de trabajo.
+
+| Device          | Stage of Technology | Approximate Date   | Labor Price (hours of work per 1,000 lumen-hours) |
+|-----------------|---------------------|--------------------|---------------------------------------------------|
+| Candle          | Tallow              | 1800               | 5.370000                                          |
+|                 | Tallow              | 1830               | 3.000000                                          |
+| Lamp            | Whale oil           | 1815-1845          | 4.900000                                          |
+|                 | Other oils          | 1855               | 5.940000                                          |
+
+_**Nordhaus. Table 1.6 Labor Price of Light**_
+
+Para nuestro personaje, ganando 7gp a la semana, comprar `1,000 lumen/hora` de iluminación:
+- En velas:   tomaría `7.7 hrs` de trabajo
+- En aceite: tomaría `1.7 hrs` de trabajo
+
+El trabajo necesario para adquirir velas es bastante parecido al mundo real, de ahí podemos inferir que la tecnología de velas, en Forgotten Realms, es bastante parecida a la nuestra. Mientras que la tecnología de aceite es debería ser bastante más avanzada, al menos comparada con los 1800s, para que tome ese tiempo. Esto puede ser porque el método de extracción es mejor, o porque el aceite de mucha mejor calidad que los que nosotros tuviéramos disponibles en la época.
+
+Sin embargo el costo de las lámparas en sí es lo que hace prohibitivo iluminar con esta tecnología
+
+Para obtener `1,000 lumen/hora` necesitas `11 lámparas` prendidas al mismo tiempo. A un costo de 7gp cada una, adquirirlas te tomaría `11 semanas` de trabajo. 77 días en los que todas tus ganancias se destinarían a comprar lámparas. Y recordemos que esas **11 lámparas, no producen ni siquiera la misma iluminación que un solo foco de 100 incandescente de 100 watts.**
+
+$$
+{1000 {lumen \over hora} \over 97.5 {lampara\ lumen \over hora}} = 10.25641026\ lampara
+$$
+
+Por esta razón podemos justificar la existencia de velas como método de iluminación dentro del universo de D&D. Aunque el aceite es bastante más eficiente que las velas, la "plataforma" para utilizarlo es extremadamente cara.
+
 
 ## El costo de tu estilo de vida en Dungeons & Dragons
 
@@ -92,92 +153,7 @@ _Dungeon Master's Guide 3.5e p130_
 
 En el DMG los costos se presentan mensualmente. Los convertí en costos diarios para hacerlo más manejable. Para los siguientes cálculos voy a tomar el costo del estilo "Common", precisamente porque es el común.
 
-Considerando que ganas `15sp` diarios podrías comprar 150 velas cada día si dedicaras todo tu salario a hacerlo. 150 velas, cada una emitiendo 13 lúmenes y durando una hora nos da un total de `1950 lumen/hora`. También podrías comprar 15 pintas de aceite, que le darían 6 horas de luz cada una. O podrías repartirlas en noventa diferentes lámparas, para iluminar exactamente una hora y obtener `8775 lumen/hora` de iluminación.
 
-Entonces, Un día de trabajo que mantiene un estilo de vida "Commonn" te da un total de:
-- `8775 lumen/hora` si iluminaras con lámparas
-- `1950 lumen/hora` si iluminas con con velas.
-
-Pero comprar noventa Hooded Lamps, a 7gp cada una, te tomaría $$ (90 * 70 sp) \div 15 sp/dia = 420 dias $$ de trabajo sin hacer otra cosa que comprar lámparas, no lo más práctico. Quiero poner en perspectiva que 90 lámparas iluminan lo mismo que 7.3 focos incandescentes de 100w.
-
-
-{% raw %}
-$$ 150 * 13 = 1950 {{lumen}\over{hora}} $$
-{% endraw %}
-
-De la tabla "Labor Price of Light", de Nordhaus, vemos que si fuéramos a obtener `1,000 lumen/hora` utilizando velas en los 1800~1830 tomaría `6 hrs ~ 10.6 hrs` de trabajo.
-
-
-## Puedes practicar una profesión
-
-En el PHB (3.5e p80)
-
-Mitad de tu profession check de gp por semana
-
-Check = 1d20 + Wis modifier + skill rank
-      = 1d20 + 1 + 4
-      = [15,16]
-
-gp per week = [7,8]
-
-12 and 13
-
-
-Ivan Reyes, [26 May 2020 23:54:30]:
-Las lámparas en D&D son como pendejamente eficientes
-
-1,000 lumen/hora de una velas en D&D te toma 3~5.2 horas de trabajo.
-
-Con un día de ejercer tu profesión puedes comprar hasta 1950 lumen/hora.
-
-En la realidad comprar 1,950 lumen/hora de velas en 1830 te hubiera tomado de 6~10.6 hrs de trabajo
-Los números coinciden con la realidad más o menos
-
-De una lámpara puedes comprar 8,775 lumen hora con u ndía de trabajo en D&D
-
-Para comprar eso en la vida real te hubiera tomado 26.1 horas de trabajo
-
-Pero ahí es dónde entra la mágia, chuchu
-
-Si es tan pendejamente eficiente tiene que ser porque hay un modo técnológico más avanzado de extracció nde aceites dentro de D&D
-
-o un aceite que sea particularmente luminoso al momento de quemarse
-
-
-
-
-| Device          | Stage of Technology               | Approximate Date   | Labor Price (hours of work per 1,000 lumen-hours) |
-|-----------------|-----------------------------------|--------------------|---------------------------------------------------|
-| Open Fire       | Wood                              | From earliest time | 58.000000                                         |
-| Neolithic lamp  | Animal or vegetable fat           | 38,000-9,000 BC    | 50.000000                                         |
-| Babylonian lamp | Sesame oil                        | 1750 BC            | 41.500000                                         |
-| Candle          | Tallow                            | 1800               | 5.370000                                          |
-|                 | Sperm                             | 1800               | 12.210000                                         |
-|                 | Tallow                            | 1830               | 3.000000                                          |
-|                 | Sperm                             | 1830               | 6.910000                                          |
-| Lamp            | Whale oil                         | 1815-1845          | 4.900000                                          |
-|                 | Silliman's experiment: Sperm oil  | 1855               | 16.030000                                         |
-|                 | Silliman's experiment: Other oils | 1855               | 5.940000                                          |
-| Town gas        | Early lamp                        | 1827               | 7.398000                                          |
-|                 | Silliman's experiment             | 1855               | 2.978000                                          |
-|                 | Early lamp                        | 1875-1885          | 0.326000                                          |
-|                 | Welsbach mantle                   | 1885-1895          | 0.083000                                          |
-|                 | Welsbach mantle                   | 1916               | 0.012000                                          |
-| Kerosene lamp   | Silliman's experiment             | 1855               | 0.230600                                          |
-|                 | 19th centy                        | 1875-1885          | 0.225300                                          |
-|                 | Coleman lantern                   | 1993               | 0.009800                                          |
-| Electric lamp   | Edison carbon lamp                | 1883               | 0.750239                                          |
-|                 | Carbon filament                   | 1900               | 0.220431                                          |
-|                 | Carbon filament                   | 1910               | 0.092096                                          |
-|                 | Filament lamp                     | 1920               | 0.013538                                          |
-|                 | Filament lamp                     | 1930               | 0.010396                                          |
-|                 | Filament lamp                     | 1940               | 0.005490                                          |
-|                 | Filament lamp                     | 1950               | 0.001883                                          |
-|                 | Filament lamp                     | 1960               | 0.001016                                          |
-|                 | Filament lamp                     | 1970               | 0.000551                                          |
-|                 | Filament lamp                     | 1980               | 0.000678                                          |
-|                 | Filament lamp                     | 1990               | 0.000605                                          |
-|                 | Compact fluorescent               | 1992               | 0.000119                                          |
 
 
 | Lifestyle 5e | Cost 5e | Lifestyle 3.5e | Cost 3.5e |
@@ -195,28 +171,8 @@ En 5e el manual dice que si practicas una profesión te alcanza para mantener un
 
 Me di cuenta de que no había leido eso explicitamente en 3.5e y me puse a buscarlo.
 
-———
-
-En 3.5 hay un skill que se llama profession. Haces un skill check y ganas la mitad de lo que hayas sacado para esa semana.
-
-Entonces, tenemos estos supuestos.
-
-- gp/week = (1d20 + ability modifier + ranks)/2
-
-- avarage ability modifier = 1
-
-- ranks to profession = 4 (porque vamos a asumir que quieres ser bueno en tu profesión y 4 es el máximo)
 
 - “common” lifestyle: 10.5 gp / week.  You live in inns and eat tavern meals every day, a practice that quickly grows to be moderately expen- sive. This level of upkeep assumes the occasional night drinking in the tavern or a nice glass of wine with dinner.
-
-
-——
-
-Luego
-
-gp/week = (1d20 + 1 + 4)/2
-
-gp / week = [7,8]
 
 
 El costo de mantener un estilo de vida “common” es 10.5 gp / week
