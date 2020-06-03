@@ -132,29 +132,80 @@ $$
 {1000 {lumen \over hora} \over 97.5 {lampara\ lumen \over hora}} = 10.25641026\ lampara
 $$
 
-Por esta razón podemos justificar la existencia de velas como método de iluminación dentro del universo de D&D. Aunque el aceite es bastante más eficiente que las velas, la "plataforma" para utilizarlo es extremadamente cara.
+Por esta razón se justifica la existencia de velas como método de iluminación dentro del universo de D&D. Aunque el aceite es bastante más eficiente que las velas, la "plataforma" para utilizarlo es extremadamente cara.
 
 
 ## El costo de tu estilo de vida en Dungeons & Dragons
 
-El DMG (3.5e p130) enlista el costo que le toma a un adventurer mantener su estilo de vida bajo la regla _Upkeep._ Creo que es razonable decir que algunos de estos estilos de vida incluyen, al menos, una hora de iluminación al día.
+El DMG (3.5e p130) enlista el costo que le toma a un adventurer mantener diferentes estilos de vida bajo la regla _Upkeep._ Es razonable decir que algunos de estos estilos de vida incluyen, al menos, una hora de iluminación al día.
 
 > The upkeep can be assumed to take into consideration every expense except the cost of specific adventuring equipment—even taxes. Ultimately, each player should choose the level of upkeep she’s willing to pay.
 
-_Dungeon Master's Guide 3.5e p130_
+| Lifestyle 3.5e  | Costo Mensual (30 Días) | Costo Semanal |
+|-----------------|-------------------------|---------------|
+| Self-Sufficient |   2 gp                  |   0.46 gp     |
+| Meager          |   5 gp                  |   1.2 gp      |
+| Poor            |  12 gp                  |   2.8 gp      |
+| Common          |  45 gp                  |  10.5 gp      |
+| Good            | 100 gp                  |  23.3 gp      |
+| Extravagant     | 200 gp                  |  46.7 gp      |
 
-| Lifestyle 3.5e | Cost 3.5e   |
-|----------------|-------------|
-| Meager         |     `16 cp` |
-| Poor           |      `4 sp` |
-| Common         |     `15 sp` |
-| Good           |     `33 sp` |
-| Extravagant    |     `66 sp` |
+De esta regla me interesan dos cosas:
 
-En el DMG los costos se presentan mensualmente. Los convertí en costos diarios para hacerlo más manejable. Para los siguientes cálculos voy a tomar el costo del estilo "Common", precisamente porque es el común.
+1. El manual dice que un trabajador común gana `3 gp` por mes
+
+    > Common laborers earn about 3 gp per month, so they usually have to be self-sufficient just to survive.
+
+    Esto quiere decir que el trabajador promedio en Forgotten Realms necesita cazar su comida regularmente, seguramente compartir su vivienda con muchos miembros familiares. Eso en el mejor de los casos; ya que incluso en el estilo de vida _Meager_ "ocasionalmente duermes en las calles". D&D es despiadado.
+
+    > A meager upkeep assumes that you eat little and sleep in flophouses and occasionally in the street or in the wild.
+
+2. Esta tabla explica por qué los personajes arriesgan sus vidas en la aventura.
+
+    ¡SI! Esta tabla explica por qué la gente sale a que la apuñalen los goblins y a morir digerida por un gelatinous cube en algún calabozo olvidado. Cómo dijimos, en el mejor de los casos en el nivel 1 un adventurer ganaría `9 gp` a la semana. Esto es un total de `38.5 gp` al mes
+
+    Esto no es suficiente para llevar un estilo de vida Common. De la definición del manual inferimos que common se refiere a "common" para un adventurer o, quizás, un turista de la vida real.
+
+    > Common: You live in inns and eat tavern meals every day, a practice that quickly grows to be moderately expensive. This level of upkeep assumes the occasional night drinking in the tavern or a nice glass of wine with dinner.
+
+    Una persona en Forgotten Realms no puede mantener un estilo de vida siquiera "pobre" y en el pueblo, o incluso en la ciudad, las oportunidades de _subir de nivel_ y con ello subir tu rank del _**Profession Skill**_ es bastante baja. El modo más rápido de mejorar tu estilo de vida, ganando dinero extra o ganando suficiente experiencia de vida para ganar ranks, es salir a enfrentar la muerte.
+
+    En el DMG (3.5e Table 3–3 p51) estan las reglas para diseñar el tesoro que una party de 4 personajes adquiere por completar encuentro. **Para una party LVL 1:** se espera que por encuentro ganen `300 gp`, es decir, `75 gp` para cada quien, si decides repartirlo equitativamente. En un solo encuentro, que te puede tomar abandonar el pueblo un solo día, puedes cubrir tus gastos de `1.6 meses` y vivir cómodamente con la ocasional noche de tragos en la ciudad.
+
+    Las siguientes tablas funcionan para crear un tesoro aleatorio, y son un desglose de la Tabla 3-5 del DMG. Para LVL 1, un tesoro generado aleatoriamente, en promedio, te da `270 gp` para una party de 4. Es ligeramente menor que lo indicado en la Tabla 3-3, pero el manual lo compensa diciendo que para algunos encuentros des el doble y para algunos la mitad.
+
+    La columna `Tesoro promedio` es `Probabilidad de la tirada * Tesoro` y la suma de todos estos promedios es `270 gp`
+
+    | d%     | Probabilidad de la tirada | Tesoro (Coins)        | Tesoro promedio |
+    |--------|---------------------------|-----------------------|-----------------|
+    | 1–14   | 14%                       | –                     | –               |
+    | 15–29  | 15%                       | 1d6 x 1000 cp( 35gp ) | 5.25 gp         |
+    | 30–52  | 23%                       | 1d8 x 100 sp( 45gp )  | 10.35 gp        |
+    | 53–95  | 43%                       | 2d8 x 10gp( 90gp )    | 38.7 gp         |
+    | 96–100 | 5%                        | 1d4 x 10pp( 250gp )   | 12.5 gp         |
+
+    | d%     | Probabilidad de la tirada | Tesoro (Goods)        | Tesoro promedio |
+    |--------|---------------------------|-----------------------|-----------------|
+    | 1–90   | 90%                       | –                     | –               |
+    | 91–95  | 5%                        | 1 gem( 275gp )        | 13.75 gp        |
+    | 96–100 | 5%                        | 1 art( 1100gp )       | 55 gp           |
+
+    | d%     | Probabilidad de la tirada | Tesoro (Items)        | Tesoro promedio |
+    |--------|---------------------------|-----------------------|-----------------|
+    | 1–71   | 71%                       | –                     | –               |
+    | 72–95  | 24%                       | 1 mundane( 350gp )    | 84 gp           |
+    | 96–100 | 5%                        | 1 minor( 1000gp )     | 50 gp           |
+
+    _Creado apartir de Table 3–5: Treasure y Table 3–4: Average Treasure Results del DMG 3.5e p51_
+
+    Esta es la razón por la cual tiene sentido ser un adventurer, un solo día de aventuras efectivo te da 1.6 veces los recursos que trabajar un mes entero. ¡Claro que arriesgar tu vida tiene sentido en D&D! Es, probablemente, no solo la forma más efectiva de mejorar tu estilo de vida, seguramente es la única forma. Ejercer tu profesión an el máximo de tus habilidades no tiene sentido económico.  
+
+## Conclusiones
 
 
+<!--
 
+## Notas adicionales
 
 | Lifestyle 5e | Cost 5e | Lifestyle 3.5e | Cost 3.5e |
 |--------------|---------|----------------|-----------|
@@ -197,7 +248,21 @@ Y así, finalmente, esta explicado por qué chingados la gente sale a la aventur
 > The upkeep can be assumed to take into consideration every expense except the cost of specific adventuring equipment—even taxes. Ultimately, each player should choose the level of upkeep she’s willing to pay.
 
 even taxes y mi alma descansó un chingo
+
 ---
+
+BTW, también dice explicitamente que subir de nivel toma entre 13 y 14 encuentros de tu propio nivel. Subir de cualquier nivel a cualquier otro nivel.
+
+El juego esta diseñado para que subir del nivel 1 al nivel 2 te tome 14 encuentros
+
+Lo cual suena a peeeeeesimo game design, y me hace dudar un chingo por qué todavía hay gente que mama 3.5e
+
+En 5e si toma 12~13 encuentros subir de nivel…. a partir del nivel 10
+
+Hemos visto que 1 mounstruo CR 1, para un adventurer nivel 1 le da 1.5 veces la XP que necesita para subir de nivel. Considerando igual un party de 4 y un solo mounstro CR 1 por encuentro. A lo más te toma 2.666666667 encuentros para que tooooooda la party suba a nivel 2
+
+-->
+
 
 ¡Gracias por leer este deep dive! Si no leiste la primera parte de mi análisis de la Bag of Holding puedes hacerlo [aquí]({% post_url 2020-04-25-bag-of-holding %}).
 
