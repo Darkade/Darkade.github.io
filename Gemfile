@@ -5,6 +5,7 @@ gem 'darkade.github.io-theme', '~> 1.0', '>= 1.1.1'
 
 group :jekyll_plugins do
   gem 'jemoji', '~> 0.12.0'
+  gem 'jekyll-target-blank'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

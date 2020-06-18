@@ -56,6 +56,9 @@ GEM
       jekyll (>= 3.3, < 5.0)
     jekyll-sitemap (1.4.0)
       jekyll (>= 3.7, < 5.0)
+    jekyll-target-blank (2.0.0)
+      jekyll (>= 3.0, < 5.0)
+      nokogiri (~> 1.10)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     jemoji (0.12.0)
@@ -100,6 +103,7 @@ PLATFORMS
 DEPENDENCIES
   darkade.github.io-theme (~> 1.0, >= 1.1.1)
   jekyll (~> 4.0)
+  jekyll-target-blank
   jemoji (~> 0.12.0)
   tzinfo-data
 

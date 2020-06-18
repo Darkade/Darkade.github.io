@@ -20,13 +20,13 @@ He estado leyendo detenidamente el Player's Handbook (PHB) y Dungeon Master's Gu
 3. [El costo de tu estilo de vida][LifestyleExpenses]
 4. Puedes ser dueño de un negocio (DMG 5e Ch6)
 
-¿Qué tienen estas tres cosas de interesante? Que podemos estimar cuanto tiempo le toma a alguien ganar suficiente dinero para pagar por una vela!!!!!
+¿Qué tienen estas tres cosas de interesante? ¡Qué podemos estimar cuanto tiempo le toma a alguien ganar suficiente dinero para pagar por una vela!!!!!
 
 ![Amazing][amazing]
 
-_**No. En verdad eso es sorprendente:**_ con estos datos podemos saber la productividad de una persona en los Forgotten Realms. Podemos calcular el producto interno bruto de una ciudad dentro del mundo de Dungeons & Dragons. Y podemos extrapolar cosas cómo el efecto que tiene la magia en la economía.
+_**No. En verdad eso es sorprendente:**_ con estos datos podemos saber la productividad de una persona en los Forgotten Realms. Podemos calcular el producto interno bruto de una ciudad dentro del mundo de Dungeons & Dragons. Podemos extrapolar cosas cómo el efecto que tiene la magia en la economía. Y podemos hacer una comparación justa de cuanto "dinero real" están ganando y gastando los personajes.
 
-Hoy vamos a empezar por lo primero ¿Qué tanto trabajo tiene que trabajar una persona para alcanzar un estilo de vida? ¿Qué tan productivo es tu personaje en D&D? Para descifrarlo necesitamos hablar de William Nordhaus: premio Nobel de economía. _**Si, otra vez en serio.**_
+Hoy vamos a empezar por lo primero ¿Qué tanto tiene que trabajar una persona para alcanzar un estilo de vida? ¿Qué tan productivo es tu personaje en D&D? Para descifrarlo necesitamos hablar de William Nordhaus: premio Nobel de economía. _**Si. En serio.**_
 
 ## William Nordhaus
 
@@ -35,17 +35,17 @@ Hoy vamos a empezar por lo primero ¿Qué tanto trabajo tiene que trabajar una p
 ![William Nordhaus][nordhouse_pic]
 _[William Nordhaus]_
 
-Desde luego estoy exagerando. Nordhaus, si pasó meses midiendo la luz que emite una vela en su cocina. Pero su objetivo fue, en términos muy sencillos: _Comparar cuanto tiempo de trabajo le toma a una persona generar la riqueza necesaria para iluminar el equivalente a "una vela"._ Publicó lo que encontró en su paper ["Do real output and real wage measures capture reality? The History of Light Suggests Not."][chicagopress].
+Desde luego estoy exagerando. Nordhaus, no solo usó velas, usó lámparas de aceite, velas de diferentes materiales y papers de principios del siglo XX, para determinar cuanta luz emite cada una de esas cosas. Su objetivo, en términos simples era _comparar cuanto tiempo de trabajo le toma a una persona generar la riqueza necesaria para iluminar el equivalente a "una vela"._ Publicó sus hallazgos en 1996 bajo el título ["Do real output and real wage measures capture reality? The History of Light Suggests Not"][chicagopress].
 
 ![Do real output and real wage measures capture reality? The History of Light Suggests Not. University of Chicago Press][paper]
 _Y es mi mejor lectura en lo que va del año._
 
 
-Hoy la iluminación, para la mayoría de las personas es algo que damos por hecho, aunque hay un costo asociado con la luz eléctrica difícilmente vas a regresar a tu casa a apagar la lámpara si no estas seguro de haberla apagado, porque el costo es marginal. Incluso la lámpara en tu celular ilumina docenas de veces más que una vela. Pero en el pasado iluminar el equivalente a una vela necesitaba una vela.
+Hoy la iluminación, para la mayoría de las personas es algo que damos por hecho, aunque hay un costo asociado con la luz eléctrica difícilmente vas a regresar a tu casa a apagar la lámpara si no estas seguro de haberla apagado, porque el costo es marginal. Incluso la lámpara en tu celular ilumina docenas de veces más que una vela. Pero en el pasado iluminar el equivalente a una vela... necesitaba una vela.
 
-El proceso de hacer una vela necesitaba criar una vaca, conseguir el alimento para hacer que la vaca creciera, matar a la vaca, juntar la grasa de la vaca, cocinar la grasa, y convertir esa grasa en velas. En algunos sentidos tomaba años hacer una vela y una seguramente no iba a poder iluminar una habitación pequeña ni siquiera una noche entera.
+El proceso para fabricar una vela requería una vaca, conseguir el alimento para hacer que la vaca creciera, matar a la vaca, juntar la grasa de la vaca, cocinar la grasa, y convertir esa grasa en velas. En algunos sentidos tomaba años hacer una vela y una seguramente no iba a poder iluminar una habitación pequeña ni siquiera una noche entera.
 
-Según lo que encontró Nordhaus, en la antigua Babilonia el salario de un día entero solo hubiera alcanzado para iluminar una habitación unos diez minutos; esto es que una persona hubiera dedicado todo su salario solo para iluminación, no alimentos, no vivienda ninguna otra cosa. Para los 90's, cuando escribió su paper, en algunos lugares, un día de trabajo podría haber iluminado una habitación durante **veinte mil horas.**
+Según lo que encontró Nordhaus, en la antigua Babilonia el salario de un día entero solo hubiera alcanzado para iluminar una habitación unos diez minutos; para ser claros esto es una persona destinando todo su salario solo para iluminación, sin alimentos, o vivienda, o ninguna otra cosa. Para los 90's, en algunos lugares, un día de trabajo podría haber iluminado una habitación durante **veinte mil horas** usando focos incandescentes.
 
 **Estos datos y comparaciones son importantes porque la iluminación es una necesidad universal.** Para poder comparar la productividad de D&D con la productividad en el mundo real necesitamos comparar cosas que necesitemos en la misma medida y el esfuerzo que toma en cada universo obtenerlas.
 
@@ -53,12 +53,12 @@ Entonces ¿cuanto necesitas trabajar en Dungeons & Dragons para iluminar con una
 
 ## 1. El costo de una vela en Dungeons & Dragons
 
-_A partir de este punto, la información oficial de D&D ha sido tomada de manuales de 3.5e para consistencia._
+_A partir de este punto, la información oficial de D&D ha sido tomada solo de manuales de 3.5e para asegurar consistencia._
 
 ![Dungeon Master's Guide II 3.5e][dmgiicover]
 _Dungeon Master's Guide II 3.5e_
 
-Una vela, en D&D, cuesta `1 Copper Piece (cp)`, que básicamente es un un centavo de `Gold Piece (gp)`. En el PHB (3.5e p165) se detallan muchas otras formas de iluminación, incluidos _spells,_ pero Excepto por Continual Flame todos duran menos que el "fuego natural", y de cualquier forma hacer una Continual Flame toma `50 gp` de polvo de ruby; nada barato.
+Una vela, en D&D, cuesta `1 Copper Piece (cp)`, que es un un centavo de `Gold Piece (gp)`. En el PHB (3.5e p165) se detallan muchas otras formas de iluminación, incluidos _spells,_ pero excepto por [Continual Flame] todos duran menos que el "fuego natural", y de cualquier forma hacer una Continual Flame toma `50 gp` de polvo de ruby; nada barato.
 
 Otros métodos de iluminación y sus combustibles son:
 
@@ -73,7 +73,7 @@ Otros métodos de iluminación y sus combustibles son:
 
 _**Esta es una tabla generada a partir de tablas en las páginas la 128 y 165 del PHB 3.5e**_
 
-Entonces, una vela puede iluminar "pobremente" un radio de ~`1.5m` y una lámpara de aceite ilumina un radio de `4.6m`. Además de que una pinta de aceite podría servirnos para encender una lámpara seis horas, pero también podríamos usarlo para seis lámparas durante una hora, por ejemplo.
+Entonces, una vela puede iluminar "pobremente" un radio de ~`1.5m` y una lámpara de aceite ilumina un radio de `4.6m`. Además de que una pinta de aceite podría servirnos para encender una lámpara seis horas, pero también podríamos usarlo para seis lámparas durante una hora.
 
 Vamos a comparar las lámparas y las velas entre la vida real y el universo de D&D. Para hacerlo necesitamos tres definiciones formales sobre la luz:
 
@@ -89,9 +89,9 @@ Nordhaus utiliza estos conceptos para comparar diferentes fuentes de iluminació
 - Un foco de `100w` emite ~`1,200 lumens`
 - Un foco flourecente de `18w` emite `1,290 lumens`
 - La luz de día da `10,000 lux`
-- El nivel de luminicencia en una casa normal es ~`100 lux`
+- El nivel de luminicencia en una casa normal es ~`100 lux`, es decir `100 lumen / m^2`
 
-El punto de Nordhaus es determinar cuanto trabajo tendría que realizar una persona, en diferentes momentos de la historia, para poder pagar por `1,000 lumen/hora`. Nosotrs vamos a hacer lo mismo para diferentes situaciones dentro de D&D.
+En concreto Nordhaus va a determinar cuanto trabajo tendría que realizar una persona, en diferentes momentos de la historia, para poder pagar por `1,000 lumen/hora`. Nosotros vamos a hacer lo mismo para diferentes situaciones dentro de D&D.
 
 
 ## 2. Puedes practicar una profesión
@@ -99,10 +99,7 @@ El punto de Nordhaus es determinar cuanto trabajo tendría que realizar una pers
 ![Pesca mortal en los Forgotten Realms][fisher]
 _Pesca mortal en los Forgotten Realms_
 
-En el PHB (3.5e p80) se especifica que para practicar una profesión tienes que hacer un _check_ de tu _Profession Skill,_ que  esta asociado con tu _Wisdom_. En la misma regla vemos que un personaje ganaría la mitad del resultado del check en oro para esa semana.
-
-> You can practice your trade and make a decent living, earning about half your Profession check result in gold pieces per week of dedicated work.
-
+En el PHB (3.5e p80) se especifica que para practicar una profesión tienes que hacer un _check_ de tu _Profession Skill,_ que  esta asociado con tu _Wisdom_, y ganarías la mitad del resultado del check en oro para esa semana.
 
 Supongamos un personaje `LVL 1` con los valores promedio para cualquier estadística. Esto nos daría `Wisdom 12~13` y un `stat modifier +1`. En 3.5e los skills tienen _ranks_ a modo de modificadores: asumimos que se agregan `4 ranks` a `Wis (Profession)` al momento de crear a nuestro personaje. No podemos agregar más porque el rank máximo que puedes tener es `LVL + 3`.
 
@@ -148,22 +145,20 @@ Para nuestro personaje, ganando 7 gp a la semana, comprar `1,000 lumen/hora` de 
 
 El tiempo de trabajo necesario para adquirir velas en D&D es bastante parecido al mundo real. Entonces podemos inferir que la tecnología de velas, en Forgotten Realms, es bastante parecida a la nuestra.
 
-Por otro lado, la tecnología de aceite debería ser bastante más avanzada, al menos comparada con los 1800s. Esto puede ser porque el método de extracción es mejor, o porque el aceite es de mejor calidad que los disponibles en el siglo XIX. Aunque hay que considerar que el costo de las lámparas es lo que hace prohibitivo iluminar con esta tecnología.
-
 ![Bullseyelamp][bullseyelamp]
 _Photo by [Vladimir Fedotov] on [Unsplash](https://unsplash.com/@fedotov_vs)_
 
+Por otro lado, la tecnología de aceite debería ser bastante más avanzada, al menos comparada con los 1800s. Esto puede ser porque el método de extracción es mejor, o porque el aceite es de mejor calidad que los disponibles en el siglo XIX. Aunque hay que considerar que el costo de las lámparas es lo que hace prohibitivo iluminar con esta tecnología.
+
 Para obtener `1,000 lumen/hora` necesitas `11 lámparas` prendidas al mismo tiempo. A un costo de `7 gp` cada una, adquirirlas te tomaría `11 semanas` de trabajo. 77 días en los que todas tus ganancias se destinarían únicamente a comprar lámparas.
+
+Esto justifica la existencia de velas como método de iluminación dentro de D&D: aunque el aceite es más eficiente, la "plataforma" para utilizarlo es extremadamente cara.
 
 $$
 {1000 {lumen \over hora} \over 97.5 {lampara\ lumen \over hora}} = 10.25641026\ lampara
 $$
 
-**11 lámparas, no producen ni siquiera la misma iluminación que un solo foco incandescente de 100 watts.**
-
-
-Esto justifica la existencia de velas como método de iluminación dentro de D&D: aunque el aceite es más eficiente, la "plataforma" para utilizarlo es extremadamente cara.
-
+**Y hay que recordar que 11 lámparas, de cualquier forma no producen siquiera la misma iluminación que un solo foco incandescente de 100 watts.**
 
 ## El costo de tu estilo de vida en Dungeons & Dragons
 
@@ -198,24 +193,22 @@ De esta regla me interesan dos cosas:
     { 9{gp \over week} \over  7 {days \over week} } \times 30 {days \over month} \approx 38.5 {gp \over month}
     $$
 
-    Esto no es suficiente para llevar un estilo de vida Common, que cuesta `45 gp`. Por la definición del manual common no se refiere a un estilo de vida _común,_ de hecho es más cercano a un turista de la vida real.
+    Esto no es suficiente para llevar un estilo de vida Common, que cuesta `45 gp`.
 
-    > You live in inns and eat tavern meals every day, a practice that quickly grows to be moderately expensive. This level of upkeep assumes the occasional night drinking in the tavern or a nice glass of wine with dinner.
-
-    Para una persona en Forgotten Realms incluso un estilo de vida pobre es dificil de mantener. Subir ranks en tu _**Profession Skill**_ es bastante dificil viviendo en el pueblo, debido a que las oportunidades de _subir de nivel_ son bastante escasas. El modo más rápido de mejorar tu estilo de vida, ganando dinero extra o ganando suficiente experiencia de vida para subir ranks, es salir a enfrentar la muerte.
+    Para la persona promedio en Forgotten Realms incluso un estilo de vida pobre es dificil de mantener. Subir ranks en tu _**Profession Skill**_ es bastante dificil viviendo en el pueblo, debido a que las oportunidades de _subir de nivel_ son bastante escasas. El modo más rápido de mejorar tu estilo de vida, ganando dinero extra o ganando suficiente experiencia de vida para subir ranks, es salir a enfrentar la muerte.
 
 ### Las recompensas de enfrentar a la muerte
 
 ![El tesoro aguarda][treasure]
 _Photo by [Roman Kraft] on Unsplash_
 
-En el DMG (3.5e Table 3–3 p51) estan las reglas para diseñar el tesoro que una party de 4 personajes adquiere por completar un encuentro. **Para una party LVL 1:** se espera que por encuentro ganen `300 gp`, es decir, `75 gp` para cada quien. En un solo encuentro puedes ganar suficiente dinero cubrir tus gastos de `1.9 meses` manteniendo el estilo de vida _**common.**_ Tener un encuentro te puede tomar solo un día, un día de trabajo cada dos meses.
+En el DMG (3.5e Table 3–3 p51) estan las reglas para diseñar el tesoro que una party de 4 personajes adquiere por completar un encuentro. **Para una party LVL 1:** se espera que por encuentro ganen `300 gp`, es decir, `75 gp` para cada quien. En un solo encuentro puedes ganar suficiente dinero cubrir tus gastos de `1.6 meses` manteniendo el estilo de vida _**common.**_ Tener un encuentro te puede tomar solo un día, un día de trabajo cada dos meses.
 
 $$
-{ 75 gp \over 38.5 gp } \approx 1.9
+{ 75 gp \over 45 gp } \approx 1.6
 $$
 
-Esta es la razón por la cual tiene sentido ser un adventurer, un solo día de aventuras efectivo te da 1.9 veces los recursos que trabajar un mes entero. **¡Claro que arriesgar tu vida tiene sentido viviendo en Forgotten Realms!** Ser un adventurer no solo es la forma más efectiva de mejorar tu estilo de vida, seguramente es la única forma. Ejercer tu profesión an el máximo de tus habilidades no tiene sentido económico.  
+Esta es la razón por la cual tiene sentido ser un adventurer, un solo día de aventuras efectivo te da 1.6 veces los recursos que trabajar un mes entero. **¡Claro que arriesgar tu vida tiene sentido viviendo en Forgotten Realms!** Ser un adventurer no solo es la forma más efectiva de mejorar tu estilo de vida, seguramente es la única forma. Ejercer tu profesión an el máximo de tus habilidades no tiene sentido económico.  
 
 
 
@@ -246,21 +239,21 @@ Desde luego no puedes solo salir a la aventura 14 minutos y regresar, pero este 
 ![In a hole in the ground there lived an inkeeper][tavern]
 _Photo by [Tj Holowaychuk] on [Unsplash](https://unsplash.com/photos/rDyZ8t-MYxU)_
 
-El check de Profession solo incluye el dinero que ganas, individualmente, trabajando tu profesión; en otras palabras, es tu salario. Pero en D&D puedes usar esa profesión y años de entrenamiento para ser no solo un empleado si no dueño de tu propio negocio.... Aunque las reglas no son nada claras y parece ser que siempre vas a terminar perdiendo dinero. ~~¡Cómo en la vida real!~~
+El check de Profession solo incluye el dinero que ganas, individualmente, trabajando tu profesión; en otras palabras, es tu salario. Pero en D&D puedes usar esa profesión y años de entrenamiento para dejar de ser un empleado y convertirte en dueño de tu propio negocio.... Aunque las reglas no son nada claras y parece ser que siempre vas a terminar perdiendo dinero. ~~¡Cómo en la vida real!~~
 
-Al igual que el check de profesión, creo que esto refuerza las razones para ir a la aventura. Incluso al tener un negocio la probabilidad de éxito es marginal. Si quieres oro, tienes que ir a buscar oro en el calabozo.
+Al igual que el check de Profession, creo que esto refuerza las razones para ir a la aventura. Incluso al tener un negocio la probabilidad de éxito es marginal. Si quieres oro, tienes que ir a buscar oro en el calabozo.
 
-Si aun así quisieras ser un emprendedor puedes intentar en más de una docena de profesiones (PHB 3.5e p80). Para nuestros ejemplos voy a utilizar la profesión icónica de D&D: tabernero. Para abrir una taverna necesitas, al menos:
+Sí aun así quisieras ser un emprendedor puedes intentarlo en más de una docena de profesiones (PHB 3.5e p80). Para nuestros ejemplos voy a utilizar la profesión icónica de D&D: tabernero. Para abrir una taverna necesitas, al menos:
 
 - Un edificio mediano, aproximadamente `5,000 gp`
 - Materiales e inversión inicial, aproximadamente `8,000 gp`
 - 5 empleados
 
-También necesitas tierra pero voy a ignorar esos costos porque **1.** No encontré reglas para comprar tierra. Lo cual me parece extremadamente raro, pero quizás solo no busqué bien. **2.** El razonamiento que vi en linea es que es muy poco común comprar tierra. Si alguien es dueño de la tierra es porque es parte de los beneficios de algún titulo de nobleza, si la tierra no tiene dueño... pues es tuya.
+También necesitas tierra pero voy a ignorar esos costos porque **1.** No encontré reglas para comprar tierra. Lo cual me parece extremadamente raro, pero quizás solo no busqué bien. **2.** Es poco común comprar tierra. Si alguien es dueño de la tierra es porque es parte de los beneficios de algún titulo nobiliario, si la tierra no tiene dueño... pues es tuya.
 
-Tomando en cuenta estos factores y muchos otros modificadores detallados en el [Dungeon Master's Guide II][dmgii] (DMGII Table 6–5) un adventurer hace un _Profit Check_ para calcular cuanto oro gana mensualmente el establecimiento. Aunque esto no le prohibe en sí hacer también un _Profession Check._
+Tomando en cuenta estos factores, y muchos otros modificadores detallados en el [Dungeon Master's Guide II][dmgii] (DMGII Table 6–5), un adventurer hace un _Profit Check_ para calcular las ganancias mensuales del establecimiento. Aunque esto no le prohibe hacer un _Profession Check_ también.
 
-El ejemplo del libro es un adventurer que tiene el skill _Profession (innkeeper)_ con los modificadores para su tirada:
+El ejemplo del libro es un adventurer con el skill _Profession (innkeeper)_ y estos modificadores para su tirada:
 
 | Situación                                                | Modificador |
 |----------------------------------------------------------|:-----------:|
@@ -271,7 +264,7 @@ El ejemplo del libro es un adventurer que tiene el skill _Profession (innkeeper)
 | Es un negocio riesgoso                                   | `-4`        |
 | **Modificador Total**                                    | `+3`        |
 
-Luego hacemos el check de _Profession (inkeeper)_ que para el adventurer del ejemplo del libro daría en promedio `25`. El DMGII después indica que al resultado del _Profit Check_ hay que restar `25`. Ahora, una taverna esta categorizado como un negocio riesgoso, entonces a este otro resultado hay que multiplicarlo por `50 gp`. Y esa sería nuestra ganacia mensual.
+Luego hacemos el _Profit check_ que implica hacer una tirada de _Profession (inkeeper)._ Para el adventurer del ejemplo del libro esta tirada da en promedio `25`. El DMGII después indica que al resultado hay que restar `25`. Ahora, una taverna esta categorizado como un negocio riesgoso, entonces a este otro resultado hay que multiplicarlo por `50 gp`. Y esa sería nuestra ganacia mensual.
 
 Para el ejemplo, en promedio, el negocio tiene utilidades de `0 gp` al mes. Gana dinero suficiente para subsistir pero solo eso: la taverna se va a mantener pero es imposible que crezca y en una mala tirada, podría quebrar inesperadamente.
 
@@ -279,7 +272,7 @@ $$
 (E(1d20 + 10\text{ inkeeper ranks } + 3\text{ modifier } + 2 \text{ Wis } ) - 25) \times 50gp = 0gp
 $$
 
-A esta altura el adventurer ha invertido `13,000 gp` de inversión inicial y del edificio. Trabajado de tiempo completo en la taverna. Entrenado al menos 9 niveles, porque tiene 10 ranks en su profesión. Conseguido a un socio. Se ha hecho parte del guild local... y en promedio nunca va a ganar dinero extra.
+A esta altura el adventurer ha puesto `13,000 gp` de inversión inicial y del edificio. Trabajado de tiempo completo en la taverna. Entrenado al menos 9 niveles, porque tiene 10 ranks en su profesión. Conseguido a un socio. Se ha hecho parte del guild local... y en promedio nunca va a ganar dinero extra.
 
 ![A business owner catches up on their bookkeeping][inkeeper]
 
@@ -310,20 +303,30 @@ Desde luego que la facilidades de la vida moderna nos hacen increíblemente más
 > O al menos ese es uno de los mejores modos de explicar por qué toma tan poco tiempo adquirir 1,000 lumen/hora. Es más fácil de producir, hay mayor oferta el precio es menor.
 
 **El juego esta diseñado para ir a buscar Dungeons y matar Dragons:**
-> La motivación de muchas personas para jugar Dungeons & Dragons es ir a la aventura, es ser un héroe; pero esa es tu motivación como jugador ¿Cual es la motivación de tu personaje? Resulta que si no encuentras una motivación y decides ser complaciente y quedarte en el pueblo más temprano que tarde te vas a ver en serios aprietos financieros y a esa altura tu mejor opción es ir a la aventura. Se siente que esos problemas financieros están "diseñados" dentro del juego, no es un accidente o una equivocación están ahí para hacerte salir del pueblo.
+> La motivación de muchas personas para jugar Dungeons & Dragons es ir a la aventura, es ser un héroe; pero esa es tu motivación como jugador ¿Cual es la motivación de tu personaje? Resulta que si no encuentras una motivación y decides ser complaciente y quedarte en el pueblo, más temprano que tarde te vas a ver en serios aprietos financieros. A esa altura tu mejor opción es ir y arriesgar tu vida, es tener una aventura.
+>
+> Para mi, se siente como que esos problemas financieros están "diseñados" dentro del juego, no es un accidente o una equivocación están ahí para hacerte salir del pueblo.
 
 **Las propiedades son extremadamente importantes**
 > El costo de la tierra es alto en los Forgotten Realms, no necesariamente en _Gold Pieces_ pero si en el costo personal que implican. El manual espera que seas al menos nivel 9 para juntar el oro requerido para empezar un negocio o construir algún tipo de edificiación. Pero lo gran mayoría de las personas no son adventurers, y como hemos visto es imposible empezar de cero y ganar dinero sin ser adventurer. De modo que la mayoría de los edificios y negocios provienen de tierras nobles o heredadas; esto es algo que menciona el manual en su _lore_ pero que vemos reforzado en las mecánicas.
 
 **No hay suficiente demanda para justificar crear oferta**
 
-> Otra cosa que podrían modelar estas mecánicas son los monopolios y oligopolios en las ciudades y pueblos. En poblaciones de a penas decenas de miles es difícil que exista suficiente demanda para satisfacer la existencia de más de una taberna.
+> Otra cosa que podrían modelar estas mecánicas son los monopolios y oligopolios en las ciudades y pueblos. En poblaciones de a penas decenas de miles es difícil que exista suficiente demanda para satisfacer la existencia de más de una taverna.
+
+**El estilo de vida Common realmente no es common**
+
+> Por la definición del manual common no se refiere a un estilo de vida _común,_ de hecho es más cercano a un turista de la vida real.
+>
+> _"You live in inns and eat tavern meals every day, a practice that quickly grows to be moderately expensive. This level of upkeep assumes the occasional night drinking in the tavern or a nice glass of wine with dinner."_
+>
+> Lo que me llama la atención es que antes de _Common_ esta _Poor,_ que implica vivir sin ningún tipo de comodidad. Hay un "salto" muy grande entre estos dos estilos de vida. Hay un "gap" en los estratos sociales que ocupan las personas y personajes de D&D. ~~Otra vez ¡Cómo en la vida real!~~
 
 ---
 
-¡Gracias por leer este ultra deep dive! Tomó un mes de trabajar de a poco pero seguía encontrando cosas que no sabía si agregar o no. Mi plan original era pasar de esto a la demografía y el producto interno bruto de Waterdeep en el mismo post, pero hubiera sido mucho más largo de lo que ya es. Así que en algún momento espera leer ese post.
+¡Gracias por leer este ultra deep dive! Tomó un mes de trabajar de a poco pero seguía encontrando cosas que no sabía si agregar o no. Mi plan original era pasar de esto a la demografía y el producto interno bruto de Waterdeep en el mismo post, pero hubiera sido mucho más largo de lo que ya es. Así que en algún momento espera leer ese otro artículo.
 
-Si te gustó este artículo y quieres leer más análisis a fondo e inecesarios puedes leer sobre la [Bag of Holding]({% post_url 2020-04-25-bag-of-holding %}). Este post es uno de muchos que he estado escribiendo sobre juegos de rol. Si te gusta D&D puedes leer [cómo jugar D&D online]({% post_url 2020-04-05-dnd-online %}) o sobre [Ironsworn]({% post_url 2020-04-01-Ironsworn-pt1 %}), el juego que más he recomendado últimamente.
+Si te gustó lo que leeiste y quieres más análisis a fondo e innecesarios puedes leer sobre la [Bag of Holding]({% post_url 2020-04-25-bag-of-holding %}). Este post es uno de muchos que he estado escribiendo sobre juegos de rol. Si te gusta D&D puedes leer [cómo jugar D&D online]({% post_url 2020-04-05-dnd-online %}) o sobre [Ironsworn]({% post_url 2020-04-01-Ironsworn-pt1 %}), el juego que más he recomendado últimamente.
 
 _Cover photo by [Zoran Kokanovic] on Unsplash_
 
@@ -409,6 +412,7 @@ _Creado apartir de Table 3–5: Treasure y Table 3–4: Average Treasure Results
 [chicagopress]: https://press.uchicago.edu/ucp/books/book/chicago/E/bo3637763.html
 
 [d20lamp]: https://www.etsy.com/listing/549460095/d20-dungeons-and-dragons-desk-lamp
+[Continual Flame]: https://www.d20srd.org/srd/spells/continualFlame.htm
 
 [dmg]: https://www.dmsguild.com/product/149132/Dungeon-Masters-Guide-35
 [dmgii]: https://www.dmsguild.com/product/25841/Dungeon-Masters-Guide-II-35

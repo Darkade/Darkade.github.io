@@ -15,6 +15,7 @@ plugins:
   - jekyll-paginate-v2
   - jekyll-feed
   - jemoji
+  - jekyll-target-blank
 
 pagination:
   enabled: true
