@@ -30,7 +30,7 @@ Hoy vamos a empezar por lo primero ¿Qué tanto tiene que trabajar una persona p
 
 ## William Nordhaus
 
-[William Nordhaus] ganó el premio Nobel de economía en 2018 por su trabajo describiendo la relación entre la economía y el cambio climático. Su trabajo en este campo es muy importante (y polémico), pero a nosotros nos interesa un paper que escribió en 1996, dónde describe un modelo para comparar la productividad de la humanidad desde la prehistoria hasta la actualizad... [utilizando velas][planetmoney].
+[William Nordhaus] ganó el premio Nobel de economía en 2018 por su trabajo describiendo la relación entre la economía y el cambio climático. Su trabajo en este campo es muy importante (y polémico), pero a nosotros nos interesa un paper que escribió en 1996, dónde describe un modelo para comparar la productividad de la humanidad desde la prehistoria hasta la actualidad... [utilizando velas][planetmoney].
 
 ![William Nordhaus][nordhouse_pic]
 _[William Nordhaus]_
@@ -41,11 +41,11 @@ Desde luego estoy exagerando. Nordhaus, no solo usó velas, usó lámparas de ac
 _Y es mi mejor lectura en lo que va del año._
 
 
-Hoy la iluminación, para la mayoría de las personas es algo que damos por hecho, aunque hay un costo asociado con la luz eléctrica difícilmente vas a regresar a tu casa a apagar la lámpara si no estas seguro de haberla apagado, porque el costo es marginal. Incluso la lámpara en tu celular ilumina docenas de veces más que una vela. Pero en el pasado iluminar el equivalente a una vela... necesitaba una vela.
+Hoy la iluminación, para la mayoría de las personas, es algo que damos por hecho. Aunque hay un costo asociado con la luz eléctrica difícilmente vas a regresar a tu casa a apagar la lámpara si no estas seguro de haberla apagado, porque el costo es marginal. Incluso la lámpara en tu celular ilumina docenas de veces más que una vela. Pero en el pasado iluminar el equivalente a una vela... necesitaba una vela.
 
-El proceso para fabricar una vela requería una vaca, conseguir el alimento para hacer que la vaca creciera, matar a la vaca, juntar la grasa de la vaca, cocinar la grasa, y convertir esa grasa en velas. En algunos sentidos tomaba años hacer una vela y una seguramente no iba a poder iluminar una habitación pequeña ni siquiera una noche entera.
+El proceso para fabricar una vela requería una vaca, conseguir el alimento para hacer que la vaca creciera, matar a la vaca, juntar la grasa de la vaca, cocinar la grasa, y convertir esa grasa en velas. En algunos sentidos tomaba años hacer una vela y una seguramente no iba a poder iluminar una habitación pequeña ni siquiera una noche completa.
 
-Según lo que encontró Nordhaus, en la antigua Babilonia el salario de un día entero solo hubiera alcanzado para iluminar una habitación unos diez minutos; para ser claros esto es una persona destinando todo su salario solo para iluminación, sin alimentos, o vivienda, o ninguna otra cosa. Para los 90's, en algunos lugares, un día de trabajo podría haber iluminado una habitación durante **veinte mil horas** usando focos incandescentes.
+Según lo que encontró Nordhaus, en la antigua Babilonia el salario de un día entero solo hubiera alcanzado para iluminar una habitación unos diez minutos; para ser claros, esto es una persona destinando todo su salario solo para iluminación, sin alimentos, o vivienda, o ninguna otra cosa. Para los 90's, en algunos lugares, un día de trabajo podría haber iluminado una habitación durante **veinte mil horas** usando focos incandescentes.
 
 **Estos datos y comparaciones son importantes porque la iluminación es una necesidad universal.** Para poder comparar la productividad de D&D con la productividad en el mundo real necesitamos comparar cosas que necesitemos en la misma medida y el esfuerzo que toma en cada universo obtenerlas.
 
@@ -73,7 +73,7 @@ Otros métodos de iluminación y sus combustibles son:
 
 _**Esta es una tabla generada a partir de tablas en las páginas la 128 y 165 del PHB 3.5e**_
 
-Entonces, una vela puede iluminar "pobremente" un radio de ~`1.5m` y una lámpara de aceite ilumina un radio de `4.6m`. Además de que una pinta de aceite podría servirnos para encender una lámpara seis horas, pero también podríamos usarlo para seis lámparas durante una hora.
+Entonces, una vela puede iluminar "pobremente" un radio de `~1.5m` y una lámpara de aceite ilumina un radio de `4.6m`. Además de que una pinta de aceite podría servirnos para encender una lámpara seis horas, pero también podríamos usarlo para seis lámparas durante una hora.
 
 Vamos a comparar las lámparas y las velas entre la vida real y el universo de D&D. Para hacerlo necesitamos tres definiciones formales sobre la luz:
 
@@ -84,12 +84,12 @@ Vamos a comparar las lámparas y las velas entre la vida real y el universo de D
 Nordhaus utiliza estos conceptos para comparar diferentes fuentes de iluminación a lo largo de la historia. Algunos datos rápidos de su paper son que:
 
 - Una vela emite al rededor de `13 lumens`
-  * Un cuarto iluminado por dos velas tiene ~`5 lux`
+  * Un cuarto iluminado por dos velas tiene `~5 lux`
 - Una lámpara de aceite emite unos `~97.5 lumens`
-- Un foco de `100w` emite ~`1,200 lumens`
+- Un foco de `100w` emite `~1,200 lumens`
 - Un foco flourecente de `18w` emite `1,290 lumens`
 - La luz de día da `10,000 lux`
-- El nivel de luminicencia en una casa normal es ~`100 lux`, es decir `100 lumen / m^2`
+- El nivel de luminicencia en una casa normal es `~100 lux`, es decir `100 lumen / m^2`
 
 En concreto Nordhaus va a determinar cuanto trabajo tendría que realizar una persona, en diferentes momentos de la historia, para poder pagar por `1,000 lumen/hora`. Nosotros vamos a hacer lo mismo para diferentes situaciones dentro de D&D.
 
@@ -99,9 +99,11 @@ En concreto Nordhaus va a determinar cuanto trabajo tendría que realizar una pe
 ![Pesca mortal en los Forgotten Realms][fisher]
 _Pesca mortal en los Forgotten Realms_
 
-En el PHB (3.5e p80) se especifica que para practicar una profesión tienes que hacer un _check_ de tu _Profession Skill,_ que  esta asociado con tu _Wisdom_, y ganarías la mitad del resultado del check en oro para esa semana.
+En el PHB (3.5e p80) se especifica que para practicar una profesión tienes que hacer un _check_ de tu _Profession Skill,_ que  esta asociado con tu _Wisdom_, y ganarías la mitad del resultado del check `gp` para esa semana.
 
-Supongamos un personaje `LVL 1` con los valores promedio para cualquier estadística. Esto nos daría `Wisdom 12~13` y un `stat modifier +1`. En 3.5e los skills tienen _ranks_ a modo de modificadores: asumimos que se agregan `4 ranks` a `Wis (Profession)` al momento de crear a nuestro personaje. No podemos agregar más porque el rank máximo que puedes tener es `LVL + 3`.
+Supongamos un personaje `LVL 1` con los valores promedio para cualquier estadística. Esto nos daría `Wisdom 12~13` y un `stat modifier +1`.
+
+En 3.5e los skills tienen _ranks_ a modo de modificadores. Asumimos que el personaje va a tener `4 ranks` a `Wis (Profession)` al momento de creación. No podemos agregar más porque el rank máximo que puedes tener es `LVL + 3`.
 
 Siendo así, ese personaje `LVL 1` ganaría, en promedio, `7 gp` por semana. Con `Wisdom 18` ganaría `9 gp` por semana.
 
@@ -115,7 +117,7 @@ $$
 
 _En D&D las divisiones ~~casi~~ siempre se redondean hacia abajo. PHB (3.5e p304)_
 
-Entonces ¿Cuantos lumen/hora podemos comprar? Ganando 7 gp a la semana un adventurer podría comprar `1,300 lumen/hora` si comprara velas, o `5,850 lumen/hora` en aceite para lámparas.
+Entonces ¿Cuantos lumen/hora podemos comprar con un día entero de trabajo? Ganando `7 gp` a la semana un adventurer podría comprar `1,300 lumen/hora`, al día, si comprara velas, o `5,850 lumen/hora` en aceite para lámparas, con un día de trabajo.
 
 ![d20 lamp][d20lamp_thumb]
 _[d20 by Jon Imeson][d20lamp]_
@@ -150,7 +152,7 @@ _Photo by [Vladimir Fedotov] on [Unsplash](https://unsplash.com/@fedotov_vs)_
 
 Por otro lado, la tecnología de aceite debería ser bastante más avanzada, al menos comparada con los 1800s. Esto puede ser porque el método de extracción es mejor, o porque el aceite es de mejor calidad que los disponibles en el siglo XIX. Aunque hay que considerar que el costo de las lámparas es lo que hace prohibitivo iluminar con esta tecnología.
 
-Para obtener `1,000 lumen/hora` necesitas `11 lámparas` prendidas al mismo tiempo. A un costo de `7 gp` cada una, adquirirlas te tomaría `11 semanas` de trabajo. 77 días en los que todas tus ganancias se destinarían únicamente a comprar lámparas.
+Para obtener `1,000 lumen/hora` necesitas 11 lámparas prendidas al mismo tiempo. A un costo de `7 gp` cada una, adquirirlas te tomaría `11 semanas` de trabajo. 77 días en los que todas tus ganancias se destinarían únicamente a comprar lámparas.
 
 Esto justifica la existencia de velas como método de iluminación dentro de D&D: aunque el aceite es más eficiente, la "plataforma" para utilizarlo es extremadamente cara.
 
@@ -212,7 +214,7 @@ Esta es la razón por la cual tiene sentido ser un adventurer, un solo día de a
 
 
 
-En términos de lumen/hora. Un día completo de trabajo, `24 hrs` de adventuring, te compraría `7,500 velas`. Que son `97,500 lumen/hora`. Y entonces te tomaría `14 min` de trabajo adquirir `1,000 lumen/hora`.
+En términos de lumen/hora. Un día completo de trabajo, `24 hrs` de adventuring, te compraría 7,500 velas. Que son `97,500 lumen/hora`. Y entonces te tomaría `14 min` de trabajo adquirir `1,000 lumen/hora`.
 
 $$
 7,500 velas \times {13 lumen \over hr\ vela} = 97,500 {lumen \over hr}
@@ -222,7 +224,7 @@ $$
 { { 1,000 {lumen \over hr } \times 24 hr } \over {97,500  { lumen \over hr } } } \approx 0.2461538462 hr  \approx 14.7 min
 $$
 
-Si se tratara de aceite te tomaría `3 min` de trabajo: Con las mismas `75 gp` comprarías `750 pintas de aceite`, para iluminar un total de `4,500 lámparas`, que iluminan `438,750 lumen/hora`.
+Si se tratara de aceite te tomaría `3 min` de trabajo: Con las mismas `75 gp` comprarías 750 pintas de aceite, que sirven para  4,500 lámparas, que iluminan `438,750 lumen/hora`.
 
 $$
 4,500 lamparas \times {97.5 lumen \over hr\ lampara} = 438,750 {lumen \over hr}
@@ -232,7 +234,7 @@ $$
 { { 1,000 {lumen \over hr } \times 24 hr } \over {438,750  { lumen \over hr } } } \approx 0.0547008547 hr  \approx 3.2 min
 $$
 
-Desde luego no puedes solo salir a la aventura 14 minutos y regresar, pero este defecto en el análisis también esta presente en el salario por ejercer una profesión. Asumimos que para poder tener una vida como adventurer tienes que salir en periodos de al menos 24 horas, y para poder trabajar tu profesión tienes que hacerlo 8~10 hrs al día; pero los cálculos nos dan una comparativa interesante.
+Desde luego no puedes salir a la aventura solo 14 minutos y regresar, pero este defecto en el análisis también esta presente en el salario por ejercer una profesión. Asumimos que para poder tener una vida como adventurer tienes que salir en periodos de al menos 24 horas, y para poder trabajar tu profesión tienes que hacerlo 8~10 hrs al día. Aun con este _caveat_ los cálculos nos dan una comparativa interesante.
 
 ## Puedes ser dueño de un negocio
 
@@ -249,7 +251,7 @@ Sí aun así quisieras ser un emprendedor puedes intentarlo en más de una docen
 - Materiales e inversión inicial, aproximadamente `8,000 gp`
 - 5 empleados
 
-También necesitas tierra pero voy a ignorar esos costos porque **1.** No encontré reglas para comprar tierra. Lo cual me parece extremadamente raro, pero quizás solo no busqué bien. **2.** Es poco común comprar tierra. Si alguien es dueño de la tierra es porque es parte de los beneficios de algún titulo nobiliario, si la tierra no tiene dueño... pues es tuya.
+También necesitas tierra pero voy a ignorar esos costos porque **1.** No encontré reglas para comprar tierra. Lo cual me parece extremadamente raro, pero quizás solo no busqué bien. **2.** La lógica es que es poco común comprar tierra. Si alguien es dueño de la tierra es porque es parte de los beneficios de algún titulo nobiliario, si la tierra no tiene dueño... pues es tuya.
 
 Tomando en cuenta estos factores, y muchos otros modificadores detallados en el [Dungeon Master's Guide II][dmgii] (DMGII Table 6–5), un adventurer hace un _Profit Check_ para calcular las ganancias mensuales del establecimiento. Aunque esto no le prohibe hacer un _Profession Check_ también.
 
