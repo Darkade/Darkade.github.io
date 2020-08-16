@@ -22,7 +22,7 @@ La forma más fácil. Muchos juegos tienen versiones simplificadas, generalmente
 
 Por otro lado, si el juego empezó como un Kickstarter el quickstart muchas veces estará disponible para que los backers vean el concepto; solo revisa atentamente la página de la campaña. Este es el caso de [Pasión de las Pasiones](https://www.kickstarter.com/projects/bleongambetta/pasion-de-las-pasiones) y [The Veil: Inheritance](https://www.kickstarter.com/projects/samjokopublishing/the-veil-inheritance-a-biopunk-tabletop-roleplayin).
 
-Hay algunas excepciones significativas con otros nombres, por ejemplo, para D&D son [Basic Rules](https://dnd.wizards.com/articles/features/basicrules) y la versión gratuita de The Witcher se llama [Witcher: Easy Mode](https://www.drivethrurpg.com/product/281212/Witcher-Easy-Mode).
+Hay algunas excepciones significativas con otros nombres, por ejemplo, para D&D son [Basic Rules](https://dnd.wizards.com/articles/features/basicrules?affiliate_id=435266) y la versión gratuita de The Witcher se llama [Witcher: Easy Mode](https://www.drivethrurpg.com/product/281212/Witcher-Easy-Mode?affiliate_id=435266).
 
 ## Sitios oficiales & DriveThruRPG
 
@@ -35,7 +35,7 @@ Hay casos de juegos que están basados en sistemas gratuitos como [Desden Files 
 
 Algunas veces versiones anteriores estarán disponibles de forma gratuita. [Apocalypse World 2e](http://apocalypse-world.com/) tiene como descarga gratuita la primera edición en su sitio oficial, esto es relativamente común entre los juegos publicados independientemente.
 
-Finalmente siempre puedes visitar [DriveThruRPG](https://drivethrurpg.com/) y filtrar por juegos gratuitos y juegos "pay what you want"  es una buena opción, pero encontrar lo que estas buscando en el mar que es DriveThru puede ser difícil.
+Finalmente siempre puedes visitar [DriveThruRPG](https://drivethrurpg.com/?affiliate_id=435266) y filtrar por juegos gratuitos y juegos "pay what you want"  es una buena opción, pero encontrar lo que estas buscando en el mar que es DriveThru puede ser difícil.
 
 ## Las promociones
 

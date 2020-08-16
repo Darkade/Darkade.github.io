@@ -56,7 +56,7 @@ La otra parte es que muchos de estos juegos tienen movimientos que _premian_ la 
 
 - [The Veil](https://samjokopublishing.com/products/the-veil-cyberpunk-roleplaying-powered-by-the-apocalypse-digital-pdf-book) – ¡Cyberpunk! Estoy dirigiendo [una campaña]({% post_url 2020-04-14-the-veil %}) de este sistema y es mucho más de lo que esperaba.
 
-- [The Sprawl](https://www.drivethrurpg.com/product/171286/The-Sprawl) – ¡Más Cyberpunk! El creador en algún momento dijo que quería jugar Shadowrun sin que le tomara horas. Si tienes esa necesidad seguramente deberías jugar The Sprawl.
+- [The Sprawl](https://www.drivethrurpg.com/product/171286/The-Sprawl?affiliate_id=435266) – ¡Más Cyberpunk! El creador en algún momento dijo que quería jugar Shadowrun sin que le tomara horas. Si tienes esa necesidad seguramente deberías jugar The Sprawl.
 
 - [Monsterhearts 2e](https://buriedwithoutceremony.com/monsterhearts) – ¿Qué pasaría si jugaras Apocalypse World pero todos son personajes de Twilight? Obtendrías Monsterharts 1e ¿Qué pasaría si a la gente le gusta y lo diseñas en serio? Obtendrías Monsterhearts 2e. Historía real, btw.
 
@@ -72,11 +72,11 @@ Estos son juegos en los que hay "pocas" reglas. Si te interesa tener una experie
 
 - [Mothership](http://www.tuesdayknightgames.com/mothership) – Alien pero no es Alien. Super body horror. Un sistema muy claro.
 
-- [Neon City Overdrive](https://www.drivethrurpg.com/product/307995/Neon-City-Overdrive) – Cyberpunk inspirado por los juegos de rol de los early 80s, lo cual lo hace ligero en reglas, puedes crear un personaje en minutos.
+- [Neon City Overdrive](https://www.drivethrurpg.com/product/307995/Neon-City-Overdrive?affiliate_id=435266) – Cyberpunk inspirado por los juegos de rol de los early 80s, lo cual lo hace ligero en reglas, puedes crear un personaje en minutos.
 
 - [Offworlders](http://badwrong.fun/) – Astronautas muy 2001 o Interstellar. El sistema también es bastante claro y sobre todo evocativo.
 
-- [Dread](https://www.drivethrurpg.com/product/83854/Dread) – Un juego de horror al rededor de una torre de jenga. Cuando tu personaje intenta hacer algo complicado tienes que tirar de un bloque de la torre. Entonces las habilidades del personaje dependen de tus habilidades reales y entre más avanza el juego más tenso se vuelve todo.
+- [Dread](https://www.drivethrurpg.com/product/83854/Dread?affiliate_id=435266) – Un juego de horror al rededor de una torre de jenga. Cuando tu personaje intenta hacer algo complicado tienes que tirar de un bloque de la torre. Entonces las habilidades del personaje dependen de tus habilidades reales y entre más avanza el juego más tenso se vuelve todo.
 
 - [Lasers and Feelings](http://www.onesevendesign.com/laserfeelings/) – Un RPG de una sola página, es para sacarlo en cualquier momento, nunca lo he jugado pero es muy sencillo.
 
@@ -91,9 +91,9 @@ Traté de ordenarlos en el orden que siento que son populares. No se si lo logr�
 
 - [D&D 5e y 3.5e](https://dnd.wizards.com/) – Solo juega D&D si no te gusta hay otros 37 juegos para probar en esta lista. Juega 5e, si lo que te gusta es el combate táctico juega 3.5e Miles, si no es que millones de jugadores, lo recomiendan
 
-- [Werewolf: The Apocalypse](https://www.drivethrurpg.com/product/3370/Werewolf-the-Apocalypse--Free-Introductory-Kit) – Los juegos de World of Darkness estan hechos para ser muy narrativos e inspirar reacciones emocionales fuertes en los jugadores. Nunca lo he jugado, pero toma eso en cuenta.
+- [Werewolf: The Apocalypse](https://www.drivethrurpg.com/product/3370/Werewolf-the-Apocalypse--Free-Introductory-Kit?affiliate_id=435266) – Los juegos de World of Darkness estan hechos para ser muy narrativos e inspirar reacciones emocionales fuertes en los jugadores. Nunca lo he jugado, pero toma eso en cuenta.
 
-- [Shadowrun](https://www.drivethrurpg.com/product/115985/Shadowrun-Fifth-Edition-Core-Rulebook-Master-Index-Edition) – ¡Cyberpunk! ¡Pero con magia! En el año 2012 la magia regresó al mundo al mismo tiempo que las corporaciones empezaron a controlar el planeta. Es un clásico. También puedes buscar [Shadowrun Dragonfall](https://store.steampowered.com/app/300550/Shadowrun_Dragonfall__Directors_Cut/) que es una traducción fidedigna de las mecanicas del juego
+- [Shadowrun](https://www.drivethrurpg.com/product/115985/Shadowrun-Fifth-Edition-Core-Rulebook-Master-Index-Edition?affiliate_id=435266) – ¡Cyberpunk! ¡Pero con magia! En el año 2012 la magia regresó al mundo al mismo tiempo que las corporaciones empezaron a controlar el planeta. Es un clásico. También puedes buscar [Shadowrun Dragonfall](https://store.steampowered.com/app/300550/Shadowrun_Dragonfall__Directors_Cut/) que es una traducción fidedigna de las mecanicas del juego
 
 - [Cyberpunk Red](https://rtalsoriangames.com/cyberpunk/) – Es mismo universo de Cyberpunk 2077, si no puedes esperar al videojuego seguramente deberías probar esta edición.
 
@@ -107,13 +107,13 @@ Traté de ordenarlos en el orden que siento que son populares. No se si lo logr�
 
 - [Spirit of the Century](https://www.evilhat.com/home/category/spirit-of-the-century-rpg/) – ¡Indiana Jones! No oficial, pero no hay otra forma de decirlo. Esta basado en Fate
 
-- [BESM D20](https://www.drivethrurpg.com/product/850/BESM-d20-Revised-Edition) – Anime. Si te gusta el anime y quieres jugar algún arquetipo animésco juega este juego
+- [BESM D20](https://www.drivethrurpg.com/product/850/BESM-d20-Revised-Edition?affiliate_id=435266) – Anime. Si te gusta el anime y quieres jugar algún arquetipo animésco juega este juego
 
-- [Exodus](https://www.drivethrurpg.com/product/65413/Exodus-Post-Apocalyptic-RPG-Survivors-Guide?term=exodus) – Fallout pero no es Fallout
+- [Exodus](https://www.drivethrurpg.com/product/65413/Exodus-Post-Apocalyptic-RPG-Survivors-Guide?term=exodus?affiliate_id=435266) – Fallout pero no es Fallout
 
-- [Pugmire](https://www.drivethrurpg.com/product/204313/Pugmire-Core-Rulebook) – D&D ¡Pero somos perritos!
+- [Pugmire](https://www.drivethrurpg.com/product/204313/Pugmire-Core-Rulebook?affiliate_id=435266) – D&D ¡Pero somos perritos!
 
-- [Red Markets](https://www.drivethrurpg.com/product/239850/Red-Markets-Quickstart-Guide) – Es un juego de Zombies... pero hay un mercado. Tal cual hay mecánicas de mercado y capitalistas y me llama mucho la atención
+- [Red Markets](https://www.drivethrurpg.com/product/239850/Red-Markets-Quickstart-Guide?affiliate_id=435266) – Es un juego de Zombies... pero hay un mercado. Tal cual hay mecánicas de mercado y capitalistas y me llama mucho la atención
 
 ### Y los demás
 
@@ -121,13 +121,13 @@ Y estos son otros cuatro juegos que tengo por ninguna razón real
 
 ![Otros Juegos][other]
 
-- [Dragons Conquer America](https://www.drivethrurpg.com/product/270512/Dragons-Conquer-America-Core-Book) – De este solo tengo un beta y no lo he jugado. El sistema se ve interesante pero esta escrito con cosas que sienten "mal" porque  es básicamente la conquista de América pero con dragones. Eso lo hace difícil de recomendar, al menos en el beta. Si alguien ha jugado la versión completa espero que se hayan arreglado esos problemas, porque eso son, **problemas.**
+- [Dragons Conquer America](https://www.drivethrurpg.com/product/270512/Dragons-Conquer-America-Core-Book?affiliate_id=435266) – De este solo tengo un beta y no lo he jugado. El sistema se ve interesante pero esta escrito con cosas que sienten "mal" porque  es básicamente la conquista de América pero con dragones. Eso lo hace difícil de recomendar, al menos en el beta. Si alguien ha jugado la versión completa espero que se hayan arreglado esos problemas, porque eso son, **problemas.**
 
 Y estos tres últimos la verdad si los bajé porque eran gratis
 
-- [Blue Planet](https://www.drivethrurpg.com/product/282604/Blue-Planet-Recontact-Quickstart) – Viajamos al futuro y salvamos al planeta
+- [Blue Planet](https://www.drivethrurpg.com/product/282604/Blue-Planet-Recontact-Quickstart?affiliate_id=435266) – Viajamos al futuro y salvamos al planeta
 
-- [Aquelarre](https://www.drivethrurpg.com/product/184527/Aquelarre--Translated-Introduction) – Un juego de rol español viejísimo. Brujas, demonios, satanismo. No se bien de qué va.
+- [Aquelarre](https://www.drivethrurpg.com/product/184527/Aquelarre--Translated-Introduction?affiliate_id=435266) – Un juego de rol español viejísimo. Brujas, demonios, satanismo. No se bien de qué va.
 
 - [Teenagers from Outerspace](https://rtalsoriangames.com/2020/04/01/go-fishing-with-teenagers/) – Se trata de ir de pesca en otro mundo? Y obviamente hay aliens y es estilo anime? No se, se supone que es divertido.
 

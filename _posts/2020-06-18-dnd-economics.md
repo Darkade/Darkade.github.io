@@ -416,8 +416,8 @@ _Creado apartir de Table 3–5: Treasure y Table 3–4: Average Treasure Results
 [d20lamp]: https://www.etsy.com/listing/549460095/d20-dungeons-and-dragons-desk-lamp
 [Continual Flame]: https://www.d20srd.org/srd/spells/continualFlame.htm
 
-[dmg]: https://www.dmsguild.com/product/149132/Dungeon-Masters-Guide-35
-[dmgii]: https://www.dmsguild.com/product/25841/Dungeon-Masters-Guide-II-35
-[phb]: https://www.dmsguild.com/product/148008/Players-Handbook-35
-[history]: https://www.dmsguild.com/product/51644/Grand-History-of-the-Realms-35
-[waterdeep]: https://www.dmsguild.com/product/25995/City-of-Splendors-Waterdeep-35
+[dmg]: https://www.dmsguild.com/product/149132/Dungeon-Masters-Guide-35?affiliate_id=435266
+[dmgii]: https://www.dmsguild.com/product/25841/Dungeon-Masters-Guide-II-35?affiliate_id=435266
+[phb]: https://www.dmsguild.com/product/148008/Players-Handbook-35?affiliate_id=435266
+[history]: https://www.dmsguild.com/product/51644/Grand-History-of-the-Realms-35?affiliate_id=435266
+[waterdeep]: https://www.dmsguild.com/product/25995/City-of-Splendors-Waterdeep-35?affiliate_id=435266
