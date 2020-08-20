@@ -1,31 +1,35 @@
 ---
+layout: post
 title: "How I wrote a D&D adventure using Emacs + org-mode"
-featuredimage: /assets/2020-05-22/candles.jpg
+featuredimage: /assets/2020-08-16/2020-08-16-Arcane-Moon.png
 description: I just published a D&D adventure and I wrote it just using Emacs... kind of.
 imagewidth: 1920
 imageheight: 1280
 ---
 
-![][cover]
+![Arcane Moon is now available!][cover]
 
-Emacs + org-mode is the definitive writing experience, it allowed me to organize my writing process, write, export to PDF, and quickly make revisions. Yes, I am a developer, and yes Emacs is my "IDE" of choice, how ever even if you are not I think there's a lot you can get by using emacs, though it will take a large-ish amount of setup.
+Emacs + org-mode is the definitive writing experience, it allowed me to organize my writing process, write, export to PDF, and quickly make revisions. Yes, I am a developer, and yes Emacs is my "IDE" of choice, however, even if you are not, I think there's a lot you can get by using emacs, though it will take a large-ish amount of setup.
 
 <!--more-->
 
 ---
 
-So After the click-batty title, did I really just used Emacs? And the answer is, I could have just used Emacs and org-mode, but if I of course used some other tools. And since you are probably here for the tool list, here's what you'll need:
+![Arcane Moon Adventure][FullAdventure]
+_Arcane Moon was made in Emacs_
+
+So After the click-batty title, did I really just used Emacs? The answer is, I could have just used Emacs and org-mode, but I of course used some other tools. And since you are probably here for the tool list, here's what you'll need:
 
 **If you want a barebones adventure output:**
 - [Emacs + org-mode][emacs]
 - [The DnD 5e LaTeX Template github repo][template]
 - [A LaTeX environment][latex]
 
-**If you want to have a cover add:**
+**If you want to have a cover:**
 - [Adobe spark][spark]
 - Preview or a similar PDF viewer with minimal editing functionality
 
-**If you want to add maps to your adventure:**
+**If you want to add maps:**
 - [Dungeondraft][dungeondraft]
 - [Krita][krita]
 
@@ -35,26 +39,37 @@ So After the click-batty title, did I really just used Emacs? And the answer is,
 **If you want to collaborate with a proof reader:**
 - Google docs
 
-I'm really not here to teach you how to install these tools, there's plenty of [tutorials][orgmode] on that, but will tell you how I used them.
+I'm really not here to teach you how to install these tools, there's plenty of [tutorials][orgmode] on that, but I will tell you how I used them.
 
 ## Barebones Adventure Output
 
 Really emacs, and more precisely org-mode was the central tool for everything. I used it to:
 
+![Arcane Moon on Emacs][emacsscreenshot]
+_Arcane Moon on Emacs_
+
 ### Outline my adventure
 I began by adding sections I wanted to have, Introduction, the adventure and it's chapters.
 
-### [Schedule](https://orgmode.org/guide/Dates-and-Times.html) my tasks
-It's important to track when you want to do things, and time constraints help to bring out the creative energy. You can add a deadline by using the command `C-c C-d` or a simple time stamp by using `C-c .`. After you can see your agenda with `C-c a`
+### Schedule my tasks
+Tracking when you want to get things done, scheduling and being aware of time constraints will help to bring out the creative energy, and emacs is amazing at [scheduling](https://orgmode.org/guide/Dates-and-Times.html).
 
-### Mark different [states of completion](https://orgmode.org/guide/TODO-Basics.html)
-The basic ones are `DONE` and `TODO`. You can use more states but these were enough for me I used them to keep track of the _phases_ the project was in. At the start of drafting every heading was `TODO`, by the end they were `DONE`. At the start of proof reading everything was `TODO` by the end `DONE`
+You can add a deadline by using the command `C-c C-d` or a simple time stamp by using `C-c .`. After you can see your agenda with `C-c a`
+
+### Mark different states of completion
+
+You can always mark things as `DONE` and `TODO`. But can configure any [states of completition](https://orgmode.org/guide/TODO-Basics.html) you want for your workflow.
+
+The basic ones were enough for me. I used them to keep track of the _phase_ the project was in: at the start of drafting every heading was `TODO`, by the end they were `DONE`. At the start of proof reading everything was `TODO` by the end `DONE`
 
 The main reason to use a plain text editor, and in this case Emacs is that you don't have to worry about layout until you **need** to worry about layout, before that I find it to be distracting, which is why even when you could be using Word, Pages, or Google Docs I wouldn't recommend it. But eventually you will want to do layout, and you will want to export to, provably PDF. So how do you export?
 
 ### Exporting to PDF
 
-After you install your preferred [latex] distribution you can export from org to PDF by using `C-c C-e l p`. However you probably will find this export lacking. For one, it looks nothing like a D&D book, and we were talking about working on layout this is the final product. So, install the [DnD 5e LaTeX Template][template]. Then you must configure org to find the theme.
+After you install your preferred [latex] distribution you can [export](https://orgmode.org/manual/LaTeX-Export.html) from org to PDF by using `C-c C-e l p`. However you probably will find this export lacking. For one, it looks nothing like a D&D book, and we were talking about working on layout this is the final product. So, install the [DnD 5e LaTeX Template][template]. Then you must configure org to find the theme.
+
+![Exporting Adventure without a theme][FullAdventureNoClass]
+_Exporting Adventure without a theme_
 
 Add this to your `.emacs` file:
 
@@ -64,11 +79,11 @@ Add this to your `.emacs` file:
    (add-to-list 'org-latex-classes
                 '("dndbook"
                   "\\documentclass{dndbook}"
-                  ("\\part{%s}" . "\\part*{%s}")
-            		  ("\\chapter{%s}" . "\\chapter*{%s}")
-                  ("\\section{%s}" . "\\section*{%s}")
-                  ("\\subsection{%s}" . "\\subsection*{%s}")
-                  ("\\subsubsection{%s}" . "\\subsubsection*{%s}"))))
+                  ("\\part\{\%s}" . "\\part*\{\%s}")
+            		  ("\\chapter\{\%s}" . "\\chapter*\{\%s}")
+                  ("\\section\{\%s}" . "\\section*\{\%s}")
+                  ("\\subsection\{\%s}" . "\\subsection*\{\%s}")
+                  ("\\subsubsection\{\%s}" . "\\subsubsection*\{\%s}"))))
 ```
 
 And then add this to the top of your work file on Emacs:
@@ -96,19 +111,22 @@ And then add this to the top of your work file on Emacs:
 
 Fill it as you see fit and then try exporting again with `C-c C-e l p`. Now it should look like the way we want, like a proper D&D book!
 
-Try and play commenting some of the lines you added to the `.emacs` file. If you remove the `("\\part{%s}" . "\\part*{%s}")` then the top level of your tree will render as the chapter headings, and so on.
+Try and play commenting some of the lines you added to the `.emacs` file. If you remove the `("\\part\{\%s}" . "\\part*\{\%s}")` then the top level of your tree will render as the chapter headings, and so on.
 
 Other things you could do is use the helpers from the DnD 5e LaTeX Template. You can learn more at their documentation, but you can use `DndComment`, `DndReadAloud` and `DndSidebar` very easily by including something like this:
 
 ```
 #+BEGIN_DndComment
-*How to use the helpers:* Just include #+BEGIN_DndComment, #+BEGIN_ReadAloud, or #+BEGIN_DndSidebar
+This will show up as a Dungeons & Dragons comment
 #+END_DndComment
 ```
 
-Capitalization is important!
+Capitalization is important! If you want to use other helpers you can use `#+BEGIN_DndComment`, `#+BEGIN_ReadAloud` or `#+BEGIN_DndSidebar` as you require.
 
 The template also includes a `DndMonster` helper, which there's not easy "org-way" to use. But org does support embedding LaTeX text directly, so you can still use it here without editing a Tex file.
+
+![Full Adventure with the DnD 5e template][FullAdventureDnD]
+_Full Adventure with the DnD 5e template_
 
 These is pretty much the configuration I used and you could leave it there.
 
@@ -165,17 +183,12 @@ As I said it's hacky at best, but it did work for me.
 
 Si te gustó lo que leeiste y quieres más análisis a fondo e innecesarios puedes leer sobre la [Bag of Holding]. Este post es uno de muchos que he estado escribiendo sobre juegos de rol. Si te gusta D&D puedes leer [cómo jugar D&D online] o sobre [Ironsworn], el juego que más he recomendado últimamente.
 
-_Cover photo by [Zoran Kokanovic] on Unsplash_
-
-
-
----
-
-
-
 <!--Images-->
 [cover]: {{ page.featuredimage }}
-[nordhouse_pic]: /assets/2020-05-22/nordhaus.jpg
+[FullAdventure]: /assets/2020-08-16/FullAdventure.png
+[FullAdventureNoClass]: /assets/2020-08-16/FullAdventureNoClass.jpg
+[FullAdventureDnD]: /assets/2020-08-16/FullAdventureDnD.png
+[emacsscreenshot]: /assets/2020-08-16/emacs.png
 
 <!--Credits-->
 

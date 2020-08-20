@@ -1,5 +1,5 @@
 ---
-layout: mathpost
+layout: post
 title: "Arcane Moon esta disponible en DMs Guild!"
 featuredimage: /assets/2020-08-16/2020-08-16-Arcane-Moon.png
 description: Mi primera aventura publicada para D&D 5e esta disponible ahora!
