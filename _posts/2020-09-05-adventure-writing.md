@@ -1,4 +1,4 @@
-analysis---
+---
 layout: post
 title: "How I wrote a D&D adventure using Emacs"
 featuredimage: /assets/2020-08-16/2020-08-16-Arcane-Moon.png
