@@ -181,12 +181,12 @@ In TeXShop I find the place I wanted the art to be placed at, then I used a simi
 
 The reason I did this on the `.tex` file instead of my org file is because I wanted more control over placing in the layout.
 
-![The spot art for one of the corners][spotart]
-_The spot art for one of the corners_
-
 Again, make sure you have the right path to the image you want to include. In this example it's `./assets/accents` which was my spot art dir. Notice I've added a `width=.9` so that it doesn't occupy the same space as the text.
 
-Finally notice the `[h]` it stands for _"here"._ So once you export to PDF the image will be paced roughly _"there"._ There are [many options][https://www.overleaf.com/learn/latex/Positioning_of_Figures] and you should try the ones that fit each need.
+Finally notice the `[h]` it stands for _"here"._ So once you export to PDF the image will be paced roughly _"there"._ There are [many options](https://www.overleaf.com/learn/latex/Positioning_of_Figures) and you should try the ones that fit each need.
+
+![The spot art for one of the corners][spotart]
+_The spot art for one of the corners_
 
 If you want to use the art to make a page break a simple hack is to tweak the `width=` parameter, a little bit more or less to force the text to break.
 
@@ -222,7 +222,7 @@ I normally write in Spanish, and if you do read Spanish you can check my post on
 
 <!--Internal-Links-->
 [Bag of Holding]: {% post_url 2020-04-25-bag-of-holding %}
-[cómo jugar D&D online]: {% post_url 2020-04-05-dnd-online %}
+[D&D online]: {% post_url 2020-04-05-dnd-online %}
 [Ironsworn]: {% post_url 2020-04-01-Ironsworn-pt1 %}
 
 
