@@ -2,7 +2,7 @@
 layout: post
 title: "The role of dice in role playing games"
 featuredimage: /assets/2020-09-20/ian-gonzalez-oVXMtsMejqo-unsplash.jpg
-description: "Dice are present in most table top RPGs and they affect the way the game feels, and what the players come to expect of the game."
+description: "Dice are present in most table top RPGs and they affect the way the game feels, and what the players come to expect of the game. What's the role of the dice in your favorite game?"
 imagewidth: 1920
 imageheight: 1283
 ---
@@ -25,7 +25,7 @@ In a nutshell I see two reasons:
 - Because we want to introduce uncertainty to the game.
 - Because we want to introduce new elements to the game.
 
-I think the common take is that we roll dice to resolve an uncertain situation. I think we actually use them for the opposite reason, not to resolve but to add uncertainty.
+The common take seems to be that we roll dice to resolve an uncertain situation. I think we actually use them for the opposite reason, not to resolve but to add uncertainty.
 
 Take D&D. If a character thrust their sword at an enemy there is no uncertainty whether or not they will hit: the character is proficient, their enemy is at an arms length, they should be able to hit, and yet they might not.
 
@@ -95,9 +95,9 @@ More in depth: the responsibly of when to roll falls on the [DM in D&D](https://
 
 _^DMG. Ch8 Using Ability Scores_
 
-This is because, in part it is hard to come up with consequences for everything. So if the DM asks for a roll, the characters fail and there are no consequences it quickly becomes the kind of game where PCs roll -> fail -> nothing happens. The DM expected a success on a roll for the story to progress and the PCs get frustrated with the inaction.
+This is because, in part, it is hard to come up with consequences for everything. So if the DM asks for a roll, the characters fail and there are no consequences it quickly becomes the kind of game where `PCs roll -> fail -> nothing happens`. The DM expected a success on a roll for the story to progress and the PCs get frustrated with the inaction.
 
-Meanwhile in PbtAs the responsabilty of when to roll falls on the mechanics themselves. The rules read **"to do it you have to do it"** meaning if a move would trigger then a roll is ~~most likely~~ required.
+Meanwhile in PbtAs the responsibility of when to roll falls on the mechanics themselves. The rules read **"to do it you have to do it"** meaning if a move would trigger then it triggers and a roll is ~~most likely~~ required. Not optional.
 
 Moves are written in a way that reinforce the character's archetypes and make them significant to their actions. For example:
 
@@ -124,7 +124,7 @@ The Veil and many systems use _degrees of success._ **Try adding success at a co
 
 And keep making those numbers less significant. As mentioned in the previous section, D&D depends a lot on stats because the way rolls are made. This is why you see so much advice geared towards _automatic success._
 
-If as player you get frustrated by `1s` maybe it is because this was the one roll you got to make during the session. **Contrary to a lot of advice try to roll more often.** If you roll twice in a session the probability of rolling a `1` both times is only `0.25%`. the `1s` get quickly drowned in the rest of the rolls.
+If as player you get frustrated by `1s` maybe it is because this was the one roll you got to make during the session. **Contrary to a lot of advice try to roll more often.** If you roll twice in a session the probability of rolling a `1` both times is only `0.25%`. The `1s` get quickly drowned in the rest of the rolls.
 
 | Rolls in a session | Probability of rolling only `1s` |
 |:------------------:|---------------------------------:|
@@ -133,11 +133,11 @@ If as player you get frustrated by `1s` maybe it is because this was the one rol
 | Three              | `0.01%`                          |
 | Four               | `0.000625%`                      |
 
-This are the mechanics behind the _failing forward_ advice; letting players roll again, will get them out of trouble, it isn't just a narrative device, it is backed up by the maths. But every time something new must be added to the world, otherwise why roll? just succeed.
+This are the mechanics behind the _failing forward_ advice; letting players roll again, will get them out of trouble, it isn't just a narrative device, it is backed up by the maths. However, every time something new must be added to the world, otherwise why roll? just succeed.
 
 **This is why I think D&D favors a Gonzo Tone.** A bizarre, crazy tone where players roll often, and failures are as exaggerated as successes are heroic. While to me this comes from pulp fiction DNA of the game, it is  where the mechanics push the game towards.
 
-If you want a high fantasy campaign, it probably can be made, but probably you will need to wrangle the game a lot. If you want a gritty realistic game, it also can be made, but failure will hurt a lot and not just _inside_ the fiction.
+If you want a high fantasy campaign it can be made, but you will wrangle the game the game a lot, as many people can tell. If you want a gritty realistic game it also can be made, but failure will hurt a lot and not just _inside_ the fiction.
 
 So. Try to roll more, while integrating successes at a cost. You might find players take more risks and are more willing to roll, and isn't that grand?
 
