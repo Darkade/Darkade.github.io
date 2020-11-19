@@ -28,7 +28,7 @@ This post is a successor to my [previous one][The Role of Dice in Role Playing G
 
 This is simple right? you roll a `d20` add your `Bonus` and compare it to the `DC` of the task ahead. So, given a `DC 15` with no bonus your chance of succeeding is `6/20` that is `30%`. And for the same `DC 15` with a `+5 Bonus` the chance of success is `11/20 = 55%`.
 
-In the first case it's becase, out of the numbers a `d20` can generate, `6` are equal or greater than `15`:
+In the first case it's because, out of the numbers a `d20` can generate, six are equal or greater than `15`:
 
 ```
 {1 , 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14} are bellow 15
@@ -65,9 +65,9 @@ It's not whether if you will fail. It's a matter of **when** will you fail.
 
 We can extend the concept of the [Bernoulli Distribution] to answer the following question: In average how many failures will I observe before observing a success?
 
-That is to say: (in average) how many tails will land before the first heads land? or, more to our own interest, **how many times will I have to roll before succeeding at this task given my current Bonus at this DC?**
+That is to say: (in average) how many coin tosses will I have to make before the first heads land? or, more to our own interest, **how many times will I have to roll before succeeding at this task given my current Bonus at this DC?**
 
-**Keep in mind that whenever I say "before" in this context it means _before and up to_** Meaning If you are expected to roll trice before seeing a success, then you would be expected to have a success in your third roll ~~on average.~~
+**Keep in mind that whenever I say "before" in this context it means _before and up to_.** Meaning if you are expected to roll trice before seeing a success, then you would be expected to have a success in your third roll ~~on average.~~
 
 In probability this number is described by the [Geometric Distribution]. Which can be thought of the probability distribution of as: the number of of Bernoulli Trials needed to get a success.
 
@@ -84,7 +84,7 @@ Before explaining the rest of the table it's important to consider that these va
 
 ### The expected rolls bands
 
-So. Let's explain band by band. First the `2-band`. Whenever you have a `50%` or greater chance of success, you are expected to roll twice before seeing a success. And it makes sense. if you have an `80%` chance of success you are very likely to succeed, but it won't happen always; however it's so likely that it would only take two rolls most of the time.
+So, let's explain the bands. First the `2-band`. Whenever you have a `50%` or greater chance of success, you are expected to roll twice before seeing a success. And it makes sense. If you have an `80%` chance of success you are very likely to succeed, but it won't happen always; however it's so likely that it would only take two rolls most of the time.
 
 > This is why [failing forwards] is important. If the DM keeps the `DC 15` and a the PC has a `+3 Bonus` most times they'll succeed by their third try.
 
@@ -106,7 +106,7 @@ To understand, consider the `10-band` is the product of having just a `10%` chan
 
 ### And this all means?
 
-As I said, it reinforces the importance of Failing Forwards during Skill Checks. Given that depending on the `DC` and `Bonus` you are likely to observe a success by the second or third try, then a single failed roll should probably not have a lasting impact on the game, a series of failed rolls, however, should.
+As I said, it reinforces the importance of Failing Forwards during Skill Checks. Given that, depending on the `DC` and `Bonus`, you are likely to observe a success by the second or third try, then a single failed roll should probably not have a lasting impact on the game, a series of failed rolls, however, should.
 
 Second, but most important: You now know how many rolls a player should make to get a success with their character!
 
@@ -118,7 +118,7 @@ Finally. If the session is expected to be hard or a PC is not particularly skill
 
 ## What about the standard deviation?
 
-Ahhh yes! The [Standard Deviation]. Defining standard deviation without it taking an hour is kind of hard. So, I'll give you a definition that will be useful in game: **68% of trials will behave within the average, plus or minus the standard deviation.**
+Ahhh yes! The [Standard Deviation]. Defining standard deviation without it taking an hour is kind of hard. So, I'll give you a definition that will be useful in game: **68% of trials will behave in the range of the average +/- a standard deviation.**
 
 ![A table showing the standard deviation of the number of rolls expected to succeed against a DC given a Bonus][standarddeviation]
 _Standard Deviation of the number of rolls expected to roll before succeeding for d20+Bonus against a certain DC_
@@ -127,7 +127,7 @@ As I been saying: all these numbers are on average. But, as you probably know, a
 
 For example, for a `DC 15` and a `+1 Bonus`:
 - On average you are expected to roll trice before a success. (Check previous section)
-- And `68%` of trials you will have rolled a success after rolling between `1` and `5` times. That is `[3-2, 3+2]` given the stdev in this table.
+- And `68%` of skill checks you will have succeeded after rolling between one and five times. That is `[3-2, 3+2]` given the stdev in this table.
 
 Of course, for `+10 Bonus` and `DC 10` the standard deviation is zero because you'll always succeed.
 
@@ -135,7 +135,7 @@ Of course, for `+10 Bonus` and `DC 10` the standard deviation is zero because yo
 
 So. How often should you be rolling in your session? Well that depends on the characters and the difficulty class.
 
-For example: in combat, if PC has a `+4 Bonus` against an enemy `AC 16` then the PC who gets between `2` and `4` rolls would have landed _one_ hit `68%` of the times.
+For example: in combat, if PC has a `+4 Bonus` against an enemy `AC 16` and if they get between `2` and `4` rolls they would have landed one hit `68%` of the times.
 
 Is it a weird and convoluted way of thinking about this? Probably, but if you get nothing else:
 
