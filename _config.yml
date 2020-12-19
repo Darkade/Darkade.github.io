@@ -29,9 +29,12 @@ highlighter: rouge
 
 excerpt_separator: <!--more-->
 
-twitter_username: darkade
 github_username:  darkade
 linkedin_username: ivanreyesce
+
+twitter:
+  username: darkade
+  card: summary_large_image
 
 analytics: UA-144585764-1
 
@@ -44,5 +47,5 @@ social:
 
 featuredimage:
   address: /assets/spread.png
-  width: 1200 
+  width: 1200
   height: 670
