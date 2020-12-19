@@ -2,8 +2,9 @@ title: General nerdness
 author: I Reyes
 tagline: Trying to blag is getting easier. So, here are some posts.
 description: >-
-  Hola! Soy I Reyes, este es mi blog personal. Escribo de programación,
-  juegos de mesa y juegos de rol. O sea, mi general nerdness.
+  HI! I'm I. Reyes, also known as Darkade this is my blog.
+  I writte about programming, board games and TTRPGs.
+  That's to say, my general nerdness.
 
 url: https://i.reyescon.de
 theme: darkade.github.io-theme
@@ -40,3 +41,8 @@ social:
     - https://twitter.com/darkade
     - https://www.linkedin.com/in/ivanreyesce
     - https://github.com/darkade
+
+featuredimage:
+  address: /assets/spread.png
+  width: 1200 
+  height: 670
