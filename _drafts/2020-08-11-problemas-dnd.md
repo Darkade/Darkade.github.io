@@ -1,7 +1,7 @@
 ---
 layout: mathpost
 title: "Los problemas con D&D en el año 2020"
-featuredimage: /assets/2020-05-22/candles.jpg
+image: /assets/2020-05-22/candles.jpg
 description: D&D se publicó originalmente en 1974, hoy el mundo es muy diferente y su audiencia es más diversa que nunca, lo cual ha hecho pesar a muchas personas ¿D&D debería cambiar? 
 imagewidth: 1920
 imageheight: 1280
@@ -28,7 +28,7 @@ _Cover photo by [Zoran Kokanovic] on Unsplash_
 
 
 <!--Images-->
-[cover]: {{ page.featuredimage }}
+[cover]: {{ page.image }}
 [nordhouse_pic]: /assets/2020-05-22/nordhaus.jpg
 
 <!--Credits-->

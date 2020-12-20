@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Arcane Moon esta disponible en DMs Guild!"
-featuredimage: /assets/2020-08-16/2020-08-16-Arcane-Moon.png
+image: /assets/2020-08-16/2020-08-16-Arcane-Moon.png
 description: Mi primera aventura publicada para D&D 5e esta disponible ahora!
 imagewidth: 1920
 imageheight: 1280
@@ -34,7 +34,7 @@ Esta es la primera vez que hago algo así, y la verdad es que me siento bastante
 
 
 <!--Images-->
-[cover]: {{ page.featuredimage }}
+[cover]: {{ page.image }}
 [cover_art]: /assets/2020-08-16/ArcaneMoonCover.png
 [map]: /assets/2020-08-16/map_thumb.png
 

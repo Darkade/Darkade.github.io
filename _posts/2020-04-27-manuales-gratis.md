@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ¿Cómo encontrar RPGs gratis y legalmente?
-featuredimage: /assets/2020-04-27/cover.jpg
+image: /assets/2020-04-27/cover.jpg
 description: Gastar el dinero de un manual completo puede ser demasiado si aun no sabes si te gusta o no el juego ¿Qué hago para conseguir manuales gratuitos y legales?
 ---
 
@@ -75,7 +75,7 @@ Hay SRDs para D&D 5e, 3.5e, d20 Modern, Fate, Pathfinder, Ironsworn, Quest World
 
 ¡Gracias por leer! Hay muchos juegos de rol para todos los gustos y muchos modos de jugar sin invertir dinero. Si te gustó este artículo y quieres saber qué es Ironsworn puedes [leer sobre mi campaña]({% post_url 2020-04-01-Ironsworn-pt1 %}), que es un juego de rol gratuito. También puedes leer sobre la otra campaña que tengo de [The Veil]({% post_url 2020-04-14-the-veil %}).
 
-[cover]: {{ page.featuredimage }}
+[cover]: {{ page.image }}
 [licencias]: /assets/2020-04-27/licencias.png
 [quickstarts]: /assets/2020-04-27/quickstarts.png
 [sitios]: /assets/2020-04-27/sitios.png

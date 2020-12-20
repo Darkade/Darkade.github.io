@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Así jugamos DnD online por primera vez en años
-featuredimage: /assets/2020-04-05/dnd.jpg
+image: /assets/2020-04-05/dnd.jpg
 description: Cuarentena, juegos de rol, convivencia, whatever. Hoy, mis amigos y yo, jugamos DnD online por primera vez en años y así es como lo hicimos.
 ---
 
@@ -103,7 +103,7 @@ Y eso es todo. Es raro de decir pero, honestamente, no ha habido mejor momento p
 Muchas gracias por leer. En caso de que quieras leer más sobre RPGs recientemente empecé una serie de [reviews de Ironsworn]({% post_url 2020-04-01-Ironsworn-pt1 %})
 
 
-[dnd]: {{ page.featuredimage }}
+[dnd]: {{ page.image }}
 [discord]: /assets/2020-04-05/discord.png
 [sheets]: /assets/2020-04-05/sheets.png
 [kynan]: /assets/2020-04-05/kynan.png

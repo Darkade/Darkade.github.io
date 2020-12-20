@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Qué tan a menudo tirar los dados en Dungeons & Dragons"
-featuredimage: /assets/2020-11-18/lucas-santos-XIIsv6AshJY-unsplash.jpg
+image: /assets/2020-11-18/lucas-santos-XIIsv6AshJY-unsplash.jpg
 description: "¿Alguna vez te has preguntado qué tan frecuentemente deberías de tirar tus dados en Dungeons and Dragons? ¿Siquiera es posible contestar esa pregunta? Hoy lo intentamos."
 imagewidth: 1920
 imageheight: 1280
@@ -156,7 +156,7 @@ También puedes encontrarme en twitter [@darkade]. Ahí puedes encontrar las not
 Gracias por leer.
 
 <!--Images-->
-[postcover]: {{ page.featuredimage }}
+[postcover]: {{ page.image }}
 
 [probability]: /assets/2020-11-18/p.png
 [expectedvalue]: /assets/2020-11-18/e.png

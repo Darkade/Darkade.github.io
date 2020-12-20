@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem 'jekyll', '~> 4.0'
-gem 'darkade.github.io-theme', '~> 1.0', '>= 1.1.4'
+gem 'darkade.github.io-theme', '~> 1.1', '>= 1.1.5'
 
 group :jekyll_plugins do
   gem 'jemoji', '~> 0.12.0'

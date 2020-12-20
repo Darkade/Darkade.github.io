@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Cómo hacer un blog usando Github
-featuredimage: /assets/2018-10-08/blag.png
+image: /assets/2018-10-08/blag.png
 description: Hoy vamos a hacer un blog utilizando Github y Markdown y va a quedar bien bonito y rápido.
 ---
 
-![Blag]({{ page.featuredimage }})
+![Blag]({{ page.image }})
 
 Hoy vamos a hacer un blog utilizando Github y Markdown y va a quedar bien bonito y rápido.
 

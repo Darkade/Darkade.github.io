@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "El rol de los dados en los juegos de rol"
-featuredimage: /assets/2020-09-20/ian-gonzalez-oVXMtsMejqo-unsplash.jpg
+image: /assets/2020-09-20/ian-gonzalez-oVXMtsMejqo-unsplash.jpg
 description: "Los dados están presentes en la mayoría de los juegos de rol y estos afectan la percepción del juego y lo que los jugadores esperan del mismo. ¿Qué hacen los dados en tu juego favorito?"
 imagewidth: 1920
 imageheight: 1283
@@ -149,7 +149,7 @@ Hace unas semanas publiqué mi primera aventura para D&D [Arcane Moon]! Puedes l
 
 
 <!--Images-->
-[postcover]: {{ page.featuredimage }}
+[postcover]: {{ page.image }}
 [d6chart]: /assets/2020-09-20/d6chart.png
 [d6rolls]: /assets/2020-09-20/d6rolls.png
 [d20chart]: /assets/2020-09-20/d20chart.png

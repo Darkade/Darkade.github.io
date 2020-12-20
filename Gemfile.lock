@@ -11,11 +11,11 @@ GEM
       public_suffix (>= 2.0.2, < 5.0)
     colorator (1.1.0)
     concurrent-ruby (1.1.7)
-    darkade.github.io-theme (1.1.4)
+    darkade.github.io-theme (1.1.5)
       jekyll (~> 4.1)
       jekyll-feed (~> 0.13.0)
       jekyll-paginate-v2 (~> 3.0)
-      jekyll-seo-tag (~> 2.6, >= 2.6.1)
+      jekyll-seo-tag (~> 2.7, >= 2.7.1)
       jekyll-sitemap (~> 1.4)
       rouge (~> 3.19, >= 3.19)
     em-websocket (0.5.1)
@@ -101,7 +101,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  darkade.github.io-theme (~> 1.0, >= 1.1.4)
+  darkade.github.io-theme (~> 1.1, >= 1.1.5)
   jekyll (~> 4.0)
   jekyll-target-blank
   jemoji (~> 0.12.0)

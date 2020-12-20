@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ironsworn. Un review ongoing [2/?]
-featuredimage: /assets/2020-04-15/dice.jpg
+image: /assets/2020-04-15/dice.jpg
 description: Después de la creación de mi setting hoy tengo mi primera sesión de Ironsworn.
 ---
 
@@ -170,5 +170,5 @@ Esta cayendo la noche del segundo día y tengo que confiar en que Reese esta en 
 Muchas gracias por leer, ultimamente he escrito sobre RPGs porque he tenido oportunidad de jugar frecuentemente y lo tengo en la cabeza. También puedes leer sobre la partida que tuve recientemente de [The Veil]({% post_url 2020-04-14-the-veil %}).
 
 
-[dice]: {{ page.featuredimage }}
+[dice]: {{ page.image }}
 [map]: /assets/2020-04-15/map.jpg

@@ -1,7 +1,7 @@
 ---
 layout: mathpost
 title: "Las Matemáticas de D&D: Economía, Finanzas y Productividad"
-featuredimage: /assets/2020-05-22/candles.jpg
+image: /assets/2020-05-22/candles.jpg
 description: Con el Dungeon's Master Guide y el Player's Handbook ¿Podemos hacer un análisis de la economía de Dungeons & Dragons?
 imagewidth: 1920
 imageheight: 1280
@@ -385,7 +385,7 @@ _Creado apartir de Table 3–5: Treasure y Table 3–4: Average Treasure Results
 - [Nordhaus, William D. 1997. "Do Real Output and Real Wage Measures Capture Reality? The History of Light Suggests Not." The Economics of New Goods. Edited by Robert J. Gordon and Timothy F. Bresnahan. University of Chicago Press for the National Bureau of Economic Research. 27-70.][chicagopress]
 
 <!--Images-->
-[cover]: {{ page.featuredimage }}
+[cover]: {{ page.image }}
 [nordhouse_pic]: /assets/2020-05-22/nordhaus.jpg
 [amazing]: https://media.giphy.com/media/KI9oNS4JBemyI/giphy.gif
 [paper]: /assets/2020-05-22/paper.png

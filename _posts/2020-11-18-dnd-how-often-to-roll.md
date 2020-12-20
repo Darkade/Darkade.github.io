@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How often to roll dice in Dungeons & Dragons"
-featuredimage: /assets/2020-11-18/lucas-santos-XIIsv6AshJY-unsplash.jpg
+image: /assets/2020-11-18/lucas-santos-XIIsv6AshJY-unsplash.jpg
 description: "Have you wondered how often should you be rolling in your D&D game? Is it even possible to answer such question? Today we take a crack at it."
 imagewidth: 1920
 imageheight: 1280
@@ -156,7 +156,7 @@ You can also find me on Twitter [@darkade]. There you can find the most recent n
 Thank you for reading!
 
 <!--Images-->
-[postcover]: {{ page.featuredimage }}
+[postcover]: {{ page.image }}
 
 [probability]: /assets/2020-11-18/p.png
 [expectedvalue]: /assets/2020-11-18/e.png

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How I wrote a D&D adventure using Emacs"
-featuredimage: /assets/2020-08-16/2020-08-16-Arcane-Moon.png
+image: /assets/2020-08-16/2020-08-16-Arcane-Moon.png
 description: I just published a D&D adventure and I wrote it just using Emacs... kind of.
 imagewidth: 1920
 imageheight: 1280
@@ -207,7 +207,7 @@ Thank you for reading this post! It's my first english post but I think it was w
 I normally write in Spanish, and if you do read Spanish you can check my post on a mathematical analysis of the [Bag of Holding]. Or how we play [D&D online] or my first two sessions on solo [Ironsworn].
 
 <!--Images-->
-[cover]: {{ page.featuredimage }}
+[cover]: {{ page.image }}
 [FullAdventure]: /assets/2020-08-16/FullAdventure.png
 [FullAdventureNoClass]: /assets/2020-08-16/FullAdventureNoClass.jpg
 [FullAdventureDnD]: /assets/2020-08-16/FullAdventureDnD.png
