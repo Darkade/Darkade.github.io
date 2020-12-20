@@ -1,7 +1,8 @@
 ---
 layout: mathpost
 title: "Las Matemáticas de D&D: Bag of Holding"
-image: /assets/2020-04-25/bagofholding.jpeg
+image:
+  path: /assets/2020-04-25/bagofholding.jpeg
 description: Estoy teniendo "issues" con las Bag of Holding. Así decidí decifrár ¿Cómo se vería una por dentro?
 ---
 
@@ -105,7 +106,7 @@ _Y así se ve_
 
 ¡Gracias por leer! Este post es uno de muchos que he estado escribiendo sobre juegos de rol. Si te gusta Dungeons puedes leer [cómo jugar D&D online]({% post_url 2020-04-05-dnd-online %}) o sobre la campaña que tengo de [The Veil]({% post_url 2020-04-14-the-veil %})
 
-[bagofholding]: {{ page.image }}
+[bagofholding]: {{ page.image.path }}
 [slices]: /assets/2020-04-25/slices.png
 [sketchup]: /assets/2020-04-25/sketchup.png
 [rotoplas]: /assets/2020-04-25/rotoplas.png

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Mi colección de RPGs
-image: /assets/2020-04-16/all.jpg
+image:
+  path: /assets/2020-04-16/all.jpg
 description: He estado jugando y pensando mucho en RPGs últimamente y no me había preguntado ¿Qué RPGs tengo?
 ---
 
@@ -137,7 +138,7 @@ Si, si me gusta el Cyberpunk, mucho.
 
 Muchas gracias por leer, he estado escribiendo de RPGs porque he tenido oportunidad de jugar frecuentemente, si te gustó puedes leer sobre [cómo jugar D&D online]({% post_url 2020-04-05-dnd-online %}). Normalmente escribo sobre [programación o matemáticas]({% post_url 2019-05-02-Arkham-Horror-Part-Deux %}) y [dados]({% post_url 2019-02-07-dice %})!
 
-[all]: {{ page.image }}
+[all]: {{ page.image.path }}
 [gmless]: /assets/2020-04-16/gmless.jpg
 [pbta]: /assets/2020-04-16/pbta.jpg
 [light]: /assets/2020-04-16/light.jpg

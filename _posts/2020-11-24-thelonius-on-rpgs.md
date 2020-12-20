@@ -1,10 +1,11 @@
 ---
 layout: post
 title: "T. Monk's Advice on RPGs"
-image: /assets/2020-11-24/timothy-eberly-WlRDo_aiGgU-unsplash.jpg
+image:
+  path: /assets/2020-11-24/timothy-eberly-WlRDo_aiGgU-unsplash.jpg
+  width: 1920
+  height: 1280
 description: "In 1960 Steve Lacy wrote down advice given to him by Thelonious Monk. Today we apply this jazz advice to TTRPGs"
-imagewidth: 1920
-imageheight: 1280
 ---
 
 ![A beatdown piano with the legend Marshal & Mendel. Established 1853. Albany, New York][postcover]
@@ -198,7 +199,7 @@ If you'd like to support me check out [Arcane Moon], my previous adventure inspi
 Thanks for reading!
 
 <!--Images-->
-[postcover]: {{ page.image }}
+[postcover]: {{ page.image.path }}
 [record]: /assets/2020-11-24/alberto-bigoni-4-DeS5a-hAM-unsplash.jpg
 [bass]: /assets/2020-11-24/miti-vSws0g1KjxI-unsplash.jpg
 [trombone]: /assets/2020-11-24/jorge-zapata-ajLlK5qL6Ic-unsplash.jpg

@@ -1,10 +1,11 @@
 ---
 layout: mathpost
 title: "Las Matemáticas de D&D: Bag of Holding Parte 2"
-image: /assets/2020-05-05/math.jpg
+image:
+  path: /assets/2020-05-05/math.jpg
+  width: 800
+  height: 534
 description: Después de averiguar cómo se ve por dentro una Bag of Holding ¿Cuánto puedes en verdad cargar?
-imagewidth: 800
-imageheight: 534
 ---
 
 ![Esta es una Bag of Holding][bagofholding]
@@ -283,7 +284,7 @@ Solo es necesario si siempre quieres cargar con todo el equipo y loot que has ob
 
 Este post es uno de muchos que he estado escribiendo sobre juegos de rol. Si te gusta D&D puedes leer [cómo jugar D&D online]({% post_url 2020-04-05-dnd-online %}) o sobre [Ironsworn]({% post_url 2020-04-01-Ironsworn-pt1 %}), el juego que más he recomendado últimamente.
 
-[bagofholding]: {{ page.image }}
+[bagofholding]: {{ page.image.path }}
 [romanmint]: https://img.youtube.com/vi/b6T_ZutXzNQ/0.jpg
 [goldpieces]: /assets/2020-05-05/goldpieces.png
 [lootcoins]: /assets/2020-05-05/lootcoins.png

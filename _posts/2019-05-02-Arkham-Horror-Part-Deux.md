@@ -1,11 +1,12 @@
 ---
 layout: mathpost
 title: "Modelando las probabilidades en Arkham Horror: The Card Game"
-image: /assets/2019-05-02/part1.png
+image:
+  path: /assets/2019-05-02/part1.png
 description: Arkham Horror es un juego de cartas que me ha obsesionado. Hoy hablamos de las matemáticas detrás del juego.
 ---
 
-![Part1]({{ page.image }})
+![Part1]({{ page.image.path }})
 
 > Esta es una contunación (y mejora) de mi post original de Arkham Horror
 

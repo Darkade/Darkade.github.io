@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Ironsworn. Un review ongoing [1/?]
-image: /assets/2020-04-01/cover.png
+image:
+  path: /assets/2020-04-01/cover.png
 description: Hoy hablamos de Ironsworn un RPG de papel y lápiz que puedes jugar tu solo.
 ---
 
@@ -85,7 +86,7 @@ Eso es lo que he hecho con el sistema hasta el momento, y estoy muy feliz con el
 Muchas gracias por leer, esto es muy diferente a lo que normalmente escribo en este blog, pero soy muy fan de los juegos de mesa y los RPGs y necesitaba sacar esto de mi cabeza. Nos leemos en la siguiente sesión de Ironsworn.
 
 
-[cover]: {{ page.image }}
+[cover]: {{ page.image.path }}
 [setup]: /assets/2020-04-01/setup.png
 [map]: /assets/2020-04-01/map.png
 [character]: /assets/2020-04-01/character.png

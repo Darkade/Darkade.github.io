@@ -1,10 +1,11 @@
 ---
 layout: post
 title: "Diplomacy: probando un juego de 65 años"
-image: /assets/2020-05-14/europe.jpg
+image:
+  path: /assets/2020-05-14/europe.jpg
+  width: 1192
+  height: 776
 description: Diplomacy fue diseñado originalmente en 1954. Todos estos años después lo probé y es uno de los mejores juegos de estrategia que he jugado
-imagewidth: 1192
-imageheight: 776
 ---
 
 ![Europa en 1900][cover]
@@ -238,7 +239,7 @@ Esta comunicación en Backstabbr se llama "Prensa" y es muy inmersivo pensarlo d
 ¡Muchas gracias por leer! Diplomacy ha sido una experiencia muy interesante durante esta cuarentena. Si te gustó este artículo puedes leer sobre [Arkham Horror][arkham], otro juego de mesa genial. Y si te gustan los juegos de rol puedes leer sobre [Ironsworn][ironsworn], que es un juego de rol gratuito.
 
 <!--Images-->
-[cover]: {{ page.image }}
+[cover]: {{ page.image.path }}
 [backstabbr_01]: /assets/2020-05-14/backstabbr_01.png
 [backstabbr_move]: /assets/2020-05-14/backstabbr_move.png
 [backstabbr_convoy]: /assets/2020-05-14/backstabbr_convoy.png

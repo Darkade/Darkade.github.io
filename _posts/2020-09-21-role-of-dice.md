@@ -1,10 +1,11 @@
 ---
 layout: post
 title: "The role of dice in role playing games"
-image: /assets/2020-09-20/ian-gonzalez-oVXMtsMejqo-unsplash.jpg
+image:
+  path: /assets/2020-09-20/ian-gonzalez-oVXMtsMejqo-unsplash.jpg
+  width: 1920
+  height: 1283
 description: "Dice are present in most table top RPGs and they affect the way the game feels, and what the players come to expect of the game. What's the role of the dice in your favorite game?"
-imagewidth: 1920
-imageheight: 1283
 ---
 
 ![A standard set of polyhedral dice for RPGs][postcover]
@@ -149,7 +150,7 @@ I've been trying to write in english recently since I published my first D&D adv
 
 
 <!--Images-->
-[postcover]: {{ page.image }}
+[postcover]: {{ page.image.path }}
 [d6chart]: /assets/2020-09-20/d6chart.png
 [d6rolls]: /assets/2020-09-20/d6rolls.png
 [d20chart]: /assets/2020-09-20/d20chart.png

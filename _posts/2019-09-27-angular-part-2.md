@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Angular + Firebase. Parte 2
-image: /assets/2019-09-27/angular_firebase_2.jpg
+image:
+  path: /assets/2019-09-27/angular_firebase_2.jpg
 description: Utilizamos Angular y Firebase y creamos una tasklist [Parte 2]
 ---
 ![Cocinando con Angular + Firebase Parte 2][angular_firebase_2]
@@ -209,7 +210,7 @@ Y en realidad eso es todo. Como puedes ver los tasks que crees y modifiques se q
 En la siguiente parte vamos a convertir esta Task List en un [_Custom Element_](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements) lo cual llega al borde de la brujería sin ser brujería en mi opinión.
 
 [firestore]: /assets/2019-09-27/firestore.png
-[angular_firebase_2]: {{ page.image }}
+[angular_firebase_2]: {{ page.image.path }}
 [get_started]: /assets/2019-09-27/firebase_getstarted.png
 [firebase_console]: /assets/2019-09-27/firebase_console.png
 [collection]: /assets/2019-09-27/firebase_newcollection.png
