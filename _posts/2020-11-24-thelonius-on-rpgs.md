@@ -10,7 +10,7 @@ description: "In 1960 Steve Lacy wrote down advice given to him by Thelonious Mo
 
 ![A beatdown piano with the legend Marshal & Mendel. Established 1853. Albany, New York][postcover]
 
-In 1960 Steve Lacy wrote down advice given to him by the ever great Thelonious Monk. This list, entitled "T. Monk's Advice (1960)" has comed down amongst jazz players ever since. Jazz is an improvised form of music, but improvised does not mean "random", improvisation comes from an agreed framework... very much as we improvise the RPGs we play. We agree on a framework, game rules, and we begin playing from there.
+In 1960 Steve Lacy wrote down advice given to him by the ever great Thelonious Monk. This list, entitled "T. Monk's Advice (1960)" has come down amongst jazz players ever since. Jazz is an improvised form of music, but improvised does not mean "random", improvisation comes from an agreed framework... very much like we improvise the RPGs we play. We agree on a framework, game rules, and we begin playing from there.
 
 Today we apply T. Monk's Advice to RPGs.
 
@@ -23,7 +23,7 @@ _Cover Image by [Timothy Eberly]_
 ![The photocopied list from Lacy's notes][list]
 _This is the photocopied list taken from Lacy's notes_
 
-**We might skip a couple of tips, and some might be self explanatory. So let's dive in!**
+**We might skip a couple of tips, and some might be self explanatory. Let's dive in!**
 
 ## The list
 
@@ -102,7 +102,7 @@ _If your group is enjoying themselves playing the game then you are doing it rig
 
 > Don’t play the piano part, I am playing that. Don’t listen to me, I am supposed to be accompanying you!
 
-Your instinct might be to follow the most experienced musician in the band, but they are counting on you to do your thing, not to play the same thing they are playing. So:
+Your instinct might be to imitate the most experienced musician in the band, but they are counting on you to do your thing, not to play the same thing they are playing. So:
 
 _When you are playing a PC, play your PC. Don't ask the GM what you can do, do it; their role is to enable you and your character._
 
@@ -172,7 +172,7 @@ _Photo by[Jorge Zapata]_
 
 At times musicians will start composing for their audience instead of for the people they are playing with. The thing is the people at rehearsal are first and foremost the ones who should enjoy the music; if they enjoy the audience will enjoy it. So:
 
-_Adventures are written so you have a jumpstart point, their pitches are there so players want to get together and play.  Once the game start, let the story go where it wants to go_
+_Adventures are written so you have a jumpstart point, their pitches are there so players want to get together and play.  Once the game starts, let the story go where it wants to go_
 
 ---
 
