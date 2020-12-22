@@ -3,14 +3,14 @@ layout: post
 title: "The Golden Rule of TTRPGs"
 image:
   path: /assets/2020-12-24/alfons-morales-YLSwjSy7stw-unsplash.jpg
-  width:
-  height:
-description: ""
+  width: 1920
+  height: 1126
+description: "The Golden Rule of TTRPGs is there are no rules. Really, it's all about making the game what you want it to be. But that's weird right? Today it gets weirder."
 ---
 
 The Golden Rule of TTRPGs is a variation of: _these rules are just recommendations you are the final arbiter of what your game actually needs and you should feel free to ignore or modify these rules as required._ It is very good advice, so why do I have conflicting feelings towards it? Today I argue with myself and get nowhere except a bit enlightened.
 
-![][postcover]
+![A wall to wall filled bookcase][postcover]
 
 <!--more-->
 
@@ -87,13 +87,13 @@ That sounds like a ton of work!
 Well, yes it is. But framing their responses or attitude as negative invalides the experience of a lot of people who enjoy TTRPGs. And that doesn't sound like something you'd want to do.
 {: .i}
 
-No, I guess not. So. The Golden Rule serves as a useful and validating statement to people who need it, who are starting at the hobby.
+No, I guess not. So. The Golden Rule serves a validating statement to people who need it, who are starting at the hobby.
 {: .y}
 
-Most likely. And it does not exclude experienced players, it includes new ones! Experienced, or design-minded players can still talk about the game in those terms and new players are enabled to delve into their enthusiasm for the game and hacking it, should they want to.
+Most likely. And it's worth reiterating that it includes new players without altering the experience of experienced ones: experienced, or design-minded players can still talk about the hobby in those terms and new players are enabled to delve into their enthusiasm for the game and hacking it, should they want to.
 {: .i}
 
-TGR, properly applied, also topples down the weird idea that TTRPGs a ladder that must be climbed, everyone is allowed to tweak their experience! After all, TTRPGs should be for everyone who wants to enjoy them.
+TGR, properly applied, topples down the weird idea that TTRPGs a ladder that must be climbed! After all, TTRPGs should be for everyone who wants to enjoy them.
 {: .i}
 
 ... who wants to enjoy them.
@@ -110,7 +110,7 @@ In the process I think I kind of had a change of heart. I began thinking of it i
 
 If you'd liked this and want to support me check out [Arcane Moon], a D&D adventure inspired by 90s Magical Girl anime, published at DMs Guild.
 
-You can also read my take on [The Role of Dice in Role Playing Games] or about [Ironsworn], one of my favorite RPGs.
+You can also read my take on [The Role of Dice in Role Playing Games] or about [Ironsworn], one of my favorite RPGs. And follow me [@darkade].
 
 Thanks for reading!
 
@@ -148,6 +148,3 @@ Thanks for reading!
 [Arcane Moon]: https://bit.ly/ArcaneMoon
 
 <!--External-Links-->
-[Steve Lacy]: https://en.wikipedia.org/wiki/Steve_Lacy_(saxophonist)
-[Thelonious Monk]: https://en.wikipedia.org/wiki/Thelonious_Monk
-[Adam Neely video]: https://youtu.be/tBxjacxRshE
