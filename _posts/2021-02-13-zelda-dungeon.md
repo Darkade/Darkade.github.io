@@ -4,7 +4,7 @@ title: "How to make a Zelda style dungeon for TTRPGs"
 image:
   path: /assets/2021-02-13/jordan-grider-lLP7s9Rpw7E-unsplash.jpg
   width: 1920
-  height: 1440
+  height: 1436
 description: "Dungeons! Probably the best ones come from The Legend of Zelda. How can we apply that knowledge to RPGs, specially D&D?"
 ---
 
@@ -142,7 +142,7 @@ I don't really add furniture or other such things, these kind of maps don't make
 
 This map doesn't even has to "accurate". Maybe that is a false wall and there's a secret room, maybe that corridor has collapsed and the map is not up to date. There's many more possibilities when we use maps as pure abstractions.
 
-_If are interested in this idea I made a whole different blog post with advice on running a dungeon in this style._
+_If are interested in this idea I made a whole [different blog post][Running the dungeon] with advice on running a dungeon in this style._
 
 ---
 
@@ -167,10 +167,9 @@ _The final annotated version of the map_
 
 If you'd liked this post and want to support me check out [Arcane Moon], a D&D adventure inspired by 90s Magical Girl anime, published at DMs Guild. Or download for free my Fiasco Classic Adventure [Busca Un Problema] at Itch.io!
 
-You can also read [The Dwendalian War Inciting Incident] the encounter that started the war in my Exandria campaign.
+You can also read [The Dwendalian War Inciting Incident] the encounter that started the war in my Exandria campaign. And you should read the other part of this same article on [Advice to running a dungeon.][Running the dungeon]
 
 Finally you can follow me [@darkade]! Thanks for reading!
-
 <!--Custom CSS-->
 <style>
 .rooms {
@@ -221,6 +220,8 @@ Finally you can follow me [@darkade]! Thanks for reading!
 
 <!--Internal-Links-->
 [The Dwendalian War Inciting Incident]: {% post_url 2020-12-29-inciting-incident %}
+[Zelda Style Dungeons]: {% post_url 2021-02-13-zelda-dungeon %}
+[Running the dungeon]: {% post_url 2021-02-13-dungeon-advice %}
 
 <!--Self Promo-->
 [@darkade]: https://twitter.com/darkade
