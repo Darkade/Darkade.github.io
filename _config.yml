@@ -25,6 +25,8 @@ pagination:
   sort_reverse: true
 
 markdown: kramdown
+kramdown:
+  parse_block_html: true
 highlighter: rouge
 
 excerpt_separator: <!--more-->
