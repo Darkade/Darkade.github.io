@@ -4,8 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Ivan Reyes is the founder of vectorVcinco a mexican design & technology company; as well as the CRO at Tesel Technology.
+I Reyes is Chief Research Officer at Tesel Technology. A Mexican software companny. In the past she founded vectorVcinco a Mexican design & technology company.
 
-He enjoys films, programming, board games and swimming. Not always in that order.
+She enjoys films, programming, board games and swimming. Not always in that order.
 
-You can find him in most places as Darkade
+You can find her in most places as Darkade
