@@ -10,7 +10,7 @@ description: "Dungeons! Probably the best ones come from The Legend of Zelda. Ho
 
 <!--INTRO-->
 
-Dungeons! ... can become a boring railroad, but they don't have to! Personally whenever I think of dungeons I don't actually think of TTRPGs, I think of The Legend of Zelda, Stone Tower, Water Temple, Fortress of Winds, Tower of the Gods... the list goes on. Is there a secret to a Zelda dungeon? What can we do to reverse engineer a Zelda style dungeon into our TTRPGs?
+Dungeons! ... can become a boring railroad, but they don't have to. Personally whenever I think of dungeons I don't actually think of TTRPGs, I think of The Legend of Zelda. Stone Tower, Water Temple, Fortress of Winds, Tower of the Gods... the list goes on. Is there a secret to a Zelda dungeon? Can we reverse engineer a Zelda style dungeon into our TTRPGs?
 
 ![A catacomb picture][postcover]
 
