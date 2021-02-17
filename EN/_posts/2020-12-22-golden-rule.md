@@ -1,6 +1,7 @@
 ---
 layout: post
 permalink: /:year/:month/:day/:title:output_ext
+locale: en_GB
 title: "The Golden Rule of TTRPGs"
 image:
   path: /assets/2020-12-24/alfons-morales-YLSwjSy7stw-unsplash.jpg

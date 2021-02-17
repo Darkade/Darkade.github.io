@@ -1,6 +1,7 @@
 ---
 layout: post
 permalink: /:year/:month/:day/:title:output_ext
+locale: en_GB
 title: "The Dwendalian War Inciting Incident"
 image:
   path: /assets/2020-12-29/gabriel-varaljay-TwP4GjKC_3w-unsplash.jpg

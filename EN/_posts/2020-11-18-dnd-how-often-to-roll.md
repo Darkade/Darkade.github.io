@@ -1,6 +1,7 @@
 ---
 layout: post
 permalink: /:year/:month/:day/:title:output_ext
+locale: en_GB
 title: "How often to roll dice in Dungeons & Dragons"
 image:
   path: /assets/2020-11-18/lucas-santos-XIIsv6AshJY-unsplash.jpg

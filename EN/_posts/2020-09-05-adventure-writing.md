@@ -1,6 +1,7 @@
 ---
 layout: post
 permalink: /:year/:month/:day/:title:output_ext
+locale: en_GB
 title: "How I wrote a D&D adventure using Emacs"
 image:
   path: /assets/2020-08-16/2020-08-16-Arcane-Moon.png

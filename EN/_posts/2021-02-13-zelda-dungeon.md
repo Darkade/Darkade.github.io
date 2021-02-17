@@ -1,6 +1,7 @@
 ---
 layout: post
 permalink: /:year/:month/:day/:title:output_ext
+locale: en_GB
 title: "How to make a Zelda style dungeon for TTRPGs"
 image:
   path: /assets/2021-02-13/jordan-grider-lLP7s9Rpw7E-unsplash.jpg

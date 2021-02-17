@@ -1,6 +1,7 @@
 ---
 layout: post
 permalink: /:year/:month/:day/:title:output_ext
+locale: en_GB
 title: "T. Monk's Advice on RPGs"
 image:
   path: /assets/2020-11-24/timothy-eberly-WlRDo_aiGgU-unsplash.jpg

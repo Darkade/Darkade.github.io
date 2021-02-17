@@ -1,6 +1,7 @@
 ---
 layout: post
 permalink: /:year/:month/:day/:title:output_ext
+locale: en_GB
 title: "The role of dice in role playing games"
 image:
   path: /assets/2020-09-20/ian-gonzalez-oVXMtsMejqo-unsplash.jpg

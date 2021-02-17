@@ -1,6 +1,7 @@
 ---
 layout: post
 permalink: /:year/:month/:day/:title:output_ext
+locale: en_GB
 title: "How to run a Zelda style dungeon"
 image:
   path: /assets/2021-02-13/jordan-grider-M6e-9wzHto8-unsplash.jpg
