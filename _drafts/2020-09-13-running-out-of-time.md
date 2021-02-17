@@ -33,9 +33,9 @@ I normally write in Spanish, and if you do read Spanish you can check my post on
 [Rian Trost]: https://www.drivethrurpg.com/browse/pub/8587/Rian-Trost-RPG-Stock-Art
 
 <!--Internal-Links-->
-[Bag of Holding]: {% post_url 2020-04-25-bag-of-holding %}
-[D&D online]: {% post_url 2020-04-05-dnd-online %}
-[Ironsworn]: {% post_url 2020-04-01-Ironsworn-pt1 %}
+[Bag of Holding]: {% post_url ES/2020-04-25-bag-of-holding %}
+[D&D online]: {% post_url ES/2020-04-05-dnd-online %}
+[Ironsworn]: {% post_url ES/2020-04-01-Ironsworn-pt1 %}
 
 
 <!--External-Links-->

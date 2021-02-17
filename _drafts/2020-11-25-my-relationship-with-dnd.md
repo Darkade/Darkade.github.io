@@ -167,13 +167,13 @@ Gracias por leer.
 [Lucas Santos]: https://unsplash.com/@_staticvoid?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText
 
 <!--Internal-Links-->
-[The Role of Dice in Role Playing Games]: {% post_url 2020-09-21-role-of-dice %}
+[The Role of Dice in Role Playing Games]: {% post_url EN/2020-09-21-role-of-dice %}
 
-[Bag of Holding]: {% post_url 2020-04-25-bag-of-holding %}
-[D&D online]: {% post_url 2020-04-05-dnd-online %}
-[Ironsworn]: {% post_url 2020-04-01-Ironsworn-pt1 %}
-[veilpost]: {% post_url 2020-04-14-the-veil %}
-[arcanemoonpost]: {% post_url 2020-09-05-adventure-writing %}
+[Bag of Holding]: {% post_url ES/2020-04-25-bag-of-holding %}
+[D&D online]: {% post_url ES/2020-04-05-dnd-online %}
+[Ironsworn]: {% post_url ES/2020-04-01-Ironsworn-pt1 %}
+[veilpost]: {% post_url ES/2020-04-14-the-veil %}
+[arcanemoonpost]: {% post_url EN/2020-09-05-adventure-writing %}
 
 <!--External-Links-->
 [Bernoulli Trial]: https://en.wikipedia.org/wiki/Bernoulli_trial

@@ -39,9 +39,9 @@ _Cover photo by [Zoran Kokanovic] on Unsplash_
 [Tj Holowaychuk]: https://www.instagram.com/tjholowaychuk/
 
 <!--Internal-Links-->
-[Bag of Holding]: {% post_url 2020-04-25-bag-of-holding %}
-[cómo jugar D&D online]: {% post_url 2020-04-05-dnd-online %}
-[Ironsworn]: {% post_url 2020-04-01-Ironsworn-pt1 %}
+[Bag of Holding]: {% post_url ES/2020-04-25-bag-of-holding %}
+[cómo jugar D&D online]: {% post_url ES/2020-04-05-dnd-online %}
+[Ironsworn]: {% post_url ES/2020-04-01-Ironsworn-pt1 %}
 
 
 <!--External-Links-->
