@@ -10,6 +10,14 @@ url: https://i.reyescon.de
 theme: darkade.github.io-theme
 lang: es_MX
 
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      locale: es_MX
+
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
