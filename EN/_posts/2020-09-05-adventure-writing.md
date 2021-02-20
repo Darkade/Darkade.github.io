@@ -136,13 +136,13 @@ The template also includes a `DndMonster` helper, which there's not easy "org-wa
 ![Full Adventure with the DnD 5e template][FullAdventureDnD]
 _Full Adventure with the DnD 5e template_
 
-These is pretty much the configuration I used and you could leave it there if you want: it's a proper adventure book, you have art, and you it's a decent layout.
+These is pretty much the configuration I used and you could leave it there. However if you want a proper adventure book with have art and a resonably decent layout keep on reading.
 
 ## Adding a cover
 
 [![Arcane Moon Cover][adventurecover]][Arcane Moon]
 
-I made my cover using stock art by [Rian Trost] and Adobe Spark. Spark has templates, and pre configured sizes you can use for print and digital that will get you quickly to a decent cover. The other advantage is that you can resize to any export size and it will redistribute for you; so I also use it for my social media posts, including this article's cover.
+I made my cover using stock art by [Rian Trost] and Adobe Spark. Spark has templates, and pre configured sizes you can use for print and digital that will get you quickly to a decent cover. The other advantage is that you can resize and spark will redistribute for you; so I also use it for my social media posts, including this article's cover.
 
 Once I was satisfied with my cover I download it as a PNG file. And using macOS' Preview I opened both the cover and the PDF export, then just dragged the cover thumbnail to your pdf export. Save and then I was done!
 
