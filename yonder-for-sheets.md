@@ -4,7 +4,15 @@ title: Yonder for Google Sheets
 permalink: /yonder-sheets/
 ---
 
-## Yonder for Google Sheets
+## ![Yonder Dice Roller Logo](/assets/yonder/yonder-isologo-600x124.png)
+{: .logo}
+
+<style>
+.logo {
+    text-align: center;
+    border-radius: 10%;
+}
+</style>
 
 This is an add-on to enable sharing dice rolls within Google Sheets. It works great with many of the online character keeps made by [The Gauntlet Community](https://gauntlet-rpg.com/) and as long as you have an array of names and number stats it should do its job.
 
