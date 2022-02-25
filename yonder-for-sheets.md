@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Yonder for Google Sheets
+title: Yonder Dice Roller for Sheets
 permalink: /yonder-sheets/
 ---
 
@@ -14,15 +14,15 @@ permalink: /yonder-sheets/
 }
 </style>
 
-This is an add-on to enable sharing dice rolls within Google Sheets. It works great with many of the online character keeps made by [The Gauntlet Community](https://gauntlet-rpg.com/) and as long as you have an array of names and number stats it should do its job.
+This is an add-on to enable sharing dice rolls within Google Sheets™. It works great with many of the online character keeps made by [The Gauntlet Community](https://gauntlet-rpg.com/) and as long as you have an array of names and number stats it should do its job.
 
-However, at the moment, Yonder for Google Sheets works mainly with PbtA-style games that use six-sided dice, all of your rolls at the moment will be `2d6 + stat`.
+However, at the moment, Yonder for Google Sheets™ works mainly with PbtA-style games that use six-sided dice, all of your rolls at the moment will be `2d6 + stat`.
 
 Support for FitD games is planned, with other rolls or game systems support depending on use and demand.
 
 To install the add-on go here, you will need a Google Account.
 
-<button style="text-align:center">Install Yonder for Sheets</button>
+<button style="text-align:center">Yonder Dice Roller for Sheets</button>
 
 
 ### Terms of Service
@@ -153,7 +153,7 @@ Once you get notice of an update to these terms, you must agree to the new terms
 
 We collect information from you when you use our addon and gather data when you use it by interacting with it.
 
-When installing our add-on, you will be required to authorize it with your Google account. We only ever get access to the Google Sheets document you enable and authorize the add on for.
+When installing our add-on, you will be required to authorize it with your Google account. We only ever get access to the Google Sheets™ document you enable and authorize the add on for.
 
 When you install and use the add-on we may record usage statistics. We also may retain execution logs including time of day and unaggregated user data.
 
@@ -177,7 +177,7 @@ We will make a good faith effort to:
 
 #### Do we use cookies?
 
-No. However Google Sheets might use cookies and require the use of cookies in order for our add-on deployment to properly work. We have no control over these cookies.
+No. However Google Sheets™ might use cookies and require the use of cookies in order for our add-on deployment to properly work. We have no control over these cookies.
 
 #### Do we disclose any information to outside parties?
 
