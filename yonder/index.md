@@ -12,7 +12,10 @@ Roll and share your results quickly without pausing your game.
 
 It works great with many of the online character keepers; as long as you have a line of stat names and numbers they can be imported into Yonder Dice Roller for Sheets.
 
-Find it in the Google Workspace Marketplace™
+Find it in the Google Workspace Marketplace™ [here.](https://workspace.google.com/marketplace/app/yonder_dice_roller_for_sheets/52635364892)
+
+
+<h3>[›› Get It Now ‹‹](https://workspace.google.com/marketplace/app/yonder_dice_roller_for_sheets/52635364892)</h3>
 
 <div class="caroussel">
 ![Yonder Sidebar Screenshot][screenshot1]
@@ -103,5 +106,11 @@ Dice image by by <a href="https://unsplash.com/@joesracingteam?utm_source=unspla
 }
 .credits {
   font-size: small;
+}
+h3 {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-weight: bolder;
 }
 </style>
