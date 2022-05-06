@@ -44,13 +44,13 @@ From my perspective running the game, it very clearly establishes what the playe
 - they fear death, so they establish a way to escape
 - they want to feel badass, so they establish a big effect for a spell
 - they are getting bored, so they bring in a big antagonist into the situation
-- they want avoid the bbeg dinner scene, so someone unexpected shows up
+- they want avoid the bbeg dinner scene, so an unexpected guest shows up
 
-I now know the energy of the scene, or what the players want from the rest of the session.
+Afterwards, I now know the energy of the scene, or what the players want from the rest of the session.
 
 The challenge for me it's to integrate the detail, it will happen during this scene, I just have to think how. I usually ask for a minute think it through and then I come up with the description.
 
-From the player perspective, they get to own the world. Some of the most significant world elements have been established this way. They also get to push forward the action, or press pause on it.
+From the player perspective, they get to own the world. Some of the most significant elements of our campaign have been established this way. They also get to push forward the action, or press pause on it.
 
 Player become empowered to directly affect the pacing and increase the stakes of the game, they don't have to keep to themselves the big things they want to see, they get to just see them. And the fact that this contribution is mechanized makes it never never feel out of place.
 
@@ -62,7 +62,7 @@ In my experience the negative consequences players establish are almost always w
 
 All NPCs and organizations that might be of use to the characters have an attitude towards the party, so convincing them to provide help would be easier or harder accordingly, and the extent they would provide help would also vary depending on their attitude. You might as well call this [Position and Effect.](https://bladesinthedark.com/action-roll)
 
-I don't do this step by step each time, but it does provide a framework, and a reason, for **CHA (Persutation)** rolls within the fiction which otherwise can feel very dissonant.
+I don't do this step by step each time, but it does provide a framework, and a reason, for **CHA (Persuasion)** rolls within the fiction which otherwise can feel very dissonant.
 
 
 #### Action Options (DMG Ch. 9)
@@ -79,7 +79,7 @@ _This is a theme for all of the rules I'm mentioning. I would try to do somethin
 
 #### Cleaving through Creatures (DMG Ch. 9) & Mob Attacks (DMG Ch. 8)
 
-Cleave is so good if you like big hordes of creatures: any residual damage lands on someone else.
+Cleave is extremely good if you like big hordes of creatures: any residual damage lands on someone else.
 
 Mob Attacks are the counter part, it's a way to roll less when hordes attack, but you have to calculate a couple of things first. It's cool but I find sometimes it takes a bit long to calculate without messing the pace I try to keep; and for me pacing is very important.
 
@@ -112,7 +112,7 @@ If you like pre-planed adventures, and thinking about every possible outcome I t
 
 When I roll and improvise a villainous group that the party manages to avoid that often begins brewing in my head and turns into something bigger. This is how the BBEG of our campaign started.
 
-And I go on, you I've found myself rolling less and less on the random tables because I now have a stronger idea of the setting we've created, so it's easier to either establish stuff on the moment, or pull from stuff I had rolled for before.
+As the campaign goes on I've found myself rolling less and less on the random tables because I now have a stronger idea of the setting we've created, so it's easier to either establish stuff on the moment, or pull from stuff already established/previously rolled.
 
 My two biggest advice on using random tables are:
 
@@ -128,11 +128,13 @@ Try rolling for it. A nice side effect is that when you are running the game you
 
 ### Let everyone find their own fun
 
-_Not shown a lot of memes in our discord shared during play._
+_Not shown: a lot of memes in our discord shared during play._
 
 My most important precept is **everyone at the table is responsible for their own fun.**
 
-This means I'm not there to perform a show to amuse the players, and I'm not having fun at the expense of them. Rather I encourage us all to bring in the things that make it fun for us. For me that has meant learning how betting odds works to fix a tournament in-universe.
+This means I'm not there to perform a show to amuse the players, and I'm not having fun at the expense of them. Rather I encourage us all to bring in the things that make it fun for us.
+
+For me that has meant learning how betting odds works to fix a tournament in-universe.
 
 For the rest of the table it means one of our PC's is obsessed about creating the perfect sandwich. Another one is an old wacky wizard that finds it hard to be useful on purpose. We have a cleric that's very serious about everything and a ranger that wants to be a super hero, and those two are the ones that get in trouble most often.
 
@@ -169,21 +171,21 @@ My final advice is to remember that [role playing games are a conversation,](htt
 
 These recommendations and rules are not for everyone, and in some particular cases might even reduce accessibility. For example, I run theatre of the mind, but some people need, not want, need the map because of how they understand space.
 
-From the particular perspective of running the game, I might not spend a lot of time preparing a session, but I think a lot about _how I run the game._ My prep time is about 20 minutes per week, but I spend hours reading other games, blogs and listening to podcasts. And whenever I play a PC I make a very active efforto to learn from the person running it.
+From the particular perspective of running the game, I might not spend a lot of time preparing a session, but I think a lot about _how I run the game._ My prep time is about 20 minutes per week, but I spend hours reading other games, blogs and listening to podcasts. And whenever I play a PC I make a very active effort to to learn from the person running it.
 
-This investment might be too much for some people, for whom it probably would be much easier to try to emulate somebody else's style.
+This time investment might be too much for some people, for whom it probably would be much easier to try to emulate somebody else's style.
 
 ---
 
 ### The future
 
-The characters are now at level 13. And I feel like there's something that needs to change. From level 1 to 11 all of this style was working very smoothly, but now I feel friction in the game and I'm not sure where it comes. I'm sure it's because of how something scaled in character progression, for example spells take a long time to read and agree on now. But I'm still trying to figure it out.
+The characters are now at level 13. And I feel like there's something that needs to change. From level 1 to 11 all of this style was working very smoothly, but now I feel friction in the game and I'm not sure where it comes. I'm sure it's because of how something scaled in character progression, for example spells take a long time to read and agree on their effect now. But I'm still trying to figure it out.
 
 I know the idea of retiring a level ~15 character is something my partner yearns for, and I'd like to help her reach that point. In the "story" front we have been tying a lot of plots threads and reaching a point when all of the random elements are converging together, so I'm sure the campaign will reach a natural conclusion. I just want to reach that point in the best way we can.
 
 ---
 <!--OUTRO-->
-Thank you for reading! If you liked this post and want to support me check out [Arcane Moon], a D&D adventure inspired by 90s Magical Girl anime, published at DMs Guild. Or download for free my Fiasco Classic Adventure [Busca Un Problema] at Itch.io!
+Thank you for reading! If you liked this post and want to support me check out [Arcane Moon], a D&D adventure inspired by 90s Magical Girl anime, published at DMs Guild. Or download for free my Fiasco Classic playset [Busca Un Problema] at Itch.io!
 
 You can also read [The Dwendalian War Inciting Incident] the encounter that started the war in my Wildemount campaign. And you can read about how I run a Zelda style dungeon [here.][Running the dungeon]
 
