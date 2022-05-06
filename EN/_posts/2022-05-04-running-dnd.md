@@ -6,7 +6,7 @@ image:
   path: /assets/2022-05-05/computadora.jpg
   width: 1200
   height: 1200
-description: ""
+description: "I've been running our D&D game for almost two years, this is how someone who is not a fan of D&D keeps it going."
 ---
 
 <!--INTRO-->
