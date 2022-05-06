@@ -27,7 +27,7 @@ _Cover photo by [Jordan Grider]_
 
 <!--OUTRO-->
 
-If you'd liked this post and want to support me check out [Arcane Moon], a D&D adventure inspired by 90s Magical Girl anime, published at DMs Guild. Or download for free my Fiasco Classic Adventure [Busca Un Problema] at Itch.io!
+If you liked this post and want to support me check out [Arcane Moon], a D&D adventure inspired by 90s Magical Girl anime, published at DMs Guild. Or download for free my Fiasco Classic Adventure [Busca Un Problema] at Itch.io!
 
 You can also read [The Dwendalian War Inciting Incident] the encounter that started the war in my Wildemount campaign. And you should read the other part of this same article on [Advice to running a dungeon.][Running the dungeon]
 
