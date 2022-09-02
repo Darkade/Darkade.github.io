@@ -10,13 +10,13 @@ description: "Today I fix Machien Frequency, the Fallout RPG Quickstart included
 ---
 
 <!--INTRO-->
-Machine Frequency is the adventure included with the Fallout RPG Quickstart Rules. It's a conversion of an homonymous adventure for the Fallout Wasteland Warfare miniatures war game, and honestly it could be better.
+Machine Frequency is the adventure included with the Fallout RPG Quickstart Rules. It's a conversion of an homonymous adventure for the Fallout Wasteland Warfare miniatures war game, and honestly it could be better, so today we are Fixing Fallout Machine Frequency.
 
 ![Fallout. Machine Frequency][postcover]
 
 <!--more-->
 
-For starters the adventure mentions several times Activations which is a term from the miniatures game; but beyond that it clearly was meant as a series of combat encounters to be passed, which could be fun on the tactical grid side, but it's not in a narrative RPG. However I think the story is a nice jumping off point, and a good showcase of what the game can do, in other words, the adventure has "good bones" they just need to be rearranged, but me in this post.
+[The quickstart adventure][Fallout RPG Quickstart] has some conversion problems, for example, it mentions Activations several times,  term from the [miniatures game][Fallout Wasteland Warfare] it was originally written. This war gaming conception makes the adventure seem like a series of combat encounters to be passed, which could be fun on the tactical grid side, but it's not in a narrative RPG. However I think the story is a nice jumping off point, and a good showcase of what the game can do, in other words, the adventure has "good bones" they just need to be rearranged, but me in this post.
 
 <!--ABSTRACT-->
 
@@ -90,3 +90,5 @@ Finally you can follow me [@darkade]! Thanks for reading!
 <!--Credits-->
 
 <!--External-Links-->
+[Fallout Wasteland Warfare]: https://www.drivethrurpg.com/product/237125/Fallout-Wasteland-Warfare--Rules-of-Play?affiliate_id=435266
+[Fallout RPG Quickstart]: https://www.drivethrurpg.com/product/399936/Fallout-The-Roleplaying-Game--Quickstart-Guide--PDF?affiliate_id=435266
