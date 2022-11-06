@@ -12,7 +12,7 @@ Roll and share your results quickly without pausing your game.
 
 It works great with many of the online character keepers; as long as you have a line of stat names and numbers they can be imported into Yonder Dice Roller for Sheets.
 
-Find it in the Google Workspace Marketplace™ [here.](https://workspace.google.com/marketplace/app/yonder_dice_roller_for_sheets/52635364892)
+Find it in the Google Workspace Marketplace™ [here.](https://bit.ly/3MfBnLK)
 
 
 <h3>[›› Get It Now ‹‹](https://workspace.google.com/marketplace/app/yonder_dice_roller_for_sheets/52635364892)</h3>
@@ -49,9 +49,13 @@ Support for FitD games is planned, with other rolls or game systems support depe
 - [Privacy policy.](/yonder/privacy)
 - [Terms of service.](/yonder/terms)
 
-<!-- To install the add-on go here, you will need a Google Account. -->
+Get <a style="text-align:center" href="https://bit.ly/3MfBnLK">Yonder Dice Roller for Sheets</a> for Free.
+{:.text-center}
 
-<!-- <button style="text-align:center">Yonder Dice Roller for Sheets</button> -->
+---
+
+[Recent Yonder Updates](/yonder/changelog)
+{: .text-center .display-4}
 
 ![Dice banner][footer]
 {: .footer-banner}
