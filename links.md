@@ -5,19 +5,15 @@ links:
     text: My website!
     icon: link
     url: https://anya.reyescon.de/
-  - Yonder:
+  - rss:
+    text: My RSS feed!
+    icon: rss
+    url: https://anya.reyescon.de/feed
+  - yonder:
     text: Yonder Dice Roller
     icon: dice-d20
     url: https://bit.ly/3MfBnLK
-  - mastodon:
-    text: "@Darkade@dice.camp"
-    icon: mastodon
-    url: https://dice.camp/@darkade
-  - drivethru:
-    text: "DriveThru RPG"
-    icon: dice-d6
-    url: https://www.drivethrurpg.com/browse.php?author=Anya%20Reyes&affiliate_id=435266
-  - drivethru:
+  - youtube:
     text: "Hora de Roleo!"
     icon: youtube
     url: https://www.youtube.com/channel/UCl24-CIkblvU_jwQfAWuT5A
@@ -25,12 +21,20 @@ links:
     text: "Itch.io"
     icon: itch-io
     url: https://rdarkade.itch.io/
+  - drivethru:
+    text: "DriveThru RPG"
+    icon: dice-d6
+    url: https://www.drivethrurpg.com/browse.php?author=Anya%20Reyes&affiliate_id=435266
+  - mastodon:
+    text: "@Darkade@dice.camp"
+    icon: mastodon
+    url: https://dice.camp/@darkade
   - cohost:
-    text: "@Darkade Cohost"
+    text: "Darkade – Cohost"
     icon: comments
     url: https://cohost.org/Darkade
-  - Twitter:
-    text: "@darkade"
+  - twitter:
+    text: "@Darkade"
     icon: twitter
     url: https://twitter.com/darkade
 
@@ -50,7 +54,7 @@ projects:
     tagline: Magical Girl
     alt: A cover showing a wizard woman skipping forward with the title Arcane Moon
     description: "Arcane Moon is an introductory adventure inspired by 90s Magical Girl anime. It's a story of love, friendship, treason and big villains!"
-    img: https://www.dmsguild.com/images/8957/323672.jpg
+    img: /assets/links/Arcane Moon Thumbnail-1.png
     links:
       - bitly:
         text: itch
