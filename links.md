@@ -44,7 +44,7 @@ projects:
     tagline: Magical Girl
     alt: An screenshot showing a google sheets extension
     description: Yonder is a digital dice roller that works within Google® Sheets. If you use spreadsheets as character sheets this is the roller for you!
-    img: https://anya.reyescon.de/yonder/screenshots/wasteland.png
+    img: /assets/links/Yonder.png
     links:
       - bitly:
         text: Google Marketplace
@@ -64,7 +64,7 @@ projects:
     tagline: Magical Girl
     alt: A cover depicting three night arial shots of Mexico City with the title Busca un Problema
     description: Busca Un Problema is a Playset for Fiasco Classic inspired by 2000s Mexican dark comedies, like Matando Cabos, Nicotina and Rudo y Cursi.
-    img: https://img.itch.zone/aW1hZ2UvODk2NzExLzUwNjE0MDcucG5n/794x1000/Fkms3E.png
+    img: /assets/links/BuscaUnProblema-thumbnail.png
     links:
       - itch:
         text: Itch.io
