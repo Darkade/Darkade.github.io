@@ -30,7 +30,7 @@ links:
     icon: mastodon
     url: https://dice.camp/@darkade
   - tumblr:
-    text: "darkade.tumblr.com"
+    text: "More General Nerdness"
     icon: tumblr
     url: https://darkade.tumblr.com/
   - cohost:
@@ -76,15 +76,14 @@ projects:
       - drivethru:
         text: DriveThru RPG
         url: https://bit.ly/BuscaUnProblemaDTRPG
+  - Character Keepers:
+    text: Character Keepers
+    tagline: Character sheets implemented as spreadsheets
+    alt: A screenshot of the multiple character keepers that are available my my google drive link
+    description: Some spreadsheets I've made to keep track of games. For the most part these are character sheets, but some include other tables an utilities I regularly use playing these games.
+    img: /assets/links/CharacterKeepers.png
+    links:
+      - bitly:
+        text: Google Drive
+        url: https://bit.ly/DarkadeCharacterKeepers
 ---
-<!--
-- Character Keepers:
-  text: Character Keepers
-  tagline: Google spreadsheets
-  alt: A screenshot of an spreadsheet character sheet for a ttrpg
-  description: lorem ipsum
-  img: abc
-  links:
-    - bitly:
-      text: itch
-      url: https://bit.ly/3MfBnLK -->
