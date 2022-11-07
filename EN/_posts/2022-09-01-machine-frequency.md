@@ -6,7 +6,7 @@ image:
   path: /assets/2022-09-02/Fallout RPG.png
   width: 1200
   height: 675
-description: "Today I fix Machien Frequency, the Fallout RPG Quickstart included adventure."
+description: "Today I fix Machine Frequency, the Fallout RPG Quickstart included adventure."
 ---
 
 <!--INTRO-->
