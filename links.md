@@ -29,6 +29,10 @@ links:
     text: "@Darkade@dice.camp"
     icon: mastodon
     url: https://dice.camp/@darkade
+  - tumblr:
+    text: "darkade.tumblr.com"
+    icon: tumblr
+    url: https://darkade.tumblr.com/
   - cohost:
     text: "Darkade – Cohost"
     icon: comments
