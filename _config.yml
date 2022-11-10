@@ -48,6 +48,10 @@ twitter:
   username: darkade
   card: summary_large_image
 
+mastodon:
+  server: dice.camp
+  user: "@darkade"
+
 analytics: UA-144585764-1
 
 social:
