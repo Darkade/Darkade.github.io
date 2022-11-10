@@ -11,7 +11,7 @@ GEM
       public_suffix (>= 2.0.2, < 5.0)
     colorator (1.1.0)
     concurrent-ruby (1.1.9)
-    darkade.github.io-theme (1.5.1)
+    darkade.github.io-theme (1.5.2)
       jekyll (~> 4.1)
       jekyll-feed (~> 0.15.1)
       jekyll-paginate-v2 (~> 3.0)
@@ -102,7 +102,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  darkade.github.io-theme (~> 1.5, >= 1.5.1)
+  darkade.github.io-theme (~> 1.5, >= 1.5.2)
   jekyll (~> 4.0)
   jekyll-target-blank
   jemoji (~> 0.12.0)

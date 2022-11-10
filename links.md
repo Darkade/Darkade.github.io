@@ -13,6 +13,10 @@ links:
     text: Yonder Dice Roller
     icon: dice-d20
     url: https://bit.ly/3MfBnLK
+  - startplaying:
+    text: Start Playing Games
+    icon: headset
+    url: https://bit.ly/StartPlayingWithDarkade
   - youtube:
     text: "Hora de Roleo!"
     icon: youtube
