@@ -1,6 +1,7 @@
 ---
 title: Darkade's Links
 tagline: Find my ttrpg exploits everywhere they are!
+permalink: /links/
 image:
   path: /assets/links/LinksSpread.png
   width: 1200
