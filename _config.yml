@@ -35,6 +35,13 @@ pagination:
     before: 2
     after: 2
 
+giscus:
+  repo: "Darkade/Darkade.github.io-comments"
+  repoid: "R_kgDOIuNbEA"
+  category: "Announcements"
+  categoryid: "DIC_kwDOIuNbEM4CTaKd"
+  mapping: "pathname"
+
 markdown: kramdown
 kramdown:
   parse_block_html: true
