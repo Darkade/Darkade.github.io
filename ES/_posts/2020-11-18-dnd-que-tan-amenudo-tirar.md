@@ -185,7 +185,7 @@ Gracias por leer.
 
 [tables]: https://bit.ly/3pIbSYH
 
-[@darkade]: https://twitter.com/darkade
+[@darkade]: https://dice.camp/@darkade
 [failing forwards]: https://youtu.be/l1zaNJrXi5Y
 [Warlock Pixieland]: https://twitter.com/search?q=(%23warlockpixieland)&f=live
 

@@ -228,7 +228,7 @@ Thanks for reading!
 [arcanemoonpost]: {% post_url EN/2020-09-05-adventure-writing %}
 
 <!--Self Promo-->
-[@darkade]: https://twitter.com/darkade
+[@darkade]: https://dice.camp/@darkade
 [failing forwards]: https://youtu.be/l1zaNJrXi5Y
 [Warlock Pixieland]: https://twitter.com/search?q=(%23warlockpixieland)&f=live
 

@@ -70,7 +70,7 @@ Finally you can follow me [@darkade]! Thanks for reading!
 [Running the dungeon]: {% post_url EN/2021-02-13-dungeon-advice %}
 
 <!--Self Promo-->
-[@darkade]: https://twitter.com/darkade
+[@darkade]: https://dice.camp/@darkade
 [#WarlockPixieland]: https://twitter.com/search?q=(%23warlockpixieland)&f=live
 [Arcane Moon]: https://bit.ly/ArcaneMoon
 [Busca Un Problema]: https://bit.ly/BuscaUnProblema
