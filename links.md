@@ -20,6 +20,10 @@ links:
     text: Yonder Dice Roller
     icon: dice-d20
     url: https://bit.ly/3MfBnLK
+  - collection:
+    text: Games collection
+    icon: trello
+    url: https://trello.com/b/MSgGv0Bd/rpgs
   - startplaying:
     text: Start Playing Games
     icon: headset
