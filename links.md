@@ -8,10 +8,6 @@ image:
   height: 670
 layout: projects
 links:
-  - website:
-    text: My website!
-    icon: link
-    url: https://anya.reyescon.de/
   - rss:
     text: My RSS feed!
     icon: rss
@@ -20,18 +16,14 @@ links:
     text: Yonder Dice Roller
     icon: dice-d20
     url: https://bit.ly/3MfBnLK
-  - collection:
-    text: Games collection
-    icon: trello
-    url: https://trello.com/b/MSgGv0Bd/rpgs
-  - startplaying:
-    text: Start Playing Games
-    icon: headset
-    url: https://bit.ly/StartPlayingWithDarkade
   - youtube:
     text: "Hora de Roleo!"
     icon: youtube
     url: https://www.youtube.com/channel/UCl24-CIkblvU_jwQfAWuT5A
+  - startplaying:
+    text: Start Playing Games
+    icon: headset
+    url: https://bit.ly/StartPlayingWithDarkade
   - itch:
     text: "Itch.io"
     icon: itch-io
@@ -40,18 +32,30 @@ links:
     text: "DriveThru RPG"
     icon: dice-d6
     url: https://www.drivethrurpg.com/browse.php?author=Anya%20Reyes&affiliate_id=435266
+  - pixelfed:
+    text: "@Darkade@metapixl.com"
+    icon: mastodon
+    url: https://metapixl.com/@darkade
   - mastodon:
     text: "@Darkade@dice.camp"
-    icon: mastodon
+    icon: camera-retro
     url: https://dice.camp/@darkade
-  - tumblr:
-    text: "More General Nerdness"
-    icon: tumblr
-    url: https://darkade.tumblr.com/
-  - cohost:
-    text: "Darkade – Cohost"
-    icon: comments
-    url: https://cohost.org/Darkade
+  # - tumblr:
+  #   text: "More General Nerdness"
+  #   icon: tumblr
+  #   url: https://darkade.tumblr.com/
+  # - cohost:
+  #   text: "Darkade – Cohost"
+  #   icon: comments
+  #   url: https://cohost.org/Darkade
+  - collection:
+    text: Games collection
+    icon: trello
+    url: https://trello.com/b/MSgGv0Bd/rpgs
+  - website:
+    text: My website!
+    icon: link
+    url: https://anya.reyescon.de/
   - twitter:
     text: "@Darkade"
     icon: twitter
