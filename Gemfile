@@ -2,6 +2,7 @@ source "https://rubygems.org"
 
 gem 'jekyll', '~> 4.0'
 gem 'darkade.github.io-theme', '~> 1.6', '>= 1.6.0'
+gem "jekyll-sass-converter", "~> 2.0"
 
 group :jekyll_plugins do
   gem 'jemoji', '~> 0.12.0'
