@@ -34,7 +34,7 @@ I tried to bridge this in three ways: CATS, making my own components, and focusi
 
 [CATS] stands for  Concept, Aim Tone and Subject Matter. It's a way to guide the conversation when introducing a game to the table. I won't go into detail here, but you can check out P.R. O'leary's blog for a thorough explanation. I will say using this tool has consistently led to some of the best games I've run. It helps set clear expectations, establishes the game's tone, how the campaign or session has been set up, and ensures everyone is on the same page. It's really cool!
 
-![Una hoja de editor de texto con el CATS de la partida][CATS]
+![Una hoja de editor de texto con el CATS de la partida][CATS document]
 _CATS for the game, in spanish_
 
 #### Components
@@ -129,7 +129,7 @@ Thank you for reading! If you would like to support me you could buy [Arcane Moo
 
 <!--Images-->
 [postcover]: {{ page.image.path }}
-[CATS]: /assets/2023-05-30/CATS.png
+[CATS document]: /assets/2023-05-30/CATS.png
 [lakoboldcon]: /assets/2023-05-30/lakoboldcon.png
 [fullplayerkit]: /assets/2023-05-30/fullplayerkit.jpg
 [componentcollage]: /assets/2023-05-30/componentcollage.jpg
