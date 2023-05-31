@@ -52,7 +52,7 @@ _Este es tu kit de jugadora con los componentes rediseñados_
 
 Además, creé tarjetas de `partes vitales` que contienen las reglas individuales para cada una de ellas, ya sea que funcionen correctamente o no. Por último, hice tarjetas de `armas`. Créeme, si juegas este juego, **olvidarás** hacer  seguimiento de las armas cuando se atascan. Estas tarjetas sirven como recordatorios, posponiendo la necesidad de explicar ciertas reglas mientras proporcionan una referencia rápida cuando necesites interactuar con ellas.
 
-También limité las guías de juego y preseleccioné los aviones, para que pudiéramos personalizar los personajes en lugar de crearlos desde cero.
+También limité los playbooks disponibles y preseleccioné los aviones, para que pudiéramos personalizar los personajes en lugar de crearlos desde cero.
 
 ![Un collage que muestra diferentes partes del proceso de creación de los componentes][componentcollage]
 _Aquí hay parte del proceso de creación de los componentes._
@@ -65,7 +65,7 @@ Después, el plan era aterrizar y pasar a la otra parte del juego, lidiando con 
 
 
 
-### The Execution
+### La Partida
 
 CATS y los componentes funcionaron como se esperaba, creando un ambiente lleno de energía y emoción. Sin embargo, me encontré con mi primer obstáculo durante la personalización de los personajes, y esto expuso una brecha en mis habilidades que no pude superar durante el resto de la sesión. Para entenderlo, déjame retroceder un poco.
 
