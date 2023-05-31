@@ -58,6 +58,8 @@ I also limited the playbooks and pre-choose the planes, so that we would customi
 ![A collage showing different part of the dial making process][componentcollage]
 _Here's some of the process for making the components._
 
+You can see more images of the process [here][components].
+
 #### The Adventure
 
 To frame the adventure, I presented it as a licensing exam. The characters were required to pull off a Power Dive, an [Immelmann] turn, a [Slideslip], and keeping track of the practice targets in order to pass. This challenge applied to both the pilot characters and the players themselves. The goal was to engage with the mechanics by performing some exciting maneuvers. If they performed well enough, I had some bandits prepared to provide them with a taste of combat.

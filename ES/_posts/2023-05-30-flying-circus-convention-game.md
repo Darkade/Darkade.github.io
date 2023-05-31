@@ -57,6 +57,8 @@ También limité los playbooks disponibles y preseleccioné los aviones, para qu
 ![Un collage que muestra diferentes partes del proceso de creación de los componentes][componentcollage]
 _Aquí hay parte del proceso de creación de los componentes._
 
+Puedes ver más imagenes del proceso [aquí][components].
+
 #### La Aventura
 
 Presenté la aventura como un examen de licencia para volar. Los personajes debían realizar un Power Dive, un [Immelmann] Turn, un [Slideslip] y estar atentes de los objetivos de práctica para aprobar. Este desafío se aplicaba tanto a los personajes pilotos como a los propios jugadores. El objetivo era involucrarse con las mecánicas realizando algunas maniobras emocionantes. Si lo hacían lo suficientemente bien, tenía preparados algunos bandidos para darles una probada del sistema de combate.
@@ -79,7 +81,7 @@ Así que este es el grupo: tres adultos y unx niñx de 11 años. Cuando hicimos 
 
 #### Narrando el juego
 
-Al comenzar la sesión, les pilotes solo están equipades con balas frangibles, porque la sesión está pensada como un escenario de examen. Sin embargo, lx morritx eligió el Theler Zweihänder, es decir, el único avión con una espada como ala. ¿Y qué hace? Inmediatamente se lanzan a atacar al examinador. Pauso el juego, dejando claro que no nos estamos centrando en ese tipo de acciones, ya que serían disruptivas para la sesión y tendrían consecuencias para el personaje. Sin embargo, le dejo claro que es libres de hacerlo si así lo desean, no voy a ser yo quien coarte la autonomía de estx niñx. Y lo hace.
+Al comenzar la sesión, les pilotes solo están equipades con [balas frangibles][frangible bullets], porque la sesión está pensada como un escenario de examen. Sin embargo, lx morritx eligió el Theler Zweihänder, es decir, el único avión con una espada como ala. ¿Y qué hace? Inmediatamente se lanzan a atacar al examinador. Pauso el juego, dejando claro que no nos estamos centrando en ese tipo de acciones, ya que serían disruptivas para la sesión y tendrían consecuencias para el personaje. Sin embargo, le dejo claro que es libres de hacerlo si así lo desean, no voy a ser yo quien coarte la autonomía de estx niñx. Y lo hace.
 
 Así que saco a los bandidos. que han aprovechado esta distracción para atacar al resto del grupo. Desvío mi atención hacia el encuentro con los bandidos, los personajes capturan el avión atacante realizando algunos saltos atrevidos, usando `Ideomotor Response` y haciendo que una de las pilotos atraiga la atención de los artilleros, poniéndose así misma en gran peligro en el proceso.
 
@@ -101,7 +103,7 @@ Lx niñx era perfectamente capaz de comprender los mecanismos y participar en el
 
 Voy a narrar Flying Circus la próxima semana, al menos tres sesiones. Algunes de los participantes de la KoboldCon se entusiasmaron mucho con mis componentes y el concepto del juego, y me pidieron que les narrara. Sin embargo, implementaré algunos cambios basados en esta experiencia.
 
-**Primero.** En lugar de comenzar con la parte de la misión de la rutina, utilizaré la técnica de [montaje] del 13th Age para enmarcar la misión de la que acaban de aterrizar los personajes. Tomaremos el correspondiente `estrés` y usaremos todos los mecanismos de tierra. Espero que esto me permita (a) evaluar cuánto entiende el grupo sobre los combates aéreos al escuchar cómo describen la misión, y (b) brindarnos oportunidades para el desarrollo de personajes y ganchos para interactuar una vez que estén en el aire.
+**Primero.** En lugar de comenzar con la parte de la misión de la rutina, utilizaré la técnica de [montaje][montage] del 13th Age para enmarcar la misión de la que acaban de aterrizar los personajes. Tomaremos el correspondiente `estrés` y usaremos todos los mecanismos de tierra. Espero que esto me permita (a) evaluar cuánto entiende el grupo sobre los combates aéreos al escuchar cómo describen la misión, y (b) brindarnos oportunidades para el desarrollo de personajes y ganchos para interactuar una vez que estén en el aire.
 
 La segunda parte de la sesión tendremos una misión generada a con los mecanismos del juego, lo que me dará información sobre los tipos de trabajos que interesan a les jugadores.
 
