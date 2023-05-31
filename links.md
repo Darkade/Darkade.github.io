@@ -32,14 +32,14 @@ links:
     text: "DriveThru RPG"
     icon: dice-d6
     url: https://www.drivethrurpg.com/browse.php?author=Anya%20Reyes&affiliate_id=435266
-  - pixelfed:
-    text: "@Darkade@metapixl.com"
-    icon: mastodon
-    url: https://metapixl.com/@darkade
   - mastodon:
     text: "@Darkade@dice.camp"
-    icon: camera-retro
+    icon: mastodon
     url: https://dice.camp/@darkade
+  - pixelfed:
+    text: "@Darkade@metapixl.com"
+    icon: camera-retro
+    url: https://metapixl.com/@darkade
   # - tumblr:
   #   text: "More General Nerdness"
   #   icon: tumblr
