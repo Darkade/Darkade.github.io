@@ -33,7 +33,7 @@ Intenté tres maneras de solventar esto: CATS, creando mis propios componentes y
 
 [CATS] que significa Concepto (concept), Objetivo (aim), Tono (tone) y Tema (subject matter). Es una forma de guiar la conversación al presentar un juego a la mesa. No voy a detallar aquí, pero puedes consultar el blog de P.R. O'leary si quieres saber más. Diré que el uso de esta herramienta siempre ha dado como resultado algunas de las mejores partidas que he dirigido. Ayuda a establecer expectativas claras, establece el tono del juego, cómo se ha configurado la campaña o sesión, y asegura que todos estén en la misma página. ¡Es realmente genial!
 
-![Una hoja de editor de texto con el CATS de la partida][CATS]
+![Una hoja de editor de texto con el CATS de la partida][CATS document]
 _El CATS para partida_
 
 #### Componentes
@@ -129,7 +129,7 @@ También puedo pensar en una razón más sólida para dar la bienvenida a morrit
 <!--Images-->
 [postcover]: {{ page.image.path }}
 [lakoboldcon]: /assets/2023-05-30/lakoboldcon.png
-[CATS]: /assets/2023-05-30/CATS.png
+[CATS document]: /assets/2023-05-30/CATS.png
 [fullplayerkit]: /assets/2023-05-30/fullplayerkit.jpg
 [componentcollage]: /assets/2023-05-30/componentcollage.jpg
 
