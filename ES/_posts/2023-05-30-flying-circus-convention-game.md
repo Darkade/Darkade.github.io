@@ -31,26 +31,26 @@ Intenté tres maneras de solventar esto: CATS, creando mis propios componentes y
 
 #### CATS
 
-[CATS] que significa Concepto (concept), Objetivo (aim), Tono (tone) y Tema (subject matter). Es una forma de guiar la conversación al presentar un juego a la mesa. No voy a detallar aquí, pero puedes consultar el blog de P.R. O'leary si quieres saber más. Diré que el uso de esta herramienta siempre ha dado como resultado algunas de las mejores partidas que he dirigido. Ayuda a establecer expectativas claras, establece el tono del juego, cómo se ha configurado la campaña o sesión, y asegura que todos estén en la misma página. ¡Es realmente genial!
+[CATS] que significa Concepto (concept), Objetivo (aim), Tono (tone) y Tema (subject matter). Es una forma de guiar la conversación al presentar un juego a la mesa. No voy a detallar aquí, pero puedes consultar el blog de P.R. O'leary si quieres saber más. Diré que usar esta herramienta siempre ha resultado en algunas de las mejores partidas que he dirigido. Ayuda a establecer expectativas claras, el tono del juego, cómo se ha diseñado la campaña o sesión, y asegura que todes estén en la misma página. ¡Es super útil!
 
 ![Una hoja de editor de texto con el CATS de la partida][CATS document]
 _El CATS para partida_
 
 #### Componentes
 
-Los nuevos componentes fueron una necesidad para mí, sin nuevos componentes simplemente no habría podido llevar Flying Circus. Es el tipo de juego que nos pide hacer un seguimiento de muchas cosas, cada una en diferentes estados. Los componentes incluidos son suficientes si estás familiarizada con el juego, pero implican una cantidad considerable de hojas, tarjetas, fichas y escritura constante y borrado con poca sugerencia sobre cómo manejar la infinidad de papel.
+Los nuevos componentes eran una necesidad para mí, sin nuevos componentes simplemente no habría llevado Flying Circus. Es el tipo de juego que nos pide hacer seguimiento de muchas cosas, cada una en diferentes estados. Los componentes incluidos son suficientes si estás familiarizada con el juego, pero implican una cantidad considerable de hojas, tarjetas, fichas y escritura y borrado constante, con poca sugerencia sobre cómo manejar la infinidad de papel.
 
 También hay una suposición tácita de que recordarás algunas de las reglas más particulares, o al menos reconocerás cuando entran en juego, como las tres formas diferentes en que los radiadores pueden funcionar.
 
 --- 
 
-¿Mi solución? ¡Más papel! Bueno, más o menos. En lugar de usar varias hojas de papel tamaño carta, convertí el panel de control del avión en una hoja de mayor tamaño. También transformé los indicadores de velocidad, altitud y fuerza G en contadores de diales, ya que cambian constantemente durante el juego.
+¿Mi solución? ¡Más papel! Bueno, más o menos. En lugar de usar varias hojas de papel tamaño carta, convertí el panel de control del avión en una hoja de mayor tamaño. También transformé los indicadores de velocidad, altitud y fuerza-g en contadores de diales, ya que sus valores cambian constantemente durante el juego.
 
 ![Un conjunto de diales, dados, tarjetas y un tablero de control de avión más grande][fullplayerkit]
 _Este es tu kit de jugadora con los componentes rediseñados_
 
 
-Además, creé tarjetas de `partes vitales` que contienen las reglas individuales para cada una de ellas, ya sea que funcionen correctamente o no. Por último, hice tarjetas de `armas`. Créeme, si juegas este juego, **olvidarás** hacer  seguimiento de las armas cuando se atascan. Estas tarjetas sirven como recordatorios, posponiendo la necesidad de explicar ciertas reglas mientras proporcionan una referencia rápida cuando necesites interactuar con ellas.
+Además, creé tarjetas de `partes vitales` que contienen las reglas individuales para cada una de ellas, ya sea que estén funcionando correctamente o no. Por último, hice tarjetas de `armas`. Créeme, si juegas este juego, **olvidarás** hacer  seguimiento de las armas cuando se atascan. Estas tarjetas sirven como recordatorios, posponiendo la necesidad de explicar ciertas reglas mientras proporcionan una referencia rápida cuando necesites interactuar con ellas.
 
 También limité los playbooks disponibles y preseleccioné los aviones, para que pudiéramos personalizar los personajes en lugar de crearlos desde cero.
 
