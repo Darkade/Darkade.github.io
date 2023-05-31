@@ -75,7 +75,7 @@ He descubierto que jugar con niñes resalta la importancia de comprender los dif
 
 En el caso de Flying Circus, la expectativa de estx morritx era una sesión llena de violencia y la posibilidad de volverse rápidamente más poderose. Sin embargo, aunque Flying Circus puede ser extremadamente peligroso para los personajes, no se trata del peligro en sí, sino de la lucha emocional que conlleva. De cierta manera, su expectativa era _el juego del dragón,_ pero con aviones.
 
-Así que este es el grupo: tres adultos y unx niñx de 11 años. Cuando hicimos CATS, tuve que repetirme alguanas ocaciones para lx morritx. Creamos los personajes y la morritx estaba pregutnando sobre hacer cosas fuera de los límites que he establecido para la sesión, de modo que constantemente tengo que contenerle. Desde mi perspectiva, esta situación destaca cuán deficientes son mis habilidades para comunicarme efectivamente con niñxs.
+Así que este es el grupo: tres adultos y unx niñx de 11 años. Cuando hicimos CATS, tuve que repetirme algunas ocaciones para lx morritx. Creamos los personajes y la morritx estaba pregutnando sobre hacer cosas fuera de los límites que he establecido para la sesión, de modo que constantemente tengo que contenerle. Desde mi perspectiva, esta situación destaca cuán deficientes son mis habilidades para comunicarme efectivamente con niñxs.
 
 #### Narrando el juego
 
