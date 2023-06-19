@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="shortcut icon" href="/assets/icon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="/assets/icon_large.png" type="image/png">
+
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144585764-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-144585764-1');
+  </script>
+  
+
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>El día que Pipenv llegó para salvarnos de nuestros pecados | General nerdness</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="El día que Pipenv llegó para salvarnos de nuestros pecados" />
+<meta name="author" content="Anya Reyes" />
+<meta property="og:locale" content="es_MX" />
+<meta name="description" content="Hoy vamos a aprender a utilizar pipenv una herramienta que trae lo mejor de todos los manejadores de paquetes a Python." />
+<meta property="og:description" content="Hoy vamos a aprender a utilizar pipenv una herramienta que trae lo mejor de todos los manejadores de paquetes a Python." />
+<link rel="canonical" href="https://anya.reyescon.de/2019/06/17/pipenv.html" />
+<meta property="og:url" content="https://anya.reyescon.de/2019/06/17/pipenv.html" />
+<meta property="og:site_name" content="General nerdness" />
+<meta property="og:image" content="https://anya.reyescon.de/assets/2019-06-17/yarn.jpg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-06-17T00:00:00+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://anya.reyescon.de/assets/2019-06-17/yarn.jpg" />
+<meta property="twitter:title" content="El día que Pipenv llegó para salvarnos de nuestros pecados" />
+<meta name="twitter:site" content="@darkade" />
+<meta name="twitter:creator" content="@Anya Reyes" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Anya Reyes"},"dateModified":"2019-06-17T00:00:00+00:00","datePublished":"2019-06-17T00:00:00+00:00","description":"Hoy vamos a aprender a utilizar pipenv una herramienta que trae lo mejor de todos los manejadores de paquetes a Python.","headline":"El día que Pipenv llegó para salvarnos de nuestros pecados","image":"https://anya.reyescon.de/assets/2019-06-17/yarn.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"https://anya.reyescon.de/2019/06/17/pipenv.html"},"url":"https://anya.reyescon.de/2019/06/17/pipenv.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+<body>
+  <header>
+  <nav class="navbar navbar-dark bg-primary navbar-expand-lg">
+    <div class="container-fluid">
+      <span class="navbar-text w-50">
+        <a class="" href="/">General nerdness</a>
+        <span class="d-none d-md-block text-white text-bold"><small>Anya Reyes – Maths, RPGs, Boardgames &amp; Coding.</small></span>
+      </span>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggle">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarToggle">
+        <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about/">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/links/">Links</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/directory/">Directory</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+  <main class="container">
+    <div class="row">
+  <div class="offset-md-2 col-md-8 py-2">
+    <article class="row py-1" lang="es-MX">
+  <div class="col">
+    <h1 class="my-2 h2"><a href="/2019/06/17/pipenv.html">El día que Pipenv llegó para salvarnos de nuestros pecados</a></h1>
+    <p class="text-end">Jun 17, 2019</p>
+
+    <div class="row">
+      <div class="col">
+        <p><img src="/assets/2019-06-17/yarn.jpg" alt="Lo enredadas que son las dependencias"></p>
+
+<p>Hoy vamos a aprender a utilizar <a href="https://docs.pipenv.org/" target="_blank" rel="noopener noreferrer"><code class="language-plaintext highlighter-rouge">pipenv</code></a> que <em>“es una herramienta que pretende traer lo mejor de todos los mundos de paquetes a Python.”</em> ¿Por qué lo vamos a aprender a usar? porque es #lanuevamejorherramientaquedefinitivamentedebesestarutilizandoentusproyectosdePython <em>that’s why!</em> no solo reemplaza a <code class="language-plaintext highlighter-rouge">pip</code> y reemplaza a <code class="language-plaintext highlighter-rouge">venv</code>, su misión es verdad: tiene lo mejor de todos los package managers que he utilizado.</p>
+
+<!--more-->
+
+<h3 id="la-historía">La historía</h3>
+
+<p><img src="/assets/2019-06-17/lemontree.gif" alt="Somethings never change"></p>
+
+<p>Las dependencias son dificiles, en todos los lenguajes, en todos los frameworks en todos los IDEs las dependencias y saber cómo manejarlas es una de las cosas que es importante hacer bien. Python desde hace varios años ha sido bastante bueno gracias a <code class="language-plaintext highlighter-rouge">pip</code> el <em>Package Installer for Python.</em> pero <code class="language-plaintext highlighter-rouge">pip</code> generalmente ha sido utilizado en conjunto con <code class="language-plaintext highlighter-rouge">venv</code></p>
+
+<p>Y si <code class="language-plaintext highlighter-rouge">venv</code> era casi indispensable hasta hoy. La idea era generar un <em>entorno virtual</em> para un proyecto específico, con su propia versión del lenguaje y sus propios paquetes. El flujo más común es: (a) se crea un entorno con <code class="language-plaintext highlighter-rouge">venv</code> (b) se instalan las dependencias con <code class="language-plaintext highlighter-rouge">pip</code> (c) se crea un archivo <code class="language-plaintext highlighter-rouge">requirements.txt</code> utilizando <code class="language-plaintext highlighter-rouge">pip freeze &gt; requirements.txt</code></p>
+
+<p>Esto tiene el efecto de que, en general, se puede recrear un entorno virtual en otra computadora y recrear las dependencias con el mismo <code class="language-plaintext highlighter-rouge">requirements.txt</code> con <code class="language-plaintext highlighter-rouge">pip install -r requirements.txt</code> pero este procedimiento no reconoce entre dependencias de desarrollo y dependencias de producción, y no hay lockfiles.</p>
+
+<h3 id="dónde-empezar">Dónde empezar</h3>
+
+<p>Empecemos con que <code class="language-plaintext highlighter-rouge">pipenv</code> no es instalable con <code class="language-plaintext highlighter-rouge">pip</code> en vez de eso utiliza el manejador de dependencias de tu sistema, en mi caso <code class="language-plaintext highlighter-rouge">brew install pipenv</code>. En Linux, pero sobre todo en Windows (WSL) puedes utilizar <a href="https://docs.brew.sh/Homebrew-on-Linux" target="_blank" rel="noopener noreferrer">Linuxbrew.</a></p>
+
+<h4 id="crear-un-proyecto">Crear un proyecto</h4>
+
+<p>Para crear un proyecto, solo hace falta crear un directorio e inicializar el entorno con <code class="language-plaintext highlighter-rouge">pipenv install</code></p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">mkdir test
+cd test
+</span>pipenv <span class="nb">install</span>
+</code></pre></div></div>
+
+<p>Incluso puedes definir la versión de python utilizando algo similar a <code class="language-plaintext highlighter-rouge">pipenv --python 3.7</code> dependiendo de la versión que quieres utilizar.</p>
+
+<p>Esto genera un archivo <code class="language-plaintext highlighter-rouge">Pipfile</code>, que similar a <code class="language-plaintext highlighter-rouge">npm</code> o <code class="language-plaintext highlighter-rouge">bundle</code>, tiene secciones para dependencias de desarrollo y dependencias de producción. También especifica los repositorios desde dónde se van a obtener los paquetes y la versión de python que el proyecto necesita.</p>
+
+<p>Para empezar a utilizar el ambiente solo es necesario activarlo con <code class="language-plaintext highlighter-rouge">pipenv shell</code> y para instalar dependencias puedes utilizar <code class="language-plaintext highlighter-rouge">pipenv install &lt;paquete&gt;</code></p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pipenv shell
+pipenv <span class="nb">install </span>requirements
+</code></pre></div></div>
+
+<p>Cada que haces una instalación actualizará el <code class="language-plaintext highlighter-rouge">Pipfile.lock</code> que es <strong>un lockfile!</strong></p>
+
+<p><img src="https://media.giphy.com/media/5VKbvrjxpVJCM/giphy.gif" alt="#quemocion"></p>
+
+<h3 id="por-qué-queremos-un-lockfile">¿Por qué queremos un lockfile?</h3>
+
+<p>Un lockfile es algo presente en otros manejadores de dependencias pero que no existía en <code class="language-plaintext highlighter-rouge">pip</code> la ventaja de tenerlo es que mientras que tu <code class="language-plaintext highlighter-rouge">Pipfile</code> lleva el seguimiento de las cosas que <em>quieres</em> instalar tu <code class="language-plaintext highlighter-rouge">Pipfile.lock</code> lleva el seguimiento de las cosas que <em>de verdad</em> estan instaladas. Cosas como las dependencias de tus dependencias.</p>
+
+<p>También tiene ‘hashes’ de los paquetes instalados, entonces si vuelves a instalar las dependencias en un sistema diferente vas a recibir advertencias si es que lo que se esta descargando es diferente a lo que se instaló al momento que se creó el lockfile.</p>
+
+<p>Y es un modo útil de saber si alguna cosa en la cadena de dependencias esta introduciendo alguna vulnerabilidad a lo que estas construyendo.</p>
+
+<hr>
+
+<p>Esto es todo lo que necesitas saber para empezar a utilizar <code class="language-plaintext highlighter-rouge">pipenv</code> y para saber por qué necesitas utilizarlo. Si encontraste este artículo útil te invito a leer <a href="/2019/05/02/Arkham-Horror-Part-Deux.html">Modelando las probabilidades en Arkham Horror: The Card Game</a> dónde vamos de las matemáticas a la programación para decifrar un juego de mesa.</p>
+
+
+      </div>
+    </div>
+
+    <p class="text-end font-italic">– Anya Reyes</p>
+  </div>
+  <script src="https://giscus.app/client.js" data-repo="Darkade/Darkade.github.io-comments" data-repo-id="R_kgDOIuNbEA" data-category="Announcements" data-category-id="DIC_kwDOIuNbEM4CTaKd" data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="light_protanopia" data-lang="en" data-loading="lazy" crossorigin="anonymous" async>
+</script>
+
+</article>
+
+  </div>
+</div>
+
+  </main>
+  <footer class="container mt-3">
+  <hr class="mb-3">
+  <div class="row">
+    <div class="col d-flex">
+      <ul class="list-inline mx-auto justify-content-center">
+        <li class="list-inline-item">
+          <a rel="me noopener noreferrer" href="https://dice.camp/@darkade" target="_blank">
+            <svg class="icon"><use xlink:href="/assets/sprites/brands.svg#mastodon"></use></svg>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://twitter.com/darkade" target="_blank" rel="noopener noreferrer">
+            <svg class="icon"><use xlink:href="/assets/sprites/brands.svg#twitter"></use></svg>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://github.com/darkade" target="_blank" rel="noopener noreferrer">
+            <svg class="icon"><use xlink:href="/assets/sprites/brands.svg#github"></use></svg>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://www.linkedin.com/in/" target="_blank" rel="noopener noreferrer">
+            <svg class="icon"><use xlink:href="/assets/sprites/brands.svg#linkedin-in"></use></svg>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="/feed.xml">
+            <svg class="icon"><use xlink:href="/assets/sprites/solid.svg#rss"></use></svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <p class="text-center">©2023 Anya Reyes. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+  <!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+</body>
+</html>

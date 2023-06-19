@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="shortcut icon" href="/assets/icon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="/assets/icon_large.png" type="image/png">
+
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144585764-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-144585764-1');
+  </script>
+  
+
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Compartiendo Jupyter Notebooks online | General nerdness</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Compartiendo Jupyter Notebooks online" />
+<meta name="author" content="Anya Reyes" />
+<meta property="og:locale" content="es_MX" />
+<meta name="description" content="Ya tienes tu Jupyter Notebook ¿cómo se la compartes a los demás? ¿Sabías que hasta la puedes convertir en diapositivas?" />
+<meta property="og:description" content="Ya tienes tu Jupyter Notebook ¿cómo se la compartes a los demás? ¿Sabías que hasta la puedes convertir en diapositivas?" />
+<link rel="canonical" href="https://anya.reyescon.de/2019/05/15/binder.html" />
+<meta property="og:url" content="https://anya.reyescon.de/2019/05/15/binder.html" />
+<meta property="og:site_name" content="General nerdness" />
+<meta property="og:image" content="https://anya.reyescon.de/assets/2019-05-15/logo.svg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-05-15T00:00:00+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://anya.reyescon.de/assets/2019-05-15/logo.svg" />
+<meta property="twitter:title" content="Compartiendo Jupyter Notebooks online" />
+<meta name="twitter:site" content="@darkade" />
+<meta name="twitter:creator" content="@Anya Reyes" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Anya Reyes"},"dateModified":"2019-05-15T00:00:00+00:00","datePublished":"2019-05-15T00:00:00+00:00","description":"Ya tienes tu Jupyter Notebook ¿cómo se la compartes a los demás? ¿Sabías que hasta la puedes convertir en diapositivas?","headline":"Compartiendo Jupyter Notebooks online","image":"https://anya.reyescon.de/assets/2019-05-15/logo.svg","mainEntityOfPage":{"@type":"WebPage","@id":"https://anya.reyescon.de/2019/05/15/binder.html"},"url":"https://anya.reyescon.de/2019/05/15/binder.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+<body>
+  <header>
+  <nav class="navbar navbar-dark bg-primary navbar-expand-lg">
+    <div class="container-fluid">
+      <span class="navbar-text w-50">
+        <a class="" href="/">General nerdness</a>
+        <span class="d-none d-md-block text-white text-bold"><small>Anya Reyes – Maths, RPGs, Boardgames &amp; Coding.</small></span>
+      </span>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggle">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarToggle">
+        <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about/">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/links/">Links</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/directory/">Directory</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+  <main class="container">
+    <div class="row">
+  <div class="offset-md-2 col-md-8 py-2">
+    <article class="row py-1" lang="es-MX">
+  <div class="col">
+    <h1 class="my-2 h2"><a href="/2019/05/15/binder.html">Compartiendo Jupyter Notebooks online</a></h1>
+    <p class="text-end">May 15, 2019</p>
+
+    <div class="row">
+      <div class="col">
+        <p><img src="/assets/2019-05-15/logo.svg" alt="My Binder Logo"></p>
+
+<p>La ocasión anterior estaba hablando de Jupyter y todas las cosas que nos permite hacer. Tenía un par de años que no utilizaba Jupyter y en volver a utilizarlo encontré <a href="https://jupyterlab.readthedocs.io/en/stable/" target="_blank" rel="noopener noreferrer">Jupyter Lab,</a> que ahora me parece la forma definitiva de utilizar Jupyter; y también encontré <a href="https://binderhub.readthedocs.io/en/latest/" target="_blank" rel="noopener noreferrer">Binder Hub</a> que me parece la forma definitiva de compartir notebooks. Entonces ¿Qué son estas cosas?</p>
+
+<!--more-->
+
+<p><strong>Jupyter Lab</strong> es una interfáz web para utilizar Notebooks. Es parecido a lo que era el Notebook Server, pero es todo un <em>ambiente</em> en le cual puedes usar varias libretas a la vez, con un ecosistema de <a href="https://github.com/jupyterlab/jupyter-renderers" target="_blank" rel="noopener noreferrer">extensiones</a> y muy fácil de modificar.</p>
+
+<p><strong>Binder…</strong> Binder es toda la razón de este post. Binder es eso, una carpeta para tus notebooks. Puede convertir un repositorio de Git (GitHub u otro servicio) en un entorno <strong>interactivo</strong> de Jupyter Lab! O sea que a quien se lo compartas puede ejecutar tu código, puede experimentar con tus datos, puede hacer todo en vivo, en linea sin instalar o descargar nada, sin preocuparse por dependencias… Es magia… es <a href="https://github.com/jupyter/repo2docker" target="_blank" rel="noopener noreferrer">Docker</a>.</p>
+
+<h2 id="cómo-empezar-a-usar-binder">¿Cómo empezar a usar Binder?</h2>
+
+<p>El modo más fácil es utilizando <a href="https://mybinder.org/" target="_blank" rel="noopener noreferrer">MyBinder.org</a> simplemente le puedes dar un repositorio de GitHub y usarlo. Toma en cuenta que estas instrucciones son más útiles en un ambiente de Linux o macOS. Toma en cuenta que debes haber <a href="https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html" target="_blank" rel="noopener noreferrer">instalado JupyterLab</a> primero y así como Git.</p>
+
+<ol>
+  <li>Vamos a comenzar creando y clonando un <a href="https://github.com/new" target="_blank" rel="noopener noreferrer">nuevo repositorio en GitHub.</a>. Preferentemente llámala notebooks, solo por consistencia.
+    <div class="language-bash highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code>git clone https://github.com/&lt;tu-nombre-de-usuario&gt;/notebooks.git
+<span class="nb">cd </span>notebooks
+</code></pre></div>    </div>
+  </li>
+  <li>Crea una notebook localmente utilizando <em>Jupyter Notebook Server</em> o <em>JupyterLab.</em> Te recomiendo utilizar Lab porque eventualmente va a reemplazar por completo al servidor de Notebook tradicional.
+    <div class="language-bash highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code>jupyter notebook
+<span class="c"># O utilizando lab (mi recomendación)</span>
+jupyter lab
+</code></pre></div>    </div>
+  </li>
+  <li>En el launcher de JupyterLab escoge <code class="language-plaintext highlighter-rouge">Python 3</code> puedes hacer <a href="/2019/05/03/jupyter.html">lo que quieras</a> con esta libreta.</li>
+</ol>
+
+<p><img src="/assets/2019-05-15/newnotebook.png" alt="Creando una nueva libreta"></p>
+
+<ol>
+  <li>Agrega tu nueva libreta a Git. La vas a poder ver en el sitio. Y esta lista para ser utilizada en <a href="https://mybinder.org" target="_blank" rel="noopener noreferrer">MyBinder.org</a>
+    <div class="language-bash highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code>git add <span class="nt">--all</span>
+git commit <span class="nt">-a</span> <span class="nt">-m</span> <span class="s2">"Primera Notebook"</span>
+git push origin
+</code></pre></div>    </div>
+  </li>
+  <li>En <a href="https://mybinder.org" target="_blank" rel="noopener noreferrer">MyBinder.org</a> solo coloca tu nombre de usuario de GitHub y el nombre del repositorio, en mi caso <code class="language-plaintext highlighter-rouge">Darkade/notebooks</code>. Luego presiona el botón de <code class="language-plaintext highlighter-rouge">Launch</code>.
+<img src="/assets/2019-05-15/mybinder.org.png" alt="MyBinder.org">
+</li>
+</ol>
+
+<p>Una vez que presiones launch vas a ver una barra que te muestra el progreso del build de tu notebook. Puedes ver los detalles que son los logs de Docker.</p>
+
+<ol>
+  <li>
+    <p>Una vez que termine de lanzar vas a ver la interfáz del Notebook Server, pero puedes cambiar a Jupyter lab cambiando la parte que dice <code class="language-plaintext highlighter-rouge">tree</code> de la URL por <code class="language-plaintext highlighter-rouge">lab</code>. Por ejemplo <code class="language-plaintext highlighter-rouge">https://hub.mybinder.org/user/darkade-notebooks-wewgqiuc/lab</code> (Es posible que es link no te sirva, revisa la sección “Compartiendo Libretas”)</p>
+  </li>
+  <li>
+    <p>Puedes abrir cualquiera de tus libretas desde esta nueva página y ejecutar lo que quieras. Los cambios que hagas no son permanentes, porque no estan siendo <em>commiteados</em> a git. Pero si la puedes cambiar y ejecutar sin ninguna herramienta adicional.
+<img src="/assets/2019-05-15/mybinderlab.png" alt="JupyterLab en MyBinder.org"></p>
+  </li>
+</ol>
+
+<h2 id="compartiendo-libretas">Compartiendo Libretas</h2>
+
+<p>Justo antes de presionar el botón de <code class="language-plaintext highlighter-rouge">Launch</code> puedes ver la URL adecuada para compartir tu Binder, pero te va a enviar al Notebook Server. Si quieres que redirija directamente a Jupyter Lab agrega <code class="language-plaintext highlighter-rouge">?urlpath=lab</code> al final de la URL.</p>
+
+<p>Este es link del repositorio de mis notebooks</p>
+
+<p>https://mybinder.org/v2/gh/Darkade/notebooks/master?urlpath=lab</p>
+
+<p><img src="/assets/2019-05-15/shareurl.png" alt="Compartir una libreta"></p>
+
+<h2 id="agregando-dependencias-a-tu-binder">Agregando dependencias a tu Binder</h2>
+
+<p>Puedes agregar dependencias a tu Binder utilizando un <a href="https://pip.pypa.io/en/stable/user_guide/#requirements-files" target="_blank" rel="noopener noreferrer"><code class="language-plaintext highlighter-rouge">requirements.txt</code></a></p>
+
+<p>Este es un ejemplo del mio:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>-i https://pypi.org/simple
+appnope==0.1.0 ; sys_platform == 'darwin'
+attrs==19.1.0
+backcall==0.1.0
+bleach==3.1.0
+bokeh==1.1.0
+</code></pre></div></div>
+
+<p>Desafortunadamente Binder todavía no soporta <a href="https://docs.pipenv.org/en/latest/" target="_blank" rel="noopener noreferrer"><code class="language-plaintext highlighter-rouge">Pipfile</code></a> pero hay planes para <a href="https://github.com/jupyter/repo2docker/issues/174" target="_blank" rel="noopener noreferrer">agregar soporte</a>.</p>
+
+<hr>
+
+<p>También puedes correr algunos otros comandos de setup mediante un archivo <code class="language-plaintext highlighter-rouge">postBuild</code>. El mio instala las extensiones de GeoJSON</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jupyter labextension install @jupyterlab/geojson-extension
+</code></pre></div></div>
+
+<p>Si necesitas utilizar cualquiera de estos dos archivos solo colócalos en la raíz de tu repositorio.</p>
+
+<p><img src="/assets/2019-05-15/requirements.txt.png" alt="Dependencias en MyBinder.org"></p>
+
+<hr>
+
+<p>Muchas gracias por leer. Espero la próxima vez hablar sober <a href="https://docs.pipenv.org/en/latest/" target="_blank" rel="noopener noreferrer"><code class="language-plaintext highlighter-rouge">pipenv</code></a> que se esta convirtiendo en una herramienta indispensable si utilizas Python. Si quieres seguir leyendo de Jupyter te recomiendo <a href="/2019/05/03/jupyter.html">el artículo anterior.</a></p>
+
+      </div>
+    </div>
+
+    <p class="text-end font-italic">– Anya Reyes</p>
+  </div>
+  <script src="https://giscus.app/client.js" data-repo="Darkade/Darkade.github.io-comments" data-repo-id="R_kgDOIuNbEA" data-category="Announcements" data-category-id="DIC_kwDOIuNbEM4CTaKd" data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="light_protanopia" data-lang="en" data-loading="lazy" crossorigin="anonymous" async>
+</script>
+
+</article>
+
+  </div>
+</div>
+
+  </main>
+  <footer class="container mt-3">
+  <hr class="mb-3">
+  <div class="row">
+    <div class="col d-flex">
+      <ul class="list-inline mx-auto justify-content-center">
+        <li class="list-inline-item">
+          <a rel="me noopener noreferrer" href="https://dice.camp/@darkade" target="_blank">
+            <svg class="icon"><use xlink:href="/assets/sprites/brands.svg#mastodon"></use></svg>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://twitter.com/darkade" target="_blank" rel="noopener noreferrer">
+            <svg class="icon"><use xlink:href="/assets/sprites/brands.svg#twitter"></use></svg>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://github.com/darkade" target="_blank" rel="noopener noreferrer">
+            <svg class="icon"><use xlink:href="/assets/sprites/brands.svg#github"></use></svg>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://www.linkedin.com/in/" target="_blank" rel="noopener noreferrer">
+            <svg class="icon"><use xlink:href="/assets/sprites/brands.svg#linkedin-in"></use></svg>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="/feed.xml">
+            <svg class="icon"><use xlink:href="/assets/sprites/solid.svg#rss"></use></svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <p class="text-center">©2023 Anya Reyes. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+  <!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+</body>
+</html>

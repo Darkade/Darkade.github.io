@@ -1,0 +1,534 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="shortcut icon" href="/assets/icon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="/assets/icon_large.png" type="image/png">
+
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144585764-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-144585764-1');
+  </script>
+  
+
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Probando Jupyter + Python + Pandas | General nerdness</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Probando Jupyter + Python + Pandas" />
+<meta name="author" content="Anya Reyes" />
+<meta property="og:locale" content="es_MX" />
+<meta name="description" content="Jupyter Lab es la herramienta esencial para usar Python en Data Science. Hoy aprendemos a usarlo." />
+<meta property="og:description" content="Jupyter Lab es la herramienta esencial para usar Python en Data Science. Hoy aprendemos a usarlo." />
+<link rel="canonical" href="https://anya.reyescon.de/2019/05/03/jupyter.html" />
+<meta property="og:url" content="https://anya.reyescon.de/2019/05/03/jupyter.html" />
+<meta property="og:site_name" content="General nerdness" />
+<meta property="og:image" content="https://anya.reyescon.de/assets/2019-05-08/jupyterlab.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-05-03T00:00:00+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://anya.reyescon.de/assets/2019-05-08/jupyterlab.png" />
+<meta property="twitter:title" content="Probando Jupyter + Python + Pandas" />
+<meta name="twitter:site" content="@darkade" />
+<meta name="twitter:creator" content="@Anya Reyes" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Anya Reyes"},"dateModified":"2019-05-03T00:00:00+00:00","datePublished":"2019-05-03T00:00:00+00:00","description":"Jupyter Lab es la herramienta esencial para usar Python en Data Science. Hoy aprendemos a usarlo.","headline":"Probando Jupyter + Python + Pandas","image":"https://anya.reyescon.de/assets/2019-05-08/jupyterlab.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://anya.reyescon.de/2019/05/03/jupyter.html"},"url":"https://anya.reyescon.de/2019/05/03/jupyter.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+<body>
+  <header>
+  <nav class="navbar navbar-dark bg-primary navbar-expand-lg">
+    <div class="container-fluid">
+      <span class="navbar-text w-50">
+        <a class="" href="/">General nerdness</a>
+        <span class="d-none d-md-block text-white text-bold"><small>Anya Reyes – Maths, RPGs, Boardgames &amp; Coding.</small></span>
+      </span>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggle">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarToggle">
+        <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about/">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/links/">Links</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/directory/">Directory</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+  <main class="container">
+    <div class="row">
+  <div class="offset-md-2 col-md-8 py-2">
+    <article class="row py-1" lang="es-MX">
+  <div class="col">
+    <h1 class="my-2 h2"><a href="/2019/05/03/jupyter.html">Probando Jupyter + Python + Pandas</a></h1>
+    <p class="text-end">May 03, 2019</p>
+
+    <div class="row">
+      <div class="col">
+        <script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$', '$$'], ['\\[', '\\]']]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
+
+
+<p><img src="/assets/2019-05-08/jupyterlab.png" alt="Jupyter Lab"></p>
+
+<p>Jupyter Notebook es un modo muy fácil de empezar con <a href="https://en.wikipedia.org/wiki/Data_science" target="_blank" rel="noopener noreferrer">data science</a> y programar en Python, te permite correr código en diferentes órdenes y combinarlo con texto, gráficas e incluso algunos elementos web que pueden ser muy prácticos para presentar datos.  De ahí que sea <em>notebook.</em></p>
+
+<!--more-->
+
+<h3 id="instalando-jupyter-notebook">Instalando Jupyter Notebook</h3>
+
+<p>No me voy a concentrar en cómo instalar Jupyter. Puedes instalarlo pendiante pip si ya tienes instalado Python o puedes utilizar Anaconda. Si necesitas instalar Python y estas en macOS puedes instalarlo utilizando <a href="/2018/10/30/homebrew.html">brew</a>. Recuerda instalar Python 3.</p>
+
+<p>Pandas y Jupyter estan incluidos con <a href="https://www.anaconda.com/" target="_blank" rel="noopener noreferrer">Anaconda</a>. Anaconda es un paquete de varias herramietas de data science por lo cual para la mayoría de los usuarios va a ser la forma más fácil de instalar todo.</p>
+
+<ul>
+  <li><a href="https://www.python.org/downloads/release/python-373/" target="_blank" rel="noopener noreferrer">Instalación de Python</a></li>
+  <li><a href="/2018/10/30/homebrew.html">Instalando Brew (Opcional si utilizas macOS)</a></li>
+  <li><a href="https://jupyter.org/install" target="_blank" rel="noopener noreferrer">Instalación de Jupyter (Si utilizas Anaconda no necesitas instalar Python aparte)</a></li>
+</ul>
+
+<h3 id="qué-podemos-hacer-con-jupyter-y-pandas">¿Qué podemos hacer con Jupyter y Pandas?</h3>
+
+<h4 id="hacer-este-artículo">Hacer este artículo!</h4>
+
+<p>Si! Además de aquí en el blog, este artículo lo cree utilizando Jupyter Notebook. Puedes ver una versión de ella en <a href="https://nbviewer.jupyter.org/github/Darkade/notebooks/blob/master/Cosas%20que%20hacer%20con%20jupyter.ipynb" target="_blank" rel="noopener noreferrer">NBviwer</a> o <a href="https://github.com/Darkade/notebooks/blob/master/Cosas%20que%20hacer%20con%20jupyter.ipynb" target="_blank" rel="noopener noreferrer">GitHub</a> (más sobre esas dos cosas adelante).</p>
+
+<p><del>El resto del artículo esta escrito como si estuvieras leyendo esto en una libreta de Jupyter</del></p>
+
+<h4 id="ser-el-backbone-de-five-thirty-eight">Ser el backbone de Five Thirty Eight</h4>
+
+<p><a href="https://fivethirtyeight.com/" target="_blank" rel="noopener noreferrer">Five Thirty Eight</a> es <strong>el sitio</strong> de periodismo de datos, para algunos de los ejemplos este artículo tomé datos de su <a href="https://github.com/fivethirtyeight/data" target="_blank" rel="noopener noreferrer">Github</a> que utilizaron <a href="https://fivethirtyeight.com/features/americas-favorite-star-wars-movies-and-least-favorite-characters/" target="_blank" rel="noopener noreferrer">aquí</a>.</p>
+
+<h4 id="importar-datos">Importar Datos</h4>
+
+<p>Para empezar pandas puede adquirir datos de básicamente cualquier lado. Se pueden introducir datos a mano, importar CSVs, leer datos estilo excel que hayas copiado, JSONs, HTMLs, hacer queries de SQL, o conectarse a Google BigQuery y más.</p>
+
+<p>Vamos a empezar importando un CSV sencillo e imprimiendolo cómo tabla.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">display</span><span class="p">,</span> <span class="n">GeoJSON</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="n">pd</span> <span class="c1"># Por convención lo importamos como pd, porque escribir pandas cada dos lineas es demasiado
+</span>
+<span class="n">t</span> <span class="o">=</span> <span class="n">pd</span><span class="p">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s">'StarWars.csv'</span><span class="p">)</span>
+<span class="n">t</span>
+</code></pre></div></div>
+
+<div>
+  <style scoped="">
+   .dataframe tbody tr th:only-of-type {
+       vertical-align: middle;
+   }
+
+   .dataframe tbody tr th {
+       vertical-align: top;
+   }
+
+   .dataframe thead th {
+       text-align: right;
+   }
+</style>
+
+  <table border="1" class="dataframe">
+ <thead>
+   <tr style="text-align: right;">
+     <th></th>
+     <th>RespondentID</th>
+     <th>Have you seen any of the 6 films in the Star Wars franchise?</th>
+     <th>Do you consider yourself to be a fan of the Star Wars film franchise?</th>
+     <th>Which of the following Star Wars films have you seen? Please select all that apply.</th>
+     <th>Unnamed: 4</th>
+     <th>Unnamed: 5</th>
+     <th>Unnamed: 6</th>
+     <th>Unnamed: 7</th>
+     <th>Unnamed: 8</th>
+     <th>Please rank the Star Wars films in order of preference with 1 being your favorite film in the franchise and 6 being your least favorite film.</th>
+     <th>...</th>
+     <th>Unnamed: 28</th>
+     <th>Which character shot first?</th>
+     <th>Are you familiar with the Expanded Universe?</th>
+     <th>Do you consider yourself to be a fan of the Expanded Universe?��</th>
+     <th>Do you consider yourself to be a fan of the Star Trek franchise?</th>
+     <th>Gender</th>
+     <th>Age</th>
+     <th>Household Income</th>
+     <th>Education</th>
+     <th>Location (Census Region)</th>
+   </tr>
+ </thead>
+ <tbody>
+   <tr>
+     <th>0</th>
+     <td>NaN</td>
+     <td>Response</td>
+     <td>Response</td>
+     <td>Star Wars: Episode I  The Phantom Menace</td>
+     <td>Star Wars: Episode II  Attack of the Clones</td>
+     <td>Star Wars: Episode III  Revenge of the Sith</td>
+     <td>Star Wars: Episode IV  A New Hope</td>
+     <td>Star Wars: Episode V The Empire Strikes Back</td>
+     <td>Star Wars: Episode VI Return of the Jedi</td>
+     <td>Star Wars: Episode I  The Phantom Menace</td>
+     <td>...</td>
+     <td>Yoda</td>
+     <td>Response</td>
+     <td>Response</td>
+     <td>Response</td>
+     <td>Response</td>
+     <td>Response</td>
+     <td>Response</td>
+     <td>Response</td>
+     <td>Response</td>
+     <td>Response</td>
+   </tr>
+   <tr>
+     <th>1</th>
+     <td>3.292880e+09</td>
+     <td>Yes</td>
+     <td>Yes</td>
+     <td>Star Wars: Episode I  The Phantom Menace</td>
+     <td>Star Wars: Episode II  Attack of the Clones</td>
+     <td>Star Wars: Episode III  Revenge of the Sith</td>
+     <td>Star Wars: Episode IV  A New Hope</td>
+     <td>Star Wars: Episode V The Empire Strikes Back</td>
+     <td>Star Wars: Episode VI Return of the Jedi</td>
+     <td>3</td>
+     <td>...</td>
+     <td>Very favorably</td>
+     <td>I don't understand this question</td>
+     <td>Yes</td>
+     <td>No</td>
+     <td>No</td>
+     <td>Male</td>
+     <td>18-29</td>
+     <td>NaN</td>
+     <td>High school degree</td>
+     <td>South Atlantic</td>
+   </tr>
+   <tr>
+     <th>...</th>
+     <td>...</td>
+     <td>...</td>
+     <td>...</td>
+     <td>...</td>
+     <td>...</td>
+     <td>...</td>
+     <td>...</td>
+     <td>...</td>
+     <td>...</td>
+     <td>...</td>
+     <td>...</td>
+     <td>...</td>
+     <td>...</td>
+     <td>...</td>
+     <td>...</td>
+     <td>...</td>
+     <td>...</td>
+     <td>...</td>
+     <td>...</td>
+     <td>...</td>
+     <td>...</td>
+   </tr>
+   <tr>
+     <th>1185</th>
+     <td>3.288373e+09</td>
+     <td>Yes</td>
+     <td>Yes</td>
+     <td>Star Wars: Episode I  The Phantom Menace</td>
+     <td>Star Wars: Episode II  Attack of the Clones</td>
+     <td>Star Wars: Episode III  Revenge of the Sith</td>
+     <td>Star Wars: Episode IV  A New Hope</td>
+     <td>Star Wars: Episode V The Empire Strikes Back</td>
+     <td>Star Wars: Episode VI Return of the Jedi</td>
+     <td>4</td>
+     <td>...</td>
+     <td>Very favorably</td>
+     <td>Han</td>
+     <td>No</td>
+     <td>NaN</td>
+     <td>Yes</td>
+     <td>Female</td>
+     <td>45-60</td>
+     <td>$100,000 - $149,999</td>
+     <td>Some college or Associate degree</td>
+     <td>East North Central</td>
+   </tr>
+   <tr>
+     <th>1186</th>
+     <td>3.288373e+09</td>
+     <td>Yes</td>
+     <td>No</td>
+     <td>Star Wars: Episode I  The Phantom Menace</td>
+     <td>Star Wars: Episode II  Attack of the Clones</td>
+     <td>NaN</td>
+     <td>NaN</td>
+     <td>Star Wars: Episode V The Empire Strikes Back</td>
+     <td>Star Wars: Episode VI Return of the Jedi</td>
+     <td>6</td>
+     <td>...</td>
+     <td>Very unfavorably</td>
+     <td>I don't understand this question</td>
+     <td>No</td>
+     <td>NaN</td>
+     <td>No</td>
+     <td>Female</td>
+     <td>&gt; 60</td>
+     <td>$50,000 - $99,999</td>
+     <td>Graduate degree</td>
+     <td>Pacific</td>
+   </tr>
+ </tbody>
+</table>
+  <p>1187 rows × 38 columns</p>
+</div>
+
+<p>Para empezar la tabla quedó formateada automáticamente. Podemos hacer algunas estadisticas sencillas como</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># De las 1187 personas encuestadas ¿Cuantas han visto alguna película de Star Wars?
+</span>
+<span class="n">t</span><span class="p">[</span><span class="s">'Have you seen any of the 6 films in the Star Wars franchise?'</span><span class="p">].</span><span class="n">value_counts</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p>Yes         936
+   No          250
+   Response      1
+   Name: Have you seen any of the 6 films in the Star Wars franchise?, dtype: int64</p>
+
+<p>O podemos saber muy fácilmente cual, segun nuestros datos, es la pelicula más vista de Star Wars es Empire Strikes Back</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">watched</span> <span class="o">=</span> <span class="n">t</span><span class="p">.</span><span class="n">iloc</span><span class="p">[:,</span> <span class="mi">3</span><span class="p">:</span><span class="mi">9</span><span class="p">].</span><span class="n">describe</span><span class="p">().</span><span class="n">transpose</span><span class="p">()</span>
+<span class="n">watched</span>
+</code></pre></div></div>
+
+<div>
+  <style scoped="">
+   .dataframe tbody tr th:only-of-type {
+       vertical-align: middle;
+   }
+
+   .dataframe tbody tr th {
+       vertical-align: top;
+   }
+
+   .dataframe thead th {
+       text-align: right;
+   }
+</style>
+
+  <table border="1" class="dataframe">
+ <thead>
+   <tr style="text-align: right;">
+     <th></th>
+     <th>count</th>
+     <th>unique</th>
+     <th>top</th>
+     <th>freq</th>
+   </tr>
+ </thead>
+ <tbody>
+   <tr>
+     <th>Which of the following Star Wars films have you seen? Please select all that apply.</th>
+     <td>674</td>
+     <td>1</td>
+     <td>Star Wars: Episode I  The Phantom Menace</td>
+     <td>674</td>
+   </tr>
+   <tr>
+     <th>Unnamed: 4</th>
+     <td>572</td>
+     <td>1</td>
+     <td>Star Wars: Episode II  Attack of the Clones</td>
+     <td>572</td>
+   </tr>
+   <tr>
+     <th>Unnamed: 5</th>
+     <td>551</td>
+     <td>1</td>
+     <td>Star Wars: Episode III  Revenge of the Sith</td>
+     <td>551</td>
+   </tr>
+   <tr>
+     <th>Unnamed: 6</th>
+     <td>608</td>
+     <td>1</td>
+     <td>Star Wars: Episode IV  A New Hope</td>
+     <td>608</td>
+   </tr>
+   <tr>
+     <th>Unnamed: 7</th>
+     <td>759</td>
+     <td>1</td>
+     <td>Star Wars: Episode V The Empire Strikes Back</td>
+     <td>759</td>
+   </tr>
+   <tr>
+     <th>Unnamed: 8</th>
+     <td>739</td>
+     <td>1</td>
+     <td>Star Wars: Episode VI Return of the Jedi</td>
+     <td>739</td>
+   </tr>
+ </tbody>
+</table>
+</div>
+
+<h4 id="hacer-gráficas">Hacer Gráficas</h4>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">bokeh.plotting</span> <span class="kn">import</span> <span class="n">figure</span><span class="p">,</span> <span class="n">output_notebook</span><span class="p">,</span> <span class="n">show</span>
+<span class="kn">from</span> <span class="nn">bokeh.models</span> <span class="kn">import</span> <span class="n">ColumnDataSource</span><span class="p">,</span><span class="n">LabelSet</span>
+<span class="n">output_notebook</span><span class="p">()</span>
+
+
+<span class="n">source</span> <span class="o">=</span> <span class="n">ColumnDataSource</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">y</span><span class="o">=</span><span class="n">watched</span><span class="p">[</span><span class="s">"top"</span><span class="p">],</span>
+                                   <span class="n">right</span><span class="o">=</span><span class="n">watched</span><span class="p">[</span><span class="s">"freq"</span><span class="p">],</span>
+                                   <span class="n">freq</span><span class="o">=</span><span class="n">watched</span><span class="p">[</span><span class="s">"freq"</span><span class="p">]))</span>
+
+<span class="n">labels</span> <span class="o">=</span> <span class="n">LabelSet</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s">'right'</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s">'y'</span><span class="p">,</span> <span class="n">text</span><span class="o">=</span><span class="s">'freq'</span><span class="p">,</span> <span class="n">level</span><span class="o">=</span><span class="s">'glyph'</span><span class="p">,</span>
+             <span class="n">x_offset</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">y_offset</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">source</span><span class="o">=</span><span class="n">source</span><span class="p">,</span> <span class="n">render_mode</span><span class="o">=</span><span class="s">'canvas'</span><span class="p">)</span>
+
+<span class="n">p</span> <span class="o">=</span> <span class="n">figure</span><span class="p">(</span><span class="n">plot_width</span><span class="o">=</span><span class="mi">850</span><span class="p">,</span> <span class="n">y_range</span><span class="o">=</span><span class="n">watched</span><span class="p">[</span><span class="s">'top'</span><span class="p">])</span>
+
+<span class="n">p</span><span class="p">.</span><span class="n">hbar</span><span class="p">(</span><span class="n">y</span><span class="o">=</span><span class="s">"y"</span><span class="p">,</span> <span class="n">right</span><span class="o">=</span><span class="s">"right"</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mf">0.5</span><span class="p">,</span> <span class="n">source</span><span class="o">=</span><span class="n">source</span><span class="p">)</span>
+<span class="n">p</span><span class="p">.</span><span class="n">add_layout</span><span class="p">(</span><span class="n">labels</span><span class="p">)</span>
+<span class="n">show</span><span class="p">(</span><span class="n">p</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p><img src="/assets/2019-05-08/chart.png" alt="Star Wars Chart"></p>
+
+<h4 id="mostrar-mapas">Mostrar mapas</h4>
+
+<p>Solo tienes que activar <a href="https://github.com/jupyterlab/jupyter-renderers/tree/master/packages/geojson-extension" target="_blank" rel="noopener noreferrer">este</a> complemento de Jupyter.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jupyter labextension <span class="nb">install</span> @jupyterlab/geojson-extension
+</code></pre></div></div>
+
+<p>Después de agregarlo solo tienes que importar el <a href="https://ipython.readthedocs.io/en/stable/api/generated/IPython.display.html" target="_blank" rel="noopener noreferrer">display</a> de GeoJSON y tus mapas se mostrarán automáticamente</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">GeoJSON</span>
+<span class="n">GeoJSON</span><span class="p">({</span><span class="s">"type"</span><span class="p">:</span><span class="s">"FeatureCollection"</span><span class="p">,</span><span class="s">"features"</span><span class="p">:[{</span><span class="s">"type"</span><span class="p">:</span><span class="s">"Feature"</span><span class="p">,</span><span class="s">"properties"</span><span class="p">:{},</span><span class="s">"geometry"</span><span class="p">:{</span><span class="s">"type"</span><span class="p">:</span><span class="s">"Point"</span><span class="p">,</span><span class="s">"coordinates"</span><span class="p">:[</span><span class="o">-</span><span class="mf">98.20627212524414</span><span class="p">,</span><span class="mf">19.048082808795396</span><span class="p">]}},{</span><span class="s">"type"</span><span class="p">:</span><span class="s">"Feature"</span><span class="p">,</span><span class="s">"properties"</span><span class="p">:{},</span><span class="s">"geometry"</span><span class="p">:{</span><span class="s">"type"</span><span class="p">:</span><span class="s">"Point"</span><span class="p">,</span><span class="s">"coordinates"</span><span class="p">:[</span><span class="o">-</span><span class="mf">98.20215225219725</span><span class="p">,</span><span class="mf">19.054978803148376</span><span class="p">]}},{</span><span class="s">"type"</span><span class="p">:</span><span class="s">"Feature"</span><span class="p">,</span><span class="s">"properties"</span><span class="p">:{},</span><span class="s">"geometry"</span><span class="p">:{</span><span class="s">"type"</span><span class="p">:</span><span class="s">"Point"</span><span class="p">,</span><span class="s">"coordinates"</span><span class="p">:[</span><span class="o">-</span><span class="mf">98.21605682373047</span><span class="p">,</span><span class="mf">19.061793386528766</span><span class="p">]}},{</span><span class="s">"type"</span><span class="p">:</span><span class="s">"Feature"</span><span class="p">,</span><span class="s">"properties"</span><span class="p">:{},</span><span class="s">"geometry"</span><span class="p">:{</span><span class="s">"type"</span><span class="p">:</span><span class="s">"Point"</span><span class="p">,</span><span class="s">"coordinates"</span><span class="p">:[</span><span class="o">-</span><span class="mf">98.22275161743164</span><span class="p">,</span><span class="mf">19.05359962720829</span><span class="p">]}},{</span><span class="s">"type"</span><span class="p">:</span><span class="s">"Feature"</span><span class="p">,</span><span class="s">"properties"</span><span class="p">:{},</span><span class="s">"geometry"</span><span class="p">:{</span><span class="s">"type"</span><span class="p">:</span><span class="s">"Point"</span><span class="p">,</span><span class="s">"coordinates"</span><span class="p">:[</span><span class="o">-</span><span class="mf">98.23159217834473</span><span class="p">,</span><span class="mf">19.0492997698019</span><span class="p">]}},{</span><span class="s">"type"</span><span class="p">:</span><span class="s">"Feature"</span><span class="p">,</span><span class="s">"properties"</span><span class="p">:{},</span><span class="s">"geometry"</span><span class="p">:{</span><span class="s">"type"</span><span class="p">:</span><span class="s">"Point"</span><span class="p">,</span><span class="s">"coordinates"</span><span class="p">:[</span><span class="o">-</span><span class="mf">98.23433876037598</span><span class="p">,</span><span class="mf">19.046703575532554</span><span class="p">]}},{</span><span class="s">"type"</span><span class="p">:</span><span class="s">"Feature"</span><span class="p">,</span><span class="s">"properties"</span><span class="p">:{},</span><span class="s">"geometry"</span><span class="p">:{</span><span class="s">"type"</span><span class="p">:</span><span class="s">"Point"</span><span class="p">,</span><span class="s">"coordinates"</span><span class="p">:[</span><span class="o">-</span><span class="mf">98.21288108825684</span><span class="p">,</span><span class="mf">19.03639952912028</span><span class="p">]}},{</span><span class="s">"type"</span><span class="p">:</span><span class="s">"Feature"</span><span class="p">,</span><span class="s">"properties"</span><span class="p">:{</span><span class="s">"stroke"</span><span class="p">:</span><span class="s">"#00fcff"</span><span class="p">,</span><span class="s">"stroke-width"</span><span class="p">:</span><span class="mi">2</span><span class="p">,</span><span class="s">"stroke-opacity"</span><span class="p">:</span><span class="mi">1</span><span class="p">,</span><span class="s">"fill"</span><span class="p">:</span><span class="s">"#00fcff"</span><span class="p">,</span><span class="s">"fill-opacity"</span><span class="p">:</span><span class="mf">0.5</span><span class="p">},</span><span class="s">"geometry"</span><span class="p">:{</span><span class="s">"type"</span><span class="p">:</span><span class="s">"Polygon"</span><span class="p">,</span><span class="s">"coordinates"</span><span class="p">:[[[</span><span class="o">-</span><span class="mf">98.23416709899902</span><span class="p">,</span><span class="mf">19.04662244380717</span><span class="p">],[</span><span class="o">-</span><span class="mf">98.21296691894531</span><span class="p">,</span><span class="mf">19.03672407576917</span><span class="p">],[</span><span class="o">-</span><span class="mf">98.20635795593262</span><span class="p">,</span><span class="mf">19.048407332603105</span><span class="p">],[</span><span class="o">-</span><span class="mf">98.20206642150879</span><span class="p">,</span><span class="mf">19.055141058387473</span><span class="p">],[</span><span class="o">-</span><span class="mf">98.21648597717285</span><span class="p">,</span><span class="mf">19.062523503853996</span><span class="p">],[</span><span class="o">-</span><span class="mf">98.22223663330077</span><span class="p">,</span><span class="mf">19.053761883796376</span><span class="p">],[</span><span class="o">-</span><span class="mf">98.23142051696776</span><span class="p">,</span><span class="mf">19.0492997698019</span><span class="p">],[</span><span class="o">-</span><span class="mf">98.23416709899902</span><span class="p">,</span><span class="mf">19.04662244380717</span><span class="p">]]]}}]})</span>
+</code></pre></div></div>
+
+<p><img src="/assets/2019-05-08/map.png" alt="Puebla Map"></p>
+
+<h4 id="escribir-con-latex-dentro-de-jupyter-notebook">Escribir con Latex dentro de Jupyter Notebook</h4>
+
+<p>O más bien escribir equaciones empleando la notación de Latex. Esto es muy útil para data science, pues porque matemáticas, puedes ver un ejemplo en el artículo de <a href="https://nbviewer.jupyter.org/github/Darkade/notebooks/blob/master/Arkham%20Horror%20The%20Card%20Game.ipynb" target="_blank" rel="noopener noreferrer">Arkham</a>.</p>
+
+\[\int_y^x f(t) dt = x f(x) - y f(y) - \int_y^x t f'(t) dt\]
+
+<h4 id="presentaciones-con-jupyter">Presentaciones con Jupyter</h4>
+
+<p>Puedes hasta hacer tus presentaciones con Jupyter y si se trata de código hacerlas con Jupyter tiene mucho sentido. De hecho, esta libreta también es una presentación y la puedes ver en modo de presentación <a href="https://nbviewer.jupyter.org/format/slides/github/Darkade/notebooks/blob/master/Cosas%20que%20hacer%20con%20jupyter.ipynb" target="_blank" rel="noopener noreferrer">aquí</a>.</p>
+
+<p>Considera las ventajas de hacer las cosas solo una vez y tener inmediatamente una presentación de tu trabajo. Sobre todo si estas haciendo data science, dónde la parte gráfica es muy importante, hacer esto es un ahorro impresionante de tiempo y energía.</p>
+
+<h4 id="compartir-tus-libretas-en-linea-con-nbviwer--github">Compartir tus libretas en linea con NBViwer &amp; GitHub</h4>
+
+<p>Esta parte es de mis favoritas, de hecho es algo que he utilizado en varios trabajos para compartir información. Al subir tu libreta a Github será <em>rendereada</em> automáticamente, como <a href="https://github.com/Darkade/notebooks/blob/master/Cosas%20que%20hacer%20con%20jupyter.ipynb" target="_blank" rel="noopener noreferrer">aquí</a> y puedes poner ese link en nbviwer que es una interfáz más limpia y te permite ver las libretas en modo de presentación, como <a href="https://nbviewer.jupyter.org/github/Darkade/notebooks/blob/master/Cosas%20que%20hacer%20con%20jupyter.ipynb" target="_blank" rel="noopener noreferrer">aquí.</a></p>
+
+<p>Para que algunas cosas específicas se vean correctamente en linea, por ejemplo los mapas, seguramente necesitas agregar algunas lineas de <em>Javascript.</em> Pero no es nada complicado, en ese caso te recomiendo utilizar nbviewer porque github no siempre te va a permitir <em>renderear</em> algunos de esos elementos.</p>
+
+<h4 id="y-utilizar-otros-lenguajes">¡Y utilizar otros lenguajes!</h4>
+
+<p>Jupyter no solo soporta Python. Si estas intersado en data science posiblemente quieras utilizar R y lo puedes hacer con Jupyter. Pero también puedes utilizar Julia, Scala, Haskell, Ruby, Bash…. y <a href="https://github.com/jupyter/jupyter/wiki/Jupyter-kernels" target="_blank" rel="noopener noreferrer">muchos otros</a>.</p>
+
+<p>El <a href="/2019/05/02/Arkham-Horror-Part-Deux.html">artículo de Arkham</a> también lo hice inicialmente utilizando Jupyter y estas son ejemplos delibretas <a href="https://nbviewer.jupyter.org/github/SciRuby/sciruby-notebooks/blob/master/getting_started.ipynb" target="_blank" rel="noopener noreferrer">utilizando Ruby</a> y <a href="https://nbviewer.jupyter.org/url/jdj.mit.edu/~stevenj/IJulia%20Preview.ipynb" target="_blank" rel="noopener noreferrer">Julia</a>.</p>
+
+<p>Espero que esta introducción a Jupyter te sea útil. Y como siempre puedes dejar tus comentarios.</p>
+
+
+
+      </div>
+    </div>
+
+    <p class="text-end font-italic">– Anya Reyes</p>
+  </div>
+  <script src="https://giscus.app/client.js" data-repo="Darkade/Darkade.github.io-comments" data-repo-id="R_kgDOIuNbEA" data-category="Announcements" data-category-id="DIC_kwDOIuNbEM4CTaKd" data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="light_protanopia" data-lang="en" data-loading="lazy" crossorigin="anonymous" async>
+</script>
+
+</article>
+
+  </div>
+</div>
+
+  </main>
+  <footer class="container mt-3">
+  <hr class="mb-3">
+  <div class="row">
+    <div class="col d-flex">
+      <ul class="list-inline mx-auto justify-content-center">
+        <li class="list-inline-item">
+          <a rel="me noopener noreferrer" href="https://dice.camp/@darkade" target="_blank">
+            <svg class="icon"><use xlink:href="/assets/sprites/brands.svg#mastodon"></use></svg>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://twitter.com/darkade" target="_blank" rel="noopener noreferrer">
+            <svg class="icon"><use xlink:href="/assets/sprites/brands.svg#twitter"></use></svg>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://github.com/darkade" target="_blank" rel="noopener noreferrer">
+            <svg class="icon"><use xlink:href="/assets/sprites/brands.svg#github"></use></svg>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://www.linkedin.com/in/" target="_blank" rel="noopener noreferrer">
+            <svg class="icon"><use xlink:href="/assets/sprites/brands.svg#linkedin-in"></use></svg>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="/feed.xml">
+            <svg class="icon"><use xlink:href="/assets/sprites/solid.svg#rss"></use></svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <p class="text-center">©2023 Anya Reyes. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+  <!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+</body>
+</html>

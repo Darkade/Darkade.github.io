@@ -1,0 +1,883 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="shortcut icon" href="/assets/icon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="/assets/icon_large.png" type="image/png">
+
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144585764-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-144585764-1');
+  </script>
+  
+
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Modelando las probabilidades en Arkham Horror: The Card Game | General nerdness</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Modelando las probabilidades en Arkham Horror: The Card Game" />
+<meta name="author" content="Anya Reyes" />
+<meta property="og:locale" content="es_MX" />
+<meta name="description" content="Arkham Horror es un juego de cartas que me ha obsesionado. Hoy hablamos de las matemáticas detrás del juego." />
+<meta property="og:description" content="Arkham Horror es un juego de cartas que me ha obsesionado. Hoy hablamos de las matemáticas detrás del juego." />
+<link rel="canonical" href="https://anya.reyescon.de/2019/05/02/Arkham-Horror-Part-Deux.html" />
+<meta property="og:url" content="https://anya.reyescon.de/2019/05/02/Arkham-Horror-Part-Deux.html" />
+<meta property="og:site_name" content="General nerdness" />
+<meta property="og:image" content="https://anya.reyescon.de/assets/2019-05-02/part1.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-05-02T00:00:00+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://anya.reyescon.de/assets/2019-05-02/part1.png" />
+<meta property="twitter:title" content="Modelando las probabilidades en Arkham Horror: The Card Game" />
+<meta name="twitter:site" content="@darkade" />
+<meta name="twitter:creator" content="@Anya Reyes" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Anya Reyes"},"dateModified":"2019-05-02T00:00:00+00:00","datePublished":"2019-05-02T00:00:00+00:00","description":"Arkham Horror es un juego de cartas que me ha obsesionado. Hoy hablamos de las matemáticas detrás del juego.","headline":"Modelando las probabilidades en Arkham Horror: The Card Game","image":"https://anya.reyescon.de/assets/2019-05-02/part1.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://anya.reyescon.de/2019/05/02/Arkham-Horror-Part-Deux.html"},"url":"https://anya.reyescon.de/2019/05/02/Arkham-Horror-Part-Deux.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+<body>
+  <header>
+  <nav class="navbar navbar-dark bg-primary navbar-expand-lg">
+    <div class="container-fluid">
+      <span class="navbar-text w-50">
+        <a class="" href="/">General nerdness</a>
+        <span class="d-none d-md-block text-white text-bold"><small>Anya Reyes – Maths, RPGs, Boardgames &amp; Coding.</small></span>
+      </span>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggle">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarToggle">
+        <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about/">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/links/">Links</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/directory/">Directory</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+  <main class="container">
+    <div class="row">
+  <div class="offset-md-2 col-md-8 py-2">
+    <article class="row py-1" lang="es-MX">
+  <div class="col">
+    <h1 class="my-2 h2"><a href="/2019/05/02/Arkham-Horror-Part-Deux.html">Modelando las probabilidades en Arkham Horror: The Card Game</a></h1>
+    <p class="text-end">May 02, 2019</p>
+
+    <div class="row">
+      <div class="col">
+        <script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$', '$$'], ['\\[', '\\]']]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
+
+
+<p><img src="/assets/2019-05-02/part1.png" alt="Part1"></p>
+
+<blockquote>
+  <p>Esta es una contunación (y mejora) de mi post original de Arkham Horror</p>
+</blockquote>
+
+<p><a href="https://www.fantasyflightgames.com/en/products/arkham-horror-the-card-game/" target="_blank" rel="noopener noreferrer">Arkham Horror: The Cardgame</a> es un juego de cartas por Fantasy Flight Games en el universo de Cthulhu Mythos. En este juego los investigadores intentan detener a cultistas de invocar a sus oscuros amos desde otros planos para destruir la tierra; y siendo un juego de cartas, obviamente se ha convertido en mi nueva obsesión.</p>
+
+<!--more-->
+
+<p>En este juego cada jugador es uno de cinco detectives cada uno con una mazo de cartas diferente. Y cada uno con dos cartas que solo ese investigador puede tener, una es “buena” y la otra es “mala”. Al ser únicas generalmente quieres tener esta carta tan rápido como sea posible para poderla jugar. Pero <strong>¿Cual es la probabilidad de que pueda tener esta carta en mi primer turno?</strong> … Vamos a modelarlas – es el título de este blogpost…</p>
+
+<h2 id="cual-es-la-probabilidad-de-que-tenga-mi-carta-core-al-final-de-la-primera-ronda">¿Cual es la probabilidad de que tenga mi carta core al final de la primera ronda?</h2>
+
+<p>Un mazo de Arkham, en el juego base, esta compuesto de 33 cartas:</p>
+
+<ul>
+  <li>20 cartas de clase</li>
+  <li>10 cartas genéricas</li>
+  <li>1 carta única de detective</li>
+  <li>1 weakness única</li>
+  <li>1 weakness básico</li>
+</ul>
+
+<p>Al principio del juego se toman 5 cartas y si se toma una weakness se ignora y se toma otra carta. De modo que en ese momento la probabilidad de que saquemos la <em>carta única</em> es de $ 5/31 $ y la probabilidad de no sacarla es de $ (31-5)/31 = 26/31 $ Estas probabilidades complementarias son importantes porque en realidad vamos a modelar <em>la probabilidad de que al final de la primera ronda no tengas la carta core de tu detective.</em></p>
+
+<p>Si a esta altura no tienes tu carta core, puedes hacer un <a href="https://en.wikipedia.org/wiki/Mulligan_(games)#Collectible_card_games" target="_blank" rel="noopener noreferrer">mulligan,</a> es decir, apartar tus cinco cartas y tomar otras cinco. Técnicamente lo puedes hacer con cualquier número de cartas en tu mano, pero como queremos tu core, harías mulligan de las cinco. Pero ya no estas tomando de las 31 cartas originales, si no de las 26 que dejaste. Entonces la probabilidad es $ 5/26 $ y su complemento $ 21/26 $</p>
+
+<p>Una vez más no tienes tu carta core en la mano. Pero ya no puedes hacer mulligan, esta por empezar tu primer turno. Por lo cual todas las cartas que apartaste, las weaknesses y las cinco de tu mulligan anterior se revuelven de vuelta a tu mazo.</p>
+
+<p>Ahora, en tu primer turno tienes tres acciones, las cuales vas a ocupar tomando cada vez una carta de tu mazo de, ahora, veintiocho cartas. La primera vez tienes una probabilidad de $1/28$, la segunda $1/27$ y la tercera $1/26$ y sus respectivos complementos. ¿Por qué modelo cada una de estas cartas aparte? Porque cada una es una acción separada. En las ocasiones anteriores habíamos tomado las cartas en conjunto y no teníamos oportunidad de detenernos en caso de tomar la carta que necesitabamos.</p>
+
+<p>Finalmente en la fase de <em>upkeep</em> vas a tomar una última carta con probabilidad de éxito de $1/25$</p>
+
+<p>En total la probabilidad de que <strong>termines la primera ronda sin tu carta core es:</strong></p>
+
+\[{{26}\over{31}}\cdot{{21}\over{26}}\cdot{{27}\over{28}}\cdot{{26}\over{27}}\cdot{{25}\over{26}}\cdot{{24}\over{25}}\approx {0.58}\]
+
+<p>Y la probabilidad máxima de que termines la primera rónda con tu carta core es de $41.9\%$ sin considerar efectos especiales.</p>
+
+<p>Ahora… ¿qué sería la vida y de mi sin un poco de código? Vamos a corroborarlo programáticamente utilizando Python</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">random</span> <span class="kn">import</span> <span class="n">shuffle</span>
+
+<span class="k">class</span> <span class="nc">Card</span><span class="p">:</span>
+
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s">''</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s">"event"</span><span class="p">,</span> <span class="n">core</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span> <span class="n">desc</span><span class="o">=</span><span class="s">''</span><span class="p">):</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">kind</span> <span class="o">=</span> <span class="n">kind</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">core</span> <span class="o">=</span> <span class="n">core</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">desc</span> <span class="o">=</span> <span class="n">desc</span>
+
+    <span class="o">@</span><span class="nb">property</span>
+    <span class="k">def</span> <span class="nf">kind</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="p">.</span><span class="n">_kind</span>
+
+    <span class="o">@</span><span class="n">kind</span><span class="p">.</span><span class="n">setter</span>
+    <span class="k">def</span> <span class="nf">kind</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">kind</span><span class="p">):</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">kind</span> <span class="ow">in</span> <span class="p">[</span><span class="s">"event"</span><span class="p">,</span> <span class="s">"asset"</span><span class="p">,</span> <span class="s">"weakness"</span><span class="p">,</span> <span class="s">"skill"</span><span class="p">]:</span>
+            <span class="k">raise</span> <span class="nb">TypeError</span><span class="p">(</span><span class="s">'Not an event, assset, weakness or skill'</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+           <span class="bp">self</span><span class="p">.</span><span class="n">_kind</span> <span class="o">=</span> <span class="n">kind</span>
+
+    <span class="o">@</span><span class="nb">property</span>
+    <span class="k">def</span> <span class="nf">redraw_setup</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">True</span> <span class="k">if</span> <span class="bp">self</span><span class="p">.</span><span class="n">kind</span> <span class="o">==</span> <span class="s">"weakness"</span> <span class="k">else</span> <span class="bp">False</span>
+
+    <span class="k">def</span> <span class="nf">__str__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="s">'{} ({})'</span><span class="p">.</span><span class="nb">format</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">name</span><span class="p">,</span> <span class="bp">self</span><span class="p">.</span><span class="n">kind</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">__repr__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="s">'"{}"'</span><span class="p">.</span><span class="nb">format</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">name</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">PlayerDeck</span><span class="p">:</span>
+
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">deck</span><span class="o">=</span><span class="bp">None</span><span class="p">):</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">deck</span> <span class="o">=</span> <span class="n">deck</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">_shuffle</span><span class="p">()</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">_w</span> <span class="o">=</span> <span class="mi">0</span>
+
+    <span class="o">@</span><span class="nb">property</span>
+    <span class="k">def</span> <span class="nf">deck</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="p">.</span><span class="n">_deck</span>
+
+    <span class="o">@</span><span class="n">deck</span><span class="p">.</span><span class="n">setter</span>
+    <span class="k">def</span> <span class="nf">deck</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">deck</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">deck</span> <span class="o">==</span> <span class="bp">None</span><span class="p">:</span>
+            <span class="bp">self</span><span class="p">.</span><span class="n">_deck</span> <span class="o">=</span> <span class="p">[</span><span class="n">Card</span><span class="p">(</span><span class="n">core</span><span class="o">=</span><span class="bp">True</span><span class="p">)]</span><span class="o">*</span><span class="mi">1</span> <span class="o">+</span> <span class="p">[</span><span class="n">Card</span><span class="p">()]</span><span class="o">*</span><span class="mi">30</span> <span class="o">+</span> <span class="p">[</span><span class="n">Card</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s">"weakness"</span><span class="p">)]</span><span class="o">*</span><span class="mi">2</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="bp">self</span><span class="p">.</span><span class="n">_deck</span> <span class="o">=</span> <span class="n">deck</span>
+
+    <span class="k">def</span> <span class="nf">draw</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">initial</span><span class="o">=</span><span class="bp">False</span><span class="p">):</span>
+        <span class="n">drawed</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">_deck</span><span class="p">.</span><span class="n">pop</span><span class="p">()</span>
+        <span class="k">if</span> <span class="n">drawed</span><span class="p">.</span><span class="n">redraw_setup</span> <span class="ow">and</span> <span class="n">initial</span><span class="p">:</span>
+            <span class="bp">self</span><span class="p">.</span><span class="n">_w</span> <span class="o">+=</span> <span class="mi">1</span>
+            <span class="k">return</span> <span class="bp">self</span><span class="p">.</span><span class="n">draw</span><span class="p">(</span><span class="bp">True</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">drawed</span>
+
+    <span class="k">def</span> <span class="nf">mulligan</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">r</span><span class="o">=</span><span class="mi">0</span><span class="p">):</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">_deck</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">_deck</span> <span class="o">+</span> <span class="p">[</span><span class="n">Card</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s">"weakness"</span><span class="p">)]</span><span class="o">*</span><span class="bp">self</span><span class="p">.</span><span class="n">_w</span> <span class="o">+</span> <span class="p">[</span><span class="n">Card</span><span class="p">()]</span><span class="o">*</span><span class="n">r</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">_shuffle</span><span class="p">()</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">_w</span> <span class="o">=</span> <span class="mi">0</span>
+
+    <span class="k">def</span> <span class="nf">_shuffle</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">shuffle</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">_deck</span><span class="p">)</span>
+
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">GotCore</span><span class="p">():</span>
+    <span class="n">ad</span> <span class="o">=</span> <span class="n">PlayerDeck</span><span class="p">([</span>
+            <span class="n">Card</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">'Forbidden Knowledge'</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s">'asset'</span><span class="p">),</span>
+            <span class="n">Card</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">'Holy Rosary'</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s">'asset'</span><span class="p">),</span>
+            <span class="n">Card</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">'Shrivelling'</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s">'asset'</span><span class="p">,</span> <span class="n">core</span><span class="o">=</span><span class="bp">True</span><span class="p">),</span>
+            <span class="n">Card</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">'Scrying'</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s">'asset'</span><span class="p">),</span>
+            <span class="n">Card</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">'Arcane Studies'</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s">'asset'</span><span class="p">),</span>
+            <span class="n">Card</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">'Arcane Initiate'</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s">'asset'</span><span class="p">),</span>
+            <span class="n">Card</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">'Drawn to the Flame'</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s">'event'</span><span class="p">),</span>
+            <span class="n">Card</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">'Ward of Protection'</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s">'event'</span><span class="p">),</span>
+            <span class="n">Card</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">'Blinding Light'</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s">'event'</span><span class="p">),</span>
+            <span class="n">Card</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">'Fearless'</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s">'skill'</span><span class="p">),</span>
+            <span class="n">Card</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">'Leather Coat'</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s">'asset'</span><span class="p">),</span>
+            <span class="n">Card</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">'Scavenging'</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s">'asset'</span><span class="p">),</span>
+            <span class="n">Card</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">'Baseball Bat'</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s">'asset'</span><span class="p">),</span>
+            <span class="n">Card</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">'Rabbit</span><span class="se">\'</span><span class="s">s Foot'</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s">'asset'</span><span class="p">),</span>
+            <span class="n">Card</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">'Stray Cat'</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s">'asset'</span><span class="p">),</span>
+            <span class="n">Card</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">'Dig Deep'</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s">'asset'</span><span class="p">),</span>
+            <span class="n">Card</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">'Cunning Distraction'</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s">'event'</span><span class="p">),</span>
+            <span class="n">Card</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">'Look what I found!'</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s">'event'</span><span class="p">),</span>
+            <span class="n">Card</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">'Lucky!'</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s">'event'</span><span class="p">),</span>
+            <span class="n">Card</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">'Survival Instinct'</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s">'skill'</span><span class="p">),</span>
+            <span class="n">Card</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">'Heirloom of Hyperborea: Artifact from Another Life'</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s">'asset'</span><span class="p">),</span>
+            <span class="n">Card</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">'Dark Memory'</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s">'weakness'</span><span class="p">),</span>
+            <span class="n">Card</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">'Haunted'</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s">'weakness'</span><span class="p">),</span>
+            <span class="n">Card</span><span class="p">(),</span> <span class="n">Card</span><span class="p">(),</span> <span class="n">Card</span><span class="p">(),</span> <span class="n">Card</span><span class="p">(),</span> <span class="n">Card</span><span class="p">(),</span> <span class="n">Card</span><span class="p">(),</span> <span class="n">Card</span><span class="p">(),</span> <span class="n">Card</span><span class="p">(),</span> <span class="n">Card</span><span class="p">(),</span> <span class="n">Card</span><span class="p">(),</span>
+        <span class="p">])</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">):</span>
+        <span class="n">j</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="k">while</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="mi">5</span><span class="p">:</span>
+            <span class="n">c</span> <span class="o">=</span> <span class="n">ad</span><span class="p">.</span><span class="n">draw</span><span class="p">(</span><span class="bp">True</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">c</span><span class="p">.</span><span class="n">core</span><span class="p">:</span>
+                <span class="k">return</span> <span class="bp">True</span>
+            <span class="n">j</span><span class="o">+=</span><span class="mi">1</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">ad</span><span class="p">.</span><span class="n">mulligan</span><span class="p">(</span><span class="n">r</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
+        <span class="n">j</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="k">while</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="mi">4</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">ad</span><span class="p">.</span><span class="n">draw</span><span class="p">().</span><span class="n">core</span><span class="p">:</span>
+                <span class="k">return</span> <span class="bp">True</span>
+            <span class="n">j</span><span class="o">+=</span><span class="mi">1</span>
+    <span class="k">return</span> <span class="bp">False</span>
+
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">success</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">tries</span> <span class="o">=</span> <span class="mi">100000</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">tries</span><span class="p">):</span>
+    <span class="n">success</span> <span class="o">+=</span> <span class="n">GotCore</span><span class="p">()</span>
+
+<span class="k">print</span><span class="p">(</span><span class="s">"Tried"</span><span class="p">,</span> <span class="n">tries</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">"Did not got core:"</span><span class="p">,</span> <span class="n">tries</span> <span class="o">-</span> <span class="n">success</span><span class="p">,</span> <span class="s">"that is"</span><span class="p">,</span> <span class="p">(</span><span class="n">tries</span> <span class="o">-</span> <span class="n">success</span><span class="p">)</span><span class="o">/</span><span class="n">tries</span><span class="o">*</span><span class="mi">100</span><span class="p">,</span> <span class="s">"%"</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">"Did got core:"</span><span class="p">,</span> <span class="n">success</span><span class="p">,</span> <span class="s">"that is"</span><span class="p">,</span> <span class="n">success</span><span class="o">/</span><span class="n">tries</span><span class="o">*</span><span class="mi">100</span><span class="p">,</span> <span class="s">"%"</span><span class="p">)</span>
+
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Tried 100000
+Did not got core: 57899 that is 57.899 %
+Did got core: 42101 that is 42.101 %
+</code></pre></div></div>
+
+<p>Que es bastante cercano al resultado que obtuvimos con el modelo probabilistico</p>
+
+<h2 id="en-promedio-en-qué-ronda-voy-a-obtener-mi-carta-core">En promedio ¿en qué ronda voy a obtener mi carta core?</h2>
+
+<p><img src="/assets/2019-05-02/part2.png" alt="Part2"></p>
+
+<p>Ahora estamos hablando de <a href="http://mathworld.wolfram.com/ExpectationValue.html" target="_blank" rel="noopener noreferrer">valor esperado</a>. Para una variable aleatoria discreta, este se define como:</p>
+
+\[E(X)= \sum_{r}{x_r p^\ast_r}\]
+
+<p>Aquí he escrito como $p^\ast_i$ algo que normalmente se denota sin la estrella. Para distinguirla de otra variable que vamos a usar después.</p>
+
+<p>Esto es: la sumatoría de la probabilidad de cada evento multiplicada por el evento en si. Para un dado de seis caras (d6) sería</p>
+
+\[E(X) = 1{{1}\over{6}} + 2 {{1}\over{6}} + 3 {{1}\over{6}} + 4 {{1}\over{6}} + 5 {{1}\over{6}} + 6 {{1}\over{6}} = 3.5\]
+
+<p>Esto quiere decir que, en promedio, nuestras tiradas de un d6 van a resultar en un $3.5$ El valor esperado de muchas variables aletorias es el la media (promedio) debido, en parte, a la <a href="http://mathworld.wolfram.com/StrongLawofLargeNumbers.html" target="_blank" rel="noopener noreferrer">ley fuerte de los grandes números,</a> de la cual ya hemos hablado antes.</p>
+
+<p>Para nuestro deck de arkham este valor esperado se calcularía de la siguiente manera. Primero vamos a suponer que seguimos la estrategía anterior, es decir, hicimos nuestro mulligan de 5 cartas, usamos nuestras primeras tres acciones para tomar tres cartas y tomamos nuestra carta de upkeep. También vamos a suponer que en todas las rondas subsecuentes solo tomamos nuestra carta de upkeep. Entonces:</p>
+
+<p>Para cualquier ronda $r; r \ge 2$ tenemos que calcular dos probabilidades (1) la probabilidad de que saquemos la carta que queremos. A esta probabilidad le vamos a llamar $p_r$ (2) La probabilidad de que no hayamos sacado esa carta en las rondas anteriores (siendo un poco liberales con la notación) $\hat q_r$</p>
+
+<p>La probabilidad <strong>(1)</strong> es muy fácil. Si $n_r$ es el número de cartas que quedan al principio de la ronda. la probabilidad de que saquemos nuestra carta core es</p>
+
+\[{{1}\over{n_r}}\]
+
+<p>La forma de calcular <strong>(2)</strong> es un poco más elaborada.</p>
+
+\[\hat q_r = \prod_{i=1}^{r-1} (1-p_i)_i\]
+
+<p>Esa pi mayúscula significa producto, y toda la expresión quiere decir que vamos a multiplicar todas las probabilidades de que no hayamos sacado la carta core en cada ronda anterior. Por ejemplo, para $r=4$</p>
+
+\[\hat q_4 = \prod_{i=1}^{3} (1-p_i)_i= \left( 1-0.419 \right) \left( 1-{{1}\over{24}} \right) \left( 1-{{1}\over{23}} \right)\]
+
+<p>Recordemos que $0.58$ es la probabilidad de que no tengamos nuestra carta core en la primera ronda de acuerdo a nuestro modelo anterior, y tenemos que para $r=1$</p>
+
+\[p_1 \approx 0.419  \\
+\hat q_1 = 1\]
+
+<p>Vamos a utilizar $p_r$ y $\hat q_r$ para calcular $p^{\ast}_r$</p>
+
+\[p^{\ast}_r = p_r \hat q_r\]
+
+<p>Esto debido a que la probabilidad de que ocurra el evento $r$, es decir que en la ronda $r$ sea cuando tomamos nuestra carta core, es la probabilidad de que tomemos la carta ($p_r$) y no la hayamos tomado en las rondas anteriores a esta ($\hat q_r$). Las probabilidades se multiplican porque se trata de eventos independientes. <del>Pero este post se esta volviendo un poco más complicado de lo que esperaba entonces no voy a explicar independencia… aunque debería.</del></p>
+
+<p>Finalmente, nuestro valor esperado se calcularía como:</p>
+
+\[E(x) = \sum_{r}{r p_r \hat q_r }\]
+
+<p>Y en forma de bonita tabla:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>$r$</th>
+      <th>$n_r$</th>
+      <th>$p$</th>
+      <th>${1-p}$</th>
+      <th>$\hat q_r$</th>
+      <th>$r p \hat q_r$</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>33</td>
+      <td>0.419</td>
+      <td>0.581</td>
+      <td>1.0000</td>
+      <td>0.4194</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>24</td>
+      <td>0.042</td>
+      <td>0.958</td>
+      <td>0.5806</td>
+      <td>0.0484</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>23</td>
+      <td>0.043</td>
+      <td>0.957</td>
+      <td>0.5565</td>
+      <td>0.0726</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>22</td>
+      <td>0.045</td>
+      <td>0.955</td>
+      <td>0.5323</td>
+      <td>0.0968</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>21</td>
+      <td>0.048</td>
+      <td>0.952</td>
+      <td>0.5081</td>
+      <td>0.1210</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>20</td>
+      <td>0.050</td>
+      <td>0.950</td>
+      <td>0.4839</td>
+      <td>0.1452</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>19</td>
+      <td>0.053</td>
+      <td>0.947</td>
+      <td>0.4597</td>
+      <td>0.1694</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>18</td>
+      <td>0.056</td>
+      <td>0.944</td>
+      <td>0.4355</td>
+      <td>0.1935</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>17</td>
+      <td>0.059</td>
+      <td>0.941</td>
+      <td>0.4113</td>
+      <td>0.2177</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>16</td>
+      <td>0.063</td>
+      <td>0.938</td>
+      <td>0.3871</td>
+      <td>0.2419</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>15</td>
+      <td>0.067</td>
+      <td>0.933</td>
+      <td>0.3629</td>
+      <td>0.2661</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>14</td>
+      <td>0.071</td>
+      <td>0.929</td>
+      <td>0.3387</td>
+      <td>0.2903</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>13</td>
+      <td>0.077</td>
+      <td>0.923</td>
+      <td>0.3145</td>
+      <td>0.3145</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>12</td>
+      <td>0.083</td>
+      <td>0.917</td>
+      <td>0.2903</td>
+      <td>0.3387</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>11</td>
+      <td>0.091</td>
+      <td>0.909</td>
+      <td>0.2661</td>
+      <td>0.3629</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>10</td>
+      <td>0.100</td>
+      <td>0.900</td>
+      <td>0.2419</td>
+      <td>0.3871</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>9</td>
+      <td>0.111</td>
+      <td>0.889</td>
+      <td>0.2177</td>
+      <td>0.4113</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>8</td>
+      <td>0.125</td>
+      <td>0.875</td>
+      <td>0.1935</td>
+      <td>0.4355</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>7</td>
+      <td>0.143</td>
+      <td>0.857</td>
+      <td>0.1694</td>
+      <td>0.4597</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>6</td>
+      <td>0.167</td>
+      <td>0.833</td>
+      <td>0.1452</td>
+      <td>0.4839</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>5</td>
+      <td>0.200</td>
+      <td>0.800</td>
+      <td>0.1210</td>
+      <td>0.5081</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>4</td>
+      <td>0.250</td>
+      <td>0.750</td>
+      <td>0.0968</td>
+      <td>0.5323</td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>3</td>
+      <td>0.333</td>
+      <td>0.667</td>
+      <td>0.0726</td>
+      <td>0.5565</td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>2</td>
+      <td>0.500</td>
+      <td>0.500</td>
+      <td>0.0484</td>
+      <td>0.5806</td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td>1</td>
+      <td>1.000</td>
+      <td>0.000</td>
+      <td>0.0242</td>
+      <td>0.6048</td>
+    </tr>
+  </tbody>
+</table>
+
+\[\sum_{r}{rp\hat q_r} \approx 8.2581\]
+
+<p>De modo que, en promedio, <strong>vamos a tomar nuestra carta core en la ronda 8.25</strong></p>
+
+<p>Una vez más, programaticamente</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">RoundCore</span><span class="p">():</span>
+    <span class="n">R</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="n">ad</span> <span class="o">=</span> <span class="n">PlayerDeck</span><span class="p">([</span>
+            <span class="n">Card</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">'Forbidden Knowledge'</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s">'asset'</span><span class="p">),</span>
+            <span class="n">Card</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">'Holy Rosary'</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s">'asset'</span><span class="p">),</span>
+            <span class="n">Card</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">'Shrivelling'</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s">'asset'</span><span class="p">,</span> <span class="n">core</span><span class="o">=</span><span class="bp">True</span><span class="p">),</span>
+            <span class="n">Card</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">'Scrying'</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s">'asset'</span><span class="p">),</span>
+            <span class="n">Card</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">'Arcane Studies'</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s">'asset'</span><span class="p">),</span>
+            <span class="n">Card</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">'Arcane Initiate'</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s">'asset'</span><span class="p">),</span>
+            <span class="n">Card</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">'Drawn to the Flame'</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s">'event'</span><span class="p">),</span>
+            <span class="n">Card</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">'Ward of Protection'</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s">'event'</span><span class="p">),</span>
+            <span class="n">Card</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">'Blinding Light'</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s">'event'</span><span class="p">),</span>
+            <span class="n">Card</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">'Fearless'</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s">'skill'</span><span class="p">),</span>
+            <span class="n">Card</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">'Leather Coat'</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s">'asset'</span><span class="p">),</span>
+            <span class="n">Card</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">'Scavenging'</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s">'asset'</span><span class="p">),</span>
+            <span class="n">Card</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">'Baseball Bat'</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s">'asset'</span><span class="p">),</span>
+            <span class="n">Card</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">'Rabbit</span><span class="se">\'</span><span class="s">s Foot'</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s">'asset'</span><span class="p">),</span>
+            <span class="n">Card</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">'Stray Cat'</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s">'asset'</span><span class="p">),</span>
+            <span class="n">Card</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">'Dig Deep'</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s">'asset'</span><span class="p">),</span>
+            <span class="n">Card</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">'Cunning Distraction'</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s">'event'</span><span class="p">),</span>
+            <span class="n">Card</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">'Look what I found!'</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s">'event'</span><span class="p">),</span>
+            <span class="n">Card</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">'Lucky!'</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s">'event'</span><span class="p">),</span>
+            <span class="n">Card</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">'Survival Instinct'</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s">'skill'</span><span class="p">),</span>
+            <span class="n">Card</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">'Heirloom of Hyperborea: Artifact from Another Life'</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s">'asset'</span><span class="p">),</span>
+            <span class="n">Card</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">'Dark Memory'</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s">'weakness'</span><span class="p">),</span>
+            <span class="n">Card</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">'Haunted'</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s">'weakness'</span><span class="p">),</span>
+            <span class="n">Card</span><span class="p">(),</span> <span class="n">Card</span><span class="p">(),</span> <span class="n">Card</span><span class="p">(),</span> <span class="n">Card</span><span class="p">(),</span> <span class="n">Card</span><span class="p">(),</span> <span class="n">Card</span><span class="p">(),</span> <span class="n">Card</span><span class="p">(),</span> <span class="n">Card</span><span class="p">(),</span> <span class="n">Card</span><span class="p">(),</span> <span class="n">Card</span><span class="p">(),</span>
+        <span class="p">])</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">):</span>
+        <span class="n">j</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="k">while</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="mi">5</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">ad</span><span class="p">.</span><span class="n">draw</span><span class="p">(</span><span class="n">initial</span><span class="o">=</span><span class="bp">True</span><span class="p">).</span><span class="n">core</span><span class="p">:</span>
+                <span class="k">return</span> <span class="n">R</span>
+            <span class="n">j</span><span class="o">+=</span><span class="mi">1</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">ad</span><span class="p">.</span><span class="n">mulligan</span><span class="p">(</span><span class="n">r</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
+        <span class="n">j</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="k">while</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="mi">4</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">ad</span><span class="p">.</span><span class="n">draw</span><span class="p">().</span><span class="n">core</span><span class="p">:</span>
+                <span class="k">return</span> <span class="n">R</span>
+            <span class="n">j</span><span class="o">+=</span><span class="mi">1</span>
+
+    <span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
+        <span class="n">R</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="n">c</span> <span class="o">=</span> <span class="n">ad</span><span class="p">.</span><span class="n">draw</span><span class="p">()</span>
+        <span class="k">if</span> <span class="n">c</span><span class="p">.</span><span class="n">core</span><span class="p">:</span>
+            <span class="k">return</span> <span class="n">R</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">rounds</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">tries</span> <span class="o">=</span> <span class="mi">100000</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">tries</span><span class="p">):</span>
+    <span class="n">rounds</span> <span class="o">+=</span> <span class="n">RoundCore</span><span class="p">()</span>
+
+<span class="k">print</span><span class="p">(</span><span class="s">"In avarage, the core card was drawed in the round:"</span><span class="p">,</span> <span class="n">rounds</span> <span class="o">/</span> <span class="n">tries</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>In avarage, the core card was drawed in the round: 8.26042
+</code></pre></div></div>
+
+<p>Que una vez más es bastante cercano a nuestro modelo</p>
+
+<h2 id="qué-valor-de-skill-necesito-para-pasar-un-skill-check">¿Qué valor de skill necesito para pasar un skill check?</h2>
+
+<p><img src="/assets/2019-05-02/part3.png" alt="Part3"></p>
+
+<p>La otra parte importante de Arkham es que haces <em>skill checks.</em> Hacer un <em>skill check</em> implica tomar un token de la <em>chaos bag</em> y sumar o restar su valor del skill value del personaje. Si se iguala o supera el valor objetivo se pasa el check.</p>
+
+<p>Todos los personajes tienen 4 skills: Willpower, intellect, combat and agility. Entre más alto es el valor mejor es el personaje haciendo una acción.</p>
+
+<p>La <em>chaos bag</em> tiene diferentes tokens dependiendo del escenario y la dificultad. Y sus efectos pueden variar por lo mismo.</p>
+
+<p>Por ejemplo, para combatir a un enemigo puede ser necesario pasar un <em>skill check</em> de <strong>4 combat</strong> con un personaje que tiene <strong>combat 3</strong> como skill. Entonces se toma un <strong>+1</strong> de la <em>chaos bag</em> subiendo el combat del personaje a 4, igulando el valor objetivo y pasando el check.</p>
+
+<hr>
+
+<p>Para <em>Night of The Zealot</em> la chaos bag se ve así:</p>
+
+<ul>
+  <li>Easy Difficulty:</li>
+  <li>+1, +1, 0, 0, 0, -1, -1, -1, -2, -2, skull, skull, cultist, stone, tentacle, elder-sign</li>
+  <li>Standard Difficulty:</li>
+  <li>+1, 0, 0, -1, -1, -1, -2, -2, -3, -4, skull, skull, cultist, stone, tentacle, elder-sign</li>
+  <li>Hard Difficulty:</li>
+  <li>0, 0, 0, -1, -1, -2, -2, -3, -3, -4, -5, skull, skull, cultist, stone, tentacle, elder-sign</li>
+  <li>Expert Difficulty:</li>
+  <li>0, -1, -1, -2, -2, -3, -3, -4, -4, -5, -6, -8, skull, skull, cultist, stone, tentacle, elder-sign</li>
+</ul>
+
+<p>Los <em>tentacles</em> son fallos automáticos y los <em>elder-signs</em> hacen el personaje utilice su habilidad especial. Los skulls, cultists y stones son específicos a cada escenario.</p>
+
+<p>Los modificadores de escenario son:</p>
+
+<h3 id="the-gathering">The Gathering</h3>
+<h4 id="easystandard">Easy/Standard</h4>
+<ul>
+  <li>Skull: -X. X is the number of Ghoul enemies at your location.</li>
+  <li>Cultist: -1. If you fail, take 1 horror.</li>
+  <li>Stone: -2. If there is a Ghoul enemy at your location, take 1 damage.</li>
+</ul>
+
+<h4 id="hardexpert">Hard/Expert</h4>
+
+<ul>
+  <li>Skull: -2. If you fail, after this skill test, search the encounter deck and discard pile for a Ghoul enemy, and draw it. Shuffle the encounter deck.</li>
+  <li>Cultist: Reveal another token. If you fail, take 2 horror.</li>
+  <li>Stone: -4. If there is a Ghoul enemy at your location, take 1 damage and 1 horror.</li>
+</ul>
+
+<h3 id="the-midnight-masks">The Midnight Masks</h3>
+<h4 id="easystandard-1">Easy/Standard</h4>
+<ul>
+  <li>Skull: -X. X is the highest number of doom on a Cultist enemy in play.</li>
+  <li>Cultist: -2 Place 1 doom on the nearest Cultist enemy.</li>
+  <li>Stone: -3. If you fail, place 1 of your clues on your location.</li>
+</ul>
+
+<h4 id="hardexpert-1">Hard/Expert</h4>
+
+<ul>
+  <li>Skull: -X. X is the total number of doom in play.</li>
+  <li>Cultist: -2. Place 1 doom on each Cultist enemy in play. If there are no Cultist enemies in play, reveal another token.</li>
+  <li>Stone: -4. If you fail, place all your clues on your location.</li>
+</ul>
+
+<h3 id="the-devourer-below">The Devourer Below</h3>
+<p>Durante este escenario se agrega un Calamar[?] al <em>Chaos Bag</em> <del>no se si es un calamar.</del></p>
+
+<h4 id="easystandard-2">Easy/Standard</h4>
+
+<ul>
+  <li>Skull: -X. X is the number of Monster enemies in play.</li>
+  <li>Cultist: -2. Place 1 doom on the nearest enemy.</li>
+  <li>Stone: -3 If there is a Monster enemy at your location, take 1 damage.</li>
+  <li>Calamar: -5. If there is an Ancient One enemy in play, reveal another token.</li>
+</ul>
+
+<h4 id="hardexpert-2">Hard/Expert</h4>
+
+<ul>
+  <li>Skull: -3. If you fail, after this skill test, search the encounter deck and discard pile for a Monster enemy, and draw it. Shuffle the encounter deck.</li>
+  <li>Cultist: -4. Place 2 doom on the nearest enemy.</li>
+  <li>Stone: -5. If there is a Monster enemy at your location, take 1 damage and 1 horror.</li>
+  <li>Calamar: -7. If there is an Ancient One enemy in play, reveal another token.</li>
+</ul>
+
+<hr>
+
+<p>Lo que sigue son estimaciones porque es dificil modelar cuantos enemigos hay en juego. Lo importante de un <em>skill check</em> es la diferencia entre el personaje y valor objetivo; por ejemplo <strong>3 personaje - 4 objetivo = -1 diferencia</strong></p>
+
+<p>Pero para The Gathering, con un enemigo en juego, en <em>easy</em> si igualamos el valor objetivo tenemos un $37.50\%$ de probabilidad de pasar el check. Porque la bolsa efectivamente tiene:</p>
+
+\[B = \{ 1, 1, 0, 0, 0, 0, -1, -1, -1, -1, -1, -1, -2, -2, -2, -100 \}\]
+
+<p>Es un conjunto de 16 elementos de los cuales 6 son iguales o mayores que cero. Luego:</p>
+
+\[{{|\{x \in B : x \ge 0 \}|}\over{|B|}} = 0.357\]
+
+<p>Realmente no hay muchas razones para hacer esto programáticamente pero si dejé un <a href="https://docs.google.com/spreadsheets/d/1TP8EczLHfiHUHYhk33vrgsGJ_n6C_yDpcPambtrD8iU/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Google Drive disponible</a> y tengo algunas notas que compartir.</p>
+
+<hr>
+
+<p>Algunos tokens indican sacar otro token. Esto realmente no afecta las probabilidades del resto del chaos bag, es decir, si tenemos 16 tokens normales y 2 que jalan un siguiente token, la probabilidad de sacar un token específico sigue siendo $1/16$</p>
+
+<p>Hay algunos tokens que simplemente agregan dificultad agregando daño u horror. Para The Gathering en easy/standard cada vez que haces un <em>skill check</em> tomas en promedio 1/16 de horror.</p>
+
+<p>Skids, Agnes y Roland tienen una muy ligera ventaja cuando no alcanzan los valores objetivo, debido a que pueden agregar valor al skill cuando sale un <em>elder sign.</em> En the Gathering (easy/expert) Daisy tiene probabilidad de $0\%$ de pasar un check si esta uno por debajo del valor objetivo, pero Skids tiene $6.25\%$. Si iguala o supera el valor objetivo ambos tienen la misma probabilidad. Para la estrategia que yo juego esto no es muy útil, y contar con ello es contar en algo que va a pasar solo una de cada dieciseis veces, pero esta bien tenerlo en cuenta.</p>
+
+<hr>
+
+<p>Finalmente. Para los 3 escenarios y las 4 dificultades, esto es por cuando deberías de superar el valor objetivo para tener un 50% de probabilidad de tener éxito en un <em>skill check</em> (Con uno enemigo en juego en todos los casos)</p>
+
+<h4 id="the-gathering-1">The Gathering</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Difficulty</th>
+      <th>Superar por</th>
+      <th>Probabilidad de éxito</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Easy</td>
+      <td>1</td>
+      <td>75.00%</td>
+    </tr>
+    <tr>
+      <td>Standard</td>
+      <td>1</td>
+      <td>62.50%</td>
+    </tr>
+    <tr>
+      <td>Hard</td>
+      <td>2</td>
+      <td>62.50%</td>
+    </tr>
+    <tr>
+      <td>Expert</td>
+      <td>3</td>
+      <td>58.82%</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="the-midnight-masks-1">The Midnight Masks</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Difficulty</th>
+      <th>Superar por</th>
+      <th>Probabilidad de éxito</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Easy</td>
+      <td>1</td>
+      <td>52.94%</td>
+    </tr>
+    <tr>
+      <td>Standard</td>
+      <td>2</td>
+      <td>70.59%</td>
+    </tr>
+    <tr>
+      <td>Hard</td>
+      <td>3</td>
+      <td>66.67%</td>
+    </tr>
+    <tr>
+      <td>Expert</td>
+      <td>3</td>
+      <td>52.63%</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="the-devourer-below-1">The Devourer Below</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Difficulty</th>
+      <th>Superar por</th>
+      <th>Probabilidad de éxito</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Easy</td>
+      <td>1</td>
+      <td>68.75%</td>
+    </tr>
+    <tr>
+      <td>Standard</td>
+      <td>1</td>
+      <td>56.25%</td>
+    </tr>
+    <tr>
+      <td>Hard</td>
+      <td>2</td>
+      <td>52.94%</td>
+    </tr>
+    <tr>
+      <td>Expert</td>
+      <td>3</td>
+      <td>50.00%</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+      </div>
+    </div>
+
+    <p class="text-end font-italic">– Anya Reyes</p>
+  </div>
+  <script src="https://giscus.app/client.js" data-repo="Darkade/Darkade.github.io-comments" data-repo-id="R_kgDOIuNbEA" data-category="Announcements" data-category-id="DIC_kwDOIuNbEM4CTaKd" data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="light_protanopia" data-lang="en" data-loading="lazy" crossorigin="anonymous" async>
+</script>
+
+</article>
+
+  </div>
+</div>
+
+  </main>
+  <footer class="container mt-3">
+  <hr class="mb-3">
+  <div class="row">
+    <div class="col d-flex">
+      <ul class="list-inline mx-auto justify-content-center">
+        <li class="list-inline-item">
+          <a rel="me noopener noreferrer" href="https://dice.camp/@darkade" target="_blank">
+            <svg class="icon"><use xlink:href="/assets/sprites/brands.svg#mastodon"></use></svg>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://twitter.com/darkade" target="_blank" rel="noopener noreferrer">
+            <svg class="icon"><use xlink:href="/assets/sprites/brands.svg#twitter"></use></svg>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://github.com/darkade" target="_blank" rel="noopener noreferrer">
+            <svg class="icon"><use xlink:href="/assets/sprites/brands.svg#github"></use></svg>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://www.linkedin.com/in/" target="_blank" rel="noopener noreferrer">
+            <svg class="icon"><use xlink:href="/assets/sprites/brands.svg#linkedin-in"></use></svg>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="/feed.xml">
+            <svg class="icon"><use xlink:href="/assets/sprites/solid.svg#rss"></use></svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <p class="text-center">©2023 Anya Reyes. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+  <!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="shortcut icon" href="/assets/icon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="/assets/icon_large.png" type="image/png">
+
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144585764-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-144585764-1');
+  </script>
+  
+
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Cómo hacer un blog usando Github | General nerdness</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Cómo hacer un blog usando Github" />
+<meta name="author" content="Anya Reyes" />
+<meta property="og:locale" content="es_MX" />
+<meta name="description" content="Hoy vamos a hacer un blog utilizando Github y Markdown y va a quedar bien bonito y rápido." />
+<meta property="og:description" content="Hoy vamos a hacer un blog utilizando Github y Markdown y va a quedar bien bonito y rápido." />
+<link rel="canonical" href="https://anya.reyescon.de/2018/10/08/Como-hacer-un-blog.html" />
+<meta property="og:url" content="https://anya.reyescon.de/2018/10/08/Como-hacer-un-blog.html" />
+<meta property="og:site_name" content="General nerdness" />
+<meta property="og:image" content="https://anya.reyescon.de/assets/2018-10-08/blag.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-10-08T00:00:00+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://anya.reyescon.de/assets/2018-10-08/blag.png" />
+<meta property="twitter:title" content="Cómo hacer un blog usando Github" />
+<meta name="twitter:site" content="@darkade" />
+<meta name="twitter:creator" content="@Anya Reyes" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Anya Reyes"},"dateModified":"2018-10-08T00:00:00+00:00","datePublished":"2018-10-08T00:00:00+00:00","description":"Hoy vamos a hacer un blog utilizando Github y Markdown y va a quedar bien bonito y rápido.","headline":"Cómo hacer un blog usando Github","image":"https://anya.reyescon.de/assets/2018-10-08/blag.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://anya.reyescon.de/2018/10/08/Como-hacer-un-blog.html"},"url":"https://anya.reyescon.de/2018/10/08/Como-hacer-un-blog.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+<body>
+  <header>
+  <nav class="navbar navbar-dark bg-primary navbar-expand-lg">
+    <div class="container-fluid">
+      <span class="navbar-text w-50">
+        <a class="" href="/">General nerdness</a>
+        <span class="d-none d-md-block text-white text-bold"><small>Anya Reyes – Maths, RPGs, Boardgames &amp; Coding.</small></span>
+      </span>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggle">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarToggle">
+        <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about/">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/links/">Links</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/directory/">Directory</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+  <main class="container">
+    <div class="row">
+  <div class="offset-md-2 col-md-8 py-2">
+    <article class="row py-1" lang="es-MX">
+  <div class="col">
+    <h1 class="my-2 h2"><a href="/2018/10/08/Como-hacer-un-blog.html">Cómo hacer un blog usando Github</a></h1>
+    <p class="text-end">Oct 08, 2018</p>
+
+    <div class="row">
+      <div class="col">
+        <p><img src="/assets/2018-10-08/blag.png" alt="Blag"></p>
+
+<p>Hoy vamos a hacer un blog utilizando Github y Markdown y va a quedar bien bonito y rápido.</p>
+
+<p>Primero vamos a hablar un poco sobre las herramientas que vamos a utilizar: Jekyll, Markdown, Github.</p>
+
+<!--more-->
+
+<h3 id="jekyll">Jekyll</h3>
+
+<p><a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> es un motor de páginas web y blogs utilizando solo archivos estáticos. Eso quiere decir que Jekyll no necesita configuraciones complicadas ni cosas como bases de datos y se puede levantar en algo como Github (o incluso Dropbox, pero no vamos a hablar de eso hoy)</p>
+
+<h3 id="markdown">Markdown</h3>
+
+<p>Markdown es un lenguaje de <em>markup.</em> Entonces utilizando <strong>texto plano</strong> puedes indicar formato. Por ejemplo:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Markdown es un lenguaje de _markup._ Entonces utilizando <span class="gs">**texto plano**</span> puedes indicar formato.
+</code></pre></div></div>
+
+<p>El cuadro anterior es el texto que representa las <em>italicas</em> o las <strong>negritas.</strong> Es muy fácil de aprender a utilizarlo y no necesitas herramientas complicadas como para otros blogs. Todos los archivos de markdown tienen la extensión <code class="language-plaintext highlighter-rouge">.md</code></p>
+
+<p>En nuestro caso vamos a utilizar la variedad de <a href="https://guides.github.com/features/mastering-markdown/" target="_blank" rel="noopener noreferrer">Markdown de Github</a>, porque vamos a utilizar Github.</p>
+
+<h3 id="github">Github</h3>
+
+<p><a href="https://github.com/" target="_blank" rel="noopener noreferrer">Github</a> es un sitio dónde puedes compartir fácilmente tu código con otros desarrolladores. Es muy poderoso, pero vamos a utilizar lo mínimo necesario (además de que vamos a tener pronto una guía de Git + GitHub)</p>
+
+<h2 id="cómo-comenzar">¿Cómo comenzar?</h2>
+
+<h3 id="creando-un-repositorio-en-github">Creando un repositorio en Github</h3>
+
+<p>Para comenzar necesitas una cuenta de Github, pero como todos estamos grandes voy a asumir que sabes cómo hacer una. Una vez que tengas tu cuenta puedes crear un nuevo repositorio.</p>
+
+<p><img src="/assets/2018-10-08/new_repo.png" alt="Crear repo"></p>
+
+<p>Nombra tu repositorio con <code class="language-plaintext highlighter-rouge">tu-propio-nombre de-usuario.github.io</code> así lo podrás visitar en esa dirección. Ten cuidado con las mayúsculas y minúsculas. Por ejemplo, mi blog personal esta en <a href="Darkade.github.io">https://Darkade.github.io</a></p>
+
+<p><img src="/assets/2018-10-08/repo_name.png" alt="Nombre del repo"></p>
+
+<p>Agrega la descripción que tu quieras y asegurate de marcar el repositorio como público. Las demás opciones no importan mucho ahora, así que deja los defaults.</p>
+
+<h3 id="eligiendo-un-tema-inicial">Eligiendo un tema inicial</h3>
+
+<p>Ahora que tu repositorio esta creado deberás tener una pestaña de <code class="language-plaintext highlighter-rouge">settings</code> y baja hasta encontrar la sección de <strong>GitHub Pages</strong> y elige un tema.</p>
+
+<p><img src="/assets/2018-10-08/choose_theme.png" alt="Choose Theme"></p>
+
+<p>Github tiene algunos temas iniciales, yo voy a elegir <em>Cayman</em> pero el proceso es muy parecido para cualquiera de los demás temas. Solo presiona el botón <code class="language-plaintext highlighter-rouge">Select theme</code> cuando hayas decido que tema usar.</p>
+
+<p><img src="/assets/2018-10-08/cayman.png" alt="Cayman Theme"></p>
+
+<p>Ahora deberías de estar en una pantalla creando un archivo llamado <code class="language-plaintext highlighter-rouge">index.md</code> por el momento no vamos a cambiar nada en este archivo. Servirá como la página principal de nuestro blog. Una vez que termines de editarlo presiona el botón de <strong>Commit Changes</strong> al final de la página.</p>
+
+<p><img src="/assets/2018-10-08/commit.png" alt="Commit Changes"></p>
+
+<p>Ahora deberías de poder visitar tu sitio en <code class="language-plaintext highlighter-rouge">https://tu-propio-nombre de-usuario.github.io</code> si tienes dudas puedes ir otra vez a la sección de Github Pages en los settings del repositorio y verás la dirección dónde esta el blog.</p>
+
+<p><img src="/assets/2018-10-08/blag_settings.png" alt="Blag settings"></p>
+
+<p><img src="/assets/2018-10-08/blag_screenshot.png" alt="Blag screenshot"></p>
+
+<h3 id="modificando-el-tema-para-convertirlo-en-un-blog">Modificando el tema para convertirlo en un blog</h3>
+
+<p>Como podrás ver no hay posts en este momento, los temás default de Github no soportan blogging, pero con algunas modificaciones sencillas lo podemos hacer.</p>
+
+<p>Las modificaciones van a consistir en crear dos archivos de formato: un <code class="language-plaintext highlighter-rouge">post.html</code> y un <code class="language-plaintext highlighter-rouge">home.html</code> y algunos posts de prueba.</p>
+
+<h4 id="posthtml">post.html</h4>
+
+<p>Presiona el botón de <strong>Create new file</strong> y nombralo <code class="language-plaintext highlighter-rouge">_layouts/post.html</code> el nombre es importante, ya que los posts que creemos estarán buscando este archivo.</p>
+
+<p><img src="/assets/2018-10-08/new_file.png" alt="New file"></p>
+
+<p><img src="/assets/2018-10-08/file_name.gif" alt="File Name"></p>
+
+<p>El único contenido que vamos a poner en este archivo son las siguientes cuatro lineas:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">default</span>
+<span class="nn">---</span>
+
+</code></pre></div></div>
+
+<p>Los tres guiones arriba y abajo son importantes así que asegurate de colocarlos.</p>
+
+<p>Una vez que termines presiona el botón <strong>Commit Changes</strong></p>
+
+<hr>
+
+<p>Vamos a hacer algo muy parecido para crear un archivo <code class="language-plaintext highlighter-rouge">_posts/2018-10-08-prueba-uno.md</code> es importante que coloques la fecha ya que Jekyll la utiliza para crear las URLs de los posts. También nota que este es un archivo <code class="language-plaintext highlighter-rouge">.md</code> porque será un archivo de Markdown</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">post</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s">Cómo hacer un blog usando Github</span>
+<span class="nn">---</span>
+
+Hoy vamos a hacer un blog utilizando Github y Markdown y va a quedar bien bonito y rápido.
+</code></pre></div></div>
+
+<p>Nota que en vez de utilizar el <code class="language-plaintext highlighter-rouge">layout: default</code> utilizamos <code class="language-plaintext highlighter-rouge">layout: post</code> que es el layout que acabamos de crear. En <code class="language-plaintext highlighter-rouge">title:</code> puedes poner el titulo que tu queiras, para el post. Y todo lo que esta debajo de los tres guiones va a ser el contenido.</p>
+
+<p><img src="/assets/2018-10-08/post_content.gif" alt="Contenido del post"></p>
+
+<p>Si todo salió bien deberías poder ver el post en <code class="language-plaintext highlighter-rouge">https://tu-propio-nombre de-usuario.github.io/2018/10/08/prueba-uno</code></p>
+
+<p>Cómo puedes ver la fecha que pusiste al inicio del nombre del archivo es muy importante en el link. Y el resto del nombre del archivo lo completa (y no tiene el <code class="language-plaintext highlighter-rouge">.md</code>).</p>
+
+<p><img src="/assets/2018-10-08/post.png" alt="Post Publicado"></p>
+
+<p>Ya casi lo logramos!! Ahora solo necesitamos un lugar en dónde ver la lista de todos nuestros posts.</p>
+
+<h4 id="homehtml">home.html</h4>
+
+<p>Lo primero que tenemos que hacer es habilitar un plugin para nuestro blog. Para hacerlo, modificaremos el archivo <code class="language-plaintext highlighter-rouge">_config.yml</code> y agregaremos <code class="language-plaintext highlighter-rouge">jekyll-paginate</code></p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>theme: jekyll-theme-cayman
+paginate: 5
+plugins:
+<span class="p">  -</span> jekyll-paginate
+</code></pre></div></div>
+
+<p>Y ahora, finalmente vamos a modificar el <code class="language-plaintext highlighter-rouge">index.md</code>. Lo primero que vamos a hacer es renombrarlo a <code class="language-plaintext highlighter-rouge">index.html</code> y vamos cambiar todo el contenido por:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+layout: default
+---
+
+<span class="c">&lt;!-- This loops through the paginated posts --&gt;</span>
+
+
+<span class="c">&lt;!-- Pagination links --&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"pagination"</span><span class="nt">&gt;</span>
+  
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"previous"</span><span class="nt">&gt;</span>Previous<span class="nt">&lt;/span&gt;</span>
+  
+  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"page_number "</span><span class="nt">&gt;</span>
+    Page:  of 
+  <span class="nt">&lt;/span&gt;</span>
+  
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"next "</span><span class="nt">&gt;</span>Next<span class="nt">&lt;/span&gt;</span>
+  
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<p>Cuando tengas el contenido solo has <strong>Commit</strong> de los cambios. Ahora si visitas <code class="language-plaintext highlighter-rouge">tu-propio-nombre de-usuario.github.io</code> en la parte de abajo deberías de poder ver el paginador de todos tus posts.</p>
+
+<p><img src="/assets/2018-10-08/paginator.png" alt="Paginator"></p>
+
+<p>La explicación de este código, en mi mejor imitación de libro de texto, se deja como ejercicio.</p>
+
+<h2 id="y-luego">¿Y luego?</h2>
+
+<p>Listo, ahora tienes un blog funcional. Todos los posts que quieras hacer solo necesitas colocarlos dentro de <code class="language-plaintext highlighter-rouge">_posts/</code> y utilizar la misma estructura de nombre de archivos <code class="language-plaintext highlighter-rouge">2018-01-01-tu-post.md</code></p>
+
+<p>Lo siguiente que podrías hacer es utilizar un tema diferente. Solo elige otro desde la sección en los <code class="language-plaintext highlighter-rouge">settings</code> del repositorio.</p>
+
+<p>También puedes aprender más sobre Jekyll y Markdown para aprender a insertar imágenes en Markdown o seguir modificando los temas; para git pronto vamos a tener una guía básica.</p>
+
+<p>Hay mucho por hacer con este proyecto pero puedes visitar un repositorio de ejemplo <a href="https://github.com/Darkade/blag-example" target="_blank" rel="noopener noreferrer">aquí</a> y copiar lo que necesites. También puedes verlo funcionando en: https://darkade.github.io/blag-example/</p>
+
+<p>Y en serio te puede tomar solo cinco minutos!</p>
+
+<p><a href="http://www.youtube.com/watch?feature=player_embedded&amp;v=OXLeYPLefoA%20" target="_blank" rel="noopener noreferrer"><img src="http://img.youtube.com/vi/OXLeYPLefoA/0.jpg" alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10"></a></p>
+
+      </div>
+    </div>
+
+    <p class="text-end font-italic">– Anya Reyes</p>
+  </div>
+  <script src="https://giscus.app/client.js" data-repo="Darkade/Darkade.github.io-comments" data-repo-id="R_kgDOIuNbEA" data-category="Announcements" data-category-id="DIC_kwDOIuNbEM4CTaKd" data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="light_protanopia" data-lang="en" data-loading="lazy" crossorigin="anonymous" async>
+</script>
+
+</article>
+
+  </div>
+</div>
+
+  </main>
+  <footer class="container mt-3">
+  <hr class="mb-3">
+  <div class="row">
+    <div class="col d-flex">
+      <ul class="list-inline mx-auto justify-content-center">
+        <li class="list-inline-item">
+          <a rel="me noopener noreferrer" href="https://dice.camp/@darkade" target="_blank">
+            <svg class="icon"><use xlink:href="/assets/sprites/brands.svg#mastodon"></use></svg>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://twitter.com/darkade" target="_blank" rel="noopener noreferrer">
+            <svg class="icon"><use xlink:href="/assets/sprites/brands.svg#twitter"></use></svg>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://github.com/darkade" target="_blank" rel="noopener noreferrer">
+            <svg class="icon"><use xlink:href="/assets/sprites/brands.svg#github"></use></svg>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://www.linkedin.com/in/" target="_blank" rel="noopener noreferrer">
+            <svg class="icon"><use xlink:href="/assets/sprites/brands.svg#linkedin-in"></use></svg>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="/feed.xml">
+            <svg class="icon"><use xlink:href="/assets/sprites/solid.svg#rss"></use></svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <p class="text-center">©2023 Anya Reyes. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+  <!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+</body>
+</html>

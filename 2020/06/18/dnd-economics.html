@@ -1,0 +1,783 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="shortcut icon" href="/assets/icon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="/assets/icon_large.png" type="image/png">
+
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144585764-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-144585764-1');
+  </script>
+  
+
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Las Matemáticas de D&amp;D: Economía, Finanzas y Productividad | General nerdness</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Las Matemáticas de D&amp;D: Economía, Finanzas y Productividad" />
+<meta name="author" content="Anya Reyes" />
+<meta property="og:locale" content="es_MX" />
+<meta name="description" content="Con el Dungeon’s Master Guide y el Player’s Handbook ¿Podemos hacer un análisis de la economía de Dungeons &amp; Dragons?" />
+<meta property="og:description" content="Con el Dungeon’s Master Guide y el Player’s Handbook ¿Podemos hacer un análisis de la economía de Dungeons &amp; Dragons?" />
+<link rel="canonical" href="https://anya.reyescon.de/2020/06/18/dnd-economics.html" />
+<meta property="og:url" content="https://anya.reyescon.de/2020/06/18/dnd-economics.html" />
+<meta property="og:site_name" content="General nerdness" />
+<meta property="og:image" content="https://anya.reyescon.de/assets/2020-05-22/candles.jpg" />
+<meta property="og:image:height" content="1280" />
+<meta property="og:image:width" content="1920" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-06-18T00:00:00+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://anya.reyescon.de/assets/2020-05-22/candles.jpg" />
+<meta property="twitter:title" content="Las Matemáticas de D&amp;D: Economía, Finanzas y Productividad" />
+<meta name="twitter:site" content="@darkade" />
+<meta name="twitter:creator" content="@Anya Reyes" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Anya Reyes"},"dateModified":"2020-06-18T00:00:00+00:00","datePublished":"2020-06-18T00:00:00+00:00","description":"Con el Dungeon’s Master Guide y el Player’s Handbook ¿Podemos hacer un análisis de la economía de Dungeons &amp; Dragons?","headline":"Las Matemáticas de D&amp;D: Economía, Finanzas y Productividad","image":{"width":1920,"height":1280,"url":"https://anya.reyescon.de/assets/2020-05-22/candles.jpg","@type":"imageObject"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://anya.reyescon.de/2020/06/18/dnd-economics.html"},"url":"https://anya.reyescon.de/2020/06/18/dnd-economics.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+<body>
+  <header>
+  <nav class="navbar navbar-dark bg-primary navbar-expand-lg">
+    <div class="container-fluid">
+      <span class="navbar-text w-50">
+        <a class="" href="/">General nerdness</a>
+        <span class="d-none d-md-block text-white text-bold"><small>Anya Reyes – Maths, RPGs, Boardgames &amp; Coding.</small></span>
+      </span>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggle">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarToggle">
+        <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about/">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/links/">Links</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/directory/">Directory</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+  <main class="container">
+    <div class="row">
+  <div class="offset-md-2 col-md-8 py-2">
+    <article class="row py-1" lang="es-MX">
+  <div class="col">
+    <h1 class="my-2 h2"><a href="/2020/06/18/dnd-economics.html">Las Matemáticas de D&amp;D: Economía, Finanzas y Productividad</a></h1>
+    <p class="text-end">Jun 18, 2020</p>
+
+    <div class="row">
+      <div class="col">
+        <script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$', '$$'], ['\\[', '\\]']]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
+
+
+<p><img src="/assets/2020-05-22/candles.jpg" alt="Aprendamos de economía"></p>
+
+<p>Es hora de lo que todos estaban esperando, de descargar los papers de macroeconomía, de buscar números en manuales viejos, de obsesionarse por cosas quizás solo le importan a otras tres personas. ¡Es hora de analizar la economía de Dungeons &amp; Dragons!</p>
+
+<!--more-->
+
+<p>He estado leyendo detenidamente el Player’s Handbook (PHB) y Dungeon Master’s Guide (DMG) de D&amp;D quinta edición y me llamaron la atención cuatro cosas que ni siquiera sabía que estaban en los manuales:</p>
+
+<ol>
+  <li><a href="https://www.dndbeyond.com/sources/basic-rules/equipment#OtherAdventuringGear" target="_blank" rel="noopener noreferrer">El costo de una vela</a></li>
+  <li><a href="https://www.dndbeyond.com/sources/basic-rules/adventuring#PracticingaProfession" target="_blank" rel="noopener noreferrer">Puedes practicar una profesión</a></li>
+  <li><a href="https://www.dndbeyond.com/sources/basic-rules/equipment#LifestyleExpenses" target="_blank" rel="noopener noreferrer">El costo de tu estilo de vida</a></li>
+  <li>Puedes ser dueño de un negocio (DMG 5e Ch6)</li>
+</ol>
+
+<p>¿Qué tienen estas tres cosas de interesante? ¡Qué podemos estimar cuanto tiempo le toma a alguien ganar suficiente dinero para pagar por una vela!!!!!</p>
+
+<p><img src="https://media.giphy.com/media/KI9oNS4JBemyI/giphy.gif" alt="Amazing"></p>
+
+<p><em><strong>No. En verdad eso es sorprendente:</strong></em> con estos datos podemos saber la productividad de una persona en los Forgotten Realms. Podemos calcular el producto interno bruto de una ciudad dentro del mundo de Dungeons &amp; Dragons. Podemos extrapolar cosas cómo el efecto que tiene la magia en la economía. Y podemos hacer una comparación justa de cuanto “dinero real” están ganando y gastando los personajes.</p>
+
+<p>Hoy vamos a empezar por lo primero ¿Qué tanto tiene que trabajar una persona para alcanzar un estilo de vida? ¿Qué tan productivo es tu personaje en D&amp;D? Para descifrarlo necesitamos hablar de William Nordhaus: premio Nobel de economía. <em><strong>Si. En serio.</strong></em></p>
+
+<h2 id="william-nordhaus">William Nordhaus</h2>
+
+<p><a href="https://en.wikipedia.org/wiki/William_Nordhaus" target="_blank" rel="noopener noreferrer">William Nordhaus</a> ganó el premio Nobel de economía en 2018 por su trabajo describiendo la relación entre la economía y el cambio climático. Su trabajo en este campo es muy importante (y polémico), pero a nosotros nos interesa un paper que escribió en 1996, dónde describe un modelo para comparar la productividad de la humanidad desde la prehistoria hasta la actualidad… <a href="https://www.npr.org/sections/money/2018/10/08/655597272/episode-534-the-history-of-light-nobel-edition" target="_blank" rel="noopener noreferrer">utilizando velas</a>.</p>
+
+<p><img src="/assets/2020-05-22/nordhaus.jpg" alt="William Nordhaus">
+<em><a href="https://en.wikipedia.org/wiki/William_Nordhaus" target="_blank" rel="noopener noreferrer">William Nordhaus</a></em></p>
+
+<p>Desde luego estoy exagerando. Nordhaus, no solo usó velas, usó lámparas de aceite, velas de diferentes materiales y papers de principios del siglo XX, para determinar cuanta luz emite cada una de esas cosas. Su objetivo, en términos simples era <em>comparar cuanto tiempo de trabajo le toma a una persona generar la riqueza necesaria para iluminar el equivalente a “una vela”.</em> Publicó sus hallazgos en 1996 bajo el título <a href="https://press.uchicago.edu/ucp/books/book/chicago/E/bo3637763.html" target="_blank" rel="noopener noreferrer">“Do real output and real wage measures capture reality? The History of Light Suggests Not”</a>.</p>
+
+<p><img src="/assets/2020-05-22/paper.png" alt="Do real output and real wage measures capture reality? The History of Light Suggests Not. University of Chicago Press">
+<em>Y es mi mejor lectura en lo que va del año.</em></p>
+
+<p>Hoy la iluminación, para la mayoría de las personas, es algo que damos por hecho. Aunque hay un costo asociado con la luz eléctrica difícilmente vas a regresar a tu casa a apagar la lámpara si no estas seguro de haberla apagado, porque el costo es marginal. Incluso la lámpara en tu celular ilumina docenas de veces más que una vela. Pero en el pasado iluminar el equivalente a una vela… necesitaba una vela.</p>
+
+<p>El proceso para fabricar una vela requería una vaca, conseguir el alimento para hacer que la vaca creciera, matar a la vaca, juntar la grasa de la vaca, cocinar la grasa, y convertir esa grasa en velas. En algunos sentidos tomaba años hacer una vela y una seguramente no iba a poder iluminar una habitación pequeña ni siquiera una noche completa.</p>
+
+<p>Según lo que encontró Nordhaus, en la antigua Babilonia el salario de un día entero solo hubiera alcanzado para iluminar una habitación unos diez minutos; para ser claros, esto es una persona destinando todo su salario solo para iluminación, sin alimentos, o vivienda, o ninguna otra cosa. Para los 90’s, en algunos lugares, un día de trabajo podría haber iluminado una habitación durante <strong>veinte mil horas</strong> usando focos incandescentes.</p>
+
+<p><strong>Estos datos y comparaciones son importantes porque la iluminación es una necesidad universal.</strong> Para poder comparar la productividad de D&amp;D con la productividad en el mundo real necesitamos comparar cosas que necesitemos en la misma medida y el esfuerzo que toma en cada universo obtenerlas.</p>
+
+<p>Entonces ¿cuanto necesitas trabajar en Dungeons &amp; Dragons para iluminar con una vela?</p>
+
+<h2 id="1-el-costo-de-una-vela-en-dungeons--dragons">1. El costo de una vela en Dungeons &amp; Dragons</h2>
+
+<p><em>A partir de este punto, la información oficial de D&amp;D ha sido tomada solo de manuales de 3.5e para asegurar consistencia.</em></p>
+
+<p><img src="/assets/2020-05-22/dmgii.jpg" alt="Dungeon Master's Guide II 3.5e">
+<em>Dungeon Master’s Guide II 3.5e</em></p>
+
+<p>Una vela, en D&amp;D, cuesta <code class="language-plaintext highlighter-rouge">1 Copper Piece (cp)</code>, que es un un centavo de <code class="language-plaintext highlighter-rouge">Gold Piece (gp)</code>. En el PHB (3.5e p165) se detallan muchas otras formas de iluminación, incluidos <em>spells,</em> pero excepto por <a href="https://www.d20srd.org/srd/spells/continualFlame.htm" target="_blank" rel="noopener noreferrer">Continual Flame</a> todos duran menos que el “fuego natural”, y de cualquier forma hacer una Continual Flame toma <code class="language-plaintext highlighter-rouge">50 gp</code> de polvo de ruby; nada barato.</p>
+
+<p>Otros métodos de iluminación y sus combustibles son:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Item</th>
+      <th style="text-align: right">Bright Illumination</th>
+      <th style="text-align: right">Shadowy Illumination</th>
+      <th style="text-align: right">Duration</th>
+      <th style="text-align: right">Cost</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Candle</td>
+      <td style="text-align: right"><code class="language-plaintext highlighter-rouge">n/a</code></td>
+      <td style="text-align: right"><code class="language-plaintext highlighter-rouge">5ft</code></td>
+      <td style="text-align: right"><code class="language-plaintext highlighter-rouge">1hr</code></td>
+      <td style="text-align: right"><code class="language-plaintext highlighter-rouge">1 cp</code></td>
+    </tr>
+    <tr>
+      <td>Lamp, common</td>
+      <td style="text-align: right"><code class="language-plaintext highlighter-rouge">15ft (4.6m)</code></td>
+      <td style="text-align: right"><code class="language-plaintext highlighter-rouge">30ft</code></td>
+      <td style="text-align: right"><code class="language-plaintext highlighter-rouge">6hr/pint</code></td>
+      <td style="text-align: right"><code class="language-plaintext highlighter-rouge">1 sp</code></td>
+    </tr>
+    <tr>
+      <td>Lantern, bullseye</td>
+      <td style="text-align: right">
+<code class="language-plaintext highlighter-rouge">60ft (18.3m)</code> cone</td>
+      <td style="text-align: right">
+<code class="language-plaintext highlighter-rouge">120ft</code> cone</td>
+      <td style="text-align: right"><code class="language-plaintext highlighter-rouge">6hr/pint</code></td>
+      <td style="text-align: right"><code class="language-plaintext highlighter-rouge">12 gp</code></td>
+    </tr>
+    <tr>
+      <td>Lantern, hooded</td>
+      <td style="text-align: right"><code class="language-plaintext highlighter-rouge">30ft (9.1m)</code></td>
+      <td style="text-align: right"><code class="language-plaintext highlighter-rouge">60ft</code></td>
+      <td style="text-align: right"><code class="language-plaintext highlighter-rouge">6hr/pint</code></td>
+      <td style="text-align: right"><code class="language-plaintext highlighter-rouge">7 gp</code></td>
+    </tr>
+    <tr>
+      <td>Torch</td>
+      <td style="text-align: right"><code class="language-plaintext highlighter-rouge">20ft (6.1m)</code></td>
+      <td style="text-align: right"><code class="language-plaintext highlighter-rouge">40ft</code></td>
+      <td style="text-align: right"><code class="language-plaintext highlighter-rouge">1hr</code></td>
+      <td style="text-align: right"><code class="language-plaintext highlighter-rouge">1 cp</code></td>
+    </tr>
+    <tr>
+      <td>Oil <code class="language-plaintext highlighter-rouge">(1 pint)</code>
+</td>
+      <td style="text-align: right">–</td>
+      <td style="text-align: right"> –</td>
+      <td style="text-align: right">–</td>
+      <td style="text-align: right"><code class="language-plaintext highlighter-rouge">1 sp</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><em><strong>Esta es una tabla generada a partir de tablas en las páginas la 128 y 165 del PHB 3.5e</strong></em></p>
+
+<p>Entonces, una vela puede iluminar “pobremente” un radio de <code class="language-plaintext highlighter-rouge">~1.5m</code> y una lámpara de aceite ilumina un radio de <code class="language-plaintext highlighter-rouge">4.6m</code>. Además de que una pinta de aceite podría servirnos para encender una lámpara seis horas, pero también podríamos usarlo para seis lámparas durante una hora.</p>
+
+<p>Vamos a comparar las lámparas y las velas entre la vida real y el universo de D&amp;D. Para hacerlo necesitamos tres definiciones formales sobre la luz:</p>
+
+<ul>
+  <li>Flux: El <em>volúmen</em> de luz emitido desde una fuente de iluminación. Su unidad es el <code class="language-plaintext highlighter-rouge">lumen</code>
+</li>
+  <li>Lux: Es la <em>luminicencia</em> (Flux) en un área. Su unidad es el <code class="language-plaintext highlighter-rouge">Lux</code> que es <code class="language-plaintext highlighter-rouge">1 lux = 1 lumen / m^2</code>
+</li>
+  <li>La eficiencia de un dispositivo de iluminación se puede medir en <code class="language-plaintext highlighter-rouge">lumen/hora</code>
+</li>
+</ul>
+
+<p>Nordhaus utiliza estos conceptos para comparar diferentes fuentes de iluminación a lo largo de la historia. Algunos datos rápidos de su paper son que:</p>
+
+<ul>
+  <li>Una vela emite al rededor de <code class="language-plaintext highlighter-rouge">13 lumens</code>
+    <ul>
+      <li>Un cuarto iluminado por dos velas tiene <code class="language-plaintext highlighter-rouge">~5 lux</code>
+</li>
+    </ul>
+  </li>
+  <li>Una lámpara de aceite emite unos <code class="language-plaintext highlighter-rouge">~97.5 lumens</code>
+</li>
+  <li>Un foco de <code class="language-plaintext highlighter-rouge">100w</code> emite <code class="language-plaintext highlighter-rouge">~1,200 lumens</code>
+</li>
+  <li>Un foco flourecente de <code class="language-plaintext highlighter-rouge">18w</code> emite <code class="language-plaintext highlighter-rouge">1,290 lumens</code>
+</li>
+  <li>La luz de día da <code class="language-plaintext highlighter-rouge">10,000 lux</code>
+</li>
+  <li>El nivel de luminicencia en una casa normal es <code class="language-plaintext highlighter-rouge">~100 lux</code>, es decir <code class="language-plaintext highlighter-rouge">100 lumen / m^2</code>
+</li>
+</ul>
+
+<p>En concreto Nordhaus va a determinar cuanto trabajo tendría que realizar una persona, en diferentes momentos de la historia, para poder pagar por <code class="language-plaintext highlighter-rouge">1,000 lumen/hora</code>. Nosotros vamos a hacer lo mismo para diferentes situaciones dentro de D&amp;D.</p>
+
+<h2 id="2-puedes-practicar-una-profesión">2. Puedes practicar una profesión</h2>
+
+<p><img src="/assets/2020-05-22/fisher.jpg" alt="Pesca mortal en los Forgotten Realms">
+<em>Pesca mortal en los Forgotten Realms</em></p>
+
+<p>En el PHB (3.5e p80) se especifica que para practicar una profesión tienes que hacer un <em>check</em> de tu <em>Profession Skill,</em> que  esta asociado con tu <em>Wisdom</em>, y ganarías la mitad del resultado del check <code class="language-plaintext highlighter-rouge">gp</code> para esa semana.</p>
+
+<p>Supongamos un personaje <code class="language-plaintext highlighter-rouge">LVL 1</code> con los valores promedio para cualquier estadística. Esto nos daría <code class="language-plaintext highlighter-rouge">Wisdom 12~13</code> y un <code class="language-plaintext highlighter-rouge">stat modifier +1</code>.</p>
+
+<p>En 3.5e los skills tienen <em>ranks</em> a modo de modificadores. Asumimos que el personaje va a tener <code class="language-plaintext highlighter-rouge">4 ranks</code> a <code class="language-plaintext highlighter-rouge">Wis (Profession)</code> al momento de creación. No podemos agregar más porque el rank máximo que puedes tener es <code class="language-plaintext highlighter-rouge">LVL + 3</code>.</p>
+
+<p>Siendo así, ese personaje <code class="language-plaintext highlighter-rouge">LVL 1</code> ganaría, en promedio, <code class="language-plaintext highlighter-rouge">7 gp</code> por semana. Con <code class="language-plaintext highlighter-rouge">Wisdom 18</code> ganaría <code class="language-plaintext highlighter-rouge">9 gp</code> por semana.</p>
+
+\[\lfloor E([1d20 + 1 + 4] \div 2) \rfloor =7 gp\]
+
+\[\lfloor E([1d20 + 4 + 4] \div 2) \rfloor =9 gp\]
+
+<p><em>En D&amp;D las divisiones <del>casi</del> siempre se redondean hacia abajo. PHB (3.5e p304)</em></p>
+
+<p>Entonces ¿Cuantos lumen/hora podemos comprar con un día entero de trabajo? Ganando <code class="language-plaintext highlighter-rouge">7 gp</code> a la semana un adventurer podría comprar <code class="language-plaintext highlighter-rouge">1,300 lumen/hora</code>, al día, si comprara velas, o <code class="language-plaintext highlighter-rouge">5,850 lumen/hora</code> en aceite para lámparas, con un día de trabajo.</p>
+
+<p><img src="https://i.etsystatic.com/14110671/r/il/b224bf/2139794759/il_794xN.2139794759_dvqq.jpg" alt="d20 lamp">
+<em><a href="https://www.etsy.com/listing/549460095/d20-dungeons-and-dragons-desk-lamp" target="_blank" rel="noopener noreferrer">d20 by Jon Imeson</a></em></p>
+
+<p>Esto es porque <code class="language-plaintext highlighter-rouge">7 gp</code> semanales son <code class="language-plaintext highlighter-rouge">100 cp</code> diarios; con ese dinero comprarías 100 velas al día y cada vela ilumina <code class="language-plaintext highlighter-rouge">13 lumen/hora</code>. Con el mismo dinero comparías 10 pintas de aicete al día, cada una de las cuales alcanza para iluminar 6 lámparas durante una hora; un total de 60 lámparas cada una de las cuales ilumina <code class="language-plaintext highlighter-rouge">97.5 lumen/hora</code>.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>GP / semana</th>
+      <th>Velas / día</th>
+      <th>lumen/hora (Vela)</th>
+      <th>Pintas aceite / día</th>
+      <th>lumen/hora (Lámpara)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>7</td>
+      <td>100.0</td>
+      <td>1,300.0</td>
+      <td>10.0</td>
+      <td>5,850.0</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>114.3</td>
+      <td>1,485.7</td>
+      <td>11.4</td>
+      <td>6,685.7</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>128.6</td>
+      <td>1,671.4</td>
+      <td>12.9</td>
+      <td>7,521.4</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>La siguiente tabla tiene el tiempo de trabajo que le tomaría a una persona adquirir <code class="language-plaintext highlighter-rouge">1,000 lumen/hora</code> en los 1800s. Vemos que si fuéramos a obtener <code class="language-plaintext highlighter-rouge">1,000 lumen/hora</code>, con velas, tomaría <code class="language-plaintext highlighter-rouge">6 hrs ~ 10.6 hrs</code> de trabajo. Y para una lámpara de aceite tomaría <code class="language-plaintext highlighter-rouge">4.9 hrs ~ 5.9 hrs</code> de trabajo.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Device</th>
+      <th>Stage of Technology</th>
+      <th>Approximate Date</th>
+      <th>Labor Price (hours of work per 1,000 lumen-hours)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Candle</td>
+      <td>Tallow</td>
+      <td>1800</td>
+      <td>5.37</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>Tallow</td>
+      <td>1830</td>
+      <td>3.00</td>
+    </tr>
+    <tr>
+      <td>Lamp</td>
+      <td>Whale oil</td>
+      <td>1815-1845</td>
+      <td>4.90</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>Other oils</td>
+      <td>1855</td>
+      <td>5.94</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><em><strong>Nordhaus. Table 1.6 Labor Price of Light (extracto)</strong></em></p>
+
+<p>Para nuestro personaje, ganando 7 gp a la semana, comprar <code class="language-plaintext highlighter-rouge">1,000 lumen/hora</code> de iluminación:</p>
+<ul>
+  <li>En velas:   tomaría <code class="language-plaintext highlighter-rouge">7.7 hrs</code> de trabajo</li>
+  <li>En aceite: tomaría <code class="language-plaintext highlighter-rouge">1.7 hrs</code> de trabajo</li>
+</ul>
+
+<p>El tiempo de trabajo necesario para adquirir velas en D&amp;D es bastante parecido al mundo real. Entonces podemos inferir que la tecnología de velas, en Forgotten Realms, es bastante parecida a la nuestra.</p>
+
+<p><img src="/assets/2020-05-22/bullseyelamp.jpg" alt="Bullseyelamp">
+<em>Photo by <a href="https://www.instagram.com/vladimir.fedotov/" target="_blank" rel="noopener noreferrer">Vladimir Fedotov</a> on <a href="https://unsplash.com/@fedotov_vs" target="_blank" rel="noopener noreferrer">Unsplash</a></em></p>
+
+<p>Por otro lado, la tecnología de aceite debería ser bastante más avanzada, al menos comparada con los 1800s. Esto puede ser porque el método de extracción es mejor, o porque el aceite es de mejor calidad que los disponibles en el siglo XIX. Aunque hay que considerar que el costo de las lámparas es lo que hace prohibitivo iluminar con esta tecnología.</p>
+
+<p>Para obtener <code class="language-plaintext highlighter-rouge">1,000 lumen/hora</code> necesitas 11 lámparas prendidas al mismo tiempo. A un costo de <code class="language-plaintext highlighter-rouge">7 gp</code> cada una, adquirirlas te tomaría <code class="language-plaintext highlighter-rouge">11 semanas</code> de trabajo. 77 días en los que todas tus ganancias se destinarían únicamente a comprar lámparas.</p>
+
+<p>Esto justifica la existencia de velas como método de iluminación dentro de D&amp;D: aunque el aceite es más eficiente, la “plataforma” para utilizarlo es extremadamente cara.</p>
+
+\[{1000 {lumen \over hora} \over 97.5 {lampara\ lumen \over hora}} = 10.25641026\ lampara\]
+
+<p><strong>Y hay que recordar que 11 lámparas, de cualquier forma no producen siquiera la misma iluminación que un solo foco incandescente de 100 watts.</strong></p>
+
+<h2 id="el-costo-de-tu-estilo-de-vida-en-dungeons--dragons">El costo de tu estilo de vida en Dungeons &amp; Dragons</h2>
+
+<p>El DMG (3.5e p130) enlista el costo que le toma a un adventurer mantener diferentes estilos de vida bajo la regla <em>Upkeep.</em> Es razonable decir que algunos de estos estilos de vida incluyen, al menos, una hora de iluminación al día.</p>
+
+<blockquote>
+  <p>The upkeep can be assumed to take into consideration every expense except the cost of specific adventuring equipment—even taxes. Ultimately, each player should choose the level of upkeep she’s willing to pay.</p>
+</blockquote>
+
+<table>
+  <thead>
+    <tr>
+      <th>Lifestyle 3.5e</th>
+      <th>Costo Mensual (30 Días)</th>
+      <th>Costo Semanal</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Self-Sufficient</td>
+      <td>2 gp</td>
+      <td>0.46 gp</td>
+    </tr>
+    <tr>
+      <td>Meager</td>
+      <td>5 gp</td>
+      <td>1.2 gp</td>
+    </tr>
+    <tr>
+      <td>Poor</td>
+      <td>12 gp</td>
+      <td>2.8 gp</td>
+    </tr>
+    <tr>
+      <td>Common</td>
+      <td>45 gp</td>
+      <td>10.5 gp</td>
+    </tr>
+    <tr>
+      <td>Good</td>
+      <td>100 gp</td>
+      <td>23.3 gp</td>
+    </tr>
+    <tr>
+      <td>Extravagant</td>
+      <td>200 gp</td>
+      <td>46.7 gp</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>De esta regla me interesan dos cosas:</p>
+
+<ol>
+  <li>
+    <p>El manual dice que un trabajador común gana <code class="language-plaintext highlighter-rouge">3 gp</code> por mes</p>
+
+    <blockquote>
+      <p>Common laborers earn about 3 gp per month, so they usually have to be self-sufficient just to survive.</p>
+    </blockquote>
+
+    <p>Esto quiere decir que el trabajador promedio en Forgotten Realms necesita cazar su comida regularmente y, seguramente, compartir su vivienda con muchos miembros familiares. Eso en el mejor de los casos; ya que incluso en el estilo de vida <em>Meager</em> “ocasionalmente duermes en las calles”. D&amp;D es despiadado.</p>
+
+    <blockquote>
+      <p>A meager upkeep assumes that you eat little and sleep in flophouses and occasionally in the street or in the wild.</p>
+    </blockquote>
+  </li>
+  <li>
+    <p>Esta tabla explica por qué los personajes arriesgan sus vidas en la aventura.</p>
+
+    <p>¡SI! Esta tabla explica por qué la gente sale a que la apuñalen los goblins y a morir digerida por un gelatinous cube en algún calabozo olvidado. Cómo dijimos, en el mejor de los casos en el nivel 1 un adventurer ganaría <code class="language-plaintext highlighter-rouge">9 gp</code> a la semana. Esto es un total de <code class="language-plaintext highlighter-rouge">38.5 gp</code> al mes</p>
+
+\[{ 9{gp \over week} \over  7 {days \over week} } \times 30 {days \over month} \approx 38.5 {gp \over month}\]
+
+    <p>Esto no es suficiente para llevar un estilo de vida Common, que cuesta <code class="language-plaintext highlighter-rouge">45 gp</code>.</p>
+
+    <p>Para la persona promedio en Forgotten Realms incluso un estilo de vida pobre es dificil de mantener. Subir ranks en tu <em><strong>Profession Skill</strong></em> es bastante dificil viviendo en el pueblo, debido a que las oportunidades de <em>subir de nivel</em> son bastante escasas. El modo más rápido de mejorar tu estilo de vida, ganando dinero extra o ganando suficiente experiencia de vida para subir ranks, es salir a enfrentar la muerte.</p>
+  </li>
+</ol>
+
+<h3 id="las-recompensas-de-enfrentar-a-la-muerte">Las recompensas de enfrentar a la muerte</h3>
+
+<p><img src="/assets/2020-05-22/treasure.jpg" alt="El tesoro aguarda">
+<em>Photo by <a href="https://unsplash.com/@romankraft" target="_blank" rel="noopener noreferrer">Roman Kraft</a> on Unsplash</em></p>
+
+<p>En el DMG (3.5e Table 3–3 p51) estan las reglas para diseñar el tesoro que una party de 4 personajes adquiere por completar un encuentro. <strong>Para una party LVL 1:</strong> se espera que por encuentro ganen <code class="language-plaintext highlighter-rouge">300 gp</code>, es decir, <code class="language-plaintext highlighter-rouge">75 gp</code> para cada quien. En un solo encuentro puedes ganar suficiente dinero cubrir tus gastos de <code class="language-plaintext highlighter-rouge">1.6 meses</code> manteniendo el estilo de vida <em><strong>common.</strong></em> Tener un encuentro te puede tomar solo un día, un día de trabajo cada dos meses.</p>
+
+\[{ 75 gp \over 45 gp } \approx 1.6\]
+
+<p>Esta es la razón por la cual tiene sentido ser un adventurer, un solo día de aventuras efectivo te da 1.6 veces los recursos que trabajar un mes entero. <strong>¡Claro que arriesgar tu vida tiene sentido viviendo en Forgotten Realms!</strong> Ser un adventurer no solo es la forma más efectiva de mejorar tu estilo de vida, seguramente es la única forma. Ejercer tu profesión an el máximo de tus habilidades no tiene sentido económico.</p>
+
+<p>En términos de lumen/hora. Un día completo de trabajo, <code class="language-plaintext highlighter-rouge">24 hrs</code> de adventuring, te compraría 7,500 velas. Que son <code class="language-plaintext highlighter-rouge">97,500 lumen/hora</code>. Y entonces te tomaría <code class="language-plaintext highlighter-rouge">14 min</code> de trabajo adquirir <code class="language-plaintext highlighter-rouge">1,000 lumen/hora</code>.</p>
+
+\[7,500 velas \times {13 lumen \over hr\ vela} = 97,500 {lumen \over hr}\]
+
+\[{ { 1,000 {lumen \over hr } \times 24 hr } \over {97,500  { lumen \over hr } } } \approx 0.2461538462 hr  \approx 14.7 min\]
+
+<p>Si se tratara de aceite te tomaría <code class="language-plaintext highlighter-rouge">3 min</code> de trabajo: Con las mismas <code class="language-plaintext highlighter-rouge">75 gp</code> comprarías 750 pintas de aceite, que sirven para  4,500 lámparas, que iluminan <code class="language-plaintext highlighter-rouge">438,750 lumen/hora</code>.</p>
+
+\[4,500 lamparas \times {97.5 lumen \over hr\ lampara} = 438,750 {lumen \over hr}\]
+
+\[{ { 1,000 {lumen \over hr } \times 24 hr } \over {438,750  { lumen \over hr } } } \approx 0.0547008547 hr  \approx 3.2 min\]
+
+<p>Desde luego no puedes salir a la aventura solo 14 minutos y regresar, pero este defecto en el análisis también esta presente en el salario por ejercer una profesión. Asumimos que para poder tener una vida como adventurer tienes que salir en periodos de al menos 24 horas, y para poder trabajar tu profesión tienes que hacerlo 8~10 hrs al día. Aun con este <em>caveat</em> los cálculos nos dan una comparativa interesante.</p>
+
+<h2 id="puedes-ser-dueño-de-un-negocio">Puedes ser dueño de un negocio</h2>
+
+<p><img src="/assets/2020-05-22/tavern.jpg" alt="In a hole in the ground there lived an inkeeper">
+<em>Photo by <a href="https://www.instagram.com/tjholowaychuk/" target="_blank" rel="noopener noreferrer">Tj Holowaychuk</a> on <a href="https://unsplash.com/photos/rDyZ8t-MYxU" target="_blank" rel="noopener noreferrer">Unsplash</a></em></p>
+
+<p>El check de Profession solo incluye el dinero que ganas, individualmente, trabajando tu profesión; en otras palabras, es tu salario. Pero en D&amp;D puedes usar esa profesión y años de entrenamiento para dejar de ser un empleado y convertirte en dueño de tu propio negocio…. Aunque las reglas no son nada claras y parece ser que siempre vas a terminar perdiendo dinero. <del>¡Cómo en la vida real!</del></p>
+
+<p>Al igual que el check de Profession, creo que esto refuerza las razones para ir a la aventura. Incluso al tener un negocio la probabilidad de éxito es marginal. Si quieres oro, tienes que ir a buscar oro en el calabozo.</p>
+
+<p>Sí aun así quisieras ser un emprendedor puedes intentarlo en más de una docena de profesiones (PHB 3.5e p80). Para nuestros ejemplos voy a utilizar la profesión icónica de D&amp;D: tabernero. Para abrir una taverna necesitas, al menos:</p>
+
+<ul>
+  <li>Un edificio mediano, aproximadamente <code class="language-plaintext highlighter-rouge">5,000 gp</code>
+</li>
+  <li>Materiales e inversión inicial, aproximadamente <code class="language-plaintext highlighter-rouge">8,000 gp</code>
+</li>
+  <li>5 empleados</li>
+</ul>
+
+<p>También necesitas tierra pero voy a ignorar esos costos porque <strong>1.</strong> No encontré reglas para comprar tierra. Lo cual me parece extremadamente raro, pero quizás solo no busqué bien. <strong>2.</strong> La lógica es que es poco común comprar tierra. Si alguien es dueño de la tierra es porque es parte de los beneficios de algún titulo nobiliario, si la tierra no tiene dueño… pues es tuya.</p>
+
+<p>Tomando en cuenta estos factores, y muchos otros modificadores detallados en el <a href="https://www.dmsguild.com/product/25841/Dungeon-Masters-Guide-II-35?affiliate_id=435266" target="_blank" rel="noopener noreferrer">Dungeon Master’s Guide II</a> (DMGII Table 6–5), un adventurer hace un <em>Profit Check</em> para calcular las ganancias mensuales del establecimiento. Aunque esto no le prohibe hacer un <em>Profession Check</em> también.</p>
+
+<p>El ejemplo del libro es un adventurer con el skill <em>Profession (innkeeper)</em> y estos modificadores para su tirada:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Situación</th>
+      <th style="text-align: center">Modificador</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Trabajar 40 horas semanales en el local</td>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">+2</code></td>
+    </tr>
+    <tr>
+      <td>10 ranks en Profession (Cook) &amp; 10 ranks en Sense Motive</td>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">+2</code></td>
+    </tr>
+    <tr>
+      <td>Un socio especializado</td>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">+2</code></td>
+    </tr>
+    <tr>
+      <td>Es parte del guild local</td>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">+1</code></td>
+    </tr>
+    <tr>
+      <td>Es un negocio riesgoso</td>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">-4</code></td>
+    </tr>
+    <tr>
+      <td><strong>Modificador Total</strong></td>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">+3</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Luego hacemos el <em>Profit check</em> que implica hacer una tirada de <em>Profession (inkeeper).</em> Para el adventurer del ejemplo del libro esta tirada da en promedio <code class="language-plaintext highlighter-rouge">25</code>. El DMGII después indica que al resultado hay que restar <code class="language-plaintext highlighter-rouge">25</code>. Ahora, una taverna esta categorizado como un negocio riesgoso, entonces a este otro resultado hay que multiplicarlo por <code class="language-plaintext highlighter-rouge">50 gp</code>. Y esa sería nuestra ganacia mensual.</p>
+
+<p>Para el ejemplo, en promedio, el negocio tiene utilidades de <code class="language-plaintext highlighter-rouge">0 gp</code> al mes. Gana dinero suficiente para subsistir pero solo eso: la taverna se va a mantener pero es imposible que crezca y en una mala tirada, podría quebrar inesperadamente.</p>
+
+\[(E(1d20 + 10\text{ inkeeper ranks } + 3\text{ modifier } + 2 \text{ Wis } ) - 25) \times 50gp = 0gp\]
+
+<p>A esta altura el adventurer ha puesto <code class="language-plaintext highlighter-rouge">13,000 gp</code> de inversión inicial y del edificio. Trabajado de tiempo completo en la taverna. Entrenado al menos 9 niveles, porque tiene 10 ranks en su profesión. Conseguido a un socio. Se ha hecho parte del guild local… y en promedio nunca va a ganar dinero extra.</p>
+
+<p><img src="/assets/2020-05-22/inkeeper.png" alt="A business owner catches up on their bookkeeping"></p>
+
+<p>Hay pasos para mejorar las condiciones del negocio y más modificadores positivos, pero requieren aun más esfuerzo y, una vez más, no es tan redituable como simplemente ir a la aventura.</p>
+
+<p>Si regresamos a hablar de <code class="language-plaintext highlighter-rouge">lumen/hora</code> estos resultados hacen imposible adquirir cualquier cantidad de iluminación para uso <em>personal.</em> Desde luego que los gastos de la taverna incluyen velas y lámparas, pero esa es iluminación del negocio, para los clientes o que utilizas mientras trabajas, no para tu uso cuando ha terminado la jornada de trabajo.</p>
+
+<h2 id="adventuring-vs-profession-vs-innkeeping-vs-laborers-vs-real-life">Adventuring VS Profession VS Innkeeping VS Laborers VS Real Life</h2>
+
+<p>Y todo esto nos trae de vuelta al principio. ¿Cuanto tiempo de trabajo en cada una de estas actividades nos toma comprar 1,000 lumen/hora? ¿Cual es la actividad más productiva?</p>
+
+<p><em><strong>Tiempo para obtener 1,000 lumen/hora</strong></em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Oucpación</th>
+      <th style="text-align: right">Velas</th>
+      <th style="text-align: right">Aceite</th>
+      <th style="text-align: right">Foco incandescente</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Adventuring</td>
+      <td style="text-align: right">0.24 hrs</td>
+      <td style="text-align: right">0.05 hrs</td>
+      <td style="text-align: right">–</td>
+    </tr>
+    <tr>
+      <td>Profession</td>
+      <td style="text-align: right">7.7 hrs</td>
+      <td style="text-align: right">1.7 hrs</td>
+      <td style="text-align: right">–</td>
+    </tr>
+    <tr>
+      <td>Inkeeping</td>
+      <td style="text-align: right">\(\infty\)</td>
+      <td style="text-align: right">\(\infty\)</td>
+      <td style="text-align: right">–</td>
+    </tr>
+    <tr>
+      <td>Laborer</td>
+      <td style="text-align: right">11,076 hrs</td>
+      <td style="text-align: right">2,461 hrs</td>
+      <td style="text-align: right">–</td>
+    </tr>
+    <tr>
+      <td>Real Life (1830)</td>
+      <td style="text-align: right">3 hrs</td>
+      <td style="text-align: right">4.9 hrs</td>
+      <td style="text-align: right">–</td>
+    </tr>
+    <tr>
+      <td>Real Life (1992)</td>
+      <td style="text-align: right">–</td>
+      <td style="text-align: right">–</td>
+      <td style="text-align: right">0.000119 hrs</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><em>Algunos datos tomados de Nordhaus Table 1.6</em></p>
+
+<p>Desde luego que la facilidades de la vida moderna nos hacen increíblemente más productivos. Pero comparando con la vida en los 1800s y de todas las notas anteriores, podemos ver algunas cosas interesantes:</p>
+
+<p><strong>La tecnología para obtener aceite en D&amp;D es mucho muy superior a la tecnología que teníamos en 1830:</strong></p>
+<blockquote>
+  <p>O al menos ese es uno de los mejores modos de explicar por qué toma tan poco tiempo adquirir 1,000 lumen/hora. Es más fácil de producir, hay mayor oferta el precio es menor.</p>
+</blockquote>
+
+<p><strong>El juego esta diseñado para ir a buscar Dungeons y matar Dragons:</strong></p>
+<blockquote>
+  <p>La motivación de muchas personas para jugar Dungeons &amp; Dragons es ir a la aventura, es ser un héroe; pero esa es tu motivación como jugador ¿Cual es la motivación de tu personaje? Resulta que si no encuentras una motivación y decides ser complaciente y quedarte en el pueblo, más temprano que tarde te vas a ver en serios aprietos financieros. A esa altura tu mejor opción es ir y arriesgar tu vida, es tener una aventura.</p>
+
+  <p>Para mi, se siente como que esos problemas financieros están “diseñados” dentro del juego, no es un accidente o una equivocación están ahí para hacerte salir del pueblo.</p>
+</blockquote>
+
+<p><strong>Las propiedades son extremadamente importantes</strong></p>
+<blockquote>
+  <p>El costo de la tierra es alto en los Forgotten Realms, no necesariamente en <em>Gold Pieces</em> pero si en el costo personal que implican. El manual espera que seas al menos nivel 9 para juntar el oro requerido para empezar un negocio o construir algún tipo de edificiación. Pero lo gran mayoría de las personas no son adventurers, y como hemos visto es imposible empezar de cero y ganar dinero sin ser adventurer. De modo que la mayoría de los edificios y negocios provienen de tierras nobles o heredadas; esto es algo que menciona el manual en su <em>lore</em> pero que vemos reforzado en las mecánicas.</p>
+</blockquote>
+
+<p><strong>No hay suficiente demanda para justificar crear oferta</strong></p>
+
+<blockquote>
+  <p>Otra cosa que podrían modelar estas mecánicas son los monopolios y oligopolios en las ciudades y pueblos. En poblaciones de a penas decenas de miles es difícil que exista suficiente demanda para satisfacer la existencia de más de una taverna.</p>
+</blockquote>
+
+<p><strong>El estilo de vida Common realmente no es common</strong></p>
+
+<blockquote>
+  <p>Por la definición del manual common no se refiere a un estilo de vida <em>común,</em> de hecho es más cercano a un turista de la vida real.</p>
+
+  <p><em>“You live in inns and eat tavern meals every day, a practice that quickly grows to be moderately expensive. This level of upkeep assumes the occasional night drinking in the tavern or a nice glass of wine with dinner.”</em></p>
+
+  <p>Lo que me llama la atención es que antes de <em>Common</em> esta <em>Poor,</em> que implica vivir sin ningún tipo de comodidad. Hay un “salto” muy grande entre estos dos estilos de vida. Hay un “gap” en los estratos sociales que ocupan las personas y personajes de D&amp;D. <del>Otra vez ¡Cómo en la vida real!</del></p>
+</blockquote>
+
+<hr>
+
+<p>¡Gracias por leer este ultra deep dive! Tomó un mes de trabajar de a poco pero seguía encontrando cosas que no sabía si agregar o no. Mi plan original era pasar de esto a la demografía y el producto interno bruto de Waterdeep en el mismo post, pero hubiera sido mucho más largo de lo que ya es. Así que en algún momento espera leer ese otro artículo.</p>
+
+<p>Si te gustó lo que leeiste y quieres más análisis a fondo e innecesarios puedes leer sobre la <a href="/2020/04/25/bag-of-holding.html">Bag of Holding</a>. Este post es uno de muchos que he estado escribiendo sobre juegos de rol. Si te gusta D&amp;D puedes leer <a href="/2020/04/05/dnd-online.html">cómo jugar D&amp;D online</a> o sobre <a href="/2020/04/01/Ironsworn-pt1.html">Ironsworn</a>, el juego que más he recomendado últimamente.</p>
+
+<p><em>Cover photo by <a href="https://www.flickriver.com/photos/noonchaka/popular-interesting/?utm_medium=referral&amp;utm_source=unsplash" target="_blank" rel="noopener noreferrer">Zoran Kokanovic</a> on Unsplash</em></p>
+
+<!--
+
+## Notas adicionales
+
+
+Las siguientes tablas funcionan para crear un tesoro aleatorio, y son un desglose de la Tabla 3-5 del DMG. Para LVL 1, un tesoro generado aleatoriamente, en promedio, te da `270 gp` para una party de 4. Es ligeramente menor que lo indicado en la Tabla 3-3, pero el manual lo compensa diciendo que para algunos encuentros des el doble y para algunos la mitad.
+
+La columna `Tesoro promedio` es `Probabilidad de la tirada * Tesoro` y la suma de todos estos promedios es `270 gp`
+
+| d%     | Probabilidad de la tirada | Tesoro (Coins)        | Tesoro promedio |
+|--------|---------------------------|-----------------------|-----------------|
+| 1–14   | 14%                       | –                     | –               |
+| 15–29  | 15%                       | 1d6 x 1000 cp( 35 gp ) | 5.25 gp         |
+| 30–52  | 23%                       | 1d8 x 100 sp( 45 gp )  | 10.35 gp        |
+| 53–95  | 43%                       | 2d8 x 10 gp( 90 gp )    | 38.7 gp         |
+| 96–100 | 5%                        | 1d4 x 10pp( 250 gp )   | 12.5 gp         |
+
+| d%     | Probabilidad de la tirada | Tesoro (Goods)        | Tesoro promedio |
+|--------|---------------------------|-----------------------|-----------------|
+| 1–90   | 90%                       | –                     | –               |
+| 91–95  | 5%                        | 1 gem( 275 gp )        | 13.75 gp        |
+| 96–100 | 5%                        | 1 art( 1100 gp )       | 55 gp           |
+
+| d%     | Probabilidad de la tirada | Tesoro (Items)        | Tesoro promedio |
+|--------|---------------------------|-----------------------|-----------------|
+| 1–71   | 71%                       | –                     | –               |
+| 72–95  | 24%                       | 1 mundane( 350 gp )    | 84 gp           |
+| 96–100 | 5%                        | 1 minor( 1000 gp )     | 50 gp           |
+
+_Creado apartir de Table 3–5: Treasure y Table 3–4: Average Treasure Results del DMG 3.5e p51_
+
+| Lifestyle 5e | Cost 5e | Lifestyle 3.5e | Cost 3.5e |
+|--------------|---------|----------------|-----------|
+| Squalid      |   10 cp | Meager         |     16 cp |
+| Poor 	       |    2 sp | Poor           |      4 sp |
+| Modest       |   10 sp | Common         |     15 sp |
+| Comfortable  |   20 sp | Good           |     33 sp |
+| Wealthy 	   |   40 sp | Extravagant    |     66 sp |
+
+-->
+
+<hr>
+
+<h2 id="fuentes">Fuentes</h2>
+
+<ul>
+  <li><a href="https://www.dmsguild.com/product/149132/Dungeon-Masters-Guide-35?affiliate_id=435266" target="_blank" rel="noopener noreferrer">Dungeon Master’s Guide (3.5e Core Rulebook)</a></li>
+  <li><a href="https://www.dmsguild.com/product/25841/Dungeon-Masters-Guide-II-35?affiliate_id=435266" target="_blank" rel="noopener noreferrer">Dungeon Master’s Guide II (3.5e Supplement)</a></li>
+  <li><a href="https://www.dmsguild.com/product/148008/Players-Handbook-35?affiliate_id=435266" target="_blank" rel="noopener noreferrer">Player’s Handbook (3.5e Core Rulebook)</a></li>
+  <li><a href="https://www.dmsguild.com/product/51644/Grand-History-of-the-Realms-35?affiliate_id=435266" target="_blank" rel="noopener noreferrer">A Grand History of the Realms (3.5e Campaign Accesory)</a></li>
+  <li><a href="https://www.dmsguild.com/product/25995/City-of-Splendors-Waterdeep-35?affiliate_id=435266" target="_blank" rel="noopener noreferrer">City of Splendors: Waterdeep (3.5e Campaign Supplement)</a></li>
+  <li><a href="https://press.uchicago.edu/ucp/books/book/chicago/E/bo3637763.html" target="_blank" rel="noopener noreferrer">Nordhaus, William D. 1997. “Do Real Output and Real Wage Measures Capture Reality? The History of Light Suggests Not.” The Economics of New Goods. Edited by Robert J. Gordon and Timothy F. Bresnahan. University of Chicago Press for the National Bureau of Economic Research. 27-70.</a></li>
+</ul>
+
+<!--Images-->
+
+<!--Credits-->
+
+<!--Links-->
+
+
+
+      </div>
+    </div>
+
+    <p class="text-end font-italic">– Anya Reyes</p>
+  </div>
+  <script src="https://giscus.app/client.js" data-repo="Darkade/Darkade.github.io-comments" data-repo-id="R_kgDOIuNbEA" data-category="Announcements" data-category-id="DIC_kwDOIuNbEM4CTaKd" data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="light_protanopia" data-lang="en" data-loading="lazy" crossorigin="anonymous" async>
+</script>
+
+</article>
+
+  </div>
+</div>
+
+  </main>
+  <footer class="container mt-3">
+  <hr class="mb-3">
+  <div class="row">
+    <div class="col d-flex">
+      <ul class="list-inline mx-auto justify-content-center">
+        <li class="list-inline-item">
+          <a rel="me noopener noreferrer" href="https://dice.camp/@darkade" target="_blank">
+            <svg class="icon"><use xlink:href="/assets/sprites/brands.svg#mastodon"></use></svg>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://twitter.com/darkade" target="_blank" rel="noopener noreferrer">
+            <svg class="icon"><use xlink:href="/assets/sprites/brands.svg#twitter"></use></svg>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://github.com/darkade" target="_blank" rel="noopener noreferrer">
+            <svg class="icon"><use xlink:href="/assets/sprites/brands.svg#github"></use></svg>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://www.linkedin.com/in/" target="_blank" rel="noopener noreferrer">
+            <svg class="icon"><use xlink:href="/assets/sprites/brands.svg#linkedin-in"></use></svg>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="/feed.xml">
+            <svg class="icon"><use xlink:href="/assets/sprites/solid.svg#rss"></use></svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <p class="text-center">©2023 Anya Reyes. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+  <!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="shortcut icon" href="/assets/icon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="/assets/icon_large.png" type="image/png">
+
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144585764-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-144585764-1');
+  </script>
+  
+
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Regex wtf! | General nerdness</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Regex wtf!" />
+<meta name="author" content="Anya Reyes" />
+<meta property="og:locale" content="es_MX" />
+<meta name="description" content="Hoy aprendemos a hacer expresiones regulares jugando" />
+<meta property="og:description" content="Hoy aprendemos a hacer expresiones regulares jugando" />
+<link rel="canonical" href="https://anya.reyescon.de/2019/07/03/regex.html" />
+<meta property="og:url" content="https://anya.reyescon.de/2019/07/03/regex.html" />
+<meta property="og:site_name" content="General nerdness" />
+<meta property="og:image" content="https://anya.reyescon.de/assets/2019-07-03/tiles.jpg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-07-03T00:00:00+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://anya.reyescon.de/assets/2019-07-03/tiles.jpg" />
+<meta property="twitter:title" content="Regex wtf!" />
+<meta name="twitter:site" content="@darkade" />
+<meta name="twitter:creator" content="@Anya Reyes" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Anya Reyes"},"dateModified":"2019-07-03T00:00:00+00:00","datePublished":"2019-07-03T00:00:00+00:00","description":"Hoy aprendemos a hacer expresiones regulares jugando","headline":"Regex wtf!","image":"https://anya.reyescon.de/assets/2019-07-03/tiles.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"https://anya.reyescon.de/2019/07/03/regex.html"},"url":"https://anya.reyescon.de/2019/07/03/regex.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+<body>
+  <header>
+  <nav class="navbar navbar-dark bg-primary navbar-expand-lg">
+    <div class="container-fluid">
+      <span class="navbar-text w-50">
+        <a class="" href="/">General nerdness</a>
+        <span class="d-none d-md-block text-white text-bold"><small>Anya Reyes – Maths, RPGs, Boardgames &amp; Coding.</small></span>
+      </span>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggle">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarToggle">
+        <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about/">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/links/">Links</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/directory/">Directory</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+  <main class="container">
+    <div class="row">
+  <div class="offset-md-2 col-md-8 py-2">
+    <article class="row py-1" lang="es-MX">
+  <div class="col">
+    <h1 class="my-2 h2"><a href="/2019/07/03/regex.html">Regex [wtf](?:ftw)!</a></h1>
+    <p class="text-end">Jul 03, 2019</p>
+
+    <div class="row">
+      <div class="col">
+        <p><img src="/assets/2019-07-03/tiles.jpg" alt="Pattern tiles"></p>
+
+<p>Es hora de hablar de Expresiones Regulares: <strong>regex.</strong> Una expresión regular es un patrón que podemos utilizar para encontrar coincidencias dentro de textos, por ejemplo, encontrar un teléfono dentro de un mensaje de texto. Son una de las herramientas más útiles que aprender para usar en tu día a día.</p>
+
+<!--more-->
+
+<p>Para experimentar vamos a utilizar:</p>
+<ul>
+  <li>
+<a href="https://regex101.com" target="_blank" rel="noopener noreferrer">regex101.com</a>, porque nos permite compartir y guardar ejercicios y probar con diferentes <em>sabores</em> de regex.</li>
+  <li>
+<a href="https://www.visca.com/regexdict/" target="_blank" rel="noopener noreferrer">regexdict</a> porque podemos hacer búsquedas con regex</li>
+  <li>y <a href="https://regexcrossword.com/" target="_blank" rel="noopener noreferrer">regexcrossword</a> porque es genial</li>
+</ul>
+
+<p>El modo en que se emplee en tu lenguaje de programación va a variar, pero en general tu regex va a funcionar; casi todos los lenguajes son “Pearl compatible”</p>
+
+<p>Vamos a hacer cuatro ejercicios (a) validar un email (b) identificar un teléfono (c) encontrar todas las palabras en ingles con un patrón (d) resolver un crucigrama de regex. Espero que estos ejercicios te den una idea de las <strong>muy</strong> amplias capacidades de utilizar expresiones regulares.</p>
+
+<h3 id="a-validar-un-email">(a) Validar un email</h3>
+
+<p>Cuando estas haciendo un sistema muchas veces necesitas validar que el email de un usuario tenga sentido, para que se les pueda enviar correo. Un email en general son letras, números, algo de puntuación, una <code class="language-plaintext highlighter-rouge">@</code> y un dominio. Esto lo podemos lograr con esta expresión <code class="language-plaintext highlighter-rouge">[a-z0-9\.-_]+@[\w\d]+\.\w+</code> que significa:</p>
+
+<ul>
+  <li>
+<code class="language-plaintext highlighter-rouge">[a-z0-9\.-_]</code>: Los corchetes <code class="language-plaintext highlighter-rouge">[]</code> hacen que seleccionemos algo de lo que hay adentro de esos corchetes. En este caso</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">a-z</code>: cualquier letra de la <code class="language-plaintext highlighter-rouge">a</code> a la <code class="language-plaintext highlighter-rouge">z</code>. O</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">0-9</code>: cualquier número del <code class="language-plaintext highlighter-rouge">0</code> al <code class="language-plaintext highlighter-rouge">9</code>
+</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">\.</code>: un punto. tenemos que poner la diagonal porque el punto usualmente significa otra cosa, literalmente cualquier otra cosa (lee los siguientes ejemplos)</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">-</code>: es un guión. Nota que aquí es un guión, pero si lo rodeamos de números o letras, como arriba, significa un rango</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">_</code>: un guión bajo</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">+</code>: significa que queremos que el grupo anterior aprezca una o más veces. Entonces podemos tener cualquier combinación, por ejemplo: <code class="language-plaintext highlighter-rouge">aiu123</code>, <code class="language-plaintext highlighter-rouge">12__abc</code> o <code class="language-plaintext highlighter-rouge">.a.z.8</code>, etc.</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">@</code>: es una arroba!</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">[\w\d]+</code> es otra forma de escribir algo similar al grupo anterior</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">\w</code>: es cualquier letra, es lo mismo que usar <code class="language-plaintext highlighter-rouge">a-z</code>
+</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">\d</code>: es cualquier número, es lo mismo que usar <code class="language-plaintext highlighter-rouge">0-9</code>
+</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">\.\w+</code>: es un punto, seguido de cualquier combinación de letras.</li>
+</ul>
+
+<p>Desde luego esta no es la mejor expresión pero es un punto de partida. Tiene algunos problemas, como que permite cualquier <em>top level domain</em> exista o no, por ejemplo <code class="language-plaintext highlighter-rouge">i@example.perro</code> y no permite top levels compuestos por ejemplo <code class="language-plaintext highlighter-rouge">i@example.com.mx</code> no sería un correo válido con esta expresión.</p>
+
+<p>Puedes ver otros ejemplos de correos que validan y no validan con esta expresión en <a href="https://regex101.com/r/KtpKzD/1" target="_blank" rel="noopener noreferrer">regex101</a> ¿Qué puedes hacer para que esta expresión sea mejor?</p>
+
+<h3 id="b-identificar-un-teléfono">(b) Identificar un teléfono</h3>
+
+<p>Vamos a extraer el Teléfono Jenny, de <em>867-5309/Jenny</em> una <a href="https://en.wikipedia.org/wiki/867-5309/Jenny" target="_blank" rel="noopener noreferrer">canción ochentera de Tommy Tutone</a> que puedes escuchar abajo.</p>
+
+<p><a href="http://www.youtube.com/watch?feature=player_embedded&amp;v=axLRUszuu9I" target="_blank" rel="noopener noreferrer"><img src="http://img.youtube.com/vi/axLRUszuu9I/0.jpg" alt="867-5309/Jenny" width="240" height="180" border="10"></a></p>
+
+<blockquote>
+  <p>Jenny, Jenny, who can I turn to?<br>
+You give me somethin’ I can hold on to<br>
+I know you think I’m like the others before</p>
+
+  <p>Jenny, I got your number<br>
+I need to make you mine<br>
+Jenny, don’t change your number</p>
+
+  <p>867-5309</p>
+
+  <p>Jenny, Jenny, you’re the girl for me<br>
+Oh, you don’t know me, but you make me so happy<br>
+I tried to call you before, but I lost my nerve<br>
+I tried my imagination, but I was disturbed</p>
+
+  <p>Jenny, I got your number<br>
+I need to make you mine<br>
+Jenny, don’t change your number</p>
+
+  <p>867-5309</p>
+
+  <p>I got it, (I got it), I got it<br>
+I got your number on the wall<br>
+I got it, (I got it), I got it<br>
+For a good time, for a good time call</p>
+
+  <p>Jenny, don’t change your number<br>
+I need to make you mine<br>
+Jenny, I call your number</p>
+
+  <p>867-5309</p>
+
+  <p>Jenny, Jenny, who can I turn to?<br>
+867-5309<br>
+For the price of a dime I can always turn to you<br>
+867-5309</p>
+</blockquote>
+
+<p>La expresión que vamos a utilizar es <code class="language-plaintext highlighter-rouge">\d{3}-\d{4}</code></p>
+
+<ul>
+  <li>
+<code class="language-plaintext highlighter-rouge">\d{3}</code> y <code class="language-plaintext highlighter-rouge">\d{4}</code> significa que vamos a buscar 3 o 4 dígitos dependiendo.</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">-</code> significa que estamos buscando un guión</li>
+</ul>
+
+<p>En conjunto estamos buscando 3 dígitos seguidos de un guión seguidos de 4 dígitos. De modo que esta expresión no encontraría algo como <code class="language-plaintext highlighter-rouge">86-5309</code> o <code class="language-plaintext highlighter-rouge">867 5309</code>. Pero si econtraría el número aunque estuviera rodeado de otro texto, por ejemplo <code class="language-plaintext highlighter-rouge">abc867-5309def</code> porque no tenemos ninguna restricción respecto a que va a antes o después de nuestro <em>match</em></p>
+
+<p>Puedes ver el <a href="https://regex101.com/r/YMaoga/1" target="_blank" rel="noopener noreferrer">ejercio (a) en regex101 aquí</a> y probar los ejemplos alternativos</p>
+
+<h3 id="c-encontrar-todas-las-palabras-en-inglés-con-un-patrón">(c) Encontrar todas las palabras en inglés con un patrón</h3>
+
+<p>Para este ejercicio vamos a usar un <a href="https://www.visca.com/regexdict/" target="_blank" rel="noopener noreferrer">diccionario en el que se puede buscar utilizando expresiones regulares,</a> pero igual podrías descargar una lista de todas las palabras en ingles y utilizar el lenguaje de tu preferencia.</p>
+
+<p>Este ejercicio es útil para resolver crucigramas, algun otro tipo de acertijos o… para buscar ciertos patrones en tu código. Vamos a buscar  todas las palabras en ingles que empiecen con una consonante, en algún punto tengan un triptongo, terminen con una <code class="language-plaintext highlighter-rouge">s</code>.</p>
+
+<p>La expresión es <code class="language-plaintext highlighter-rouge">[^aiueo].*[aiueo]{3}.*s$</code> que significa:</p>
+
+<ul>
+  <li>
+<code class="language-plaintext highlighter-rouge">[aiueo]</code> los corchetes significan que estamos buscando alguno de los caracteres que estan dentro de los corchetes, solo uno de ellos. En este caso significa cualquier vocal.</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">[^aiueo]</code> cuando lo primero que hay dentro es un <code class="language-plaintext highlighter-rouge">^</code> significa que <em>no</em> queremos ninguno de los caracteres que hay dentro <code class="language-plaintext highlighter-rouge">[]</code> y <code class="language-plaintext highlighter-rouge">[^]</code> son expresiones contrarias. Aquí quiere decir que no queremos ninguna vocal.</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">[aiueo]{3}</code> significa que queremos esos caracteres repetidos tres veces, que es cualquier triptongo, por ejemplo: <code class="language-plaintext highlighter-rouge">aaa</code>, <code class="language-plaintext highlighter-rouge">auo</code>, <code class="language-plaintext highlighter-rouge">ooa</code> etc.</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">.*</code> es cualquier cosa, literalmente cualquier cosa repetida cualquier número de veces incluso <em>cero</em> veces.</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">$</code> significa el final de la linea, entonces <code class="language-plaintext highlighter-rouge">s$</code> quiere decir que estamos buscando una <code class="language-plaintext highlighter-rouge">s</code> justo antes de que termine la palabra.</li>
+</ul>
+
+<p>Esta búsqueda nos devuelve resultados como: <code class="language-plaintext highlighter-rouge">butyraceous</code>, <code class="language-plaintext highlighter-rouge">furfuraceous</code>, <code class="language-plaintext highlighter-rouge">voluptuous</code></p>
+
+<p><img src="/assets/2019-07-03/dict.png" alt="Busqueda por regex"></p>
+
+<p>Puedes probar la expresión en <a href="https://www.visca.com/regexdict/" target="_blank" rel="noopener noreferrer">regexdict</a> y ¿por qué no intentar buscar todas las palabras que tengan una <code class="language-plaintext highlighter-rouge">xs</code> y que esten seguidas de otra consonante? ¡resulta que solo hay tres!</p>
+
+<h3 id="d-resolver-un-crucigrama-de-regex">(d) Resolver un crucigrama de regex</h3>
+
+<p>Este es el ejemplo menos útil pero más divertido si te tomas el tiempo de aprender expresiones regulares.</p>
+
+<p><img src="/assets/2019-07-03/crossword.png" alt="Regex crossword"></p>
+
+<p>Voy a explicar este crucigrama a partir de cómo lo resolví yo.</p>
+
+<ul>
+  <li>
+<code class="language-plaintext highlighter-rouge">P</code>: En las horizontales esta la P explícita, entonces solo puede ser la P. En las verticales entonces solo puede ser <code class="language-plaintext highlighter-rouge">APA</code> u <code class="language-plaintext highlighter-rouge">OPI</code>
+</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">O</code>: En las horizontales solo puede ser <code class="language-plaintext highlighter-rouge">[MNO]</code> y en las verticales <code class="language-plaintext highlighter-rouge">APA</code> u <code class="language-plaintext highlighter-rouge">OPI</code> entonces tiene que ser <code class="language-plaintext highlighter-rouge">O</code>
+</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">I</code>: Porque en las verticales solo puede ser <code class="language-plaintext highlighter-rouge">OPI</code> y concide con las horizontales</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">T</code>: las horizontales <code class="language-plaintext highlighter-rouge">[^DJNU]</code> excluyen todas las letras verticales <code class="language-plaintext highlighter-rouge">[JUNDT]</code> excepto la <code class="language-plaintext highlighter-rouge">T</code>
+</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">N</code>: es parecido al anterior solo la <code class="language-plaintext highlighter-rouge">N</code> coincide entre <code class="language-plaintext highlighter-rouge">[ICAN]</code> y <code class="language-plaintext highlighter-rouge">[JUNDT]</code>
+</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">D</code>: de igual forma <code class="language-plaintext highlighter-rouge">D</code> es la única que coincide entre <code class="language-plaintext highlighter-rouge">[DEF]</code> y <code class="language-plaintext highlighter-rouge">[JUNDT]</code>
+</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">N</code>: tenemos tres opciones <code class="language-plaintext highlighter-rouge">NA|FE|HE</code> pero solo la <code class="language-plaintext highlighter-rouge">N</code>coinciden entre <code class="language-plaintext highlighter-rouge">[MNO]</code> y las tres opciones</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">A</code>: eso forza a que sea <code class="language-plaintext highlighter-rouge">A</code> porque tomamos la opción <code class="language-plaintext highlighter-rouge">NA</code>
+</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">C</code>: es la única letra que coincide entre <code class="language-plaintext highlighter-rouge">[ICAN]</code> y <code class="language-plaintext highlighter-rouge">[CV]</code>
+</li>
+</ul>
+
+<p>Hay muchos más crucigramas en <a href="https://regexcrossword.com/" target="_blank" rel="noopener noreferrer">regexcrossword</a> algunos de los cuales se ven así:</p>
+
+<p><img src="/assets/2019-07-03/crosswordhard.png" alt="Hard Crossword"></p>
+
+<hr>
+
+<p>Espero este post haya despertado tu interés por aprender sobre expresiones regulares, las puedes utilizar todos los días al momento de desarrollar, seguramente tu editor soporta búsquedas por regex. Y hay muchos problemas que se resuelven fácilmente mediante expresiones regulares.</p>
+
+<p>Si te gustó puedes aprender más en la <a href="https://docs.python.org/3/library/re.html" target="_blank" rel="noopener noreferrer">documentación de python,</a> donde que hace cada patrón esta muy bien explicado. Y si ya vas a programar en python te invito a ver mi post anterior sobre <a href="/2019/06/17/pipenv.html">pipenv</a> que es una herramienta que vas a estar utilizando mucho.</p>
+
+<p>Pd. Gracias a @aalkz por la idea del post.</p>
+
+
+      </div>
+    </div>
+
+    <p class="text-end font-italic">– Anya Reyes</p>
+  </div>
+  <script src="https://giscus.app/client.js" data-repo="Darkade/Darkade.github.io-comments" data-repo-id="R_kgDOIuNbEA" data-category="Announcements" data-category-id="DIC_kwDOIuNbEM4CTaKd" data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="light_protanopia" data-lang="en" data-loading="lazy" crossorigin="anonymous" async>
+</script>
+
+</article>
+
+  </div>
+</div>
+
+  </main>
+  <footer class="container mt-3">
+  <hr class="mb-3">
+  <div class="row">
+    <div class="col d-flex">
+      <ul class="list-inline mx-auto justify-content-center">
+        <li class="list-inline-item">
+          <a rel="me noopener noreferrer" href="https://dice.camp/@darkade" target="_blank">
+            <svg class="icon"><use xlink:href="/assets/sprites/brands.svg#mastodon"></use></svg>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://twitter.com/darkade" target="_blank" rel="noopener noreferrer">
+            <svg class="icon"><use xlink:href="/assets/sprites/brands.svg#twitter"></use></svg>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://github.com/darkade" target="_blank" rel="noopener noreferrer">
+            <svg class="icon"><use xlink:href="/assets/sprites/brands.svg#github"></use></svg>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://www.linkedin.com/in/" target="_blank" rel="noopener noreferrer">
+            <svg class="icon"><use xlink:href="/assets/sprites/brands.svg#linkedin-in"></use></svg>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="/feed.xml">
+            <svg class="icon"><use xlink:href="/assets/sprites/solid.svg#rss"></use></svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <p class="text-center">©2023 Anya Reyes. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+  <!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+</body>
+</html>

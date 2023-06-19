@@ -1,0 +1,591 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="shortcut icon" href="/assets/icon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="/assets/icon_large.png" type="image/png">
+
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144585764-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-144585764-1');
+  </script>
+  
+
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Las Matemáticas de D&amp;D: Bag of Holding Parte 2 | General nerdness</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Las Matemáticas de D&amp;D: Bag of Holding Parte 2" />
+<meta name="author" content="Anya Reyes" />
+<meta property="og:locale" content="es_MX" />
+<meta name="description" content="Después de averiguar cómo se ve por dentro una Bag of Holding ¿Cuánto puedes en verdad cargar?" />
+<meta property="og:description" content="Después de averiguar cómo se ve por dentro una Bag of Holding ¿Cuánto puedes en verdad cargar?" />
+<link rel="canonical" href="https://anya.reyescon.de/2020/05/05/bag-of-holding-pt2.html" />
+<meta property="og:url" content="https://anya.reyescon.de/2020/05/05/bag-of-holding-pt2.html" />
+<meta property="og:site_name" content="General nerdness" />
+<meta property="og:image" content="https://anya.reyescon.de/assets/2020-05-05/math.jpg" />
+<meta property="og:image:height" content="534" />
+<meta property="og:image:width" content="800" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-05-05T00:00:00+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://anya.reyescon.de/assets/2020-05-05/math.jpg" />
+<meta property="twitter:title" content="Las Matemáticas de D&amp;D: Bag of Holding Parte 2" />
+<meta name="twitter:site" content="@darkade" />
+<meta name="twitter:creator" content="@Anya Reyes" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Anya Reyes"},"dateModified":"2020-05-05T00:00:00+00:00","datePublished":"2020-05-05T00:00:00+00:00","description":"Después de averiguar cómo se ve por dentro una Bag of Holding ¿Cuánto puedes en verdad cargar?","headline":"Las Matemáticas de D&amp;D: Bag of Holding Parte 2","image":{"width":800,"height":534,"url":"https://anya.reyescon.de/assets/2020-05-05/math.jpg","@type":"imageObject"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://anya.reyescon.de/2020/05/05/bag-of-holding-pt2.html"},"url":"https://anya.reyescon.de/2020/05/05/bag-of-holding-pt2.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+<body>
+  <header>
+  <nav class="navbar navbar-dark bg-primary navbar-expand-lg">
+    <div class="container-fluid">
+      <span class="navbar-text w-50">
+        <a class="" href="/">General nerdness</a>
+        <span class="d-none d-md-block text-white text-bold"><small>Anya Reyes – Maths, RPGs, Boardgames &amp; Coding.</small></span>
+      </span>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggle">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarToggle">
+        <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about/">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/links/">Links</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/directory/">Directory</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+  <main class="container">
+    <div class="row">
+  <div class="offset-md-2 col-md-8 py-2">
+    <article class="row py-1" lang="es-MX">
+  <div class="col">
+    <h1 class="my-2 h2"><a href="/2020/05/05/bag-of-holding-pt2.html">Las Matemáticas de D&amp;D: Bag of Holding Parte 2</a></h1>
+    <p class="text-end">May 05, 2020</p>
+
+    <div class="row">
+      <div class="col">
+        <script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$', '$$'], ['\\[', '\\]']]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
+
+
+<p><img src="/assets/2020-05-05/math.jpg" alt="Esta es una Bag of Holding"></p>
+
+<p><em>En capitulos anteriores</em> pasé más tiempo del que debía pensando en cómo se ve realmente una  <a href="/2020/04/25/bag-of-holding.html">Bag of Holding</a>. Hoy vamos a ver que puedes meter en ella, por volumen, peso y forma.</p>
+
+<!--more-->
+
+<p>En las reglas básicas y el Players Handbook solo se menciona el volumen de los contenedores: barriles, mochilas, cofres, la Bag of Holding, etc. Mientras que para las cosas que guardas, como monedas, items, pociones generalmente se menciona solo el peso. Pero por eso yo estoy aquí: para considerar todas esas cosas y decirte qué puedes y qué no puedes meter en una Bag of Holding.</p>
+
+<p>Todo esto empezó porque <a href="https://twitter.com/khyo" target="_blank" rel="noopener noreferrer">@Khyo</a> me habló de lo prácticas que son las Bag of Holding al momento de <em>lootear</em> así que vamos a analizar cosas que podrías encontrar en un dungeon. Específicamente vamos a ver el loot en <em>Wave Echo Cave</em> parte de la aventura <em><a href="https://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_starterset" target="_blank" rel="noopener noreferrer">Lost Mine of Phandelver.</a></em></p>
+
+<p><img src="/assets/2020-05-05/phandelver.jpg" alt="Lost Mine of Phandelver">
+<em><strong>Minor spoilers for the treasure in Lost Mine of Phandelver</strong></em></p>
+
+<h2 id="monedas">Monedas</h2>
+
+<p>Vamos a comenzar por las monedas porque tienen el peso y volumen más fácil de calcular.</p>
+
+<p>Según las <a href="https://www.dndbeyond.com/sources/basic-rules/equipment#Coinage" target="_blank" rel="noopener noreferrer">reglas básicas</a> <em>“one standard coin”</em> pesa \(1/3 oz\) y entonces \(50\) monedas estandar pesan \(1lb\). Haciendo algunas conversiones sencillas vemos que coincide con los pesos y valores de la <a href="https://www.dndbeyond.com/sources/basic-rules/equipment#TradeGoodsTable" target="_blank" rel="noopener noreferrer">Trade Goods Table</a> para Gold, Silver, Copper y Platinum Pieces. Por ejemplo:</p>
+
+<ul>
+  <li>para el Platinum \(500 gp = 1lb \text{ Platinum}\)</li>
+  <li>pero también \(500 gp = 50 pp\)</li>
+  <li>y por transitividad \(50 pp = 1lb \text{ Platinum}\)</li>
+</ul>
+
+<p>La tabla no menciona el valor de una libra de Electrum, pero vamos a suponer que también aplica.</p>
+
+<h3 id="gold-pieces">Gold Pieces</h3>
+
+<p>Entonces ¿Cuantas Gold Pieces podemos meter en nuestra Bag of Holding? Partimos de que:</p>
+
+<ul>
+  <li>La densidad del oro puro es de \(19.32 g/cm^3\)</li>
+  <li>\(50 gp\) pesan \(1 lb\)</li>
+  <li>\(1 lb\) en medidas de verdad es \(453.592 g\)</li>
+</ul>
+
+<p>Para saber cuanto volumen ocuparía esto en oro puro solo hay que saber la fórmula de la densidad.</p>
+
+\[{{453.592 g} \over {V}} = 19.32 g/cm^3\]
+
+\[V = 23.47784 cm^3\]
+
+<p>\(1 lb\) de oro tiene un volumen de ~\(23.5 cm^3\)</p>
+
+<p>Suponiendo que las Gold Pieces tienen forma de monedas de \(2cm\) de diámetro. ¿Cuánto espacio ocuparían cincuenta monedas acomodadas una sobre la otra, como un cilindro? Elegí \(2cm\) porque es la medida aproximada de un <a href="https://www.coins-auctioned.com/learn/coin-articles/collecting-ancient-roman-coins-part-iv-identify" target="_blank" rel="noopener noreferrer">Aureus</a>.</p>
+
+\[\pi {(1 cm)}^2 h = 23.47784 cm^3\]
+
+\[h = 7.47323 cm\]
+
+<p>Es un cilindro de \(2cm\) de diámetro y ~\(7.5cm\) de altura para las cincuenta monedas. Cada una de las cuales tiene \(0.149465 cm\) de alto, suponiendo que las monedas son perfectamente planas y de oro puro.</p>
+
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/8/8b/Octavian_aureus_circa_30_BCE.jpg" alt="Un aureus de la época de Octavio">
+<em>Un aureus de la época de Octavio</em></p>
+
+<p>Por otro lado, sabemos que una Bag of Holding solo puede tener hasta \(500 lb\) de peso, lo cual serían \(500 lb * 50 {gp \over lb} = 25,0000 gp\) ¡Puedes meter hasta 25,000 Gold Pieces en una Bag of Holding!</p>
+
+<p>Pero lo más sorprendente es que eso solo ocupan ~\(0.4 \text{ft}^3\) y una Bag of Holding tiene capacidad para ¡\(64\text{ft}^3\)! En otras palabras: El oro es tan denso que puedes cargar con muchas GP, de mucho valor, y de todos modos tu Bag of Holding estaría practicamente vacía.</p>
+
+\[V = {{ 226,796 g} \over {19.32 g/cm^3}}\]
+
+\[V \approx 11738.92 cm^3\]
+
+\[V \approx 0.41455604747 ft^3\]
+
+<p><img src="/assets/2020-05-05/goldpieces.png" alt="25,000 Gold Pieces">
+<em>Solo eso ocupan 25,000 gp</em></p>
+
+<p>Para ponerlo en perspectiva: 25,000 gp te compran un <a href="https://www.dndbeyond.com/sources/basic-rules/equipment#WaterborneVehicles" target="_blank" rel="noopener noreferrer">War Ship</a>: un barco de treinta metros de largo con capacidad para cien personas. La Bag of Holding no puede cargar un gramo más, pero sigue casi vacía. El oro es muy denso.</p>
+
+<p>Tenía mis dudas sobre si era posible hacer las monedas de oro puro, pero aparentemente los Aureus suelen ser de 24 kilates lo cual es de \(99.95\%\) a  \(100\%\) de pureza y tenían un peso estandarizado de ~\(8g\). Así que 50 Aureus pesarían \(400g\). Las Gold Pieces y los Aureus estan razonablemente cercanos.</p>
+
+<p><img src="https://img.youtube.com/vi/b6T_ZutXzNQ/0.jpg" alt="Cómo se hacían monedas en roma">
+<em><a href="https://www.youtube.com/watch?v=b6T_ZutXzNQ" target="_blank" rel="noopener noreferrer">Cómo se hacían monedas en roma</a></em></p>
+
+<h3 id="platinum-silver-electrum-y-copper-pieces">Platinum, Silver, Electrum y Copper Pieces</h3>
+
+<p>Entonces, \(1gp\) es una moneda de radio \(r_{gp}= 1cm\) y altura \(h \approx 0.14 cm\), sabemos que su peso es \(w = 1/3 oz \approx 9.44g\). Vamos a usar estas medidas para calcular el tamaño de las monedas de los demás metales, para hacerlo necesitamos su densidad.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Metal</th>
+      <th>Densidad \((d_M)\)</th>
+      <th>Densidad respecto a Gold \(\left(d_M \over d_g \right)\)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Platinum</td>
+      <td>21.45 g/cm^3</td>
+      <td>1.11</td>
+    </tr>
+    <tr>
+      <td>Gold</td>
+      <td>19.32 g/cm^3</td>
+      <td>1.00</td>
+    </tr>
+    <tr>
+      <td>Electrum</td>
+      <td>13.00 g/cm^3</td>
+      <td>0.67</td>
+    </tr>
+    <tr>
+      <td>Silver</td>
+      <td>10.49 g/cm^3</td>
+      <td>0.54</td>
+    </tr>
+    <tr>
+      <td>Copper</td>
+      <td>8.96 g/cm^3</td>
+      <td>0.46</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><em>El <a href="https://www.chemistrylearner.com/electrum.html" target="_blank" rel="noopener noreferrer">electrum</a> es una aleación natural de oro y plata, y su densidad varía entre \(12.5 g/cm^3\) y \(15 g/cm^3\) así que tomé un punto medio.</em></p>
+
+<p>La columna <code class="language-plaintext highlighter-rouge">Densidad respecto a Gold</code> es simplemente \(\text{Densidad Metal} \over \text{Densidad gold}\). Para el Copper:</p>
+
+\[{{8.96 g/cm^3} \over {19.32 g/cm^3}} = 0.46376811594\]
+
+<p>Sabemos que nuestras monedas van a tener un peso constante \(w\) y vamos a decir que todas nuestras monedas van a tener la misma altura \(h\), pero radios variantes. Esta variación va a estar en función de las desidades. Para las Copper Pieces:</p>
+
+\[d_g = {{w} \over {\pi r^2_{gp} h}} ; d_c = {{w} \over {\pi r^2_{cp} h}}\]
+
+\[\text{ entonces } \left( d_c \over d_g \right) d_g = d_c\]
+
+\[\left( d_c \over d_g \right){{w} \over {\pi r^2_{gp} h}} = {{w} \over {\pi r^2_{cp} h}}\]
+
+\[{ d_c \over d_g } = {{1} \over { r^2_{cp}}}\]
+
+\[r_{cp} = \sqrt{ d_g \over d_c } = \sqrt{ 1 \over 0.46 }\]
+
+\[r_{cp} = 1.47441956155\]
+
+<p>De modo que una moneda de Copper tiene un diámetro de ~\(2.94cm\).</p>
+
+<p>Luego. Para todas las monedas de altura \(h \approx 0.14 cm\):</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Metal</th>
+      <th>\(d_M\)</th>
+      <th>\(d_M \over d_g\)</th>
+      <th>Radio</th>
+      <th>diámetro</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Platinum</td>
+      <td>21.45 g/cm^3</td>
+      <td>1.11</td>
+      <td>0.95 cm</td>
+      <td>1.90 cm</td>
+    </tr>
+    <tr>
+      <td>Gold</td>
+      <td>19.32 g/cm^3</td>
+      <td>1.00</td>
+      <td>1.00 cm</td>
+      <td>2.00 cm</td>
+    </tr>
+    <tr>
+      <td>Electrum</td>
+      <td>13.00 g/cm^3</td>
+      <td>0.67</td>
+      <td>1.22 cm</td>
+      <td>2.44 cm</td>
+    </tr>
+    <tr>
+      <td>Silver</td>
+      <td>10.49 g/cm^3</td>
+      <td>0.54</td>
+      <td>1.36 cm</td>
+      <td>2.71 cm</td>
+    </tr>
+    <tr>
+      <td>Copper</td>
+      <td>8.96  g/cm^3</td>
+      <td>0.46</td>
+      <td>1.47 cm</td>
+      <td>2.94 cm</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/assets/2020-05-05/monedas.jpg" alt="Monedas mexicanas y sus escalas">
+<em>Monedas mexicanas y sus escalas</em></p>
+
+<p>Honestamente me sorprende que una moneda de $10 MXN mida casi 3cm y que una Gold Piece sea más pequeña. Si me detengo a pensarlo tiene mucho sentido pero me sorprendió.</p>
+
+<p>En total en la mina de <em>Mine of Phandelver</em> encontramos:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Metal</th>
+      <th>Unidades</th>
+      <th>Peso</th>
+      <th>Volumen</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Platinum</td>
+      <td>15</td>
+      <td>0.30 lb</td>
+      <td>0.0002 ft^3</td>
+    </tr>
+    <tr>
+      <td>Gold</td>
+      <td>190</td>
+      <td>3.80 lb</td>
+      <td>0.0032 ft^3</td>
+    </tr>
+    <tr>
+      <td>Electrum</td>
+      <td>153</td>
+      <td>3.06 lb</td>
+      <td>0.0038 ft^3</td>
+    </tr>
+    <tr>
+      <td>Silver</td>
+      <td>340</td>
+      <td>6.80 lb</td>
+      <td>0.0104 ft^3</td>
+    </tr>
+    <tr>
+      <td>Copper</td>
+      <td>1,905</td>
+      <td>38.10 lb</td>
+      <td>0.0681 ft^3</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Total</td>
+      <td> </td>
+      <td>52.06 lb</td>
+      <td>0.0860 ft^3</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>O en medidas de verdad ~\(23.6 kg\) con un volumen de ~\(2.4\) Litros. Si la forma no fuera importante puedes meter todas estas monedas en menos de tres cartones de leche.</p>
+
+<p><img src="/assets/2020-05-05/lootcoins.png" alt="Todas las monedas dentro de la mina">
+<em>Todas las monedas dentro de la mina en Mine of Phandelver</em></p>
+
+<h2 id="el-resto-del-loot">El resto del loot</h2>
+
+<p>Otras cosas a encontrar en la mina son:</p>
+
+<ul>
+  <li>Boots of Striding</li>
+  <li>Wand of Magic Missiles</li>
+  <li>Potion of vitality</li>
+  <li>Tres Diamantes</li>
+  <li>Una pipa de madera con un adorno de platino</li>
+  <li>Lightbringer: un mazo</li>
+  <li>Dragonguard: una coraza</li>
+  <li>Guantlets of Ogre Power</li>
+  <li>Potion of Healing</li>
+  <li>Spider Staff</li>
+  <li>Nueve piedras preciosas</li>
+  <li>Un tarro de electrum</li>
+</ul>
+
+<p>Voy a decir en este momento que seguramente todo cabe. Difícilmente todas estas cosas pesan más de las 448 libras que nos quedan de capacidad, y la mayoría son pequeñas, así que por volúmen tampoco me preocupo. Lo más grande es sería Lightbringer, Dragonguard y el Spider Staff, que si vamos a revisar.</p>
+
+<h3 id="lightbringer">Lightbringer</h3>
+
+<p>No hay enlistado ni peso ni medidas para Lightbringer. Así que revisé varios sitios de subastas de armas medievales <del><a href="https://www.liveauctioneers.com/en-gb/item/84709975_a-german-gothic-mace-circa-1500" target="_blank" rel="noopener noreferrer">because</a> this <a href="https://www.liveauctioneers.com/en-gb/item/84709988_a-heavy-polish-or-hungarian-mace-circa-1600" target="_blank" rel="noopener noreferrer">is</a> serious <a href="https://www.liveauctioneers.com/en-gb/item/84709973_a-light-german-gothic-mace-circa-1500" target="_blank" rel="noopener noreferrer">stuff</a>.</del> Y vamos a utilizar como medida \(60 cm\) de largo.</p>
+
+<p>El peso de un mazo normal, <a href="https://www.dndbeyond.com/equipment/mace" target="_blank" rel="noopener noreferrer">según el manual</a>, es \(4 lb\) lo cual esta bastante cercano al peso enlistado en algunos sitios de <a href="https://www.gdfb.co.uk/medieval-flanged-battle-mace-steellength-approx-62cm-width-approx-16cm-weight-14kg-approx-30535-p.asp" target="_blank" rel="noopener noreferrer">replicas de armas.</a> <del>porque en los sitios de subastas no había pesos</del></p>
+
+<p>Seguramente, Lightbringer pesaría un poco más, ya que la cabeza esta hecha de latón, que es más denso que el hierro.</p>
+
+<p>Definitivamente no es la precisión que esperaba, pero una vez que te das cuenta que un mazo solo mide \(60cm\), definitivamente cabe en la Bag of Holding.</p>
+
+<h3 id="dragonguard">Dragonguard</h3>
+
+<p>El Dragonguard es un breastplate, o sea una coraza como la de Vegeta. Según el manual tiene un peso de 20 lb ¿Pero que hay sobre sus medidas?</p>
+
+<p><img src="https://vignette.wikia.nocookie.net/dragonball/images/3/30/Vegeta_DBS_Broly_dise%C3%B1o.png/revision/latest?&amp;path-prefix=es" alt="Vegeta">
+<em>El principe de los Saiyajin</em></p>
+
+<p>En general, la parte de mayor circunferencia de una coraza sería el pecho. Así que hay que averiguar cual es la circunferencia promedio del pecho de nuestros adventurers.</p>
+
+<p>Gracias a uno de mis <a href="https://99percentinvisible.org/episode/on-average/" target="_blank" rel="noopener noreferrer">podcasts favoritos,</a> di con <em><a href="https://apps.dtic.mil/dtic/tr/fulltext/u2/010203.pdf" target="_blank" rel="noopener noreferrer">‘The “Average Man”?’</a></em> La fuerza aérea de los estados unidos comisionó este documento en 1977 para determinar las medidas promedio de sus pilotos. Para estas personas su circunferencia promedio va de \(96.95 cm\) a \(100.95 cm\). De ahí podemos inferir que el diámetro del pecho de alguien, sería ~ \(30.86 cm\).</p>
+
+\[2 \pi r = 96.95 cm\]
+
+\[2r = 30.8601\]
+
+<p>Este es un buen número, aunque la gente es ovalada en el pecho y no circular. Para el caso ovalado, incluso si una persona fuera casi “plana” y de todos modos tuviera \(96.95cm\) de circunferencia el diámetro no sería mayor que \(48.475 cm\). Seguiría entrando en la Bag of Holding ya que su diámetro en la boca es de \(60.96 cm\).</p>
+
+<h3 id="spider-staff">Spider Staff</h3>
+
+<p>De acuerdo al manual pesa \(6 lbs\), no es un impedimento. Pero cuando piensas en el báculo de un mago definitivamente <strong>es</strong> al menos tan alto como el mago.</p>
+
+<p>El sitio de <a href="https://www.wetanz.com/shop/prop-replicas/pipe-staff-of-gandalf-the-grey" target="_blank" rel="noopener noreferrer">Weta Workshop</a> lista el báculo de Gandalf el Gris midiendo \(178cm\) de altura. Y dice que es una replica exácta del báculo que utilizaron en la película. Por otro lado la <a href="https://www.celebheights.com/s/Ian-McKellen-260.html" target="_blank" rel="noopener noreferrer">altura de Ian McKellen</a> es \(178.4cm\). Entonces si: el báculo de un mago es al menos tan alto como el mago.</p>
+
+<p>Y si fueramos a meter el báculo en vertical al Bag of Holding definitivamente no entraría, solo tiene ~ \(1.2m\) de altura. Pero en el fondo mide más de \(2m\). Entonces ¿Qué tan largo puede ser algo que estamos tratando de meter a la bolsa?</p>
+
+<p>Comencemos por determinar la longitud del lado de la bolsa. Recordemos que la Bag of Holding tiene estas medidas:</p>
+
+<p><img src="/assets/2020-05-05/medidas.png" alt="Medidas de la Bag of Holding">
+<em>Bag of Holding y las medidas que determinamos la vez anterior</em></p>
+
+<p>Entonces tenémos un tríangulo y estamos buscando su hipotenusa</p>
+
+\[c^2 = \left( {{2.018 - 0.6096} \over {2}} \right)^2 + 1.2192^ 2\]
+
+\[c = \sqrt { 0.7042^2 + 1.2192^ 2 }\]
+
+\[c= 1.4079581954 m\]
+
+<p>El lado de la bolsa mide \(1.4 m\) de largo. Esto sería una limitante si la bolsa no fuera de tela, y pudieramos estirar la boca. Sabemos que diámetro de la boca es de \(0.6096 m\). Entonces lo que voy a hacer es obtener el perimetro de la boca y dividirlo por dos: la boca completamente estirada.</p>
+
+\[p = \pi 0.6096\]
+
+\[p = 1.91511488163m\]
+
+\[{ p \over 2 } = 0.95755744081m\]
+
+<p><img src="/assets/2020-05-05/boh_estirada.png" alt="La Bag of Holding con la boca estirada">
+<em>De lo cual obtenemos este diagrama</em></p>
+
+<p>Y podemos deducir que lo más largo que puede entrar en la bolsa mide ~\(2.04m\) a penas un poco más que el fondo. Estaría estirando la bolsa y estaría inclinado, además de que tendría un radio cero. Pero eso es lo más largo que podríamos meter</p>
+
+\[c = \sqrt {1.646^2 + 1.2192^2}\]
+
+\[c = 2.04835657052\]
+
+<p>De modo que mientras seas un mago de menos de ~\(2.04m\) de altura definitivamente puedes meter tu báculo en la Bag of Holding.</p>
+
+<h2 id="qué-podemos-meter-en-la-bolsa">¿Qué podemos meter en la bolsa?</h2>
+
+<p>La tabla de los pesos quedaría de esta forma, algunos son pesos que yo aproxime con un <em>educated guess.</em> Pero aunque pesaran más seguiríamos dentro de nuestra capacidad.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Item looteado</th>
+      <th>Peso</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Boots of Striding</td>
+      <td>~ 2 lb</td>
+    </tr>
+    <tr>
+      <td>Wand of Magic Missiles</td>
+      <td>1 lb</td>
+    </tr>
+    <tr>
+      <td>Potion of vitality</td>
+      <td>1/2 lb</td>
+    </tr>
+    <tr>
+      <td>Tres Diamantes</td>
+      <td>~ 1 oz</td>
+    </tr>
+    <tr>
+      <td>Una pipa de madera</td>
+      <td>~ 1/2 lb</td>
+    </tr>
+    <tr>
+      <td>Lightbringer</td>
+      <td>4 lb</td>
+    </tr>
+    <tr>
+      <td>Dragonguard</td>
+      <td>20 lb</td>
+    </tr>
+    <tr>
+      <td>Guantlets of Ogre Power</td>
+      <td>~ 1 lb</td>
+    </tr>
+    <tr>
+      <td>Potion of Healing</td>
+      <td>1/2 lb</td>
+    </tr>
+    <tr>
+      <td>Spider Staff</td>
+      <td>6 lb</td>
+    </tr>
+    <tr>
+      <td>Nueve piedras preciosas</td>
+      <td>1/2 lb</td>
+    </tr>
+    <tr>
+      <td>Un tarro de electrum</td>
+      <td>~4lb</td>
+    </tr>
+    <tr>
+      <td>TOTAL</td>
+      <td>40.063lb</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><em>El tarro de electrum es sorprendentemente pesado, si solo tomamos su valor en electrum. El valor enlistado es de 100gp, que son 200ep, que son 4lb de electrum pieces.</em></p>
+
+<p><strong>Al final todo el loot de la mina pesa \(40.063 lb + 52.06 lb = 92.123 lb\) o en medidas de verdad \(41.786 kg\). Y como vimos todo cabe en la bolsa por su volumen.</strong></p>
+
+<hr>
+
+<p>Después de dedicarle mucho tiempo a este item tengo que decir que: Si. la Bag of Holding es un item muy útil, pero desde mi perspectiva bastante <em>overkill.</em></p>
+
+<p>Solo es necesario si siempre quieres cargar con todo el equipo y loot que has obtenido a lo largo de tu aventura y, para mi, parte de la diversión esta en elegir que llevas contigo. Después de todo solo puedes llevar seis Pokémon.</p>
+
+<p>¡Gracias por leer este deep dive! Si no leiste la primera parte de mi análisis de la Bag of Holding puedes hacerlo <a href="/2020/04/25/bag-of-holding.html">aquí</a>.</p>
+
+<p>Este post es uno de muchos que he estado escribiendo sobre juegos de rol. Si te gusta D&amp;D puedes leer <a href="/2020/04/05/dnd-online.html">cómo jugar D&amp;D online</a> o sobre <a href="/2020/04/01/Ironsworn-pt1.html">Ironsworn</a>, el juego que más he recomendado últimamente.</p>
+
+
+
+      </div>
+    </div>
+
+    <p class="text-end font-italic">– Anya Reyes</p>
+  </div>
+  <script src="https://giscus.app/client.js" data-repo="Darkade/Darkade.github.io-comments" data-repo-id="R_kgDOIuNbEA" data-category="Announcements" data-category-id="DIC_kwDOIuNbEM4CTaKd" data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="light_protanopia" data-lang="en" data-loading="lazy" crossorigin="anonymous" async>
+</script>
+
+</article>
+
+  </div>
+</div>
+
+  </main>
+  <footer class="container mt-3">
+  <hr class="mb-3">
+  <div class="row">
+    <div class="col d-flex">
+      <ul class="list-inline mx-auto justify-content-center">
+        <li class="list-inline-item">
+          <a rel="me noopener noreferrer" href="https://dice.camp/@darkade" target="_blank">
+            <svg class="icon"><use xlink:href="/assets/sprites/brands.svg#mastodon"></use></svg>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://twitter.com/darkade" target="_blank" rel="noopener noreferrer">
+            <svg class="icon"><use xlink:href="/assets/sprites/brands.svg#twitter"></use></svg>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://github.com/darkade" target="_blank" rel="noopener noreferrer">
+            <svg class="icon"><use xlink:href="/assets/sprites/brands.svg#github"></use></svg>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://www.linkedin.com/in/" target="_blank" rel="noopener noreferrer">
+            <svg class="icon"><use xlink:href="/assets/sprites/brands.svg#linkedin-in"></use></svg>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="/feed.xml">
+            <svg class="icon"><use xlink:href="/assets/sprites/solid.svg#rss"></use></svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <p class="text-center">©2023 Anya Reyes. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+  <!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+</body>
+</html>

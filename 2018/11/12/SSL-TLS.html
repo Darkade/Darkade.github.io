@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="shortcut icon" href="/assets/icon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="/assets/icon_large.png" type="image/png">
+
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144585764-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-144585764-1');
+  </script>
+  
+
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>SSL/TLS: poniendo la S en HTTPS | General nerdness</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="SSL/TLS: poniendo la S en HTTPS" />
+<meta name="author" content="Anya Reyes" />
+<meta property="og:locale" content="es_MX" />
+<meta name="description" content="Hoy vamos a aprender qué es un certificado SSL/TLS y cómo hacer uno gratuitamente." />
+<meta property="og:description" content="Hoy vamos a aprender qué es un certificado SSL/TLS y cómo hacer uno gratuitamente." />
+<link rel="canonical" href="https://anya.reyescon.de/2018/11/12/SSL-TLS.html" />
+<meta property="og:url" content="https://anya.reyescon.de/2018/11/12/SSL-TLS.html" />
+<meta property="og:site_name" content="General nerdness" />
+<meta property="og:image" content="https://anya.reyescon.de/assets/2018-11-12/certbot.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-11-12T00:00:00+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://anya.reyescon.de/assets/2018-11-12/certbot.png" />
+<meta property="twitter:title" content="SSL/TLS: poniendo la S en HTTPS" />
+<meta name="twitter:site" content="@darkade" />
+<meta name="twitter:creator" content="@Anya Reyes" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Anya Reyes"},"dateModified":"2018-11-12T00:00:00+00:00","datePublished":"2018-11-12T00:00:00+00:00","description":"Hoy vamos a aprender qué es un certificado SSL/TLS y cómo hacer uno gratuitamente.","headline":"SSL/TLS: poniendo la S en HTTPS","image":"https://anya.reyescon.de/assets/2018-11-12/certbot.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://anya.reyescon.de/2018/11/12/SSL-TLS.html"},"url":"https://anya.reyescon.de/2018/11/12/SSL-TLS.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+<body>
+  <header>
+  <nav class="navbar navbar-dark bg-primary navbar-expand-lg">
+    <div class="container-fluid">
+      <span class="navbar-text w-50">
+        <a class="" href="/">General nerdness</a>
+        <span class="d-none d-md-block text-white text-bold"><small>Anya Reyes – Maths, RPGs, Boardgames &amp; Coding.</small></span>
+      </span>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggle">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarToggle">
+        <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about/">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/links/">Links</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/directory/">Directory</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+  <main class="container">
+    <div class="row">
+  <div class="offset-md-2 col-md-8 py-2">
+    <article class="row py-1" lang="es-MX">
+  <div class="col">
+    <h1 class="my-2 h2"><a href="/2018/11/12/SSL-TLS.html">SSL/TLS: poniendo la S en HTTPS</a></h1>
+    <p class="text-end">Nov 12, 2018</p>
+
+    <div class="row">
+      <div class="col">
+        <p><img src="/assets/2018-11-12/certbot.png" alt="Certbot"></p>
+
+<p>Entonces estas haciendo un sitio web y claro que quieres que sea seguro para tus usuarios. Pero para que sea seguro necesitas un <strong>Certificado de SSL/TLS,</strong> entonces googleas un poco y te das cuenta de que son… honestamente bastante caros ¡Debe haber una mejor manera! … o al menos una gratuita… [ Musiquita <del>no</del> cool de informercial ]</p>
+
+<!--more-->
+
+<h2 id="qué-es-un-certificado-ssltls">¿Qué es un certificado SSL/TLS?</h2>
+
+<p>Empecemos con diciendo que si estas haciendo un sitio web <strong>necesitas un certificado.</strong> Un certificado SSL/TLS sirve para <em>encriptar</em> la comunicación entre tu sitio web y tus usuarios. Al tener un certificado ayudas a proteger la privacidad de tus usuarios: al intercambiar información en internet los datos pasan de un servidor a otro antes de llegar a la computadora del usuario; cualquiera de esos servidores podría ver la información que se esta enviando si no estuviera encriptada. Tener un certificado SSL/TLS garatiza que la comunicación entre tu usuario y tu sitio no es interferida.</p>
+
+<blockquote>
+  <p>Si ya mamá <img class="emoji" title=":roll_eyes:" alt=":roll_eyes:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f644.png" height="20" width="20"> ya voy <del>a la tortillería</del> por mi certificado.</p>
+</blockquote>
+
+<h2 id="lets-encrypt">Let’s Encrypt</h2>
+
+<p><a href="https://letsencrypt.org" target="_blank" rel="noopener noreferrer">Let’s Encrypt</a> es un servicio gratuito que te permite solicitar certificados SSL/TLS para usar en todas tus necesidades web. Puedes obtener un certificado en minutos y la única desventaja contra otros servicios de paga es que tienes que renovarlos al menos cada tres meses.</p>
+
+<p>Estos son certificados válidos y seguros en todas<a href="https://letsencrypt.org/docs/certificate-compatibility/" target="_blank" rel="noopener noreferrer">*</a> las plataformas y los puedes utilizar para servidores web, de correo, FTP y cualquier otra cosa que utilice un nombre de dominio.</p>
+
+<p>## Certbot Nginx y macOS</p>
+
+<p>Vamos a utilizar la terminal para hacer la mayoría de este tutorial. Instalaremos <code class="language-plaintext highlighter-rouge">certbot</code> para Nginx en macOS, para seguir con la linea de los <a href="/2018/10/30/homebrew.html">tutoriales anteriores</a>. Pero si lo quieres hacer para otro sistema hay instrucciones muy concisas para en la <a href="https://certbot.eff.org/" target="_blank" rel="noopener noreferrer">documentación oficial de <code class="language-plaintext highlighter-rouge">certbot</code></a>, de donde esta inspirado este tutorial <del>me estoy robando este tutorial</del>. Y al final vamos a platicar un poco de qué hacer estas utilizando <em>shared hosting</em> y tu proveedor no soporta Let’s Encrypt oficialmente.</p>
+
+<p>También estoy asumiendo que este pequño servidor de nginx + macOS esta en linea y que tienes un dominio ya registrado y configurado. Los cuales son buenos temas para furutos posts.</p>
+
+<p>Para instalar <code class="language-plaintext highlighter-rouge">certbot</code> ¡solo tienes que instalar <code class="language-plaintext highlighter-rouge">certbot</code>!</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew <span class="nb">install </span>certbot
+</code></pre></div></div>
+<blockquote>
+  <p>¡Woooo tranquilo viejo! ¿Qué es eso de brew?</p>
+</blockquote>
+
+<p>Si no tienes homebrew instalado, puedes revisar el tutorial anterior: <a href="/2018/10/30/homebrew.html">Homebrew Potter y Las Dependencias de la Mac</a></p>
+
+<p>Después si tienes instalado Nginx solo necesitas correr este comando, que seguramente te pedirá tu password del sistema.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>certbot <span class="nt">--nginx</span>
+</code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">certbot</code> necesita permisos de administrador porque tu configuración de nginx seguramente esta en un directorio protegido, y la propia configuración de certbot también lo esta.</p>
+
+<p>Y si sabes lo que estas haciendo <del>en cuyo caso ¿por qué estas leyendo este tutorial? mejor comparteselo a tu amiguito el que no le sabe o ve y ¡disfruta el aire libre!</del> puedes obtener el certificado <em>manualmente</em> y configurar Nginx manualmente también corriendo:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>certbot <span class="nt">--nginx</span> certonly
+</code></pre></div></div>
+
+<p>Cualquiera de las opciones que decidas solo necesitas seguir las instrucciones en tu pantalla. Te pedirá el nombre del dominio que estas validando y seguramente te pedirá tu correo para contactarte en caso de que haya algun error de seguridad con tu certificado.</p>
+
+<p>Si todo salió bien <code class="language-plaintext highlighter-rouge">certbot</code> se debió haber comunicado con sus servidores, tu sitio debió haber sido aprovado (que recuerda que tiene que tener un dominio ya configurado) y tus certificados deben estar configurados en tu configuración de Nginx.</p>
+
+<p>Finalmente para renovar tu certificado solo necesitas correr este comando en el mismo servidor que hiciste tu configuración incial.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>certbot renew
+</code></pre></div></div>
+
+<p>Recuerda que lo debes hacer al menos cada tres meses.</p>
+
+<h2 id="certbot-y-el-flagelo-del-shared-hosting">Certbot y el flagelo del shared hosting</h2>
+
+<p>Vamos a ponernos bastante técnicos. Algunos shared hosting también soportan directamente Let’s Encrypt, <a href="https://community.letsencrypt.org/t/web-hosting-who-support-lets-encrypt/6920" target="_blank" rel="noopener noreferrer">aquí</a> puedes encontrar una lista actualizada continuamente de proveedores que puedes utilizar.</p>
+
+<blockquote>
+  <p>Okeeeey ¿y si mi proveedor no lo soporta?</p>
+</blockquote>
+
+<p>Esto depende de cada proveedor por lo que realmente no existen instrucciones específicas. Así que te voy a dar una idea general de qué hacer, o más bien de cómo lo he solucionado yo.</p>
+
+<p>Para comenzar necesitas asegurarte de que tu proveedor soporta certificados, si utilizas CPanel (y si estas en shared casi seguro que si) puedes buscar la sección <strong>SSL/TLS</strong> en Seguridad, y luego Manage SSL Sites.</p>
+
+<p><img src="/assets/2018-11-12/cpanel_ssl.png" alt="Cpanel SSL"></p>
+
+<p>Si cuentas con esta opción, entonces tu proveedor soporta SSL y en esa sección vas a colocar manualmente tus certificados.</p>
+
+<p>Lo segundo que necesitas es acceso SSH a tu servidor, muchos proveedores no lo tienen activado por default, por lo que probablemente necesites solicitarlo directamente con <em>customer support</em>.</p>
+
+<p>Si tu servidor utiliza Apache tu mejor opción es “montar” el directorio de <code class="language-plaintext highlighter-rouge">public_html</code> directamente en tu computadora. Y apuntando al directorio montado correr:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>certbot certonly <span class="nt">--webroot</span> <span class="nt">-w</span> &lt;directorio_montado&gt; example.com
+</code></pre></div></div>
+
+<p>Este comando va a publicar algunos archivos en <code class="language-plaintext highlighter-rouge">public_html/.well_known/challenges</code> que Apache pondrá en linea y luego serán utilizados para generar tu certificado (por eso necesitamos montar <code class="language-plaintext highlighter-rouge">public_html</code>). Cuando <code class="language-plaintext highlighter-rouge">certbot</code> termine tus certificados deberán estar en el directorio de configuración seguramente <code class="language-plaintext highlighter-rouge">/etc/certbot/archive/&lt;example.com&gt;/cert1.pem</code></p>
+
+<p>Otra opción es detener tu servidor, redireccionar el dominio a tu computadora local, y hacer el proceso corriendo este comando:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>certbot certonly <span class="nt">--standalone</span> <span class="nt">-d</span> example.com
+</code></pre></div></div>
+
+<hr>
+
+<p>Este es un tutorial con pocas instrucciones específicas pero espero que te ayude a pensar de forma general que necesitas hacer para obtener obtener e instalar un certificado. Proximamente estaré trabajando en un tutorial de SSH, y otro de Git. Y podemos hacer este tutorial más específico si suficientes de ustedes lo solicitan. ¡Gracias por leer!</p>
+
+
+      </div>
+    </div>
+
+    <p class="text-end font-italic">– Anya Reyes</p>
+  </div>
+  <script src="https://giscus.app/client.js" data-repo="Darkade/Darkade.github.io-comments" data-repo-id="R_kgDOIuNbEA" data-category="Announcements" data-category-id="DIC_kwDOIuNbEM4CTaKd" data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="light_protanopia" data-lang="en" data-loading="lazy" crossorigin="anonymous" async>
+</script>
+
+</article>
+
+  </div>
+</div>
+
+  </main>
+  <footer class="container mt-3">
+  <hr class="mb-3">
+  <div class="row">
+    <div class="col d-flex">
+      <ul class="list-inline mx-auto justify-content-center">
+        <li class="list-inline-item">
+          <a rel="me noopener noreferrer" href="https://dice.camp/@darkade" target="_blank">
+            <svg class="icon"><use xlink:href="/assets/sprites/brands.svg#mastodon"></use></svg>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://twitter.com/darkade" target="_blank" rel="noopener noreferrer">
+            <svg class="icon"><use xlink:href="/assets/sprites/brands.svg#twitter"></use></svg>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://github.com/darkade" target="_blank" rel="noopener noreferrer">
+            <svg class="icon"><use xlink:href="/assets/sprites/brands.svg#github"></use></svg>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://www.linkedin.com/in/" target="_blank" rel="noopener noreferrer">
+            <svg class="icon"><use xlink:href="/assets/sprites/brands.svg#linkedin-in"></use></svg>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="/feed.xml">
+            <svg class="icon"><use xlink:href="/assets/sprites/solid.svg#rss"></use></svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <p class="text-center">©2023 Anya Reyes. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+  <!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+</body>
+</html>

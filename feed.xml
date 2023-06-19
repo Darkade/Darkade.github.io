@@ -1,0 +1,975 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es_MX"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://anya.reyescon.de/feed.xml" rel="self" type="application/atom+xml" /><link href="https://anya.reyescon.de/" rel="alternate" type="text/html" hreflang="es_MX" /><updated>2023-06-19T17:53:38+00:00</updated><id>https://anya.reyescon.de/feed.xml</id><title type="html">General nerdness</title><subtitle>HI! I'm Anya Reyes, also known as Darkade this is my blog. I writte about programming, board games and TTRPGs. That's to say, my general nerdness.</subtitle><author><name>Anya Reyes</name></author><entry><title type="html">Narrando Flying Circus en una convención</title><link href="https://anya.reyescon.de/es/2023/05/30/flying-circus-convention-game.html" rel="alternate" type="text/html" title="Narrando Flying Circus en una convención" /><published>2023-05-30T00:00:00+00:00</published><updated>2023-05-30T00:00:00+00:00</updated><id>https://anya.reyescon.de/es/2023/05/30/flying-circus-convention-game</id><content type="html" xml:base="https://anya.reyescon.de/es/2023/05/30/flying-circus-convention-game.html">&lt;!--INTRO--&gt;
+
+&lt;p&gt;Este pasado fin de semana, después de dos meses de preparación, narré &lt;a href=&quot;https://www.drivethrurpg.com/product/310013/Flying-Circus--Core-Rulebook?affiliate_id=435266&quot;&gt;Flying Circus&lt;/a&gt; en una convención. Fue una sesión de 3.5 horas donde guié a un grupo de desconocides a través de una aventura, esperando darles una muestra general del juego. Aunque quedé satisfecha con el resultado, hubo cosas que podrían haber mejorado. Esto es lo que hice y lo que haré la próxima vez que dirija Flying Circus.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2023-05-30/licenciasparavolar.png&quot; alt=&quot;Arte de Flying Circus mostrando el atraco de un tren&quot; /&gt;&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://linktr.ee/lakoboldcon&quot;&gt;La KoboldCon&lt;/a&gt; es un evento mensual en Guadalajara, México, que tiene como objetivo crear un espacio regular para la comunidad local, y no tan local. Se lanzó en noviembre de 2022 y ha estado creciendo consistentemente, expandiendo sus actividades mes a mes. La convención no solo ofrece una variedad de juegos, sino que también presenta proyectos de miembros de la comunidad, incluyendo mercancía, pruebas de juego y oportunidades para intercambiar tus cositas de juego.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2023-05-30/lakoboldcon.png&quot; alt=&quot;La entrada de un restaurante con el texto KoboldCon sobre ella&quot; /&gt;
+&lt;em&gt;Bienvenides a la KoboldCon&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;En este evento, tuve la oportunidad de narrar Flying Circus. He asistido a la mayoría de los eventos anteriores y he dirigido otros juegos, así que me sentía confiada. Sin embargo, sabía que había cosas que necesitaba preparar.&lt;/p&gt;
+
+&lt;h3 id=&quot;preparación&quot;&gt;Preparación&lt;/h3&gt;
+
+&lt;p&gt;Algunos juegos se adaptan mejor a las convenciones, ya sea porque son ampliamente jugados o fáciles de aprender rápidamente. Pero siendo honesta, Flying Circus no es ninguno de los dos. Se basa en el sistema PbtA, pero encuentra su propio modo para introducir algunos elementos más “trad”. Es demasiado crunchy para considerarse un juego narrativo, pero tampoco es lo que llamarías “táctico”.&lt;/p&gt;
+
+&lt;p&gt;Intenté tres maneras de solventar esto: CATS, creando mis propios componentes y enfocando la aventura misma como una herramienta de enseñanza.&lt;/p&gt;
+
+&lt;h4 id=&quot;cats&quot;&gt;CATS&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://proleary.com/2016/04/25/the-cats-method-a-story-telling-game-opening-ritual/&quot;&gt;CATS&lt;/a&gt; que significa Concepto (concept), Objetivo (aim), Tono (tone) y Tema (subject matter). Es una forma de guiar la conversación al presentar un juego a la mesa. No voy a detallar aquí, pero puedes consultar el blog de P.R. O’leary si quieres saber más. Diré que usar esta herramienta siempre ha resultado en algunas de las mejores partidas que he dirigido. Ayuda a establecer expectativas claras, el tono del juego, cómo se ha diseñado la campaña o sesión, y asegura que todes estén en la misma página. ¡Es super útil!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2023-05-30/CATS.png&quot; alt=&quot;Una hoja de editor de texto con el CATS de la partida&quot; /&gt;
+&lt;em&gt;El CATS para partida&lt;/em&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;componentes&quot;&gt;Componentes&lt;/h4&gt;
+
+&lt;p&gt;Los nuevos componentes eran una necesidad para mí, sin nuevos componentes simplemente no habría llevado Flying Circus. Es el tipo de juego que nos pide hacer seguimiento de muchas cosas, cada una en diferentes estados. Los componentes incluidos son suficientes si estás familiarizada con el juego, pero implican una cantidad considerable de hojas, tarjetas, fichas y escritura y borrado constante, con poca sugerencia sobre cómo manejar la infinidad de papel.&lt;/p&gt;
+
+&lt;p&gt;También hay una suposición tácita de que recordarás algunas de las reglas más particulares, o al menos reconocerás cuando entran en juego, como las tres formas diferentes en que los radiadores pueden funcionar.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;¿Mi solución? ¡Más papel! Bueno, más o menos. En lugar de usar varias hojas de papel tamaño carta, convertí el panel de control del avión en una hoja de mayor tamaño. También transformé los indicadores de velocidad, altitud y fuerza-g en contadores de diales, ya que sus valores cambian constantemente durante el juego.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2023-05-30/fullplayerkit.jpg&quot; alt=&quot;Un conjunto de diales, dados, tarjetas y un tablero de control de avión más grande&quot; /&gt;
+&lt;em&gt;Este es tu kit de jugadora con los componentes rediseñados&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Además, creé tarjetas de &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;partes vitales&lt;/code&gt; que contienen las reglas individuales para cada una de ellas, ya sea que estén funcionando correctamente o no. Por último, hice tarjetas de &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;armas&lt;/code&gt;. Créeme, si juegas este juego, &lt;strong&gt;olvidarás&lt;/strong&gt; hacer  seguimiento de las armas cuando se atascan. Estas tarjetas sirven como recordatorios, posponiendo la necesidad de explicar ciertas reglas mientras proporcionan una referencia rápida cuando necesites interactuar con ellas.&lt;/p&gt;
+
+&lt;p&gt;También limité los playbooks disponibles y preseleccioné los aviones, para que pudiéramos personalizar los personajes en lugar de crearlos desde cero.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2023-05-30/componentcollage.jpg&quot; alt=&quot;Un collage que muestra diferentes partes del proceso de creación de los componentes&quot; /&gt;
+&lt;em&gt;Aquí hay parte del proceso de creación de los componentes.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Puedes ver más imagenes del proceso &lt;a href=&quot;https://dice.camp/@darkade/110444193547778881&quot;&gt;aquí&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;la-aventura&quot;&gt;La Aventura&lt;/h4&gt;
+
+&lt;p&gt;Presenté la aventura como un examen de licencia para volar. Los personajes debían realizar un Power Dive, un &lt;a href=&quot;https://en.wikipedia.org/wiki/Immelmann_turn&quot;&gt;Immelmann&lt;/a&gt; Turn, un &lt;a href=&quot;https://en.wikipedia.org/wiki/Slip_(aerodynamics)#Sideslip&quot;&gt;Slideslip&lt;/a&gt; y estar atentes de los objetivos de práctica para aprobar. Este desafío se aplicaba tanto a los personajes pilotos como a los propios jugadores. El objetivo era involucrarse con las mecánicas realizando algunas maniobras emocionantes. Si lo hacían lo suficientemente bien, tenía preparados algunos bandidos para darles una probada del sistema de combate.&lt;/p&gt;
+
+&lt;p&gt;Después, el plan era aterrizar y pasar a la otra parte del juego, lidiando con el estrés que los pilotos acababan de experimentar. Bueno, al menos ese era el plan.&lt;/p&gt;
+
+&lt;h3 id=&quot;la-partida&quot;&gt;La Partida&lt;/h3&gt;
+
+&lt;p&gt;CATS y los componentes funcionaron como se esperaba, creando un ambiente lleno de energía y emoción. Sin embargo, me encontré con mi primer obstáculo durante la personalización de los personajes, y esto expuso una brecha en mis habilidades que no pude superar durante el resto de la sesión. Para entenderlo, déjame retroceder un poco.&lt;/p&gt;
+
+&lt;p&gt;La inscripción al juego se abrió aproximadamente una semana antes del evento. Invité a algunas personas que conocí en KoboldCons anteriores. Ocuparon tres de las cuatro lugares disponibles. El día del evento, el cuarto lugar fue ocupado por unx niñx de 11 años con quien había jugado anteriormente, pero no dirigido, el RPG de Alien.&lt;/p&gt;
+
+&lt;p&gt;He descubierto que jugar con niñes resalta la importancia de comprender los diferentes géneros artísticos. Por ejemplo, cuando jugué Alien con estx morritx, me di cuenta de que los juegos de terror requieren una participación significativa de los jugadores porque, a diferencia de los personajes, nosotres hemos visto películas de terror. Sabemos que es absurdo involucrarse en esas situaciones.&lt;/p&gt;
+
+&lt;p&gt;En el caso de Flying Circus, la expectativa de estx morritx era una sesión llena de violencia y la posibilidad de volverse rápidamente más poderose. Sin embargo, aunque Flying Circus puede ser extremadamente peligroso para los personajes, no se trata del peligro en sí, sino de la lucha emocional que conlleva. De cierta manera, su expectativa era &lt;em&gt;el juego del dragón,&lt;/em&gt; pero con aviones.&lt;/p&gt;
+
+&lt;p&gt;Así que este es el grupo: tres adultos y unx niñx de 11 años. Cuando hicimos CATS, tuve que repetirme algunas ocaciones para lx morritx. Creamos los personajes y la morritx estaba pregutnando sobre hacer cosas fuera de los límites que he establecido para la sesión, de modo que constantemente tengo que contenerle. Desde mi perspectiva, esta situación destaca cuán deficientes son mis habilidades para comunicarme efectivamente con niñxs.&lt;/p&gt;
+
+&lt;h4 id=&quot;narrando-el-juego&quot;&gt;Narrando el juego&lt;/h4&gt;
+
+&lt;p&gt;Al comenzar la sesión, les pilotes solo están equipades con &lt;a href=&quot;https://en.wikipedia.org/wiki/Frangible_bullet&quot;&gt;balas frangibles&lt;/a&gt;, porque la sesión está pensada como un escenario de examen. Sin embargo, lx morritx eligió el Theler Zweihänder, es decir, el único avión con una espada como ala. ¿Y qué hace? Inmediatamente se lanzan a atacar al examinador. Pauso el juego, dejando claro que no nos estamos centrando en ese tipo de acciones, ya que serían disruptivas para la sesión y tendrían consecuencias para el personaje. Sin embargo, le dejo claro que es libres de hacerlo si así lo desean, no voy a ser yo quien coarte la autonomía de estx niñx. Y lo hace.&lt;/p&gt;
+
+&lt;p&gt;Así que saco a los bandidos. que han aprovechado esta distracción para atacar al resto del grupo. Desvío mi atención hacia el encuentro con los bandidos, los personajes capturan el avión atacante realizando algunos saltos atrevidos, usando &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ideomotor Response&lt;/code&gt; y haciendo que una de las pilotos atraiga la atención de los artilleros, poniéndose así misma en gran peligro en el proceso.&lt;/p&gt;
+
+&lt;p&gt;De vez en cuando, hago un esfuerzo para centrar a lx morritx. Simplemente no tengo ninguna herramienta en mis habilidades para reintegrarle sin su participación activa conmigo y les otros jugadores. Sorprendentemente, elle no parece estar molestx. Aunque no siempre está en el centro de atención, parece estar divirtiéndose, disparando y siendo objetivo de disparos. Pero no es lo ideal, estoy efectivamente ignorandole durante largos períodos de tiempo, lo que a su vez significa que también estoy descuidando a les otros tres jugadores que están involucrandose en el juego y que no pueden jugar cuando lx niñx tiene la atención.&lt;/p&gt;
+
+&lt;p&gt;No estoy molesta, aunque pueda sentir cierta frustración. Más que nada, me doy cuenta de que estoy invirtiendo tiempo que no tengo y está empezando a ser evidente que no voy a poder pasar a la segunda parte de la rutina: la fase de aterrizaje.&lt;/p&gt;
+
+&lt;p&gt;Concluimos la sesión con les pilotes aterrizando con éxito sus aviones, habiendo capturado a los bandidos y su avión. Marcan &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;estrés&lt;/code&gt; y explico brevemente qué sucederá ahora, pero no roleamos y vamos directamente con los epílogos. Aunque todos se divirtieron, siento cierta decepción porque no tuve la oportunidad de resaltar el aspecto que era importante para mí: las interacciones personales vinculadas a la mecánica de &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;estrés&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Les jugadores adultes parecen estar contentos con cómo resultó la sesión, aunque un poco frustrados elles mismes. Pero están de buen humor y hablan unos minutos sobre sus momentos favoritos mientras me ayudan a limpiar la mesa.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Quiero enfatizar que no creo que lx morritx fuera intencionalmente disruptive. Su comportamiento, aunque distraído y disruptivo para el flujo del juego, fue resultado de su edad y tendencia a distraerse fácilmente. Estaba principalmente enfocade en divertirse, a veces a expensas de la experiencia de los demás, pero esto era porque su intención fuese disrumpir.&lt;/p&gt;
+
+&lt;p&gt;Lx niñx era perfectamente capaz de comprender los mecanismos y participar en ellos cuando prestaba atención. Pero tenía dificultades para contener su emoción porque, después de todo, nisiquiera era unx adolescente. Por otro lado, si hubiera sido un adulto quien se comportara así, le habría pedido que se retirara de la mesa.&lt;/p&gt;
+
+&lt;h3 id=&quot;qué-voy-a-hacer&quot;&gt;¿Qué voy a hacer?&lt;/h3&gt;
+
+&lt;p&gt;Voy a narrar Flying Circus la próxima semana, al menos tres sesiones. Algunes de los participantes de la KoboldCon se entusiasmaron mucho con mis componentes y el concepto del juego, y me pidieron que les narrara. Sin embargo, implementaré algunos cambios basados en esta experiencia.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Primero.&lt;/strong&gt; En lugar de comenzar con la parte de la misión de la rutina, utilizaré la técnica de &lt;a href=&quot;https://pelgranepress.com/2018/03/01/13th-sage-more-uses-for-montages/&quot;&gt;montaje&lt;/a&gt; del 13th Age para enmarcar la misión de la que acaban de aterrizar los personajes. Tomaremos el correspondiente &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;estrés&lt;/code&gt; y usaremos todos los mecanismos de tierra. Espero que esto me permita (a) evaluar cuánto entiende el grupo sobre los combates aéreos al escuchar cómo describen la misión, y (b) brindarnos oportunidades para el desarrollo de personajes y ganchos para interactuar una vez que estén en el aire.&lt;/p&gt;
+
+&lt;p&gt;La segunda parte de la sesión tendremos una misión generada a con los mecanismos del juego, lo que me dará información sobre los tipos de trabajos que interesan a les jugadores.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Si dirigiera Flying Circus en una convención nuevamente, así es exactamente cómo lo haría.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Segundo.&lt;/strong&gt; Tengo que hacer que mis componentes sean más de propósito general. La versión actual fue desarrollada específicamente con siete playbooks y siete aviones en mente. Si creamos personajes en la mesa, los componentes van a tener compatibles con todos los playbooks y aviones. Va a tomar trabajo pero ya están al 95%&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tercero.&lt;/strong&gt; Si bien mi intención no es dirigir específicamente juegos para niñxs o adolescentes, entiendo que es probable que vuelva a suceder en eventos similares. Podría optar por poner restricciones de edad, como lo hice con “Visigoths vs Mall Goths”. Ese juego se centra en personajes adolescentes y sus interacciones románticas, lo cuale consideré que deberían limitarse a interacciones entre jugadores adultos, siendo yo misma mayor de edad.&lt;/p&gt;
+
+&lt;p&gt;Flying Circus involucra sustancias y explora temas maduros, pero de una manera que nos permite no concentrarnos en eso. Se trata más de explorar las razones que tienen los personajes para hacer esto, no tanto de representarlas de manera explícita. Por eso no consideré restringir edades para la sesión.&lt;/p&gt;
+
+&lt;p&gt;Buscaré una “estrategia óptima de primer orden” para interactuar con niñxs y adolescentes. Puede haber enfoques o técnicas específicas que pueda implementar para manejar mejor situaciones como la que encontré. Porque no siento necesidad de imponer restricciones de edad únicamente para evitar dirigir juegos donde participen infancias.&lt;/p&gt;
+
+&lt;p&gt;También puedo pensar en una razón más sólida para dar la bienvenida a morritxs y adolescentes en mis juegos si es que quieren unirse. Los tipos de juegos que narro tienden a atraer a mujeres, personas queer y muchas mujeres queer. Es por eso que quiero seguir dirigiendo estos juegos, para que personas como yo se sientan bienvenidas en estos eventos. Lxs morritxs que deseen participar en un grupo diverso probablemente deberían tener la opción de hacerlo. Verán la diversidad como algo normal y cómo todes tiene un lugar en el gaming.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;¡Gracias por leer! Si quieres apoyarme, puedes comprar &lt;a href=&quot;https://bit.ly/ArcaneMoon&quot;&gt;Arcane Moon&lt;/a&gt;, mi aventura de 5e inspirada en el anime de magical girl. También puedes encontrarme en Mastodon como &lt;a href=&quot;https://dice.camp/@darkade&quot;&gt;@darkade@dice.camp&lt;/a&gt;. ¡O prueba &lt;a href=&quot;http://bit.ly/YonderDiceRoller&quot;&gt;Yonder&lt;/a&gt;! mi lanzador de dados gratuito que soporta muchos juegos y funciona con Google Sheet.&lt;/p&gt;
+
+&lt;!--Self Promo--&gt;
+
+&lt;!--Images--&gt;
+
+&lt;!--Credits--&gt;
+
+&lt;!--External-Links--&gt;</content><author><name>Anya Reyes</name></author><category term="ES" /><summary type="html">Este pasado fin de semana, después de dos meses de preparación, narré Flying Circus en una convención. Fue una sesión de 3.5 horas donde guié a un grupo de desconocides a través de una aventura, esperando darles una muestra general del juego. Aunque quedé satisfecha con el resultado, hubo cosas que podrían haber mejorado. Esto es lo que hice y lo que haré la próxima vez que dirija Flying Circus.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://anya.reyescon.de/assets/2023-05-30/licenciasparavolar.png" /><media:content medium="image" url="https://anya.reyescon.de/assets/2023-05-30/licenciasparavolar.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Running Flying Circus as a convention game</title><link href="https://anya.reyescon.de/en/2023/05/30/flying-circus-convention-game.html" rel="alternate" type="text/html" title="Running Flying Circus as a convention game" /><published>2023-05-30T00:00:00+00:00</published><updated>2023-05-30T00:00:00+00:00</updated><id>https://anya.reyescon.de/en/2023/05/30/flying-circus-convention-game</id><content type="html" xml:base="https://anya.reyescon.de/en/2023/05/30/flying-circus-convention-game.html">&lt;!--INTRO--&gt;
+
+&lt;p&gt;This past weekend, after two months of preparation, I ran &lt;a href=&quot;https://www.drivethrurpg.com/product/310013/Flying-Circus--Core-Rulebook?affiliate_id=435266&quot;&gt;Flying Circus&lt;/a&gt; as a convention game. It was a 3.5-hour slot where I guided a group of strangers through a session, hoping to give them a taste of the overall game. While I was satisfied with the overall outcome, there were areas that could have been improved. This is what I did and what I will do next time I run Flying Circus.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2023-05-30/licenciasparavolar.png&quot; alt=&quot;Flying Circus art depicting a train heist&quot; /&gt;&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://linktr.ee/lakoboldcon&quot;&gt;La KoboldCon&lt;/a&gt; is a monthly even in Guadalajara, México, that’s aiming to create a regular space for the local, and not so local community. It was launched in November 2022 and has been steadily growing, expanding its activities with each passing month. The convention not only offers a variety of games, but also showcases projects from community members, including merchandise, playtests, and opportunities for gaming item exchanges.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2023-05-30/lakoboldcon.png&quot; alt=&quot;A restaurant entrance with the text KoboldCon over it&quot; /&gt;
+&lt;em&gt;Welcome to la KoboldCon&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;At this event, I had the opportunity to run Flying Circus. I’ve attended most of the previous events and having run other games on a few occasions, felt confident. However I knew there was stuff I needed to prep.&lt;/p&gt;
+
+&lt;h3 id=&quot;prep&quot;&gt;Prep&lt;/h3&gt;
+
+&lt;p&gt;Some games are better suited for conventions, whether they are widely played or quick to pick up. But, being honest, Flying Circus is neither. It builds upon PbtA, but it finds its own way to introduce some more “trad” elements, It is too crunchy to be called a story game, but not quite what you’d call ‘tactical’ either.&lt;/p&gt;
+
+&lt;p&gt;I tried to bridge this in three ways: CATS, making my own components, and focusing the adventure itself as a teaching tool.&lt;/p&gt;
+
+&lt;h4 id=&quot;cats&quot;&gt;CATS&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://proleary.com/2016/04/25/the-cats-method-a-story-telling-game-opening-ritual/&quot;&gt;CATS&lt;/a&gt; stands for  Concept, Aim Tone and Subject Matter. It’s a way to guide the conversation when introducing a game to the table. I won’t go into detail here, but you can check out P.R. O’leary’s blog for a thorough explanation. I will say using this tool has consistently led to some of the best games I’ve run. It helps set clear expectations, establishes the game’s tone, how the campaign or session has been set up, and ensures everyone is on the same page. It’s really cool!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2023-05-30/CATS.png&quot; alt=&quot;Una hoja de editor de texto con el CATS de la partida&quot; /&gt;
+&lt;em&gt;CATS for the game, in spanish&lt;/em&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;components&quot;&gt;Components&lt;/h4&gt;
+
+&lt;p&gt;New components were a necessity to me, without new components I simply wouldn’t have run Flying Circus. It is the kind of game that ask us to track a lot of things each one in different states. The included components sufficient if you are familiar with the game, but they involve a sizeable number of sheets, index cards, tokens and constant writing and erasing with little suggestion on how to manage this myriad of paper.&lt;/p&gt;
+
+&lt;p&gt;There’s also an implicit assumption that you’ll remember some of the more niche rules, or at least recognize when they come into play, like the three different ways radiators can work.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;My solution? More paper! Well, sort of. Instead of using several sheets of letter-sized paper, I converted the default plane dashboard into a larger tabloid sheet. I also transformed the speed, altitude, and g-force indicators into dial counters, since they constantly change during gameplay.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2023-05-30/fullplayerkit.jpg&quot; alt=&quot;A set of dials, dice, cards and a larger plane dashboard&quot; /&gt;
+&lt;em&gt;This is your player kit with the redesigned components&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;In addition, I created &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;vital part&lt;/code&gt; cards that contain the individual rules for each of those components, wether they are functioning properly or not. Finally I made &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;weapon&lt;/code&gt; cards. Trust me, if you play this game, you &lt;strong&gt;will forget&lt;/strong&gt; to track jammed weapons. These cards serve as reminders, deferring the need to explain certain rules while providing quick reference when you do need to interact with them.&lt;/p&gt;
+
+&lt;p&gt;I also limited the playbooks and pre-choose the planes, so that we would customize the characters, rather than create them from scratch.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2023-05-30/componentcollage.jpg&quot; alt=&quot;A collage showing different part of the dial making process&quot; /&gt;
+&lt;em&gt;Here’s some of the process for making the components.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;You can see more images of the process &lt;a href=&quot;https://dice.camp/@darkade/110444193547778881&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;the-adventure&quot;&gt;The Adventure&lt;/h4&gt;
+
+&lt;p&gt;To frame the adventure, I presented it as a licensing exam. The characters were required to pull off a Power Dive, an &lt;a href=&quot;https://en.wikipedia.org/wiki/Immelmann_turn&quot;&gt;Immelmann&lt;/a&gt; turn, a &lt;a href=&quot;https://en.wikipedia.org/wiki/Slip_(aerodynamics)#Sideslip&quot;&gt;Slideslip&lt;/a&gt;, and keeping track of the practice targets in order to pass. This challenge applied to both the pilot characters and the players themselves. The goal was to engage with the mechanics by performing some exciting maneuvers. If they performed well enough, I had some bandits prepared to provide them with a taste of combat.&lt;/p&gt;
+
+&lt;p&gt;Afterward, the plan was to land and transition into the other part of the game, dealing with the stress the pilots had just gone through. Well, at least that was the plan.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-execution&quot;&gt;The Execution&lt;/h3&gt;
+
+&lt;p&gt;CATS and the components worked as expected, creating a high-energy and exciting atmosphere. However I ran into my first hurdle during character customization, and it exposed a gap in my skills that I was unable to overcome for the rest of the session. To understand, let me take a step back.&lt;/p&gt;
+
+&lt;p&gt;The game sign-up was opened about a week ahead of the event. I invited some people whom I had met at previous KoboldCons. They filled three out of four available seats. On the day the fourth one was taken by an 11-year-old kid with whom I had previously played, but not run, the Alien RPG.&lt;/p&gt;
+
+&lt;p&gt;I’ve found that playing with kids highlights the importance of genre understanding. For instance, when I played Alien with this kid, I realized that horror games require a significant buy-in from players because, unlike the characters, we have seen horror movies. We know it’s absurd to engage in such situations.&lt;/p&gt;
+
+&lt;p&gt;In the case of Flying Circus, the kid’s expectation was a session filled of violence, and the possibility to quickly become overpowered. However while Flying Circus can be extremely dangerous for the characters, it’s not solely about the danger itself, but the emotional struggle it entails. In a way their expectation was &lt;em&gt;the dragon game,&lt;/em&gt; but with planes.&lt;/p&gt;
+
+&lt;p&gt;So this is the group: three adults and one 11yo. When I go through CATS and I have to repeat myself twice more for the kid. We create characters, and the kid keeps asking about doing stuff out of the bounds I’ve established for the session, so I keep reining them in. To me, this situation highlights how lacking my skills are when it comes to effectively communicating with children.&lt;/p&gt;
+
+&lt;h4 id=&quot;running-the-game&quot;&gt;Running the game&lt;/h4&gt;
+
+&lt;p&gt;As we begin the session, the pilots are only equipped with &lt;a href=&quot;https://en.wikipedia.org/wiki/Frangible_bullet&quot;&gt;frangible bullets&lt;/a&gt;, because the session is intended to be an exam scenario. However the kid has chosen the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Theler Zweihänder&lt;/code&gt;, that is, the one plane with a sword for a wing. And what do they do? They immediately go after the examiner. I pause the game, make it clear that we are not focusing on such actions, as doing so would be disruptive for the session, and result on consequences for the character. However I make it clear they’re free to do so if they wish – I won’t be the one to step on this child’s autonomy. They do it.&lt;/p&gt;
+
+&lt;p&gt;So I bring out the bandits. They have taken this distraction to attack the rest of the group. I shift my attention towards the bandit encounter, the characters capture the attacking plane by pulling off some daring jumps, using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ideomotor Response&lt;/code&gt; and by having one of the pilots draw the attention of the gunners, putting herself in great danger in the process.&lt;/p&gt;
+
+&lt;p&gt;Every now and then, I make an effort to check in with the kid. I just don’t have any tool on my skill-set to reintegrate them without their active participation with me and the other players. Surprisingly, they don’t seem upset either.  While they may not always be in the spotlight, they seem to be enjoying themselves, taking fire and and taking shots whenever possible. But it isn’t ideal, I’m effectively ignoring the kid for long periods of time, which in turn means that I’m also neglecting the three other players who are fully engaged in the game and unable to play whenever the kid takes the focus.&lt;/p&gt;
+
+&lt;p&gt;I’m not upset, though I may feel a sense of frustration. More than anything, I realize that I’m investing time that I don’t have, and it’s becoming apparent that I won’t be able to proceed to the second part of the routine—the land phase.&lt;/p&gt;
+
+&lt;p&gt;We conclude the session with the pilots successfully landing their planes, having captured the bandits and their plane. They mark &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;stress&lt;/code&gt; and I roughly explain what would happen now, but we don’t role play, we go straight into epilogues. Although everyone had a good time overall, I feel a sense of disappointment because I didn’t have the opportunity to highlight the aspect that was important to me—the personal interactions tied to the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;stress&lt;/code&gt; mechanic.&lt;/p&gt;
+
+&lt;p&gt;The adult players seem happy with how the session turned out, if a little frustrated themselves. But they are on high spirits and talk a couple minutes about their favorite moments while helping me clean up the table.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;I want to emphasize that I don’t believe the kid was intentionally disruptive. Their behavior, while distracting and impacting the game flow, was a result of their age and tendency to get easily distracted. They were primarily focused on having their own fun, sometimes at the expense of others’ experience, but this wasn’t driven by the kid being intentionally disruptive.&lt;/p&gt;
+
+&lt;p&gt;The kid was fully capable to grasp the mechanics and engage with them once they payed attention. But had difficulty containing their excitement because they were, after all, barely a teen. On the other hand, if they had been an adult exhibiting the same behavior, I would have asked them to leave the table.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-to-do-next&quot;&gt;What to do next&lt;/h3&gt;
+
+&lt;p&gt;I actually will run Flying Circus next week for at least three sessions. Some of la KoboldCon participants got really excited by my components and the concept of the game, and asked me to run the game for them. However, I will be implementing a few changes based on this experience.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;First.&lt;/strong&gt; Instead of starting with the mission part of the routine I will use the 13th age &lt;a href=&quot;https://pelgranepress.com/2018/03/01/13th-sage-more-uses-for-montages/&quot;&gt;montage&lt;/a&gt; technique to frame the mission the characters just landed from. We’ll take corresponding &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;stress&lt;/code&gt; and get into all of the land mechanics. I expect this to let me (a) gage how much the group understands about dogfights by listening how they describe the mission, and (b) give us opportunities for character development and style once they are on the air.&lt;/p&gt;
+
+&lt;p&gt;The second part of the session will involve a mission generated through the game’s mechanics, providing insight into the types of jobs that interest the players.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If I ran Flying Circus at a convention again, this is 100% how I would do it.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Second.&lt;/strong&gt; I have to make my components more general purpose. The current version was explicitly developed with seven playbooks and seven particular planes in mind. If we create characters at the table I need the components to be compatible with all playbooks and planes. It will take a bit of work, but I’m 95% there.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Third.&lt;/strong&gt; While my intention is not to specifically run games for children or teens, I understand that it is likely to happen again at similar events. I could choose to age-restrict my games as I did with Visigoths vs Mall Goths. That game focuses on teen characters and their romantic interactions, which I believed should be limited to interactions between adult players, me being an adult.&lt;/p&gt;
+
+&lt;p&gt;Flying Circus, on the other hand, deals with substances and explores mature themes, but in a way that allows us to fade to black when necessary. It’s more about exploring the underlying reasons behind the characters’ actions rather than explicitly depicting them. So I didn’t considered age restricting the session.&lt;/p&gt;
+
+&lt;p&gt;I’ll be looking for an &lt;em&gt;First Order Optimal Strategy&lt;/em&gt; to engage with young people. There might be specific approaches or techniques I can implement to better handle situations like the one I encountered. Because I don’t plan to impose age restrictions solely to avoid running games where young people show up.&lt;/p&gt;
+
+&lt;p&gt;I can also think of a stronger reason to welcome children to my games if they express interest. The kind of games I run tend to attract women, queer people, and a lot of queer women like myself. That’s why I want to keep running these games, so that people like me feel welcomed, at these events. Children who want to participate in a diverse group, probably should be allowed to. They will see diversity as the norm, and how every background has a place in gaming.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Thank you for reading! If you would like to support me you could buy &lt;a href=&quot;https://bit.ly/ArcaneMoon&quot;&gt;Arcane Moon&lt;/a&gt; my 5e adventure inspired by magical girl anime. You can also find me on Mastodon as &lt;a href=&quot;https://dice.camp/@darkade&quot;&gt;@darkade@dice.camp&lt;/a&gt;. Or get &lt;a href=&quot;http://bit.ly/YonderDiceRoller&quot;&gt;Yonder&lt;/a&gt;! my free dice roller multi-game compatible for google sheets.&lt;/p&gt;
+
+&lt;!--Self Promo--&gt;
+
+&lt;!--Images--&gt;
+
+&lt;!--Credits--&gt;
+
+&lt;!--External-Links--&gt;</content><author><name>Anya Reyes</name></author><category term="EN" /><summary type="html">This past weekend, after two months of preparation, I ran Flying Circus as a convention game. It was a 3.5-hour slot where I guided a group of strangers through a session, hoping to give them a taste of the overall game. While I was satisfied with the overall outcome, there were areas that could have been improved. This is what I did and what I will do next time I run Flying Circus.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://anya.reyescon.de/assets/2023-05-30/licenciasparavolar.png" /><media:content medium="image" url="https://anya.reyescon.de/assets/2023-05-30/licenciasparavolar.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Una linea del tiempo personal de 5ta edición</title><link href="https://anya.reyescon.de/es/2023/01/12/fivee.html" rel="alternate" type="text/html" title="Una linea del tiempo personal de 5ta edición" /><published>2023-01-12T00:00:00+00:00</published><updated>2023-01-12T00:00:00+00:00</updated><id>https://anya.reyescon.de/es/2023/01/12/fivee</id><content type="html" xml:base="https://anya.reyescon.de/es/2023/01/12/fivee.html">&lt;!--INTRO--&gt;
+
+&lt;p&gt;&lt;strong&gt;Marzo de 2020.&lt;/strong&gt; COVID-19. Mi pareja y yo dejamos de ir a nuestra tienda local de juegos. Para este punto ella juega más RPGs que yo, amo los juegos de rol, pero soy más aficionada a los juegos de mesa. Jugamos &lt;em&gt;Pasión de las Pasiones&lt;/em&gt; en línea con algunos amigos y nos divertimos. Jugar en línea es un poco incómodo, pero funciona más o menos para los juegos de rol, y como nuestro intento de jugar Gloomhaven en línea demostró, simplemente no funciona bien para los juegos de mesa.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2022-05-05/computadora.jpg&quot; alt=&quot;Dos pantalals de ocmputadora. Una pantalla de DM para 5e, dados y micrófono&quot; /&gt;&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;&lt;strong&gt;Abril de 2020.&lt;/strong&gt; Mis amigos de la universidad y yo, que vivimos en diferentes ciudades, nos damos cuenta de que pasará un tiempo antes de que volvamos a reunirnos. Decidimos jugar D&amp;amp;D después de no haber jugado unos 8 años. El DM está tratando de averiguar cómo jugar en línea, y yo sugiero este sitio del que he visto anuncios: D&amp;amp;D Beyond. Funciona y lo utilizamos.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Junio de 2020.&lt;/strong&gt; Mi pareja ha estado teniendo videollamadas con sus amigas, hablando sobre por qué le gustan los juegos de mesa y los juegos de rol. Ellas parecen interesadas. Más tarde, me pede que dirija una partida de la D&amp;amp;D 5e para ellas. Leo las reglas básicas y preparo algunos personajes en D&amp;amp;D Beyond. Preparo lo qu “Pretty Guardian Arcane Moon”.&lt;/p&gt;
+
+&lt;p&gt;El juego se muere después de algunas sesiones, pero parece que la pasaron bien. Formalizo la 
+aventura y la (publico Arcane Moon)&lt;a href=&quot;https://bit.ly/ArcaneMoon&quot;&gt;Arcane Moon&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Julio de 2020.&lt;/strong&gt; Otro grupo de amigos de mi pareja le ha estado preguntando específicamente sobre D&amp;amp;D. Después del éxito parcial de la partida anterior, compro la PHB y EgtW en DDB. Esperamos que dure un par de meses. Este juego continúa hasta hoy.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Agosto de 2020.&lt;/strong&gt; DBB publica y retira apresuradamente, contenido basado en Runeterra de LoL. Anteriormente, habían dicho que este material estaría disponible para siempre y estaban entusiasmados por agregar más cosas como esta. Esta fue una de las razones originales por las que decidí darles mi dinero.&lt;/p&gt;
+
+&lt;p&gt;Mencionan algo como “un error de juicio”. Es sospechoso, no dicen más al respecto. Los acuerdos de licencias, publicación y exclusividad son complicados. Culpo a WotC y hago una copia HTML. De un stream percibo que la gente de DDB está angustiada.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Febrero de 2021.&lt;/strong&gt; Varias de las personas a las que veo como el rostro de DDB renuncian, incluido el fundador, Adam. No me gusta esto, han pasado meses pero no puedo evitar pensar que esto está relacionado con lo de LoL. En unas semanas, Adam anunciará que se ha unido a Demiplane y que están trabajando en lo que eventualmente se conocerá como Pathfinder Nexus.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Noviembre de 2021.&lt;/strong&gt; En un stream, le pregunto a Adam: “¿hay algo &lt;em&gt;de una vida anterior&lt;/em&gt; que estés haciendo de manera diferente con Nexus?” Se le quiebra un poco la voz mientras habla de tener más libertad para hacer las cosas de la manera correcta.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abril de 2022.&lt;/strong&gt; WotC adquiere DBB. No estoy contenta. Pareciera que el desarrollo de plataforma se ha detenido y solo se están concentrando en agregar nuevas publicaciones. Comienzo a pensar si podemos terminar nuestra campaña en los próximos meses. ¿Quizás la suscripción de seis meses será suficiente?&lt;/p&gt;
+
+&lt;p&gt;Me agoto de pensar en esto. Decido dejarlo ir. La campaña durará el tiempo que dure. Renuevo por otro año cuando llega la fecha.&lt;/p&gt;
+
+&lt;p&gt;A lo largo de esto, he comprado otros libros en D&amp;amp;D Beyond. Es práctico, no me gustan mucho los libros físicos, puedo buscar y armar casi cualquier cosa rápidamente y de manera efectiva. Obtengo FtoD porque encaja con nuestro juego, es el último libro que compraré.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mayo de 2022.&lt;/strong&gt; Comenzamos a jugar “Blades in the Bar”, un spin-off usando Blades in the Dark. Los jugadores se divierten, pero después de cuatro sesiones me doy cuenta de que lo estoy haciendo por las razones equivocadas. Aunque me divierto, lo estoy narrando con la esperanza de no usar DBB porque ahora es parte de WotC, y como resultado no estoy aprovechando al máximo Blades, y me faltan muchas de las partes que he llegado a disfrutar del setting en el que jugamos.&lt;/p&gt;
+
+&lt;p&gt;Dejamos el juego en pausa después del primer arc, pero no lo abandonamos por completo.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Agosto ~ Septiembre 2022.&lt;/strong&gt; Mi pareja y yo estamos planeando mudarnos y las cosas se vuelven muy impredecibles. Pausamos la campaña.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Octubre 2022.&lt;/strong&gt; Retomamos el juego después de tener una nueva conversación sobre expectativas. Estoy contenta con cómo resultan las cosas, los jugadores están muy comprometidos y piden cosas nuevas. Creo algunas cosas en DDB. Todo va bien.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Diciembre 2022.&lt;/strong&gt; Se anuncia OneD&amp;amp;D, para acceder a los documentos de prueba tienes que usar DDB. En los últimos meses, han dejado de brindar soporte para Unearthed Arcana y parece que varias otras cosas están siendo relegadas cada vez bajo en las prioridades. Lo interpreto como que WotC está utilizando DDB para recopilar datos de cara al futuro, no realmente como un producto que nosotres, los jugadores, usemos.&lt;/p&gt;
+
+&lt;p&gt;En solo unos meses más, terminaremos nuestra campaña. Han pasado casi tres años.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Enero 2022.&lt;/strong&gt; El fiasco de la OGL es tan grande que incluso los jugadores están al tanto de ello, normalmente no estarían enterades de nada, el simple hecho de que lo sepan me dice que este si es un problema mayor. Todos estamos de acuerdo en que es malo y estamos enojados colectivamente con WotC. Explico lo que sé sobre lo que está sucediendo. Acordamos que esta será “El Arc final”.&lt;/p&gt;
+
+&lt;p&gt;Cancelo mi suscripción a D&amp;amp;D Beyond.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;¿Me gusta D&amp;amp;D?&lt;/p&gt;
+
+&lt;p&gt;Desde el principio he dicho que puedo disfrutarlo, pero “gustar” es una palabra fuerte. Sin embargo, soy consciente de que, por más que diga que mi juego sigue las “reglas cómo están escritas”, probablemente interpreto la 5e de manera diferente a la mayoría de las personas.&lt;/p&gt;
+
+&lt;p&gt;Lo que sé es que no le habría dado ninguna oportunidad a D&amp;amp;D si no fuera por DBB. Pero al mirar de vuelta a las fechas, creo que desde los primeros momentos hubo problemas. En estas ocasiones repetidas, hablé de ello con mi pareja, pero era más bien un chisme, nunca parecía convertirse en algo más allá de “bueno, es una lástima”.&lt;/p&gt;
+
+&lt;p&gt;Pero eventualmente, todo se juntó. Estoy cancelando debido al problema con la OGL, pero mi relación con el juego a través de WotC ha estado en constante deterioro desde el principio. Poco después de empezar a jugar, me enteré con todo el tema de Mearls, los problemas con Magic: The Gathering siempre han estado presentes, siempre he sentido que intentan venderme algo mientras hacen lo mejor para ignorar la existencia de mi hobby más allá de las paredes de D&amp;amp;D.&lt;/p&gt;
+
+&lt;p&gt;No, no me gusta &lt;strong&gt;D&amp;amp;D™&lt;/strong&gt;, pero he tenido buenos momentos jugando &lt;em&gt;dnd.&lt;/em&gt;&lt;/p&gt;
+
+&lt;!--Self Promo--&gt;
+
+&lt;!--Images--&gt;
+
+&lt;!--Credits--&gt;
+
+&lt;!--External-Links--&gt;</content><author><name>Anya Reyes</name></author><category term="ES" /><summary type="html">Marzo de 2020. COVID-19. Mi pareja y yo dejamos de ir a nuestra tienda local de juegos. Para este punto ella juega más RPGs que yo, amo los juegos de rol, pero soy más aficionada a los juegos de mesa. Jugamos Pasión de las Pasiones en línea con algunos amigos y nos divertimos. Jugar en línea es un poco incómodo, pero funciona más o menos para los juegos de rol, y como nuestro intento de jugar Gloomhaven en línea demostró, simplemente no funciona bien para los juegos de mesa.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://anya.reyescon.de/assets/2022-05-05/computadora.jpg" /><media:content medium="image" url="https://anya.reyescon.de/assets/2022-05-05/computadora.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">A personal timeline of 5th edition</title><link href="https://anya.reyescon.de/en/2023/01/12/fivee.html" rel="alternate" type="text/html" title="A personal timeline of 5th edition" /><published>2023-01-12T00:00:00+00:00</published><updated>2023-01-12T00:00:00+00:00</updated><id>https://anya.reyescon.de/en/2023/01/12/fivee</id><content type="html" xml:base="https://anya.reyescon.de/en/2023/01/12/fivee.html">&lt;!--INTRO--&gt;
+
+&lt;p&gt;&lt;strong&gt;March 2020.&lt;/strong&gt; COVID-19. Me and my partner stop going to our local game shop, at this point she plays more RPGs than I do, I love roleplaying games, but I’m much more of a board gamer. We play Pasión de las Pasiones online with some friends we have fun. Online is clunky but kind of works for rpgs, and as our attempt at online Gloomhaven proves it’s just bad for board games.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2022-05-05/computadora.jpg&quot; alt=&quot;Two computer screens. A 5e DM screen several dice and a microphone&quot; /&gt;&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;&lt;strong&gt;April 2020.&lt;/strong&gt; Me and my college friends, whom all live in different cities, realize it will be a while before we meet again. We decide to play D&amp;amp;D after not having played for ~8 years. The DM is trying to figure out how to run online I suggest this site I’ve seen ads for, D&amp;amp;D Beyond, it works we use it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;June 2020.&lt;/strong&gt; My partner has been having video calls with her friends they about why she likes board games and rpgs. She explains, they seem interested. Later she’ll ask me to run 5e for them. I read the basic rules and prepare some pre-gens in DDB, we play what I call “Pretty Guardian Arcane Moon”&lt;/p&gt;
+
+&lt;p&gt;Game falls after a few sessions but they seem happy. I formalize the adventure and &lt;a href=&quot;Arcane Moon&quot;&gt;publish it&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;July 2020.&lt;/strong&gt; A different friend group of my partner has been asking her specifically about dnd. After the partial success of the previous game I decide to get the PHB and EgtW in DDB. We expect it to run for a couple months. This game will keeps going until today.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;August 2020.&lt;/strong&gt; DDB has published, and hastily pulled, the content based on LoL’s Runeterra. They have previously said this material will be available forever and they are looking forward to adding more stuff like this, this was one of the original reasons I decided to give them my money.&lt;/p&gt;
+
+&lt;p&gt;They mention something like “an error of judgement” It’s fishy, they won’t say more. Licensing, publishing and exclusivity agreements are complicated, I blame it on WotC and make an html backup. DDB’s peeps seem distressed.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;February 2021.&lt;/strong&gt; Several of the people whom I see as the face of DDB resign, including the founder, Adam. I don’t like this, it’s been months but I can’t help but think this is related to the LoL thing. In a few weeks Adam will announce he’s joined Demiplane and are working on what will eventually be known as Pathfinder Nexus.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;November 2021.&lt;/strong&gt; I ask Adam on stream “is there anything &lt;em&gt;from a previous life&lt;/em&gt; you are doing different with Nexus?” He gets a bit chocked up as he talks about having more liberty to do things the right way&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;April 2022.&lt;/strong&gt; WotC acquires DDB. I’m not happy. Things have become stale with the platform and I start thinking thinking if we can possibly finish our campaign in the next few months. Maybe the six months subscription will be enough? I get burnt out from thinking about this.&lt;/p&gt;
+
+&lt;p&gt;I let it go, the campaign will last however long it lasts. I’ll pay for another year when the renewal comes.&lt;/p&gt;
+
+&lt;p&gt;Throughout this I’ve purchased other books on dnd beyond. It’s practical, I don’t really care for physical books, I’m able to search and put together almost anything I’m thrown at quickly and effectively. I get FtoD because it fits our game, it’s the last book I’ll get.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;May 2022.&lt;/strong&gt; We start playing “Blades in the Bar” a Blades in the Dark spin-off, the players have fun but after four sessions I realize I’m pushing this for the wrong reasons. While I’m having fun, I’m running it in the hopes not to use DDB because it’s now part of wotc, and as a result I’m not getting the most from Blades, and I don’t have many of the parts I’ve come to enjoy about the setting we play.&lt;/p&gt;
+
+&lt;p&gt;We shelf the game after the introductory arc, but we don’t really abandon it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;August ~ September 2022.&lt;/strong&gt; My partner and I are planning to move things get very unpredictable we pause the campaign.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;October 2022.&lt;/strong&gt; We resume the game after having a new expectations conversation. I’m glad with how things turn out, the players are very engaged and ask for new stuff, I create some ddb homebrew. It’s all good.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;December 2022.&lt;/strong&gt; OneD&amp;amp;D is announced, you access the test docs through DDB. In the past months they’ve dropped support for unearthed arcana and several other things seem to be pushed further and further down the priorities. I read this as wotc using ddb to gather data going forward, not really as a product we, the players use.&lt;/p&gt;
+
+&lt;p&gt;It’ll only be a few more months and we will finish our campaign, it’s been three years.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;January 2022.&lt;/strong&gt; The OGL fiasco is so big even the players are aware of it, they wouldn’t normally be in the discourse loop, just this fact seems to make it a bigger problem by comparison. We all agree it’s bad, we are collectively pissed at wotc. I explain what I know about what’s going on. We agree this arc is “The Final Arc”.&lt;/p&gt;
+
+&lt;p&gt;I cancel DDB&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Do I like D&amp;amp;D now?&lt;/p&gt;
+
+&lt;p&gt;From the beginning I’ve said I’m able to enjoy it, but “like” is a strong word. However I’m aware that no matter how much I say my game is “Rules As Written” I’m probably parsing 5e in a different way than most people.&lt;/p&gt;
+
+&lt;p&gt;What I know is I wouldn’t have given dnd any chance were it not for DDB. But looking back at the dates I think from the very first moments there were issues. At these repeated occasions I talked about it with my partner, it was gossip really, it never seemed to amount to nothing more than “welp that’s a shame”&lt;/p&gt;
+
+&lt;p&gt;But eventually It all piled up. I’m cancelling because of the OGL thing, but my relationship with the game through wotc, has been in constant deterioration since the very beginning. Not long after we started playing I learnt about mearls, the problems with MtG have always been floating around, I’ve always felt like they are trying to sell me something at the same time they make their best to ignore the existence of this hobby of mine beyond the walls of dnd.&lt;/p&gt;
+
+&lt;p&gt;No, I don’t like &lt;strong&gt;D&amp;amp;D™&lt;/strong&gt; but I’ve had good times playing &lt;em&gt;dnd.&lt;/em&gt;&lt;/p&gt;
+
+&lt;!--Self Promo--&gt;
+
+&lt;!--Images--&gt;
+
+&lt;!--Credits--&gt;
+
+&lt;!--External-Links--&gt;</content><author><name>Anya Reyes</name></author><category term="EN" /><summary type="html">March 2020. COVID-19. Me and my partner stop going to our local game shop, at this point she plays more RPGs than I do, I love roleplaying games, but I’m much more of a board gamer. We play Pasión de las Pasiones online with some friends we have fun. Online is clunky but kind of works for rpgs, and as our attempt at online Gloomhaven proves it’s just bad for board games.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://anya.reyescon.de/assets/2022-05-05/computadora.jpg" /><media:content medium="image" url="https://anya.reyescon.de/assets/2022-05-05/computadora.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">The particular way 5e has no replacement</title><link href="https://anya.reyescon.de/en/2023/01/06/dnd-replacement.html" rel="alternate" type="text/html" title="The particular way 5e has no replacement" /><published>2023-01-06T00:00:00+00:00</published><updated>2023-01-06T00:00:00+00:00</updated><id>https://anya.reyescon.de/en/2023/01/06/dnd-replacement</id><content type="html" xml:base="https://anya.reyescon.de/en/2023/01/06/dnd-replacement.html">&lt;!--INTRO--&gt;
+&lt;p&gt;It’s January 2023 and WotC is making the biggest mess they’ve done, so people, or rather users, are looking for alternatives and every single designer that’s written anything fantasy related is throwing their hat on the ring. And yet, even with as &lt;a href=&quot;https://trello.com/b/MSgGv0Bd/rpgs&quot;&gt;many games&lt;/a&gt; I’ve read I don’t know of a single game that can actually replace 5e.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2023-01-06/books.jpg&quot; alt=&quot;My partner's and I physical collection&quot; /&gt;
+&lt;em&gt;Our physical games collection&lt;/em&gt;&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Ok that’s click bait right? Pathfinder, with that out of the way. In my experience a lot of OSR, NSR and whateverSR games are focused in getting to play right now. Having read Old School Essentials, yes that sort of captures the spirit of the old game. But a lot of modern gamers don’t really want to play, they want to imagine themselves playing their cool idea of a character.&lt;/p&gt;
+
+&lt;!--ABSTRACT--&gt;
+
+&lt;p&gt;A lot of gamers want to imagine their dnd characters concepts and spend a lot of time thinking of builds, and then (the most committed ones) will actually build the character with a lot of care of how to &lt;em&gt;legally&lt;/em&gt; circumvent rules and thinking of great magical items that would work for that character. And for this 5e is amazing, there’s a million options, a thousand that wouldn’t work for most tables, and a hundred that no one will actually take, all of which &lt;em&gt;can&lt;/em&gt; take hours if not days.&lt;/p&gt;
+
+&lt;p&gt;Meanwhile, the rest of us with our &lt;a href=&quot;https://www.drivethrurpg.com/product/295910/Mork-Borg-English?affiliate_id=435266&quot;&gt;Mörk Borgs&lt;/a&gt;, &lt;a href=&quot;https://www.drivethrurpg.com/product/250888/Knave?affiliate_id=435266&quot;&gt;Knaves&lt;/a&gt; and &lt;a href=&quot;https://www.drivethrurpg.com/product/269791/Troika-Numinous-Edition?affiliate_id=435266&quot;&gt;Troikas&lt;/a&gt; are arguing for actually playing. The best you can do to actually play is get a concept in one or two sentences and either roll or distribute attributes pick one or two things and get to play in twenty minutes.&lt;/p&gt;
+
+&lt;p&gt;To me, twenty minutes sounds much better than a couple of hours. But to the many people who enjoy building characters twenty minutes means &lt;strong&gt;there’s no hobby to be enjoyed.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;recommendations&quot;&gt;Recommendations&lt;/h2&gt;
+
+&lt;p&gt;I feel like I can’t let you hanging, I really actually don’t think there’s replacement beyond PF, but here’s some games I enjoy with somewhat heavy character building.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.drivethrurpg.com/product/310013/Flying-Circus--Core-Rulebook?affiliate_id=435266&quot;&gt;Flying Circus&lt;/a&gt; The author has referred to it as dnd with airplanes! it’s my second favorite rpg. Your character has some significant options to choose from but if you want you can sink weeks designing a perfect airplane for you.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.drivethrurpg.com/product/238369/Ironsworn?affiliate_id=435266&quot;&gt;Ironsworn&lt;/a&gt; Character creation is fast but you can spend a lot of time thinking of you assets. Moreover you can spend a lot of time thinking about The Ironlands, which is, maybe, the actual character of the adventure&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.drivethrurpg.com/product/248538/The-Witcher-Pen--Paper-RPG?affiliate_id=435266&quot;&gt;The Witcher&lt;/a&gt; or &lt;a href=&quot;https://www.drivethrurpg.com/product/333585/Cyberpunk-RED?src=hottest_filtered?affiliate_id=435266&quot;&gt;Cyberpunk RED&lt;/a&gt; there’s a life path system to these games that’s meant to streamline your character background, but there’s a ton of mechanical options to choose from&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.drivethrurpg.com/product/101050/Dungeon-Crawl-Classics-RPG-DCC-RPG?affiliate_id=435266&quot;&gt;Dungeon Crawl Classics&lt;/a&gt; Lankhmar. I love the base game, but &lt;a href=&quot;https://www.drivethrurpg.com/product/264098/Dungeon-Crawl-Classics-Lankhmar-Boxed-Set?affiliate_id=435266&quot;&gt;Lankhmar&lt;/a&gt; will give you the hero feeling instead of the underdog feeling and it introduces more options.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;!--OUTRO--&gt;
+&lt;p&gt;In any case I do feel like if you like 5e this is a good opportunity to show you care about how your games are made and a good time to check out the myriad of games out there. And I really hope if you want your heavy game with a lot of character building options you find it, or you go for Pathfinder.&lt;/p&gt;
+
+&lt;p&gt;You can follow me &lt;a href=&quot;https://dice.camp/@darkade&quot;&gt;@darkade&lt;/a&gt;! And if you want to read more here’s a &lt;a href=&quot;/2020/11/24/thelonius-on-rpgs.html&quot;&gt;weird one&lt;/a&gt; I wrote back in 2020 Thanks for reading!&lt;/p&gt;
+
+&lt;!--Custom CSS--&gt;
+
+&lt;!--Internal-Links--&gt;
+
+&lt;!--Self Promo--&gt;
+
+&lt;!--Images--&gt;
+
+&lt;!--Credits--&gt;
+
+&lt;!--External-Links--&gt;</content><author><name>Anya Reyes</name></author><category term="EN" /><summary type="html">It’s January 2023 and WotC is making the biggest mess they’ve done, so people, or rather users, are looking for alternatives and every single designer that’s written anything fantasy related is throwing their hat on the ring. And yet, even with as many games I’ve read I don’t know of a single game that can actually replace 5e. Our physical games collection</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://anya.reyescon.de/assets/2023-01-06/books.jpg" /><media:content medium="image" url="https://anya.reyescon.de/assets/2023-01-06/books.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">v1.5.2 – The Desert Planet and Mothership update</title><link href="https://anya.reyescon.de/yonder/yonder-changelog/2022/11/01/v152.html" rel="alternate" type="text/html" title="v1.5.2 – The Desert Planet and Mothership update" /><published>2022-11-01T00:00:00+00:00</published><updated>2022-11-01T00:00:00+00:00</updated><id>https://anya.reyescon.de/yonder/yonder-changelog/2022/11/01/v152</id><content type="html" xml:base="https://anya.reyescon.de/yonder/yonder-changelog/2022/11/01/v152.html">&lt;p&gt;I’ve just added support for Mothership and 2d20 “Desert Planet” to &lt;a href=&quot;https://bit.ly/3MfBnLK&quot;&gt;Yonder Dice Roller&lt;/a&gt;! Mothership is the first of my attempts to mix the improvements I coded for 2d20 with all of my previous components. It works but there will be improvements in the future.&lt;/p&gt;
+
+&lt;p&gt;So what changed.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;new-features&quot;&gt;New Features&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/yonder/screenshots/mothership.png&quot; alt=&quot;The Mothership roller&quot; /&gt;
+&lt;em&gt;Stats, Skills and Saves together with a character keeper for Mothership.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Mothership&lt;/em&gt; supports saves and test rolls, including rolling with advantage and disadvantage. All the rolls are lower than, as defined in the system.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Mothership Skills&lt;/em&gt; if you need to roll using your Xenoesotericism skill you can add those as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;extra bonuses&lt;/code&gt;, a mechanic Yonder supports for most other games.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Desert Planet.&lt;/em&gt; The space empire flavor of 2d20 joins the other games from the same system that are already supported. There’s not much to say here except it works and that the challenge dice have been removed, because the system doesn’t use them.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;bug-fixes&quot;&gt;Bug Fixes&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Footer.&lt;/em&gt; The footer has been fixed to always stick to the bottom of your screen no matter the size of your window.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;I did came across some bugs for Mothership that I hope are all fixed, that’s what happens when you mix two different ways of approaching a problem, even if both are my way. If you find any bug please do contact me.&lt;/p&gt;
+
+&lt;p&gt;Thank you for &lt;a href=&quot;https://bit.ly/3MfBnLK&quot;&gt;downloading&lt;/a&gt; and using Yonder Dice Roller!&lt;/p&gt;
+
+&lt;!--Images--&gt;</content><author><name>Anya Reyes</name></author><category term="yonder-changelog" /><summary type="html">I’ve just added support for Mothership and 2d20 “Desert Planet” to Yonder Dice Roller! Mothership is the first of my attempts to mix the improvements I coded for 2d20 with all of my previous components. It works but there will be improvements in the future. So what changed.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://anya.reyescon.de/yonder/screenshots/mothership.png" /><media:content medium="image" url="https://anya.reyescon.de/yonder/screenshots/mothership.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">v1.5.0 – The Stellar Travels Adventures Update</title><link href="https://anya.reyescon.de/yonder/yonder-changelog/2022/11/01/v150.html" rel="alternate" type="text/html" title="v1.5.0 – The Stellar Travels Adventures Update" /><published>2022-11-01T00:00:00+00:00</published><updated>2022-11-01T00:00:00+00:00</updated><id>https://anya.reyescon.de/yonder/yonder-changelog/2022/11/01/v150</id><content type="html" xml:base="https://anya.reyescon.de/yonder/yonder-changelog/2022/11/01/v150.html">&lt;p&gt;&lt;a href=&quot;https://bit.ly/3MfBnLK&quot;&gt;Yonder Dice Roller&lt;/a&gt; now supports 2d20 games! This took a while as I thought of new more flexible ways to roll and re-roll dice. These updates take a while because I’m a single developer and I kind of make them as I run new games so I thank everyone who has tried Yonder and gotten back to me.&lt;/p&gt;
+
+&lt;p&gt;Now, the changes.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;new-features&quot;&gt;New Features&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;2d20 tests rolling.&lt;/em&gt; By selecting a combination of Skill and Attribute you can roll up to five d20’s, once you’ve rolled you can click on a dice again to re-roll it.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;2d20 CD rolling.&lt;/em&gt; The special d6 dice, or CD, from the system are fully integrated. You can roll up to twenty d6’s with the following faces: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1, 2, blank, blank, star, star&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;2d20 roll logging.&lt;/em&gt; As with the rest of the yonder rolls these are logged in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_rolls&lt;/code&gt; tab.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/yonder/screenshots/sta.png&quot; alt=&quot;Different 2d20 STA roller looks&quot; /&gt;
+&lt;em&gt;Six different looks for the STA roller.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Support for 2d20 STA.&lt;/em&gt; This includes the 9 Attributes and 6 Disciplines from the core book. Look for it in the Yonder Extension Menu under 2d20.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Era looks for STA.&lt;/em&gt; From TOS to DISCO you can choose how your roller looks like.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;High Contrast STA roller.&lt;/em&gt; The STA looks are very colorful, unlike the rest of Yonder, so a grey-scale look was added which nicely tied in with the upcoming S31 series.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/yonder/screenshots/wasteland.png&quot; alt=&quot;2d20 Post-apocalyptic roller with the character keeper&quot; /&gt;
+&lt;em&gt;A character keeper made specifically with Yonder in mind.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Support for 2d20 Post-Apocalyptic.&lt;/em&gt; This includes the 7 Attributes and 17 Skills from the core book. Look for it in the Yonder Extension Menu under 2d20.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Auto-select Attributes.&lt;/em&gt; The skills for this particular 2d20 flavor have an specific attribute associated by default, for example, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Medicine [INT]&lt;/code&gt;. So when you select a Skill the default Attribute will be selected for you, of course you can change it if needed.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;bug-fixes&quot;&gt;Bug Fixes&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Overlaping in small screens.&lt;/em&gt; In small screens either the Polyhedral Dice Bar or the footer would often get in the way of the rest of the roller making it harder to click on the correct elements. This has been fixed&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Rolls logging.&lt;/em&gt; Some rolls weren’t being logged. I hope this has been solved but I might have missed some. Please do contact me if your roll isn’t showing up in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_rolls&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;other-changes&quot;&gt;Other Changes&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Polyhedral Dice Bar icon.&lt;/em&gt; The icon has been changed from an &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;R&lt;/code&gt; to a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;d20&lt;/code&gt;. My original intention was that the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;R&lt;/code&gt; would stand for ‘Roll’ but this often wasn’t clear.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Clear saved character data.&lt;/em&gt; In the Yonder menu you can now find a button that allows you to erase any data previously saved for the current document. This should help if any problem arises and you need a “do over” for your configuration.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;I plan to reimplement several of these new 2d20 features into the previous rollers. So keep an eye out for that!&lt;/p&gt;
+
+&lt;p&gt;Thank you for &lt;a href=&quot;https://bit.ly/3MfBnLK&quot;&gt;downloading&lt;/a&gt; and using Yonder Dice Roller!&lt;/p&gt;
+
+&lt;!--Images--&gt;</content><author><name>Anya Reyes</name></author><category term="yonder-changelog" /><summary type="html">Yonder Dice Roller now supports 2d20 games! This took a while as I thought of new more flexible ways to roll and re-roll dice. These updates take a while because I’m a single developer and I kind of make them as I run new games so I thank everyone who has tried Yonder and gotten back to me. Now, the changes.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://anya.reyescon.de/yonder/screenshots/sta.png" /><media:content medium="image" url="https://anya.reyescon.de/yonder/screenshots/sta.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Fixing Fallout RPG Machine Frequency adventure</title><link href="https://anya.reyescon.de/en/2022/09/01/machine-frequency.html" rel="alternate" type="text/html" title="Fixing Fallout RPG Machine Frequency adventure" /><published>2022-09-01T00:00:00+00:00</published><updated>2022-09-01T00:00:00+00:00</updated><id>https://anya.reyescon.de/en/2022/09/01/machine-frequency</id><content type="html" xml:base="https://anya.reyescon.de/en/2022/09/01/machine-frequency.html">&lt;!--INTRO--&gt;
+&lt;p&gt;Machine Frequency is the adventure included with the Fallout RPG Quickstart Rules. It’s a conversion of an homonymous adventure for the Fallout Wasteland Warfare miniatures war game, and honestly it could be better, so today we are Fixing Fallout Machine Frequency.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2022-09-02/Fallout RPG.png&quot; alt=&quot;Fallout. Machine Frequency&quot; /&gt;&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.drivethrurpg.com/product/399936/Fallout-The-Roleplaying-Game--Quickstart-Guide--PDF?affiliate_id=435266&quot;&gt;The quickstart adventure&lt;/a&gt; has some conversion problems, for example, it mentions Activations several times,  term from the &lt;a href=&quot;https://www.drivethrurpg.com/product/237125/Fallout-Wasteland-Warfare--Rules-of-Play?affiliate_id=435266&quot;&gt;miniatures game&lt;/a&gt; it was originally written. This war gaming conception makes the adventure seem like a series of combat encounters to be passed, which could be fun on the tactical grid side, but it’s not in a narrative RPG. However I think the story is a nice jumping off point, and a good showcase of what the game can do, in other words, the adventure has “good bones” they just need to be rearranged, but me in this post.&lt;/p&gt;
+
+&lt;!--ABSTRACT--&gt;
+
+&lt;p&gt;I won’t go beat by beat of the adventure, neither will I rewrite it as a whole, because I most likely legally can’t, but having run it twice I feel like I have a good enough idea of how to run it in an effective way.&lt;/p&gt;
+
+&lt;p&gt;Through this I’ll be using the Act-Scene terminology from the adventure to make it easier to reference the original text.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-fix&quot;&gt;The Fix&lt;/h2&gt;
+
+&lt;p&gt;For starters let’s being right before &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Act I Scene Three&lt;/code&gt;, the hook is very clear:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A couple hours ago your group &lt;del&gt;caravan?&lt;/del&gt; saw a vertibird fall from the sky just to the other side of those hills. There was no smoke, neither did you saw the aircraft be attacked it “just fell” in a spiral. Whatever could be salvaged from an intact vertibird, well besides the damage from the fall, would go for a fair amount of caps. There’s no time to lose.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The characters approach the site of the crash just behind a hill and hear the laser fire being exchanged. They haven’t been seen but they hear the familiar buzz of an eyebot coming their way.&lt;/p&gt;
+
+&lt;p&gt;I think this instantly sets a count down on the adventure, instead of the characters being randomly asked to go check the site they are a) on a race to the crash site, even if you skip it, and b) pressed to do something, they are about to be seen.&lt;/p&gt;
+
+&lt;p&gt;Whether Knight Layton makes it or not is less important because Scribe Portano will be safe and sound at Listen Point Echo. The characters hear the vertibird radio go off and no one answering but Layton is firing back at the protectrons, she’s trapped by the debris.&lt;/p&gt;
+
+&lt;p&gt;The encounter follows whatever beats should fall but by the end the characters pick up the radio and get all the information from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Act I Scene One&lt;/code&gt; from Scribe Portano.&lt;/p&gt;
+
+&lt;p&gt;Both time I ran the adventure the characters tried to deactivate the protectrons by removing their onboard speakers. I managed it as they deactivating for a round and then reactivating in “safe mode” and instantly walking towards Joint Base Lewiston at a very slow pace. This didn’t result in skipping Bleakford, but it might and if it does then the straight line way from the crash site to Lweiston is where I would place Kullen Bridge&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Bleakford. Bleakford follows the book. It’s filled with random encounters and it’s mostly exploration; I think it might come off as a weird change of pece, but this is an introductory adventure that should showcase the different aspects of the game, so I’ll excuse it. Besides is a nice place to split the party, a trademark of mine and then have a couple of tests for everyone to get together in time when things inevitably go wrong. For example, in one of the runs I made a character got in trouble at the water tower being swarmed by feral ghouls and the rest of them rushed back to help them.&lt;/p&gt;
+
+&lt;p&gt;A change I made was that the knights that are found at Lewiston are right behind the characters. They lost contact with the first vertibird but couldn’t contact Listen Point Echo because of the interference, so they personally go and look at the crash site in a second vertibird. So that, just as the characters disable the booster they see a vertibird fly over their heads going in the same direction as Scribe Portano just told them.&lt;/p&gt;
+
+&lt;p&gt;I think this change is necessary because otherwise the Knights arrive out of nowhere, sure Portano mentions the hotheads from bunker 441 are on their way, but it feels like they arrive way too fast. Also Portano at this point mentions he recognizes the new local signal as an Enclave signal and that this kind of hacking is consistent with the research of one Dr. Trestridge. The Brotherhood, of course, has been after her for a while, she has a knack to bring old facilities online to do whatever she’s been doing.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Lewiston. If the characters disabled and let the protectrons walk, they pass the robots just as they enter the base, they could serve as reinforcements for either side! Instead of the Knights being at the gates of the base I think they should be inside with some of them dead and many destroyed protectrons, maybe even a destroyed sentry bot. The characters arrive to see Dr. Testridge plugging into the machine and the Knights still engaged in combat. So there’s a decision: either help the Knights and risk whatever Testridge is doing go on, or stop Testridge and run into the crossfire, which should be crossfire and thus risky IMO, let it play out.&lt;/p&gt;
+
+&lt;p&gt;At this point you have skipped either Kullen Bridge or Bleakford, and the very dry introduction and ran:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Combat or a creative solution to get rid of the protectrons&lt;/li&gt;
+  &lt;li&gt;Either exploration or travel, depending on what you skipped&lt;/li&gt;
+  &lt;li&gt;A high stakes encounter&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I think this is a good sampler of what the game has to offer that puts the characters in the center instead of The Brotherhood of Steel. It’s not too many changes but more of a rearrangement of the adventure that cuts the dull parts. You also have a major location with Lewiston, have a reason to go check on the settlements that went offline, you have presented two of the major factions of the game and now have “a voice” on Scripe Portano, who can be reached at Listen Point Echo.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;!--OUTRO--&gt;
+&lt;p&gt;Thank you for reading! If you liked this post and want to support me check out &lt;a href=&quot;https://bit.ly/ArcaneMoon&quot;&gt;Arcane Moon&lt;/a&gt;, a D&amp;amp;D adventure inspired by 90s Magical Girl anime, published at DMs Guild. Or download for free my Fiasco Classic playset &lt;a href=&quot;https://bit.ly/BuscaUnProblema&quot;&gt;Busca Un Problema&lt;/a&gt; at Itch.io!&lt;/p&gt;
+
+&lt;p&gt;You can also read &lt;a href=&quot;/2020/12/29/inciting-incident.html&quot;&gt;The Dwendalian War Inciting Incident&lt;/a&gt; the encounter that started the war in my Wildemount campaign or you can read about how I run a Zelda style dungeon &lt;a href=&quot;/2021/02/13/dungeon-advice.html&quot;&gt;here.&lt;/a&gt; Or if you find this perspective of the adventure interesting maybe read about &lt;a href=&quot;/en/2022/05/04/running-dnd.html&quot;&gt;the way I’ve ran D&amp;amp;D for over two years&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Finally you can follow me &lt;a href=&quot;https://dice.camp/@darkade&quot;&gt;@darkade&lt;/a&gt;! Thanks for reading!&lt;/p&gt;
+
+&lt;!--Custom CSS--&gt;
+
+&lt;!--Internal-Links--&gt;
+
+&lt;!--Self Promo--&gt;
+&lt;!--Images--&gt;
+
+&lt;!--Credits--&gt;
+
+&lt;!--External-Links--&gt;</content><author><name>Anya Reyes</name></author><category term="EN" /><summary type="html">Machine Frequency is the adventure included with the Fallout RPG Quickstart Rules. It’s a conversion of an homonymous adventure for the Fallout Wasteland Warfare miniatures war game, and honestly it could be better, so today we are Fixing Fallout Machine Frequency.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://anya.reyescon.de/assets/2022-09-02/Fallout%20RPG.png" /><media:content medium="image" url="https://anya.reyescon.de/assets/2022-09-02/Fallout%20RPG.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Cómo he mantenido nuestro juego de D&amp;amp;D por dos años</title><link href="https://anya.reyescon.de/es/2022/05/04/running-dnd.html" rel="alternate" type="text/html" title="Cómo he mantenido nuestro juego de D&amp;amp;D por dos años" /><published>2022-05-04T00:00:00+00:00</published><updated>2022-05-04T00:00:00+00:00</updated><id>https://anya.reyescon.de/es/2022/05/04/running-dnd</id><content type="html" xml:base="https://anya.reyescon.de/es/2022/05/04/running-dnd.html">&lt;!--INTRO--&gt;
+&lt;p&gt;Tengo sentimientos encontrados sobre Dungeons &amp;amp; Dragons, durante años no me gustó, luego hace dos años, casi al día, leí los PHB y DMG de 5e y… tuve opiniones al respecto. Sentí que el juego, tal como lo había visto jugado, en realidad no era una buena representación de 5e, que nadie estaba leyendo los libros. Era el comienzo de la pandemia, y mi pareja, que es fanática, quería jugar a D&amp;amp;D con sus amigos de internet, así que me aguanté y comencé a masterear 5e. En junio esa campaña cumplirá 24 meses y aun continua.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2022-05-05/computadora.jpg&quot; alt=&quot;Dos pantallas de computadora. Una pantalla de DM par 5e varios dados y un micrófono&quot; /&gt;&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;&lt;em&gt;Suele estar mucho más desordenado&lt;/em&gt;&lt;/p&gt;
+
+&lt;!--ABSTRACT--&gt;
+
+&lt;p&gt;Todavía no soy fan de D&amp;amp;D, pero encontré mis propias formas de disfrutarlo y divertirme con mi grupo. En un sentido, eso sucedió porque me acerqué al juego esperando que no me gustara y descubrí que lo que no me gustaba era la forma en que usualmente es dirigido.&lt;/p&gt;
+
+&lt;p&gt;Entonces, durante dos años he mastereado 5e de la forma que tiene sentido para mí: (a) cercano al libro, (b) usando muchos elementos aleatorios, (c) dejando que todos encuentren su propia diversión dentro del juego.&lt;/p&gt;
+
+&lt;h3 id=&quot;ejecutar-el-juego-cercano-al-libro&quot;&gt;Ejecutar el juego cercano al libro&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2022-05-05/libros.jpg&quot; alt=&quot;Los tres libros de reglas básicas de D&amp;amp;D 5e&quot; /&gt;
+&lt;em&gt;De mi pareja. Yo uso todo digital.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Cuando leí tanto el PHB como el DMG de principio a fin, encontré un juego que no se trataba sobre las aventuras publicadas, sino un juego que ponía mucho énfasis en construir un mundo. El DMG en particular tiene un capítulo completo sobre la construcción del mundo, que está igual de mal escrito como es ambicioso. Más allá de eso, el juego ofrece muchos consejos sobre cómo adjudicar muchas situaciones (sí, incluso las sociales) y aconseja el uso de Grados de Fracaso y Éxito a un Costo, cuya inclusión tomará a mucha gente por sorpresa, ya que se tiende a asumir que todo es pasar/fallar.&lt;/p&gt;
+
+&lt;p&gt;Así que comencé a narrar el juego del modo que los libros aconsejaban con la expectativa de encontrar lo que no funcionaría para nosotros más tarde. Estos son todos los consejos y reglas del juego que usamos activamente.&lt;/p&gt;
+
+&lt;h4 id=&quot;plot-points-dmg-ch-9&quot;&gt;Plot Points (DMG Ch. 9)&lt;/h4&gt;
+
+&lt;p&gt;Este es el importante. Cada jugador obtiene un Plot Point para esa sesión que usan para establecer algo sobre el mundo, generalmente algo beneficioso, luego yo tiro para elegir a alguien más que agregará un efecto secundario negativo a lo establecido.&lt;/p&gt;
+
+&lt;p&gt;Los jugadores lo han usado para establecer formas de escapar, dragones en camino, la derrota de enemigos, para sobrevivir a la muerte. Parece demasiado poderoso, pero hay varios lados a considerar.&lt;/p&gt;
+
+&lt;p&gt;Desde mi perspectiva al narrar el juego, establece muy claramente lo que los jugadores quieren de la situación actual:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;temen a la muerte, por lo que establecen una vía de escape&lt;/li&gt;
+  &lt;li&gt;quieren sentirse rudos, por lo que establecen un gran efecto para un hechizo&lt;/li&gt;
+  &lt;li&gt;se están aburriendo, así que introducen un gran antagonista en la situación&lt;/li&gt;
+  &lt;li&gt;quieren evitar la escena de la cena con el jefe, por lo que aparece un invadx inesperadx&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Después de que usan los plot points, sé cual es la energía de la escena o lo que los jugadores quieren del resto de la sesión.&lt;/p&gt;
+
+&lt;p&gt;El desafío para mí es integrar esos detalles, ya que sucederán durante esta escena, solo tengo que pensar cómo. Por lo general, pido un minuto para pensarlo bien y entonces hago la descripción.&lt;/p&gt;
+
+&lt;p&gt;Desde la perspectiva de lxs jugadorxs, pueden adueñarse del mundo. Algunos de los elementos más significativos de nuestra campaña se han establecido de esta manera. También les permite impulsar la acción o pausarla.&lt;/p&gt;
+
+&lt;p&gt;Lxs jugadorxs adquieren el poder de afectar directamente el ritmo e incrementar las apuestas del juego, no tienen que guardarse las cosas que quieren ver por grandes que sean, en su lugar pueden verlas. Además, el hecho de que esta contribución esté mecanizada hace que nunca se sienta fuera de lugar.&lt;/p&gt;
+
+&lt;p&gt;Desde la perspectiva del balance, no diría que está balanceado, pero ciertamente no esta des-balanceado: &lt;strong&gt;la gente quiere jugar el juego.&lt;/strong&gt; Si eso significa que sus personajes salen raspadxs o incluso pierden un brazo, eso es lo que quieren, eso es el juego, pero prefieren verlo venir.&lt;/p&gt;
+
+&lt;p&gt;En mi experiencia, las consecuencias negativas que establecen lxs jugadorxs son casi siempre peores que cualquier cosa que yo haya pensado, les gusta ver si llegan al otro lado en sus propios términos. Incluso usas Plot Points para establecer condiciones más duras para ellxs mismxs sin ningún aspecto positivo.&lt;/p&gt;
+
+&lt;h4 id=&quot;resolving-interactions-dmg-ch-8&quot;&gt;Resolving Interactions (DMG Ch. 8)&lt;/h4&gt;
+
+&lt;p&gt;Todos los NPCs y las organizaciones que podrían ser útiles para los personajes tienen una actitud hacia el grupo, por lo que convencerles de que les brinden ayuda sería más fácil o más difícil según corresponda, y la medida en que brindarían ayuda también variaría según su actitud. Podrías llamar a esto &lt;a href=&quot;https://bladesinthedark.com/action-roll&quot;&gt;Position and Effect&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;No hago esto paso a paso todas las veces, pero nos proporciona un marco de uso y una razón para que las tiradas de &lt;strong&gt;CHA (Persuasión)&lt;/strong&gt; funcionen dentro de la ficción que, de lo contrario, pueden llegar a parecer disonantes.&lt;/p&gt;
+
+&lt;h4 id=&quot;action-options-dmg-ch-9&quot;&gt;Action Options (DMG Ch. 9)&lt;/h4&gt;
+
+&lt;p&gt;Todas estas están disponibles en nuestro juego pero, Climb onto a Bigger Creature, Disarm, Shove Aside and Tumble son los que más se usan.&lt;/p&gt;
+
+&lt;p&gt;Creo que estas funcionan principalmente si estableces desde el principio que el juego no está equilibrado, por lo que cualquier cosa que puedas hacer más allá del daño será de gran ayuda.&lt;/p&gt;
+
+&lt;p&gt;Con estas acciones, hemos visto antagonistas arrojados de barcos, personajes trepando a autómatas para quitarles las piedras mágicas que les alimentan, jefes desarmados y obligados a escapar.&lt;/p&gt;
+
+&lt;p&gt;Personalmente, intentaría integrar todas estas cosas incluso si no fueran “reglas”, pero tenerlas escritas para los jugadores brinda un marco sobre lo que se necesitaría para que algo funcione.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Este es un tema para todas las reglas que estoy mencionando. Intentaría hacer algo similar de todos modos, es por eso que elegí y uso estas, son mi tipo de cosas. Pero en este juego donde las cosas están escritas, tener cosas escritas ayuda a todos a recordarlas, incluso si solo se leen una vez.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;cleaving-through-creatures-dmg-ch-9--mob-attacks-dmg-ch-8&quot;&gt;Cleaving through Creatures (DMG Ch. 9) &amp;amp; Mob Attacks (DMG Ch. 8)&lt;/h4&gt;
+
+&lt;p&gt;Cleave es muy bueno si te gustan las grandes hordas de criaturas: cualquier daño residual cae sobre alguien más.&lt;/p&gt;
+
+&lt;p&gt;Mob Attacks es su contraparte, es una forma de hacer menos tiradas cuando las hordas atacan, pero primero debes calcular un par de cosas. Es genial, pero a veces me toma un poco de tiempo calcular sin afectar el ritmo que trato de mantener en el juego; y para mí ese ritmo es muy importante.&lt;/p&gt;
+
+&lt;h4 id=&quot;massive-damage-dmg-ch-9--morale-dmg-ch-9&quot;&gt;Massive Damage (DMG Ch. 9) &amp;amp; Morale (DMG Ch. 9)&lt;/h4&gt;
+
+&lt;p&gt;Daño masivo significa que si una criatura recibe la mitad de sus Hit Points máximos como daño, ¡puedes tirar en una tabla y sucede algo! Tal vez estén aturdidos, tal vez mueran. Me gusta mucho, agiliza el combate para ambos lados. Lo mismo ocurre con Morale.&lt;/p&gt;
+
+&lt;p&gt;Una de las condiciones de Morale es “una criatura puede huir si es sorprendida” esta es una gran justificación para que los enemigos huyan del combate tan pronto como comience. Lo cual significa que las criaturas siguen luchando pero se empiezan a mover para escapar.&lt;/p&gt;
+
+&lt;p&gt;Esto es genial, obliga a todos a moverse, lo que fomenta los ataques de oportunidad y va cambiando las líneas de visión. Es más interesante que tener a todos reunidos en el centro de un cuarto y pelear.&lt;/p&gt;
+
+&lt;h4 id=&quot;flanking-dmg-ch-8&quot;&gt;Flanking (DMG Ch. 8)&lt;/h4&gt;
+
+&lt;p&gt;Flanquear es genial, eso es todo; tanto los monstruos como los jugadores pueden obtener ventaja en sus tiradas. Al contrario de lo que podrías pensar al principio, esto es especialmente efectivo cuando ejecutas algo al estilo Theatre of the Mind. Las personas se narrarán colocándose en posición y distrayendo a las criaturas, lo que le dará mucho sentido al Flanking, mientras que en el mapa simplemente arrastras al personaje a su posición.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;También cabe destacar Degrees of Failure, Success at a Cost and Background Proficiency. El DMG es muy difícil de leer, pero tiene muchas buenas ideas.&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;usar-muchos-elementos-aleatorios&quot;&gt;Usar muchos elementos aleatorios&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2022-05-05/random.jpg&quot; alt=&quot;Figura Ed Funko Pop de Cowboy Bebop rodeada de dados&quot; /&gt;
+&lt;em&gt;Muchos dados para muchas tablas aleatorias.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;El DMG, la Xanathar’s Guide to Everything y todos los libros de settings tienen tablas aleatorias, no muchas, pero varias. Las uso &lt;strong&gt;todas&lt;/strong&gt;. No hay una aventura planeada en nuestro juego, no tengo el tiempo ni la paciencia para hacerlo, pero hago mi mayor esfuerzo para conectar todo lo que está sucediendo e invitar a todos a hacer lo mismo.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Ohhh, tiré que un Owlbear les está persiguiendo, probablemente es hostil porque antes tiré un grupo de bandidos quienes seguramente le asustaron.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Si te gustan las aventuras planeadas y pensar en todos los resultados posibles, me gustaría estudiar tu cerebro, el mío simplemente no funciona así. Además, cada vez que he visto el intento de hacer mucha planificación, he visto que se descarriló significativamente de cualquier forma.&lt;/p&gt;
+
+&lt;p&gt;Cuando tiro e improviso un grupo de villanos que la partida logra evitar, frecuentemente se queda en mi cabeza y empieza a convertirse en algo más grande. Así empezó el BBEG de nuestra campaña.&lt;/p&gt;
+
+&lt;p&gt;Conforme continua la campaña, me he visto tirando cada vez menos en las tablas aleatorias porque ahora tengo una idea más sólida del mundo que hemos creado, por lo que es más fácil establecer cosas en el momento o usar cosas que se habían establecido/tirado antes.&lt;/p&gt;
+
+&lt;p&gt;Mis dos mayores consejos sobre el uso de tablas aleatorias son:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Deja claro que estás tirando en tablas e integrando/improvisando en el acto. No intentes fingir que sabes que va a pasar, cuando las personas piensan que tienes el resultado preparado, estarán menos dispuestas a hacer lo que quieren por miedo a estropear tus planes.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Las tablas son sugerencias, no elementos estrictos. Una vez tiré: dirigible, beholder y zombies. Entonces, piratas aéreos aparecieron con un zombie beholder amarrado al frente de su dirigible como arma principal del navío. No sabía que eso iba a pasar en la sesión, fue extremadamente genial.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Además del DMG y XGE, hay muchas revistas y libros de ediciones anteriores con tablas aleatorias. No necesitas convertir este contenido o preocuparse por el equilibrio, solo los está usando para agregar cosas al mundo.&lt;/p&gt;
+
+&lt;p&gt;Intenta tirar. Un buen efecto secundario es que cuando estás narrando el juego estarás tan sorprendidx como el resto de la mesa por lo que está pasando.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;deja-que-cada-quien-encuentre-su-propia-diversión&quot;&gt;Deja que cada quien encuentre su propia diversión&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;No mostrados: muchos memes en nuestro discord compartidos durante el juego.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Mi precepto más importante es &lt;strong&gt;todos en la mesa son responsables de su propia diversión.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Esto significa que yo no estoy allí para hacer un espectáculo para entretener a lxs jugadorxs, y no me estoy divirtiendo a expensas de ellxs. Más bien, nos animo a todxs a integrar las cosas que hacen el juego divertido para cada quien.&lt;/p&gt;
+
+&lt;p&gt;Para mí, eso ha significado aprender cómo funcionan las probabilidades de apuestas para arreglar un torneo en el universo.&lt;/p&gt;
+
+&lt;p&gt;Para el resto de la mesa significa que uno de nuestros PC está obsesionado con crear el sándwich perfecto. Otro es un viejo mago chiflado al que le resulta difícil ser útil a propósito. Tenemos un clérigo que se toma todo muy en serio y una ranger que quiere ser un superhéroe, y esos últimos son lxs que se meten en problemas más a menudo.&lt;/p&gt;
+
+&lt;p&gt;Incluso con esta combinación de intereses, todos contribuimos a alcanzar un tono consistente, a menudo el de las caricaturas del sábado por la mañana, que es muy agradable para todxs nosotrxs.&lt;/p&gt;
+
+&lt;p&gt;Cuando hay espacio para sus intereses, y ven esos intereses antepuestos a “la historia”, las personas se sienten cómodas esperando su momento para contribuir. Es el grupo sí, pero también es el ambiente que cultivas.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;narrando-a-mi-manera&quot;&gt;Narrando a mi manera&lt;/h3&gt;
+
+&lt;p&gt;No estoy diciendo que debas jugar el juego “a mi manera”, estoy diciendo que debes encontrar la forma en que tiene sentido para ti narrarlo. Para mí, eso es crear el mundo colaborativamente, fomentar el meta-juego y, con frecuencia, subir levantar el telón de lo que estoy haciendo.&lt;/p&gt;
+
+&lt;p&gt;También narro mucho usando theatre of the mind para el combate. He notado que cuando usamos un mapa existe la sensación de que esto es todo lo que existe; cuando no hay un mapa, la gente pregunta muchas cosas sobre el entorno y luego hace uso de las cosas descritas.&lt;/p&gt;
+
+&lt;p&gt;Importar conceptos de otros juegos es una de las cosas que también uso mucho:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A veces tiro 2d6 para determinar el resultado, de Apocalypse World&lt;/li&gt;
+  &lt;li&gt;A menudo pienso en términos de posición y efecto de Blades in the Dark, y he usado el engagement roll 0de sus reglas.&lt;/li&gt;
+  &lt;li&gt;He usado el sistema de misterios de Brindlewood Bay.&lt;/li&gt;
+  &lt;li&gt;Tenemos algunos relojes, de muchos otros juegos.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Hemos ido tan lejos como para jugar con lxs mismxs personajes pero en un mundo diferente, a menudo dirigido por uno de los jugadores, y a veces jugando con lxs mismxs personajes y el mismo mundo pero en un juego diferente (nuestras dos sesiones de Pasión de las Pasiones fueron una locura).&lt;/p&gt;
+
+&lt;p&gt;Pero todas estas cosas solo funcionan porque hablamos de las expectativas con anticipación y trato de cambiar cambiar súbitamente las condiciones para lxs jugadorxs. Hay muchas sorpresas en nuestro juego, pero son sorpresas para todos, no sorpresas preparadas por mí.&lt;/p&gt;
+
+&lt;p&gt;Sé que tal vez quieras tener ese momento de revelación, pero te garantizo que si dejas en claro que habrá una revelación, funcionará mejor. Cuando vas a un espectáculo de magia, sabes que algo desaparecerá y aparecerá en otro lugar, si no lo supieras con anticipación, sería confuso.&lt;/p&gt;
+
+&lt;p&gt;Mi consejo final es recordar que &lt;a href=&quot;https://apocalypse-world.com/&quot;&gt;los juegos de rol son una conversación,&lt;/a&gt; no lo conviertas en un monólogo. Integra al resto del grupo. Para reiterar, estás jugando un juego, no realizando un espectáculo.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;el-lado-malo&quot;&gt;El lado malo&lt;/h3&gt;
+
+&lt;p&gt;Estas recomendaciones y reglas no son para todxs y, en algunos casos particulares, pueden incluso reducir la accesibilidad. Por ejemplo, yo narro mucho usando theatre of the mind, pero algunas personas necesitan, no quieren, necesitan el mapa debido a cómo entienden el espacio.&lt;/p&gt;
+
+&lt;p&gt;Desde la perspectiva particular de narrar el juego, puede que no dedique mucho tiempo a preparar una sesión, pero pienso mucho en &lt;em&gt;cómo ejecuto el juego&lt;/em&gt;. Mi tiempo de preparación es de unos 20 minutos a la semana, pero paso horas leyendo otros juegos, blogs y escuchando podcasts. Y cada vez que juego una PC hago un esfuerzo muy activo para aprender de la persona que esta narrando.&lt;/p&gt;
+
+&lt;p&gt;Esta inversión de tiempo puede ser demasiado para algunas personas, para quienes probablemente sería mucho más fácil tratar de emular el estilo de alguien más.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;el-futuro&quot;&gt;El futuro&lt;/h3&gt;
+
+&lt;p&gt;Los personajes ahora son nivel 13. Y siento que hay algo que debe cambiar. Del nivel 1 al 11, todo este estilo funcionó muy bien, pero ahora siento fricción en el juego y no se bien de dónde viene. Se de que se debe a que algo cambió en la progresión de personajes, por ejemplo, ahora los hechizos tardan mucho en leerse y en que acordemos el efecto. Pero todavía estoy tratando de entender.&lt;/p&gt;
+
+&lt;p&gt;Sé que la idea de retirar un personaje de nivel ~15 es algo que mi pareja anhela y me gustaría ayudarla a alcanzar ese punto. En el frente de la “historia” hemos estado uniendo muchas tramas y llegando a un punto en el que todos los elementos aleatorios convergen, así que me siento con confianza de que la campaña llegará a una conclusión natural. Solo quiero llegar a ese punto de la mejor manera posible.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;!--OUTRO--&gt;
+&lt;p&gt;¡Gracias por leer! Si te gustó esta publicación y quieres apoyarme, echa un vistazo a &lt;a href=&quot;https://bit.ly/ArcaneMoon&quot;&gt;Arcane Moon&lt;/a&gt;, una aventura de D&amp;amp;D inspirada en el anime Magical Girl de los 90, publicada en DMs Guild. ¡O descarga gratis mi playset para Fiasco Classic &lt;a href=&quot;https://bit.ly/BuscaUnProblema&quot;&gt;Busca Un Problema&lt;/a&gt; en Itch.io!&lt;/p&gt;
+
+&lt;p&gt;También puedes leer &lt;a href=&quot;/2020/12/29/inciting-incident.html&quot;&gt;The Dwendalian War Inciting Incident&lt;/a&gt;, el encuentro que inició la guerra en mi campaña de Wildemount. Y puedes leer sobre cómo manejo un dungeon al estilo Zelda &lt;a href=&quot;/2021/02/13/dungeon-advice.html&quot;&gt;aquí.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;¡Finalmente puedes seguirme en &lt;a href=&quot;https://dice.camp/@darkade&quot;&gt;@darkade&lt;/a&gt;! ¡Gracias por leer!&lt;/p&gt;
+
+&lt;!--Custom CSS--&gt;
+
+&lt;!--Internal-Links--&gt;
+
+&lt;!--Self Promo--&gt;
+&lt;!--Images--&gt;
+
+&lt;!--Credits--&gt;
+
+&lt;!--External-Links--&gt;</content><author><name>Anya Reyes</name></author><category term="ES" /><summary type="html">Tengo sentimientos encontrados sobre Dungeons &amp;amp; Dragons, durante años no me gustó, luego hace dos años, casi al día, leí los PHB y DMG de 5e y… tuve opiniones al respecto. Sentí que el juego, tal como lo había visto jugado, en realidad no era una buena representación de 5e, que nadie estaba leyendo los libros. Era el comienzo de la pandemia, y mi pareja, que es fanática, quería jugar a D&amp;amp;D con sus amigos de internet, así que me aguanté y comencé a masterear 5e. En junio esa campaña cumplirá 24 meses y aun continua.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://anya.reyescon.de/assets/2022-05-05/computadora.jpg" /><media:content medium="image" url="https://anya.reyescon.de/assets/2022-05-05/computadora.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How I have run D&amp;amp;D for two years</title><link href="https://anya.reyescon.de/en/2022/05/04/running-dnd.html" rel="alternate" type="text/html" title="How I have run D&amp;amp;D for two years" /><published>2022-05-04T00:00:00+00:00</published><updated>2022-05-04T00:00:00+00:00</updated><id>https://anya.reyescon.de/en/2022/05/04/running-dnd</id><content type="html" xml:base="https://anya.reyescon.de/en/2022/05/04/running-dnd.html">&lt;!--INTRO--&gt;
+&lt;p&gt;I have mixed feelings about Dungeons &amp;amp; Dragons, for years I didn’t liked it, then two years ago, almost to the day, I read 5e’s PHB and DMG and I… had opinions about it. I felt the game, as I had seen it played, was not actually a good representation of 5e, that nobody was actually reading the books. It was the start of the pandemic, and my partner, who is a fan, wanted to play D&amp;amp;D with her online friends, so I bit the bullet and I began running 5e. In June that campaign will be 24 months and going.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2022-05-05/computadora.jpg&quot; alt=&quot;Two computer screens. A 5e DM screen several dice and a microphone&quot; /&gt;&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;&lt;em&gt;It usually is in much more disarray&lt;/em&gt;&lt;/p&gt;
+
+&lt;!--ABSTRACT--&gt;
+
+&lt;p&gt;I still not a D&amp;amp;D fan, but I found my own ways to enjoy it and have fun with my group. But that happened because I approached the game expecting not to like it and found what I didn’t liked was the way it’s run.&lt;/p&gt;
+
+&lt;p&gt;So, for two years I’ve ran 5e the way it makes sense to me: (a) close to the book, (b) using a lot of random elements, (c) letting everyone find their own fun inside the game.&lt;/p&gt;
+
+&lt;h3 id=&quot;running-the-game-close-to-the-book&quot;&gt;Running the game close to the book&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2022-05-05/libros.jpg&quot; alt=&quot;The three D&amp;amp;D 5e core rule books&quot; /&gt;
+&lt;em&gt;My partner’s. I run all digital.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;When I read both the PHB and DMG from cover to cover I found a game that wasn’t about published adventures, instead a game that put a lot of emphasis on building a world. The DMG in particular has a whole chapter on world building, that’s as poorly written as it is ambitious. Beyond that the game offers a lot of advice on how to adjudicate many situations (yes, up to and including social ones) and advices the use of Degrees of Failure and Success at a Cost, whose inclusion will take a lot of people by surprise, who asume everything is pass/fail.&lt;/p&gt;
+
+&lt;p&gt;So I began running the game as the game advised with the expectation to find what wouldn’t work for us later. This is all the game’s advice we actively use.&lt;/p&gt;
+
+&lt;h4 id=&quot;plot-points-dmg-ch-9&quot;&gt;Plot Points (DMG Ch. 9)&lt;/h4&gt;
+
+&lt;p&gt;This is the big one. Each player gets a Plot Point for that session to establish something about the world, usually a beneficial thing, then I roll to choose somebody else who will add a bad side effect to the established fact.&lt;/p&gt;
+
+&lt;p&gt;The players have used it to establish ways to escape, incoming dragons, enemies being defeated, to survive death. It seems overpowered, but there’s a couple sides to it.&lt;/p&gt;
+
+&lt;p&gt;From my perspective running the game, it very clearly establishes what the players want out of the current situation:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;they fear death, so they establish a way to escape&lt;/li&gt;
+  &lt;li&gt;they want to feel badass, so they establish a big effect for a spell&lt;/li&gt;
+  &lt;li&gt;they are getting bored, so they bring in a big antagonist into the situation&lt;/li&gt;
+  &lt;li&gt;they want avoid the bbeg dinner scene, so an unexpected guest shows up&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Afterwards, I now know the energy of the scene, or what the players want from the rest of the session.&lt;/p&gt;
+
+&lt;p&gt;The challenge for me it’s to integrate the detail, it will happen during this scene, I just have to think how. I usually ask for a minute think it through and then I come up with the description.&lt;/p&gt;
+
+&lt;p&gt;From the player perspective, they get to own the world. Some of the most significant elements of our campaign have been established this way. They also get to push forward the action, or press pause on it.&lt;/p&gt;
+
+&lt;p&gt;Player become empowered to directly affect the pacing and increase the stakes of the game, they don’t have to keep to themselves the big things they want to see, they get to just see them. And the fact that this contribution is mechanized makes it never never feel out of place.&lt;/p&gt;
+
+&lt;p&gt;From the balance perspective, I wouldn’t say it’s balanced, but it certainly isn’t so: &lt;strong&gt;people want to play the game.&lt;/strong&gt; If that means their characters get scratch or even lose an arm that’s what they want, that’s the game, but they prefer to see it coming.&lt;/p&gt;
+
+&lt;p&gt;In my experience the negative consequences players establish are almost always worse than anything I had thought of, they like to see if they make it to the other side on their own terms. They will even use plot points to establish harsher conditions for themselves without any positives.&lt;/p&gt;
+
+&lt;h4 id=&quot;resolving-interactions-dmg-ch-8&quot;&gt;Resolving Interactions (DMG Ch. 8)&lt;/h4&gt;
+
+&lt;p&gt;All NPCs and organizations that might be of use to the characters have an attitude towards the party, so convincing them to provide help would be easier or harder accordingly, and the extent they would provide help would also vary depending on their attitude. You might as well call this &lt;a href=&quot;https://bladesinthedark.com/action-roll&quot;&gt;Position and Effect.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I don’t do this step by step each time, but it does provide a framework, and a reason, for &lt;strong&gt;CHA (Persuasion)&lt;/strong&gt; rolls within the fiction which otherwise can feel very dissonant.&lt;/p&gt;
+
+&lt;h4 id=&quot;action-options-dmg-ch-9&quot;&gt;Action Options (DMG Ch. 9)&lt;/h4&gt;
+
+&lt;p&gt;All of these are available in our game but, Climb onto a Bigger Creature, Disarm, Shove Aside and Tumble are the ones that get the most use.&lt;/p&gt;
+
+&lt;p&gt;I think these work mostly if you establish from the beginning that the game is not balanced, so anything you can do beyond damage will go a long way.&lt;/p&gt;
+
+&lt;p&gt;With these actions we’ve seen antagonists thrown off ships, characters climbing onto automatons to pull the magical stones that power them, bosses being disarmed and forced to escape.&lt;/p&gt;
+
+&lt;p&gt;All of these things I would try to integrate even if they weren’t “rules” but having them written down for players gives a framework on what would it take for a thing to work.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;This is a theme for all of the rules I’m mentioning. I would try to do something akin anyway, that’s why I picked and use these, they are my kind of thing. But in this game where things are written down, having things written down helps everyone to remember them, even if they just get read once.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;cleaving-through-creatures-dmg-ch-9--mob-attacks-dmg-ch-8&quot;&gt;Cleaving through Creatures (DMG Ch. 9) &amp;amp; Mob Attacks (DMG Ch. 8)&lt;/h4&gt;
+
+&lt;p&gt;Cleave is extremely good if you like big hordes of creatures: any residual damage lands on someone else.&lt;/p&gt;
+
+&lt;p&gt;Mob Attacks are the counter part, it’s a way to roll less when hordes attack, but you have to calculate a couple of things first. It’s cool but I find sometimes it takes a bit long to calculate without messing the pace I try to keep; and for me pacing is very important.&lt;/p&gt;
+
+&lt;h4 id=&quot;massive-damage-dmg-ch-9--morale-dmg-ch-9&quot;&gt;Massive Damage (DMG Ch. 9) &amp;amp; Morale (DMG Ch. 9)&lt;/h4&gt;
+
+&lt;p&gt;Massive Damage means that if a creature takes half their maximum hit points as damage you get to roll on a table and something happens! Maybe they are stunned, maybe they die. I love this one, it streamlines combat for both sides. Same goes for Morale.&lt;/p&gt;
+
+&lt;p&gt;One of the Morale conditions is “a creature might flee if it’s surprised” this is a great justification to have enemies flee the combat as soon as it starts. This means creatures keep fighting but they are moving to escape.&lt;/p&gt;
+
+&lt;p&gt;This great, it forces everyone to move, which encourages opportunity attacks, and keeps changing lines of sight. It’s more interesting than having everyone meet in the centre of the room and fight it out.&lt;/p&gt;
+
+&lt;h4 id=&quot;flanking-dmg-ch-8&quot;&gt;Flanking (DMG Ch. 8)&lt;/h4&gt;
+
+&lt;p&gt;Flanking is cool, that’s it; both monsters and players can get advantage on their rolls. Contrary to what you might first think this is specially effective when you run something Theatre of the Mind style. People will narrate themselves getting into position and distracting creatures giving flaking a lot of sense, while in the map you just drag the character into position.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Also of note Degrees of Failure, Success at a Cost and Background Proficiency. The DMG is a very hard read, but it’s got many good ideas.&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;using-lots-of-random-elements&quot;&gt;Using lots of random elements&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2022-05-05/random.jpg&quot; alt=&quot;Cowboy Bebop's Ed Funko Pop Figure surrounded by dice&quot; /&gt;
+&lt;em&gt;Lots of dice for lots of random tables.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The DMG, Xanathar’s Guide to Everything and all setting books have several random tables, not a lot, but several. I use them &lt;strong&gt;all.&lt;/strong&gt; There is no planned adventure in our game, I don’t have the time or patience to do so, but I make my biggest effort to connect everything that’s happening and invite everyone to do the same.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Ohhh I rolled that an owlbear will be chasing you, it’s probably being hostile because earlier I rolled a party of bandits and they scared it.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;If you like pre-planed adventures, and thinking about every possible outcome I truly want to study your brain, mine simply doesn’t work like that. Moreover, every time I’ve seen the heavy planning thing tried I’ve seen it significantly derailed anyway.&lt;/p&gt;
+
+&lt;p&gt;When I roll and improvise a villainous group that the party manages to avoid that often begins brewing in my head and turns into something bigger. This is how the BBEG of our campaign started.&lt;/p&gt;
+
+&lt;p&gt;As the campaign goes on I’ve found myself rolling less and less on the random tables because I now have a stronger idea of the setting we’ve created, so it’s easier to either establish stuff on the moment, or pull from stuff already established/previously rolled.&lt;/p&gt;
+
+&lt;p&gt;My two biggest advice on using random tables are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Make it clear you are rolling on tables and integrating/improvising on the spot. Don’t make the effort to present yourself as knowing the outcome, when people think you have the outcome prepared they are less willing to do what they want out of fear to mess up with your plans.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The tables are suggestions, not strict elements. I once rolled: airship, beholder and zombie. So sky pirates showed up with a zombie beholder attached to the front of their vessel as the ship’s primary weapon. I didn’t knew that was coming, and it was extremely cool.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Besides the DMG, and XGE, there’s plenty of zines and past edition books with random tables. You don’t need to convert this content and worry about balance, you are just using these to add stuff to the world.&lt;/p&gt;
+
+&lt;p&gt;Try rolling for it. A nice side effect is that when you are running the game you’ll be as surprised as the rest of the table are by what’s happening.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;let-everyone-find-their-own-fun&quot;&gt;Let everyone find their own fun&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Not shown: a lot of memes in our discord shared during play.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;My most important precept is &lt;strong&gt;everyone at the table is responsible for their own fun.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This means I’m not there to perform a show to amuse the players, and I’m not having fun at the expense of them. Rather I encourage us all to bring in the things that make it fun for us.&lt;/p&gt;
+
+&lt;p&gt;For me that has meant learning how betting odds works to fix a tournament in-universe.&lt;/p&gt;
+
+&lt;p&gt;For the rest of the table it means one of our PC’s is obsessed about creating the perfect sandwich. Another one is an old wacky wizard that finds it hard to be useful on purpose. We have a cleric that’s very serious about everything and a ranger that wants to be a super hero, and those two are the ones that get in trouble most often.&lt;/p&gt;
+
+&lt;p&gt;Even with this disarray of interests we all contribute to reach a consistent tone, often that of Saturday morning cartoons, that’s very enjoyable to all of us.&lt;/p&gt;
+
+&lt;p&gt;When there’s space for their interests, and see those interests put ahead of “the story” people feel comfortable waiting for their moment to contribute. It’s the group yes, but it’s also the atmosphere you cultivate.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;running-it-my-way&quot;&gt;Running it my way&lt;/h3&gt;
+
+&lt;p&gt;I’m not saying you should your the game “my way” I’m saying you should find the way it makes sense for you to run it. For me that’s a lot of collaborative world building, encouraging so called meta-gaming, and frequently rising the curtain on what I am doing.&lt;/p&gt;
+
+&lt;p&gt;I also run a lot of theatre of the mind for combat. I have noticed when we use a map there’s the feeling that this is all that exists; when there isn’t a map people will ask a lot of things about the environment and then make use of the things described.&lt;/p&gt;
+
+&lt;p&gt;Importing concepts from other games is one of the things I also use a lot:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Sometimes I’ll roll 2d6 to determine outcome, from Apocalypse World&lt;/li&gt;
+  &lt;li&gt;I often think in terms of position and effect from Blades in the Dark, and I have used the engagement roll from it’s rules&lt;/li&gt;
+  &lt;li&gt;I’ve used Brindlewood Bay’s mystery system&lt;/li&gt;
+  &lt;li&gt;We have some clocks, from a plethora of other games&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We have gone as far as playing the same characters but in a different world, often ran by  one of the players, and sometimes playing the same characters and world but in a different game (our two sessions of Pasión de las Pasiones were insane).&lt;/p&gt;
+
+&lt;p&gt;But all of these things, only work because we talk about expectations ahead of time and I try not to pull the rug on the players. There’s plenty of surprises in our game, but they are surprises to everyone, not surprises I prepared.&lt;/p&gt;
+
+&lt;p&gt;I know you might want to get that moment of reveal, but I guarantee you if you make it clear that there will be a reveal, it will work better. When you go to a magic show you’ll know something will disappear and appear somewhere else, if you didn’t knew that ahead of time it would just be confusing.&lt;/p&gt;
+
+&lt;p&gt;My final advice is to remember that &lt;a href=&quot;https://apocalypse-world.com/&quot;&gt;role playing games are a conversation,&lt;/a&gt; don’t make it a monologue. Integrate the rest of the group. To reiterate, you are playing a game, not performing a show.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;the-down-side&quot;&gt;The down side&lt;/h3&gt;
+
+&lt;p&gt;These recommendations and rules are not for everyone, and in some particular cases might even reduce accessibility. For example, I run theatre of the mind, but some people need, not want, need the map because of how they understand space.&lt;/p&gt;
+
+&lt;p&gt;From the particular perspective of running the game, I might not spend a lot of time preparing a session, but I think a lot about &lt;em&gt;how I run the game.&lt;/em&gt; My prep time is about 20 minutes per week, but I spend hours reading other games, blogs and listening to podcasts. And whenever I play a PC I make a very active effort to to learn from the person running it.&lt;/p&gt;
+
+&lt;p&gt;This time investment might be too much for some people, for whom it probably would be much easier to try to emulate somebody else’s style.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;the-future&quot;&gt;The future&lt;/h3&gt;
+
+&lt;p&gt;The characters are now at level 13. And I feel like there’s something that needs to change. From level 1 to 11 all of this style was working very smoothly, but now I feel friction in the game and I’m not sure where it comes. I’m sure it’s because of how something scaled in character progression, for example spells take a long time to read and agree on their effect now. But I’m still trying to figure it out.&lt;/p&gt;
+
+&lt;p&gt;I know the idea of retiring a level ~15 character is something my partner yearns for, and I’d like to help her reach that point. In the “story” front we have been tying a lot of plots threads and reaching a point when all of the random elements are converging together, so I’m sure the campaign will reach a natural conclusion. I just want to reach that point in the best way we can.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;!--OUTRO--&gt;
+&lt;p&gt;Thank you for reading! If you liked this post and want to support me check out &lt;a href=&quot;https://bit.ly/ArcaneMoon&quot;&gt;Arcane Moon&lt;/a&gt;, a D&amp;amp;D adventure inspired by 90s Magical Girl anime, published at DMs Guild. Or download for free my Fiasco Classic playset &lt;a href=&quot;https://bit.ly/BuscaUnProblema&quot;&gt;Busca Un Problema&lt;/a&gt; at Itch.io!&lt;/p&gt;
+
+&lt;p&gt;You can also read &lt;a href=&quot;/2020/12/29/inciting-incident.html&quot;&gt;The Dwendalian War Inciting Incident&lt;/a&gt; the encounter that started the war in my Wildemount campaign. And you can read about how I run a Zelda style dungeon &lt;a href=&quot;/2021/02/13/dungeon-advice.html&quot;&gt;here.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Finally you can follow me &lt;a href=&quot;https://dice.camp/@darkade&quot;&gt;@darkade&lt;/a&gt;! Thanks for reading!&lt;/p&gt;
+
+&lt;!--Custom CSS--&gt;
+
+&lt;!--Internal-Links--&gt;
+
+&lt;!--Self Promo--&gt;
+&lt;!--Images--&gt;
+
+&lt;!--Credits--&gt;
+
+&lt;!--External-Links--&gt;</content><author><name>Anya Reyes</name></author><category term="EN" /><summary type="html">I have mixed feelings about Dungeons &amp;amp; Dragons, for years I didn’t liked it, then two years ago, almost to the day, I read 5e’s PHB and DMG and I… had opinions about it. I felt the game, as I had seen it played, was not actually a good representation of 5e, that nobody was actually reading the books. It was the start of the pandemic, and my partner, who is a fan, wanted to play D&amp;amp;D with her online friends, so I bit the bullet and I began running 5e. In June that campaign will be 24 months and going.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://anya.reyescon.de/assets/2022-05-05/computadora.jpg" /><media:content medium="image" url="https://anya.reyescon.de/assets/2022-05-05/computadora.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
