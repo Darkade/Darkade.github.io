@@ -111,7 +111,7 @@ La segunda parte de la sesión tendremos una misión generada a con los mecanism
 
 **Segundo.** Tengo que hacer que mis componentes sean más de propósito general. La versión actual fue desarrollada específicamente con siete playbooks y siete aviones en mente. Si creamos personajes en la mesa, los componentes van a tener compatibles con todos los playbooks y aviones. Va a tomar trabajo pero ya están al 95%
 
-**Third.** Si bien mi intención no es dirigir específicamente juegos para niñxs o adolescentes, entiendo que es probable que vuelva a suceder en eventos similares. Podría optar por poner restricciones de edad, como lo hice con "Visigoths vs Mall Goths". Ese juego se centra en personajes adolescentes y sus interacciones románticas, lo cuale consideré que deberían limitarse a interacciones entre jugadores adultos, siendo yo misma mayor de edad.
+**Tercero.** Si bien mi intención no es dirigir específicamente juegos para niñxs o adolescentes, entiendo que es probable que vuelva a suceder en eventos similares. Podría optar por poner restricciones de edad, como lo hice con "Visigoths vs Mall Goths". Ese juego se centra en personajes adolescentes y sus interacciones románticas, lo cuale consideré que deberían limitarse a interacciones entre jugadores adultos, siendo yo misma mayor de edad.
 
 Flying Circus involucra sustancias y explora temas maduros, pero de una manera que nos permite no concentrarnos en eso. Se trata más de explorar las razones que tienen los personajes para hacer esto, no tanto de representarlas de manera explícita. Por eso no consideré restringir edades para la sesión.
 
