@@ -29,16 +29,16 @@ Through this I'll be using the Act-Scene terminology from the adventure to make 
 For starters let's being right before `Act I Scene Three`, the hook is very clear:
 
 > A couple hours ago your group ~~caravan?~~ saw a vertibird fall from the sky just to the other side of those hills. There was no smoke, neither did you saw the aircraft be attacked it "just fell" in a spiral. Whatever could be salvaged from an intact vertibird, well besides the damage from the fall, would go for a fair amount of caps. There's no time to lose.
-
-The characters approach the site of the crash just behind a hill and hear the laser fire being exchanged. They haven't been seen but they hear the familiar buzz of an eyebot coming their way.
+>
+> The characters approach the site of the crash just behind a hill and hear the laser fire being exchanged. They haven't been seen but they hear the familiar buzz of an eyebot coming their way.
 
 I think this instantly sets a count down on the adventure, instead of the characters being randomly asked to go check the site they are a) on a race to the crash site, even if you skip it, and b) pressed to do something, they are about to be seen.
 
-Whether Knight Layton makes it or not is less important because Scribe Portano will be safe and sound at Listen Point Echo. The characters hear the vertibird radio go off and no one answering but Layton is firing back at the protectrons, she's trapped by the debris.
+Whether _Knight Layton_ makes it or not is less important because _Scribe Portano_ will be safe and sound at _Listen Point Echo_. The characters hear the vertibird radio go off and no one answering but Layton is firing back at the protectrons, she's trapped by the debris.
 
 The encounter follows whatever beats should fall but by the end the characters pick up the radio and get all the information from `Act I Scene One` from Scribe Portano.
 
-Both time I ran the adventure the characters tried to deactivate the protectrons by removing their onboard speakers. I managed it as they deactivating for a round and then reactivating in "safe mode" and instantly walking towards Joint Base Lewiston at a very slow pace. This didn't result in skipping Bleakford, but it might and if it does then the straight line way from the crash site to Lweiston is where I would place Kullen Bridge
+Both times I ran the adventure the characters tried to deactivate the protectrons by removing their onboard speakers. I managed it as they deactivating for a round and then reactivating in "safe mode" and instantly walking towards _Joint Base Lewiston_ at a very slow pace. This didn't result in skipping _Bleakford_, but it might and if it does then the straight line way from the crash site to _Lweiston_ is where I would place _Kullen Bridge._
 
 ---
 
@@ -52,11 +52,13 @@ I think this change is necessary because otherwise the Knights arrive out of now
 
 Lewiston. If the characters disabled and let the protectrons walk, they pass the robots just as they enter the base, they could serve as reinforcements for either side! Instead of the Knights being at the gates of the base I think they should be inside with some of them dead and many destroyed protectrons, maybe even a destroyed sentry bot. The characters arrive to see Dr. Testridge plugging into the machine and the Knights still engaged in combat. So there's a decision: either help the Knights and risk whatever Testridge is doing go on, or stop Testridge and run into the crossfire, which should be crossfire and thus risky IMO, let it play out.
 
-At this point you have skipped either Kullen Bridge or Bleakford, and the very dry introduction and ran:
-- Combat or a creative solution to get rid of the protectrons
-- Either exploration or travel, depending on what you skipped
-- A high stakes encounter
+---
 
+At this point you have skipped either Kullen Bridge or Bleakford, and the very dry introduction, and ran:
+- Combat or a creative solution to get rid of the protectrons
+- Either exploration (Bleakford) or travel (Kullen), depending on what you skipped
+- A high stakes encounter
+ 
 I think this is a good sampler of what the game has to offer that puts the characters in the center instead of The Brotherhood of Steel. It's not too many changes but more of a rearrangement of the adventure that cuts the dull parts. You also have a major location with Lewiston, have a reason to go check on the settlements that went offline, you have presented two of the major factions of the game and now have "a voice" on Scripe Portano, who can be reached at Listen Point Echo.
 
 ---
