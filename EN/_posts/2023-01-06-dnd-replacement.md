@@ -17,13 +17,13 @@ _Our physical games collection_
 
 <!--more-->
 
-Ok that's click bait right? Pathfinder, with that out of the way. In my experience a lot of OSR, NSR and whateverSR games are focused in getting to play right now. Having read Old School Essentials, yes that sort of captures the spirit of the old game. But a lot of modern gamers don't really want to play, they want to imagine themselves playing their cool idea of a character.
+Ok that's click bait right? Pathfinder, with that out of the way. In my experience a lot of OSR, NSR and whateverSR games are focused in getting to play right now. Having read Old School Essentials, yes that sort of captures the spirit of the old game. But I've found a lot of modern gamers don't really want to play, they want to imagine themselves playing their cool idea of a character.
 
 <!--ABSTRACT-->
 
 A lot of gamers want to imagine their dnd characters concepts and spend a lot of time thinking of builds, and then (the most committed ones) will actually build the character with a lot of care of how to _legally_ circumvent rules and thinking of great magical items that would work for that character. And for this 5e is amazing, there's a million options, a thousand that wouldn't work for most tables, and a hundred that no one will actually take, all of which _can_ take hours if not days.
 
-Meanwhile, the rest of us with our [Mörk Borgs][Mörk Borg], [Knaves][Knave] and [Troikas][Troika] are arguing for actually playing. The best you can do to actually play is get a concept in one or two sentences and either roll or distribute attributes pick one or two things and get to play in twenty minutes.
+Meanwhile, the rest of us with our [Mörk Borgs][Mörk Borg], [Knaves][Knave] and [Troikas][Troika] are arguing for actually playing: the best you can do to actually play is get a concept in one or two sentences and either roll or distribute attributes pick one or two things and get to play in twenty minutes.
 
 To me, twenty minutes sounds much better than a couple of hours. But to the many people who enjoy building characters twenty minutes means **there's no hobby to be enjoyed.**
 
