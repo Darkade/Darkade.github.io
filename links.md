@@ -64,7 +64,7 @@ links:
 projects:
   - Yonder:
     text: Yonder Dice Roller
-    tagline: Magical Girl
+    tagline: A free dice roller for Google SHeets
     alt: An screenshot showing a google sheets extension
     description: Yonder is a digital dice roller that works within Google® Sheets. If you use spreadsheets as character sheets this is the roller for you!
     img: /assets/links/Yonder.png
@@ -72,9 +72,19 @@ projects:
       - bitly:
         text: Google Marketplace
         url: https://bit.ly/3MfBnLK
+  - Exquisite Corpse:
+    text: Exquisite Corpse
+    tagline: An art installation by the Exquisite Society
+    alt: Cover showing multiple planets connected by a bridge and the title of the adventure, Exquisite Corpse
+    description: "An adventure made by seven different authors working in isolation in the same project. Inspired by the exquisite corpse collaboration method."
+    img: /assets/links/exquisite_corpse.jpg
+    links:
+      - bitly:
+        text: DriveThruRPG
+        url: https://www.drivethrurpg.com/product/419562/Exquisite-Corpse-An-Art-Installation-by-the-Exquisite-Society?affiliate_id=435266
   - Arcane Moon:
     text: Arcane Moon
-    tagline: Magical Girl
+    tagline: Magical Girl Adventure
     alt: A cover showing a wizard woman skipping forward with the title Arcane Moon
     description: "Arcane Moon is an introductory adventure inspired by 90s Magical Girl anime. It's a story of love, friendship, treason and big villains!"
     img: /assets/links/Arcane Moon Thumbnail-1.png
@@ -84,7 +94,7 @@ projects:
         url: https://bit.ly/ArcaneMoon
   - Busca un problema:
     text: Busca un Problema
-    tagline: Magical Girl
+    tagline: Una mala noche en Ciudad de México
     alt: A cover depicting three night arial shots of Mexico City with the title Busca un Problema
     description: Busca Un Problema is a Playset for Fiasco Classic inspired by 2000s Mexican dark comedies, like Matando Cabos, Nicotina and Rudo y Cursi.
     img: /assets/links/BuscaUnProblema-thumbnail.png
