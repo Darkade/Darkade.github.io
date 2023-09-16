@@ -9,6 +9,7 @@ description: >-
 url: https://anya.reyescon.de
 theme: darkade.github.io-theme
 lang: es_MX
+showlogo: true
 
 defaults:
   -
