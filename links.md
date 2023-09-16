@@ -11,7 +11,7 @@ links:
   - rss:
     text: My RSS feed!
     icon: rss
-    url: https://anya.reyescon.de/feed
+    url: https://darkade.quest/feed
   - yonder:
     text: Yonder Dice Roller
     icon: dice-d20
@@ -55,7 +55,7 @@ links:
   - website:
     text: My website!
     icon: link
-    url: https://anya.reyescon.de/
+    url: https://darkade.quest/
   - twitter:
     text: "@Darkade"
     icon: twitter

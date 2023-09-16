@@ -5,7 +5,7 @@ title: Yonder Dice Roller for Sheets
 
 ## Terms of Service
 
-These terms govern use of the site hosted at https://anya.reyescon.de and any online services provided by the author, including any Google Add-ons.
+These terms govern use of the site hosted at https://darkade.quest and any online services provided by the author, including any Google Add-ons.
 
 ### Important Terms
 
