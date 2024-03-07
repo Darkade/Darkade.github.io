@@ -52,9 +52,7 @@ excerpt_separator: <!--more-->
 
 github_username:  darkade
 
-twitter:
-  username: darkade
-  card: summary_large_image
+linkedin_username: anyareyes
 
 mastodon:
   server: dice.camp
@@ -65,5 +63,4 @@ analytics: UA-144585764-1
 social:
   name: Anya Reyes
   links:
-    - https://twitter.com/darkade
     - https://github.com/darkade
