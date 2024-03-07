@@ -1,0 +1,58 @@
+---
+layout: default
+title: Stream
+permalink: /stream/
+---
+
+<div class="video-container mt-5 mb-4">
+    <iframe src="https://stream.darkade.quest/mystream" scrolling="no"></iframe>
+    <div class="chat-wrapper">
+        <chat-element
+        class="chat-element"
+        host-peer-id="quest-darkade-stream"
+        :is-host="false">
+        </chat-element>
+    </div>
+</div>
+
+<h2>Streams when I feel like it!</h2>
+
+<p class="mb-5">
+    I mostly play retro games in different emulators. Other times I stream myself transcribing my TTRPG notes.
+</p>
+
+<style>
+    h2 {
+        color: var(--bs-link-color);
+        text-shadow: 0.1px 0px #56cdfa;
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin: 2px auto 12px;
+    }
+    iframe {
+        width: 100%;
+        min-height: 545px;
+        border-radius: 15px 0 0 15px;
+    }
+    .video-container {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        gap: 5px;
+    }
+    .video-container .chat-wrapper {
+        border: #49A0C3 2px solid;
+        border-radius: 0 15px 15px 0;
+        padding: 10px 10px;
+    }
+    .video-container .chat-wrapper h5 {
+        color: #49A0C3;
+        /* text-shadow: -1px 0 #49A0C3, 0 1px #49A0C3, 1px 0 #49A0C3, 0 -1px #49A0C3; */
+    }
+    .video-container .chat-wrapper .chat-element {
+        height: 100%;
+        width: 100%;
+        display: inline-block;
+    }
+</style>
+
+<script type="module" crossorigin src="/assets/index-DwqyMNJH.js"></script>
