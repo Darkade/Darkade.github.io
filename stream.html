@@ -4,7 +4,7 @@ title: Stream
 permalink: /stream/
 ---
 
-<div class="video-container mt-5 mb-4">
+<div class="video-container mt-md-5 mt-3 mb-4">
     <iframe src="https://stream.darkade.quest/mystream" scrolling="no"></iframe>
     <div class="chat-wrapper">
         <chat-element
@@ -51,8 +51,22 @@ permalink: /stream/
     .video-container .chat-wrapper .chat-element {
         height: 100%;
         width: 100%;
+        min-height: 350px;
         display: inline-block;
     }
+
+    @media (width < 600px) {
+    .video-container {
+      grid-template-columns: 1fr;
+    }
+    iframe {
+      min-height: 198px;
+      border-radius: 15px 15px 0 0;
+    }
+    .video-container .chat-wrapper {
+      border-radius: 0 0 15px 15px;
+    }
+  }
 </style>
 
 <script type="module" crossorigin src="/assets/index-DwqyMNJH.js"></script>
